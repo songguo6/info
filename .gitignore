@@ -1,0 +1,5 @@
+.vscode
+
+.umi
+node_modules
+dist
