@@ -1,0 +1,89 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "addcandy",
+            "base": "",
+            "fields": [
+                {
+                    "name": "type",
+                    "type": "uint32"
+                },
+                {
+                    "name": "title",
+                    "type": "string"
+                },
+                {
+                    "name": "link",
+                    "type": "string"
+                },
+                {
+                    "name": "info",
+                    "type": "string"
+                },
+                {
+                    "name": "start_time",
+                    "type": "uint64"
+                },
+                {
+                    "name": "end_time",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "candytable",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "type",
+                    "type": "uint64"
+                },
+                {
+                    "name": "title",
+                    "type": "string"
+                },
+                {
+                    "name": "link",
+                    "type": "string"
+                },
+                {
+                    "name": "info",
+                    "type": "string"
+                },
+                {
+                    "name": "start_time",
+                    "type": "uint64"
+                },
+                {
+                    "name": "end_time",
+                    "type": "uint64"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "addcandy",
+            "type": "addcandy",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "candytable",
+            "type": "candytable",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": []
+}
