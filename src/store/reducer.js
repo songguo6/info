@@ -1,7 +1,7 @@
 import * as actionTypes from './actionTypes';
 
 const defaultState = {
-  account: '',
+  account: {},
 }
 
 export default (state = defaultState, action) => {
