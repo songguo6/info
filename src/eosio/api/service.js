@@ -1,16 +1,14 @@
 import { pushAction } from './send';
-import { getUserInfo } from '../store/actionCreator';
 import store from '../store';
 
-export const addcandy = async (dispatch) => {
+export const addcandy = async (type, title, link, info, start_time, end_time) => {
   const account = store.getState().account;
   if(account.name){
     try{
       const res = await pushAction(account.name, account.authority, 'addcandy', {
-        account: logged.name
+        type, title, link, info, start_time, end_time, 
       });
       console.log(res.transaction_id);
-      dispatch(getUserInfo(logged.name));
     }catch(error){
       console.log(error.message);
     }
