@@ -1,6 +1,9 @@
 import React from 'react';
-import { Layout, Menu, Icon } from 'antd';
+import { Layout, Menu, Icon, Button } from 'antd';
 import { withRouter, Route, Link } from 'react-router-dom';
+import { connect } from 'react-redux';
+
+import { login, logout, checkLogin } from './eosio/api/login';
 
 import DashBoard from './pages/DashBoard';
 import BtcPage from './pages/BtcPage';
@@ -12,10 +15,16 @@ import CandyPage from './pages/CandyPage';
 import './App.css';
 
 const { Header, Content, Footer, Sider } = Layout;
+const { SubMenu } = Menu;
 
 class App extends React.Component {
 
+  componentDidMount(){
+    this.props.checkLogin();
+  }
+
   state = {
+    account: {},
     collapsed: false,
   };
 
@@ -26,9 +35,13 @@ class App extends React.Component {
   menuItem = (path, type, title) => {
     return (
       <Menu.Item key={path}>
-        <Link to ={path}><Icon type={type} /><span>{title}</span></Link>
-      </Menu.Item>
+        <Link to ={path}>{type ? <Icon type={type} /> : ''}<span>{title}</span></Link>
+      </Menu.Item>  
     );
+  }
+
+  subMenuTitle = (type, title) => {
+    return <span><Icon type={type}/><span>{title}</span></span>
   }
 
   render() {
@@ -46,11 +59,20 @@ class App extends React.Component {
               {this.menuItem('/dapp', 'appstore', 'DAPP')}
               {this.menuItem('/bihu', 'bulb', '币乎好文')}
               {this.menuItem('/candy', 'heart', '糖果福利')}
+              <SubMenu key="sub1" title={this.subMenuTitle('user', '管理员')}>
+                {this.menuItem('/admin/addcandy', false, '添加糖果')}
+              </SubMenu>
             </Menu>
           </Sider>
           <Layout>
             <Header style={{ background: '#fff', marginBottom: 16 }} >
-
+            <Button
+              type='primary'
+              className='login-btn'
+              onClick={this.state.account.name ? logout: login }
+            >
+              {this.state.account.name ? '注销' : '登录'}
+            </Button>
             </Header>
             <Content style={{ margin: '0 16px' }}>
               <Route path='/' exact component={DashBoard}></Route>
@@ -67,4 +89,24 @@ class App extends React.Component {
   }
 }
 
-export default withRouter(App);
+const mapState = (state) => {
+  return {
+    account: state.account,
+  }
+}
+
+const mapDispatch = (dispatch) => {
+  return { 
+    login(){
+      dispatch(login);  
+    },
+    logout(){
+      dispatch(logout);  
+    },
+    checkLogin(){
+      dispatch(checkLogin);
+    }
+  }
+}
+
+export default connect(mapState, mapDispatch)(withRouter(App));

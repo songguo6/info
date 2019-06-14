@@ -3,15 +3,17 @@ import { Api, JsonRpc } from 'eosjs'
 import ScatterJS from 'scatterjs-core'
 import ScatterEOS from 'scatterjs-plugin-eosjs2'
 
+import * as env from './env';
+
 const appName = '币圈信息站';
 const contract = 'coincoininfo';
 
 const network = {
   blockchain: 'eos',
-  protocol: process.env.REACT_APP_PROTOCOL,
-  host: process.env.REACT_APP_HOST,
-  port: process.env.REACT_APP_PORT,
-  chainId: process.env.REACT_APP_CHAIN,
+  protocol: env.PROTOCOL,
+  host: env.HOST,
+  port: env.PORT,
+  chainId: env.CHAIN,
 };
 
 ScatterJS.plugins(new ScatterEOS());
