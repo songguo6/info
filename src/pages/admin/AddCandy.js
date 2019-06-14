@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-
+import { Redirect } from 'react-router-dom';
 import { Form, Button, Input, Radio, DatePicker } from 'antd';
+import {addcandy} from '../../eosio/api/service';
 
 const { RangePicker } = DatePicker;
 
@@ -16,7 +17,14 @@ class AddCandy extends Component {
   }
 
   onBtnClick = () => {
-    console.log(this.state);
+    const { title, link, info, type, start_time, end_time } = this.state;
+    addcandy(type, title, link, info, start_time, end_time, (res) => {
+      if(res.transaction_id){
+        window.location.reload();
+      }else if(res.message){
+        console.log(res.message);
+      }
+    });
   }
 
   render(){
