@@ -4,6 +4,7 @@ import { withRouter, Route, Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import { login, logout, checkLogin } from './eosio/api/login';
+import { contract } from './eosio/api/config';
 
 import DashBoard from './pages/DashBoard';
 import BtcPage from './pages/BtcPage';
@@ -11,6 +12,7 @@ import EosPage from './pages/EosPage';
 import DappPage from './pages/DappPage';
 import BihuPage from './pages/BihuPage';
 import CandyPage from './pages/CandyPage';
+import AddCandy from './pages/admin/AddCandy';
 
 import './App.css';
 
@@ -24,7 +26,6 @@ class App extends React.Component {
   }
 
   state = {
-    account: {},
     collapsed: false,
   };
 
@@ -45,6 +46,8 @@ class App extends React.Component {
   }
 
   render() {
+    const { login, logout } = this.props;
+    const accountName = this.props.account.name;
     return (
         <Layout style={{ minHeight: '100vh' }}>
           <Sider collapsible collapsed={this.state.collapsed} onCollapse={this.onCollapse}>
@@ -59,9 +62,10 @@ class App extends React.Component {
               {this.menuItem('/dapp', 'appstore', 'DAPP')}
               {this.menuItem('/bihu', 'bulb', '币乎好文')}
               {this.menuItem('/candy', 'heart', '糖果福利')}
+              {accountName === contract ? 
               <SubMenu key="sub1" title={this.subMenuTitle('user', '管理员')}>
                 {this.menuItem('/admin/addcandy', false, '添加糖果')}
-              </SubMenu>
+              </SubMenu> : ''}
             </Menu>
           </Sider>
           <Layout>
@@ -69,9 +73,9 @@ class App extends React.Component {
             <Button
               type='primary'
               className='login-btn'
-              onClick={this.state.account.name ? logout: login }
+              onClick={accountName ? logout: login }
             >
-              {this.state.account.name ? '注销' : '登录'}
+              {accountName ? '注销' : '登录'}
             </Button>
             </Header>
             <Content style={{ margin: '0 16px' }}>
@@ -81,6 +85,8 @@ class App extends React.Component {
               <Route path='/dapp' exact component={DappPage}></Route>
               <Route path='/bihu' exact component={BihuPage}></Route>
               <Route path='/candy' exact component={CandyPage}></Route>
+              {accountName === contract ?
+              <Route path='/admin/addcandy' exact component={AddCandy}></Route> : ''}
             </Content>
             <Footer style={{ textAlign: 'center' }}>币圈信息站 ©2018 Created by Songguo</Footer>
           </Layout>
