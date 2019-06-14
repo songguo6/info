@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Table } from 'antd';
+import { Table, Tag } from 'antd';
 
 import axios from 'axios';
 import moment from 'moment';
@@ -26,15 +26,27 @@ const typeToText = (type) => {
       break;  
   }
   return text;
-};
+}
+
+const tag = (record) => {
+  const now = new Date().getTime();
+  if(now < record.start_time){
+    return <Tag color='blue'>未开始</Tag>
+  }else if(now >= record.start_time && now < record.end_time){
+    return <Tag color='green'>进行中</Tag>
+  }else if(now >= record.end_time){
+    return <Tag color='red'>已结束</Tag>
+  }
+  return '';
+}
 
 const columns = [
-  { title: 'ID', dataIndex: 'id', key: 'id' },
+  { title: '状态', dataIndex: 'id', key: 'id', render: (text, record) => tag(record)},
   { title: '类型', dataIndex: 'type', key: 'type', render: text => typeToText(text)},
   { title: '标题', dataIndex: 'title', key: 'titile', render: (text, record) => <a href={record.link} target='_blank' rel="noopener noreferrer">{text}</a>},
   { title: '详情', dataIndex: 'info', key: 'info', width: 800 },
-  { title: '开始时间', dataIndex: 'start_time', key: 'start_time', render: text => moment(text*1000).format('YYYY-MM-DD HH:mm:ss')},
-  { title: '结束时间', dataIndex: 'end_time', key: 'end_time', render: text => moment(text*1000).format('YYYY-MM-DD HH:mm:ss')},
+  { title: '开始时间', dataIndex: 'start_time', key: 'start_time', render: text => moment(text).format('YYYY-MM-DD HH:mm')},
+  { title: '结束时间', dataIndex: 'end_time', key: 'end_time', render: text => moment(text).format('YYYY-MM-DD HH:mm')},
 ];
 
 class CandyPage extends Component {
