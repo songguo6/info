@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Redirect } from 'react-router-dom';
 import { Form, Button, Input, Radio, DatePicker } from 'antd';
 import {addcandy} from '../../eosio/api/service';
 
