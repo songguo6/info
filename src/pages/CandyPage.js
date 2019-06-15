@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Table, Tag } from 'antd';
 
-import axios from 'axios';
 import moment from 'moment';
+import { fetchAll } from '../eosio/api/fetch';
 
 const typeToText = (type) => {
   let text = '';
@@ -53,22 +53,13 @@ class CandyPage extends Component {
 
   state = {data : []}
 
-  componentDidMount(){
-    axios.post('http://127.0.0.1:8888/v1/chain/get_table_rows',
-    {  
-      code: 'coincoininfo',
-      scope: 'coincoininfo',
-      table: 'candytable',   
-      json: true,
-    }).then(res => {
-      let datas = [...res.data.rows];
-      datas.forEach(item => {
-        item.key = item.id;
-      });
-      this.setState({data: datas});
-    }).catch(err => {
-      console.log(err);
+  async componentDidMount(){
+    const res = await fetchAll('candytable');
+    let datas = [...res];
+    datas.forEach(item => {
+      item.key = item.id;
     });
+    this.setState({data: datas});
   }
 
   render(){
