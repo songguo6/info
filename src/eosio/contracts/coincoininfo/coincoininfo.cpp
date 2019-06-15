@@ -7,8 +7,8 @@ CONTRACT coincoininfo : public eosio::contract {
   public:
     using contract::contract;
 
-    ACTION addcandy(uint32_t type, std::string title, std::string link, 
-      std::string info, uint64_t start_time, uint64_t end_time){
+    ACTION addcandy(uint64_t type, std::string title, std::string link, 
+      std::string info, std::string value, uint64_t start_time, uint64_t end_time){
       require_auth(_self);
     
       candy_t candies(_self, _self.value);
@@ -18,10 +18,18 @@ CONTRACT coincoininfo : public eosio::contract {
         row.title = title;  
         row.link = link;          
         row.info = info;  
+        row.value = value;
         row.start_time = start_time;  
         row.end_time = end_time;  
       });
     } 
+
+    ACTION delcandy(uint64_t id){
+      require_auth(_self);
+      candy_t candies(_self, _self.value);
+      auto itr = candies.find(id);
+      candies.erase(itr);
+    }
 
   private:
     TABLE candytable {
@@ -30,6 +38,7 @@ CONTRACT coincoininfo : public eosio::contract {
       std::string title;
       std::string link;
       std::string info;
+      std::string value;
       uint64_t start_time;
       uint64_t end_time;
 

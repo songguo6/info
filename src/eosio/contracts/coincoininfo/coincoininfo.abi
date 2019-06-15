@@ -9,7 +9,7 @@
             "fields": [
                 {
                     "name": "type",
-                    "type": "uint32"
+                    "type": "uint64"
                 },
                 {
                     "name": "title",
@@ -21,6 +21,10 @@
                 },
                 {
                     "name": "info",
+                    "type": "string"
+                },
+                {
+                    "name": "value",
                     "type": "string"
                 },
                 {
@@ -58,11 +62,25 @@
                     "type": "string"
                 },
                 {
+                    "name": "value",
+                    "type": "string"
+                },
+                {
                     "name": "start_time",
                     "type": "uint64"
                 },
                 {
                     "name": "end_time",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "delcandy",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
                     "type": "uint64"
                 }
             ]
@@ -72,6 +90,11 @@
         {
             "name": "addcandy",
             "type": "addcandy",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "delcandy",
+            "type": "delcandy",
             "ricardian_contract": ""
         }
     ],
