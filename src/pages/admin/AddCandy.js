@@ -10,14 +10,15 @@ class AddCandy extends Component {
     title: '',
     link: '',
     info: '',
+    reward: '',
     type: 1,
     start_time: 0,
     end_time: 0,
   }
 
   onBtnClick = () => {
-    const { title, link, info, type, start_time, end_time } = this.state;
-    addcandy(type, title, link, info, start_time, end_time, (res) => {
+    const { title, link, info, reward, type, start_time, end_time } = this.state;
+    addcandy(type, title, link, info, reward, start_time, end_time, (res) => {
       if(res.transaction_id){
         window.location.reload();
       }else if(res.message){
@@ -59,7 +60,10 @@ class AddCandy extends Component {
             autosize={{ minRows: 5, maxRows: 10 }}
             onChange={e => this.setState({info: e.target.value})}
           />
-        </Form.Item>       
+        </Form.Item>     
+        <Form.Item label='价值'>
+          <Input onChange={e => this.setState({reward: e.target.value})}/>
+        </Form.Item>  
         <Form.Item label='开始/结束时间'>
           <RangePicker
             showTime={{ format: 'HH:mm' }}
