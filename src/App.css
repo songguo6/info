@@ -4,4 +4,4 @@
 .trigger:hover { color: #1890ff; }
 .ant-layout-header { padding: 0; }
 .ant-input { width: 500px; }
-.login-btn { margin: 16px 16px 0 0; }
+.login-btn { float: right; margin: 16px 16px 0 0; }

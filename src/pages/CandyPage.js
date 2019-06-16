@@ -42,9 +42,9 @@ const tag = (record) => {
 
 const columns = [
   { title: '状态', dataIndex: 'id', key: 'id', render: (text, record) => tag(record)},
-  { title: '类型', dataIndex: 'type', key: 'type', render: text => typeToText(text)},
+  { title: '类型', dataIndex: 'type', key: 'type', width: 105, render: text => typeToText(text)},
   { title: '标题', dataIndex: 'title', key: 'titile', render: (text, record) => <a href={record.link} target='_blank' rel="noopener noreferrer">{text}</a>},
-  { title: '详情', dataIndex: 'info', key: 'info', width: 800 },
+  { title: '详情', dataIndex: 'info', key: 'info', width: 750 },
   { title: '价值', dataIndex: 'reward', key: 'reward'},
   { title: '开始时间', dataIndex: 'start_time', key: 'start_time', render: text => moment(parseInt(text)).format('YYYY-MM-DD HH:mm')},
   { title: '结束时间', dataIndex: 'end_time', key: 'end_time', render: text => moment(parseInt(text)).format('YYYY-MM-DD HH:mm')},

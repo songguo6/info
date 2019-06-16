@@ -1,34 +1,46 @@
 import React, { Component } from 'react';
-import Malarquee from 'react-malarquee';
 import { Layout, Button } from 'antd';
+
 import axios from 'axios';
 
 const { Header } = Layout;
 
-const cmcApiKey = '7f6b2e3f-b76f-434a-877f-6ea3e9e16f33';
-
 class LayoutHeader extends Component {
 
-  state = { info: '币圈信息站' }
+  state = { datas: [] }
 
   componentDidMount(){
-    axios.get('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
-      + '?start=1&limit=5000&convert=USD'
-      + '&CMC_PRO_API_KEY=' + cmcApiKey
-    ).then(res => {
-      console.log(res);    
+    this.requestData();
+    setInterval(()=>{
+      this.requestData();
+    }, 10000);   
+  }
+
+  requestData(){
+    axios.get('https://api.coincap.io/v2/assets?limit=10').then(res => {
+      this.setState({datas: res.data.data})
     }).catch(function (error) {
       console.log(error);
     });
+  } 
+
+  createInfo(item, index){
+    const change  = parseFloat(item.changePercent24Hr).toFixed(2);
+    const price = parseFloat(item.priceUsd).toFixed(2);
+    return (
+      <span key={index} style={{marginRight: 20, fontWeight: 'bold'}}>
+        <span>{item.symbol + ' $' + price + ' '}</span>
+        <span style={{color: change >= 0 ? 'green' : 'red'}}>
+          {(change >= 0 ? '+' : '') + change + '%'}
+        </span>
+      </span>
+    )
   }
 
   render(){
     const { accountName, login, logout } = this.props;
     return (
       <Header style={{ background: '#fff', marginBottom: 16, padding: '0 20px' }} >
-        <Malarquee style={{marginRight:100}} hoverToPause={true}>
-          <span style={{color:'red', marginRight:10}}>{this.state.info}</span>
-        </Malarquee>
         <Button
           type='primary'
           className='login-btn'
@@ -36,6 +48,11 @@ class LayoutHeader extends Component {
         >
           {accountName ? '注销' : '登录'}
         </Button>
+        {
+          this.state.datas.map((item, index) => {
+            return this.createInfo(item, index)
+          })
+        } 
       </Header>
     );
   }
