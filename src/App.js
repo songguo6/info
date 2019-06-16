@@ -1,11 +1,13 @@
 import React from 'react';
-import { Layout, Menu, Icon, Button } from 'antd';
+
+import { Layout, Menu, Icon } from 'antd';
 import { withRouter, Route, Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import { login, logout, checkLogin } from './eosio/api/login';
 import { contract } from './eosio/api/config';
 
+import LayoutHeader from './LayoutHeader';
 import DashBoard from './pages/DashBoard';
 import BtcPage from './pages/BtcPage';
 import EosPage from './pages/EosPage';
@@ -16,7 +18,7 @@ import AddCandy from './pages/admin/AddCandy';
 
 import './App.css';
 
-const { Header, Content, Footer, Sider } = Layout;
+const { Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
 
 class App extends React.Component {
@@ -69,15 +71,7 @@ class App extends React.Component {
             </Menu>
           </Sider>
           <Layout>
-            <Header style={{ background: '#fff', marginBottom: 16 }} >
-            <Button
-              type='primary'
-              className='login-btn'
-              onClick={accountName ? logout: login }
-            >
-              {accountName ? '注销' : '登录'}
-            </Button>
-            </Header>
+            <LayoutHeader accountName={accountName} login={login} logout={logout} />      
             <Content style={{ margin: '0 16px' }}>
               <Route path='/' exact component={DashBoard}></Route>
               <Route path='/btc' exact component={BtcPage}></Route>
@@ -88,7 +82,7 @@ class App extends React.Component {
               {accountName === contract ?
               <Route path='/admin/addcandy' exact component={AddCandy}></Route> : ''}
             </Content>
-            <Footer style={{ textAlign: 'center' }}>币圈信息站 ©2018 Created by Songguo</Footer>
+            <Footer style={{ textAlign: 'center' }}>币圈信息站 ©2018 Created by <a href='https://bihu.com/people/14150'>Songguo</a></Footer>
           </Layout>
         </Layout>
     );
