@@ -263,6 +263,91 @@ export const exchanges = [{
   url: 'https://qbtcsupport.zendesk.com/hc/zh-cn/categories/360001839053-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
   logo: 'https://s1.bqiapp.com/image/20181124/qbtc_mid.png',
   star: false,
+},{
+  name: 'OTCBTC',
+  url: 'https://otcbtc.zendesk.com/hc/zh-cn/categories/360000039452-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
+  logo: 'https://s1.bqiapp.com/image/20181122/otcbtc_mid.png',
+  star: false,
+},{
+  name: 'CoinBene',
+  url: 'https://www.coinbene.vip/#/notice',
+  logo: 'https://s1.bqiapp.com/image/20190226/coinbene_mid.png',
+  star: true,
+},{
+  name: 'LBank',
+  url: 'https://lbankinfo.zendesk.com/hc/zh-cn/categories/115000249773-%E5%85%AC%E5%91%8A%E6%9D%BF',
+  logo: 'https://s1.bqiapp.com/image/20181126/lhang_mid.png',
+  star: true,
+},{
+  name: 'IDEX',
+  url: 'https://idex.market',
+  logo: 'https://s1.bqiapp.com/image/20181124/idex_mid.png',
+  star: false,
+},{
+  name: 'Exmo',
+  url: 'https://exmo.com/zh',
+  logo: 'https://s1.bqiapp.com/image/20181124/exmo_mid.png',
+  star: false,
+},{
+  name: 'CoinEx',
+  url: 'https://announcement.coinex.com/hc/zh-cn',
+  logo: 'https://s1.bqiapp.com/image/20181126/coinex_mid.png',
+  star: true,
+},{
+  name: 'Indodax',
+  url: 'https://indodax.com/',
+  logo: 'https://s1.bqiapp.com/image/20181130/bitcoinindonesia_mid.png',
+  star: false,
+},{
+  name: 'ZBG',
+  url: 'https://zbg.zendesk.com/hc/zh-cn/categories/360001147874-%E5%85%AC%E5%91%8A',
+  logo: 'https://s1.bqiapp.com/image/20181123/zbg_mid.png',
+  star: false,
+},{
+  name: 'Livecoin',
+  url: 'https://www.livecoin.net/zh',
+  logo: 'https://s1.bqiapp.com/image/20181126/livecoin_mid.png',
+  star: false,
+},{
+  name: 'Mercatox',
+  url: 'https://mercatox.com',
+  logo: 'https://s1.bqiapp.com/image/20181126/mercatox_mid.png',
+  star: false,
+},{
+  name: 'Bitbank',
+  url: 'https://bitbank.cc',
+  logo: 'https://s1.bqiapp.com/image/20181119/bitbank_mid.png',
+  star: false,
+},{
+  name: 'CREX24',
+  url: 'https://crex24.com/zh',
+  logo: 'https://s1.bqiapp.com/image/20181126/crex24_mid.png',
+  star: false,
+},{
+  name: 'BX Thailand',
+  url: 'https://bx.in.th',
+  logo: 'https://s1.bqiapp.com/image/20181123/bxthailand_mid.png',
+  star: false,
+},{
+  name: 'Coincheck',
+  url: 'https://coincheck.com',
+  logo: 'https://s1.bqiapp.com/image/20181124/coincheck_mid.png',
+  star: false,
+},{
+  name: '币夫',
+  url: 'https://www.bitforex.com',
+  logo: 'https://s1.bqiapp.com/image/20181120/bitforex_mid.png',
+  star: false,
+},{
+  name: '龙网',
+  url: 'https://dragonex.io/zh-hans/news',
+  logo: 'https://s1.bqiapp.com/image/20181119/dragonex_mid.png',
+  star: false,
+},{
+  name: '柯宾汉',
+  url: 'https://cobinhood.com',
+  logo: 'https://s1.bqiapp.com/image/20181124/cobinhood_mid.png',
+  star: false,
 }];
 
 export const dxchanges = [{
