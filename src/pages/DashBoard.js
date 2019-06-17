@@ -1,37 +1,54 @@
 import React, { Component } from 'react';
-import { Row, Col, Card, Avatar } from 'antd';
+import { Row, Col, Card, Avatar, Icon } from 'antd';
+import { exchanges, dxchanges } from '../data';
 
 class DashBoard extends Component {
+
+  createExItem(item, index){
+    return (
+      <Card.Grid key={index} style={{width: '20%'}}>
+        <Card bodyStyle={{ padding: 0 }} bordered={false}>
+          <Card.Meta
+            title={
+              <a href={item.url} target="_blank" rel="noopener noreferrer">
+                <Avatar src={item.logo} />&nbsp;&nbsp;&nbsp;
+                {item.name}&nbsp;&nbsp;&nbsp;
+                {item.star ? <Icon type='star' theme='twoTone' twoToneColor='orange' /> : ''}
+              </a>
+            }
+          />
+        </Card>
+      </Card.Grid>
+    )
+  }
+
   render(){
     return (
       <Row gutter={24}>
         <Col xl={16} lg={24} md={24} sm={24} xs={24}>
           <Card
             style={{ marginBottom: 24 }}
-            title='交易所公告'
-            bordered={false}
-            extra={<span><a href=''>更多1</a>&nbsp;<a href="">更多2</a></span>}
             bodyStyle={{ padding: 0 }}
+            bordered={false}
+            title='交易所公告'
           >
-            <Card.Grid>
-              <Card bodyStyle={{ padding: 0 }} bordered={false}>
-                <Card.Meta
-                  title={
-                    <div>
-                      <Avatar size="small" src="https://s1.bqiapp.com/image/20181119/huobipro_mid.png" />
-                      <a href=''>&nbsp;火币全球站</a>
-                    </div>
-                  }
-                />
-              </Card>
-            </Card.Grid>
+            {
+              exchanges.map((item, index) => (
+                this.createExItem(item, index)
+              ))
+            }
           </Card>
 
           <Card
             bodyStyle={{ padding: 0 }}
             bordered={false}
-            title="动态"
+            title="去中心化交易所"
           >
+            {
+              dxchanges.map((item, index) => (
+                this.createExItem(item, index)
+              ))
+            }
           </Card>
         </Col>
 
