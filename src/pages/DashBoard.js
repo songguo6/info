@@ -31,6 +31,12 @@ class DashBoard extends Component {
             bodyStyle={{ padding: 0 }}
             bordered={false}
             title='交易所公告'
+            extra={
+              <span>
+                <a href="https://www.feixiaohao.com/exchange/notice" target="_blank" rel="noopener noreferrer">非小号&nbsp;|&nbsp;</a>
+                <a href="https://www.mytoken.io/media/notice" target="_blank" rel="noopener noreferrer">MyToken</a>
+              </span>
+            }
           >
             {
               exchanges.map((item, index) => (
@@ -42,7 +48,7 @@ class DashBoard extends Component {
           <Card
             bodyStyle={{ padding: 0 }}
             bordered={false}
-            title="去中心化交易所"
+            title='去中心化交易所'
           >
             {
               dxchanges.map((item, index) => (
