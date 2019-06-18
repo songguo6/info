@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Row, Col, Card, Avatar, Icon } from 'antd';
-import { exchanges, dxchanges } from '../data';
+import { exchanges, dxchanges } from '../../data';
 
-class DashBoard extends Component {
+class ExchangePage extends Component {
 
   createExItem(item, index){
     return (
@@ -87,4 +87,4 @@ class DashBoard extends Component {
   }
 }
 
-export default DashBoard;
+export default ExchangePage;

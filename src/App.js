@@ -8,12 +8,13 @@ import { login, logout, checkLogin } from './eosio/api/login';
 import { contract } from './eosio/api/config';
 
 import LayoutHeader from './LayoutHeader';
-import DashBoard from './pages/DashBoard';
 import BtcPage from './pages/BtcPage';
 import EosPage from './pages/EosPage';
 import DappPage from './pages/DappPage';
 import BihuPage from './pages/BihuPage';
 import CandyPage from './pages/CandyPage';
+import ExchangePage from './pages/dashboard/ExchangePage';
+import FngPage from './pages/dashboard/FngPage';
 import AddCandy from './pages/admin/AddCandy';
 
 import './App.css';
@@ -58,14 +59,17 @@ class App extends React.Component {
               {this.state.collapsed ? '' : <span>币圈信息站</span>}
             </div>
             <Menu theme="dark" defaultSelectedKeys={[this.props.location.pathname]} mode="inline">
-              {this.menuItem('/', 'pie-chart', '信息总览')}
+              <SubMenu key="sub1" title={this.subMenuTitle('pie-chart', '信息总览')}>
+                {this.menuItem('/', false, '交易所公告')}
+                {this.menuItem('/fng', false, '恐惧贪婪指数')}
+              </SubMenu>
               {this.menuItem('/btc', 'dollar', '比特币')}
               {this.menuItem('/eos', 'block', 'EOS')}
               {this.menuItem('/dapp', 'appstore', 'DAPP')}
               {this.menuItem('/bihu', 'bulb', '币乎好文')}
               {this.menuItem('/candy', 'heart', '糖果福利')}
               {accountName === contract ? 
-              <SubMenu key="sub1" title={this.subMenuTitle('user', '管理员')}>
+              <SubMenu key="sub2" title={this.subMenuTitle('user', '管理员')}>
                 {this.menuItem('/admin/addcandy', false, '添加糖果')}
               </SubMenu> : ''}
             </Menu>
@@ -73,7 +77,8 @@ class App extends React.Component {
           <Layout>
             <LayoutHeader accountName={accountName} login={login} logout={logout} />      
             <Content style={{ margin: '0 16px' }}>
-              <Route path='/' exact component={DashBoard}></Route>
+              <Route path='/' exact component={ExchangePage}></Route>
+              <Route path='/fng' exact component={FngPage}></Route>
               <Route path='/btc' exact component={BtcPage}></Route>
               <Route path='/eos' exact component={EosPage}></Route>
               <Route path='/dapp' exact component={DappPage}></Route>
