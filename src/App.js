@@ -58,7 +58,11 @@ class App extends React.Component {
               <img src="/favicon.ico" alt=""/>
               {this.state.collapsed ? '' : <span>币圈信息站</span>}
             </div>
-            <Menu theme="dark" defaultSelectedKeys={[this.props.location.pathname]} mode="inline">
+            <Menu 
+              theme="dark"
+              mode="inline"
+              defaultSelectedKeys={[this.props.location.pathname]} 
+              defaultOpenKeys={['sub1']}>
               <SubMenu key="sub1" title={this.subMenuTitle('pie-chart', '信息总览')}>
                 {this.menuItem('/', false, '交易所公告')}
                 {this.menuItem('/fng', false, '恐惧贪婪指数')}
