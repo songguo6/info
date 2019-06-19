@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { Chart, Geom, Axis, Tooltip } from 'bizcharts';
+import { Chart, Geom, Legend, Axis, Tooltip } from 'bizcharts';
 import moment from 'moment';
 import axios from 'axios';
 
@@ -17,30 +17,39 @@ class FngPage extends Component {
           value: parseInt(item.value),
         });
       });
-      this.setState({data: chartData});
-    }).catch(function (error) {
+
+      axios.get('https://api.coincap.io/v2/assets/bitcoin/history?interval=d1&start=1517443200000&end='+moment()).then(res => {
+        let newData = [...chartData];
+        chartData.forEach((itemChart, index) => {
+          res.data.data.forEach(item => {
+            if(itemChart.date === item.date.substring(0, 10)){
+              newData[index].price = parseInt(item.priceUsd);
+            }
+          })
+        })
+        this.setState({data: newData});
+      }).catch(error => {
+        console.log(error);
+      })
+    }).catch(error => {
       console.log(error);
     });
   }
 
   render(){
-    const cols = {
-      date: {alias: "日期"},
-      value: {alias: "数值"}
+    const scale = {
+      value: {alias: 'FNG值'},
+      price: {alias: '比特币价格'},
     };
     return (
       <Fragment>
-        <h1 style={{textAlign:"center"}}>恐惧贪婪指数</h1>
+        <h1 style={{textAlign:"center"}}>恐惧贪婪指数和比特币价格的关系</h1>
         <div>
-          <Chart height={800} data={this.state.data} scale={cols} forceFit>
-            <Axis name="date" />
-            <Axis name="value" />
-            <Tooltip
-              crosshairs={{
-                type: "y"
-              }}
-            />
-            <Geom type="line" position="date*value" size={2} shape="smooth"/>
+          <Chart height={800} padding={[20, 45, 20, 30]} data={this.state.data} scale={scale} forceFit>
+            <Axis />
+            <Tooltip />
+            <Geom type="line" position="date*value" size={2} shape="smooth" />
+            <Geom type="line" position="date*price" size={3} shape="smooth" color="#fdae6b" />
           </Chart>
         </div>
       </Fragment>
