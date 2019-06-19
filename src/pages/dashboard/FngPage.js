@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from 'react';
-import { Chart, Geom, Legend, Axis, Tooltip } from 'bizcharts';
+import React, { Component } from 'react';
+import { Chart, Geom, Axis, Tooltip } from 'bizcharts';
 import moment from 'moment';
 import axios from 'axios';
 
@@ -42,17 +42,15 @@ class FngPage extends Component {
       price: {alias: '比特币价格'},
     };
     return (
-      <Fragment>
+      <div>
         <h1 style={{textAlign:"center"}}>恐惧贪婪指数和比特币价格的关系</h1>
-        <div>
-          <Chart height={800} padding={[20, 45, 20, 30]} data={this.state.data} scale={scale} forceFit>
-            <Axis />
-            <Tooltip />
-            <Geom type="line" position="date*value" size={2} shape="smooth" />
-            <Geom type="line" position="date*price" size={3} shape="smooth" color="#fdae6b" />
-          </Chart>
-        </div>
-      </Fragment>
+        <Chart height={800} padding={[20, 45, 20, 30]} data={this.state.data} scale={scale} forceFit>
+          <Axis />
+          <Tooltip />
+          <Geom type="line" position="date*value" size={2} shape="smooth" />
+          <Geom type="line" position="date*price" size={3} shape="smooth" color="#fdae6b" />
+        </Chart>
+      </div>
     )
   }
 }
