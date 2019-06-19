@@ -32,17 +32,17 @@ class FngPage extends Component {
       <Fragment>
         <h1 style={{textAlign:"center"}}>恐惧贪婪指数</h1>
         <div>
-        <Chart height={800} data={this.state.data} scale={cols} forceFit>
-          <Axis name="date" />
-          <Axis name="value" />
-          <Tooltip
-            crosshairs={{
-              type: "y"
-            }}
-          />
-          <Geom type="line" position="date*value" size={2} shape="smooth"/>
-        </Chart>
-      </div>
+          <Chart height={800} data={this.state.data} scale={cols} forceFit>
+            <Axis name="date" />
+            <Axis name="value" />
+            <Tooltip
+              crosshairs={{
+                type: "y"
+              }}
+            />
+            <Geom type="line" position="date*value" size={2} shape="smooth"/>
+          </Chart>
+        </div>
       </Fragment>
     )
   }
