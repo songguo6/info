@@ -1,31 +1,14 @@
 import React, { Component } from 'react';
-import { Row, Col, Card, Avatar, Icon } from 'antd';
-import { exchanges, dxchanges } from '../../data';
+import { Row, Col, Card } from 'antd';
+import { createItem } from '../common';
+import { exchanges, dxchanges, links, infos, tools } from '../../data/home';
 
-class ExchangePage extends Component {
-
-  createExItem(item, index){
-    return (
-      <Card.Grid key={index} style={{width: '20%'}}>
-        <Card bodyStyle={{ padding: 0 }} bordered={false}>
-          <Card.Meta
-            title={
-              <a href={item.url} target="_blank" rel="noopener noreferrer">
-                <Avatar src={item.logo} />&nbsp;&nbsp;&nbsp;
-                {item.name}&nbsp;&nbsp;&nbsp;
-                {item.star ? <Icon type='star' theme='twoTone' twoToneColor='orange' /> : ''}
-              </a>
-            }
-          />
-        </Card>
-      </Card.Grid>
-    )
-  }
+class HomePage extends Component {
 
   render(){
     return (
       <Row gutter={24}>
-        <Col xl={16} lg={24} md={24} sm={24} xs={24}>
+        <Col xl={15} lg={24} md={24} sm={24} xs={24}>
           <Card
             style={{ marginBottom: 24 }}
             bodyStyle={{ padding: 0 }}
@@ -40,7 +23,7 @@ class ExchangePage extends Component {
           >
             {
               exchanges.map((item, index) => (
-                this.createExItem(item, index)
+                createItem(item, index)
               ))
             }
           </Card>
@@ -52,39 +35,51 @@ class ExchangePage extends Component {
           >
             {
               dxchanges.map((item, index) => (
-                this.createExItem(item, index)
+                createItem(item, index)
               ))
             }
           </Card>
         </Col>
 
-        <Col xl={8} lg={24} md={24} sm={24} xs={24}>
+        <Col xl={9} lg={24} md={24} sm={24} xs={24}>
           <Card
             style={{ marginBottom: 24 }}
-            title="便捷导航"
+            title='行情'
             bordered={false}
             bodyStyle={{ padding: 0 }}
           >
-  
+            {
+              links.map((item, index) => (
+                createItem(item, index, '33.33%')
+              ))
+            }
           </Card>
           <Card
             style={{ marginBottom: 24 }}
             bordered={false}
-            title="XX指数"
+            title='资讯'
           >
+            {
+              infos.map((item, index) => (
+                createItem(item, index, '33.33%')
+              ))
+            }
           </Card>
           <Card
-            bodyStyle={{ paddingTop: 12, paddingBottom: 12 }}
+            bodyStyle={{ marginBottom: 24 }}
             bordered={false}
-            title="技术指标"
+            title='工具'
           >
-            
+            {
+              tools.map((item, index) => (
+                createItem(item, index, '33.33%')
+              ))
+            }
           </Card>
         </Col>
-
       </Row>
     )
   }
 }
 
-export default ExchangePage;
+export default HomePage;

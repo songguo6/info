@@ -13,7 +13,7 @@ import EosPage from './pages/EosPage';
 import DappPage from './pages/DappPage';
 import BihuPage from './pages/BihuPage';
 import CandyPage from './pages/CandyPage';
-import ExchangePage from './pages/dashboard/ExchangePage';
+import HomePage from './pages/dashboard/HomePage';
 import FngPage from './pages/dashboard/FngPage';
 import AddCandy from './pages/admin/AddCandy';
 
@@ -64,7 +64,7 @@ class App extends React.Component {
               defaultSelectedKeys={[this.props.location.pathname]} 
               defaultOpenKeys={['sub1']}>
               <SubMenu key="sub1" title={this.subMenuTitle('pie-chart', '信息总览')}>
-                {this.menuItem('/', false, '交易所公告')}
+                {this.menuItem('/', false, '信息导航')}
                 {this.menuItem('/fng', false, '恐惧贪婪指数')}
               </SubMenu>
               {this.menuItem('/btc', 'dollar', '比特币')}
@@ -81,7 +81,7 @@ class App extends React.Component {
           <Layout>
             <LayoutHeader accountName={accountName} login={login} logout={logout} />      
             <Content style={{ margin: '0 16px' }}>
-              <Route path='/' exact component={ExchangePage}></Route>
+              <Route path='/' exact component={HomePage}></Route>
               <Route path='/fng' exact component={FngPage}></Route>
               <Route path='/btc' exact component={BtcPage}></Route>
               <Route path='/eos' exact component={EosPage}></Route>
