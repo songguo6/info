@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Row, Col, Card } from 'antd';
+import { browsers, tools } from '../../data/btc';
+import { createItem } from '../common';
 
-class DappPage extends Component {
+class BtcPage extends Component {
   render(){
     return (
       <Row gutter={24}>
@@ -10,9 +12,9 @@ class DappPage extends Component {
             style={{ marginBottom: 24 }}
             bodyStyle={{ padding: 0 }}
             bordered={false}
-            title='DAPP'
+            title='BTC'
           >
-
+            
           </Card>
 
           <Card
@@ -26,18 +28,26 @@ class DappPage extends Component {
         <Col xl={9} lg={24} md={24} sm={24} xs={24}>
           <Card
             style={{ marginBottom: 24 }}
-            title='DAPP导航'
+            title='区块浏览器'
             bordered={false}
             bodyStyle={{ padding: 0 }}
           >
-
+            {
+              browsers.map((item, index) => (
+                createItem(item, index, '33.33%')
+              ))
+            }      
           </Card>
           <Card
             style={{ marginBottom: 24 }}
             bordered={false}
-            title=''
+            title='工具'
           >
-
+            {
+              tools.map((item, index) => (
+                createItem(item, index, '33.33%')
+              ))
+            } 
           </Card>
           <Card
             bodyStyle={{ marginBottom: 24 }}
@@ -52,4 +62,4 @@ class DappPage extends Component {
   }
 }
 
-export default DappPage;
+export default BtcPage;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, Card } from 'antd';
 
-class EosPage extends Component {
+class EthPage extends Component {
   render(){
     return (
       <Row gutter={24}>
@@ -10,7 +10,7 @@ class EosPage extends Component {
             style={{ marginBottom: 24 }}
             bodyStyle={{ padding: 0 }}
             bordered={false}
-            title='区块浏览器'
+            title='以太坊'
           >
 
           </Card>
@@ -26,7 +26,7 @@ class EosPage extends Component {
         <Col xl={9} lg={24} md={24} sm={24} xs={24}>
           <Card
             style={{ marginBottom: 24 }}
-            title='EOS'
+            title='区块浏览器'
             bordered={false}
             bodyStyle={{ padding: 0 }}
           >
@@ -52,4 +52,4 @@ class EosPage extends Component {
   }
 }
 
-export default EosPage;
+export default EthPage;
