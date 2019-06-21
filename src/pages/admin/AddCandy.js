@@ -70,16 +70,10 @@ class AddCandy extends Component {
             format="YYYY-MM-DD HH:mm"
             placeholder={['开始时间', '结束时间']}
             onChange={value => {
-              this.setState({
-                start_time: value[0].valueOf(),
-                end_time: value[1].valueOf()
-              });
+              if(value) this.setState({start_time: value[0].valueOf(), end_time: value[1].valueOf()});
             }}
             onOk={value => {
-              this.setState({
-                start_time: value[0].valueOf(),
-                end_time: value[1].valueOf()
-              });
+              if(value) this.setState({start_time: value[0].valueOf(), end_time: value[1].valueOf()});
             }}
           />
         </Form.Item> 

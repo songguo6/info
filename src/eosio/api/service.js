@@ -14,3 +14,17 @@ export const addcandy = async (type, title, link, info, reward, start_time, end_
     }
   }
 }
+
+export const addpost = async (title, title_link, author, author_link, category, time, callback) => {
+  const account = store.getState().account;
+  if(account.name){
+    try{
+      const res = await pushAction(account.name, account.authority, 'addpost', {
+        title, title_link, author, author_link, category, time, 
+      });
+      callback(res);
+    }catch(error){
+      callback(error);
+    }
+  }     
+}

@@ -14,6 +14,7 @@ import CandyPage from './pages/CandyPage';
 import HomePage from './pages/dashboard/HomePage';
 import FngPage from './pages/dashboard/FngPage';
 import AddCandy from './pages/admin/AddCandy';
+import AddPost from './pages/admin/AddPost';
 import BtcPage from './pages/token/BtcPage';
 import EthPage from './pages/token/EthPage';
 import EosPage from './pages/token/EosPage';
@@ -79,6 +80,7 @@ class App extends React.Component {
               {accountName === contract ? 
               <SubMenu key="sub3" title={this.subMenuTitle('user', '管理员')}>
                 {this.menuItem('/admin/addcandy', false, '添加糖果')}
+                {this.menuItem('/admin/addpost', false, '添加文章')}
               </SubMenu> : ''}
             </Menu>
           </Sider>
@@ -95,6 +97,8 @@ class App extends React.Component {
               <Route path='/candy' exact component={CandyPage}></Route>
               {accountName === contract ?
               <Route path='/admin/addcandy' exact component={AddCandy}></Route> : ''}
+              {accountName === contract ?
+              <Route path='/admin/addpost' exact component={AddPost}></Route> : ''}
             </Content>
             <Footer style={{ textAlign: 'center' }}>币圈信息站 ©2018 Created by <a href='https://bihu.com/people/14150'>Songguo</a></Footer>
           </Layout>
