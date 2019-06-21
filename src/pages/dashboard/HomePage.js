@@ -17,8 +17,8 @@ const HomePage = () => (
     </Col>
 
     <Col xl={9} lg={24} md={24} sm={24} xs={24}>
-      {createSideCard('行情', links)}
-      {createSideCard('资讯', infos)}
+      {createSideCard('行情资讯', links)}
+      {createSideCard('项目测评', infos)}
       {createSideCard('工具', tools)}
     </Col>
   </Row>
