@@ -31,6 +31,29 @@ CONTRACT coincoininfo : public eosio::contract {
       candies.erase(itr);
     }
 
+    ACTION addpost(std::string title, std::string title_link, std::string author, 
+      std::string author_link, std::string category, uint64_t time){
+      require_auth(_self);  
+
+      post_t posts(_self, _self.value);
+      posts.emplace(_self, [&](auto& row){
+        row.id = posts.available_primary_key();
+        row.title = title;
+        row.title_link = title_link;
+        row.author = author;
+        row.author_link = author_link;
+        row.category = category;
+        row.time = time;
+      });
+    }
+
+    ACTION delpost(uint64_t id){
+      require_auth(_self);
+      post_t posts(_self, _self.value);
+      auto itr = posts.find(id);
+      posts.erase(itr);
+    }
+
   private:
     TABLE candytable {
       uint64_t id;
@@ -49,4 +72,18 @@ CONTRACT coincoininfo : public eosio::contract {
     typedef multi_index<"candytable"_n, candytable,
       indexed_by<"bytype"_n, const_mem_fun<candytable, uint64_t, &candytable::get_secondary>>
     > candy_t;
+
+    TABLE posttable {
+      uint64_t id;
+      std::string title;
+      std::string title_link;
+      std::string author;
+      std::string author_link;
+      std::string category;
+      uint64_t time;
+
+      uint64_t primary_key() const { return id; }
+    };
+
+    typedef multi_index<"posttable"_n, posttable> post_t;
 };

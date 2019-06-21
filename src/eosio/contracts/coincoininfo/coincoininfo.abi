@@ -38,6 +38,36 @@
             ]
         },
         {
+            "name": "addpost",
+            "base": "",
+            "fields": [
+                {
+                    "name": "title",
+                    "type": "string"
+                },
+                {
+                    "name": "title_link",
+                    "type": "string"
+                },
+                {
+                    "name": "author",
+                    "type": "string"
+                },
+                {
+                    "name": "author_link",
+                    "type": "string"
+                },
+                {
+                    "name": "category",
+                    "type": "string"
+                },
+                {
+                    "name": "time",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
             "name": "candytable",
             "base": "",
             "fields": [
@@ -84,6 +114,50 @@
                     "type": "uint64"
                 }
             ]
+        },
+        {
+            "name": "delpost",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "posttable",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "title",
+                    "type": "string"
+                },
+                {
+                    "name": "title_link",
+                    "type": "string"
+                },
+                {
+                    "name": "author",
+                    "type": "string"
+                },
+                {
+                    "name": "author_link",
+                    "type": "string"
+                },
+                {
+                    "name": "category",
+                    "type": "string"
+                },
+                {
+                    "name": "time",
+                    "type": "uint64"
+                }
+            ]
         }
     ],
     "actions": [
@@ -93,8 +167,18 @@
             "ricardian_contract": ""
         },
         {
+            "name": "addpost",
+            "type": "addpost",
+            "ricardian_contract": ""
+        },
+        {
             "name": "delcandy",
             "type": "delcandy",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "delpost",
+            "type": "delpost",
             "ricardian_contract": ""
         }
     ],
@@ -102,6 +186,13 @@
         {
             "name": "candytable",
             "type": "candytable",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "posttable",
+            "type": "posttable",
             "index_type": "i64",
             "key_names": [],
             "key_types": []

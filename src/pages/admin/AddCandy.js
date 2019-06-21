@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Form, Button, Input, Radio, DatePicker } from 'antd';
-import {addcandy} from '../../eosio/api/service';
+import { addcandy } from '../../eosio/api/service';
 
 const { RangePicker } = DatePicker;
 

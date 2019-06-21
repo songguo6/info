@@ -5,7 +5,7 @@ class BihuPage extends Component {
   render(){
     return (
       <Row gutter={24}>
-        <Col xl={15} lg={24} md={24} sm={24} xs={24}>
+        <Col xl={20} lg={24} md={24} sm={24} xs={24}>
           <Card
             style={{ marginBottom: 24 }}
             bodyStyle={{ padding: 0 }}
@@ -23,26 +23,12 @@ class BihuPage extends Component {
           </Card>
         </Col>
 
-        <Col xl={9} lg={24} md={24} sm={24} xs={24}>
+        <Col xl={4} lg={24} md={24} sm={24} xs={24}>
           <Card
             style={{ marginBottom: 24 }}
             title='币乎'
             bordered={false}
             bodyStyle={{ padding: 0 }}
-          >
-
-          </Card>
-          <Card
-            style={{ marginBottom: 24 }}
-            bordered={false}
-            title=''
-          >
-
-          </Card>
-          <Card
-            bodyStyle={{ marginBottom: 24 }}
-            bordered={false}
-            title=''
           >
 
           </Card>
