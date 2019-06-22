@@ -12,12 +12,13 @@ import DappPage from './pages/DappPage';
 import BihuPage from './pages/BihuPage';
 import CandyPage from './pages/CandyPage';
 import HomePage from './pages/dashboard/HomePage';
-import FngPage from './pages/dashboard/FngPage';
-import AddCandy from './pages/admin/AddCandy';
-import AddPost from './pages/admin/AddPost';
+import FngPage from './pages/analysis/FngPage';
+import FuturesPage from './pages/analysis/FuturesPage';
 import BtcPage from './pages/token/BtcPage';
 import EthPage from './pages/token/EthPage';
 import EosPage from './pages/token/EosPage';
+import AddCandy from './pages/admin/AddCandy';
+import AddPost from './pages/admin/AddPost';
 
 import './App.css';
 
@@ -64,12 +65,15 @@ class App extends React.Component {
               theme="dark"
               mode="inline"
               defaultSelectedKeys={[this.props.location.pathname]} 
-              defaultOpenKeys={['sub1','sub2']}>
-              <SubMenu key="sub1" title={this.subMenuTitle('pie-chart', '信息总览')}>
+              defaultOpenKeys={['sub1','sub2', 'sub3']}>
+              <SubMenu key='sub1' title={this.subMenuTitle('pie-chart', '信息总览')}>
                 {this.menuItem('/', false, '信息导航')}
-                {this.menuItem('/fng', false, '恐惧贪婪指数')}
               </SubMenu>
-              <SubMenu key="sub2" title={this.subMenuTitle('dollar', '数字货币')}>
+              <SubMenu key='sub2' title={this.subMenuTitle('line-chart', '数据分析')}>
+                {this.menuItem('/analysis/fng', false, '恐惧贪婪指数')}
+                {this.menuItem('/analysis/futures', false, 'BTC季度合约价格')}
+              </SubMenu>
+              <SubMenu key='sub3' title={this.subMenuTitle('dollar', '数字货币')}>
                 {this.menuItem('/token/btc', false, '比特币')}
                 {this.menuItem('/token/eth', false, '以太坊')}
                 {this.menuItem('/token/eos', false, 'EOS')}
@@ -78,7 +82,7 @@ class App extends React.Component {
               {this.menuItem('/bihu', 'bulb', '币乎好文')}
               {this.menuItem('/candy', 'heart', '糖果福利')}
               {accountName === contract ? 
-              <SubMenu key="sub3" title={this.subMenuTitle('user', '管理员')}>
+              <SubMenu key='sub4' title={this.subMenuTitle('user', '管理员')}>
                 {this.menuItem('/admin/addcandy', false, '添加糖果')}
                 {this.menuItem('/admin/addpost', false, '添加文章')}
               </SubMenu> : ''}
@@ -88,7 +92,8 @@ class App extends React.Component {
             <LayoutHeader accountName={accountName} login={login} logout={logout} />      
             <Content style={{ margin: '0 16px' }}>
               <Route path='/' exact component={HomePage}></Route>
-              <Route path='/fng' exact component={FngPage}></Route>
+              <Route path='/analysis/fng' exact component={FngPage}></Route>
+              <Route path='/analysis/futures' exact component={FuturesPage}></Route>
               <Route path='/token/btc' exact component={BtcPage}></Route>
               <Route path='/token/eth' exact component={EthPage}></Route>
               <Route path='/token/eos' exact component={EosPage}></Route>

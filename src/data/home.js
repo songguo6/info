@@ -448,6 +448,14 @@ export const tools = [{
   url: 'https://tokenview.com/',
   logo: 'https://s1.bqiapp.com/images/site/tokenview.png',
 },{
+  name: '币种市值比例',
+  url: 'https://coinmarketcap.com/zh/charts/#dominance-percentage',
+  logo: 'https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/f8/71/8af87145-8d7d-935b-ddef-4c3227c511ce/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.jpg',
+},{
+  name: '产量减半倒计时',
+  url: 'http://idgui.com/L/index.htm',
+  logo: './favicon.ico',
+},{
   name: '钱包大全',
   url: 'https://www.feixiaohao.com/wallet',
   logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/c8/f8/b1/c8f8b110-b2ff-d7d3-aab4-dde7d4bd99ed/AppIcon-0-1x_U007emarketing-0-0-85-220-5.png/246x0w.jpg',
