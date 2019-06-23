@@ -372,6 +372,14 @@ export const links = [{
   url: 'https://coinmarketcap.com',
   logo: 'https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/f8/71/8af87145-8d7d-935b-ddef-4c3227c511ce/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.jpg',
 },{
+  name: 'CoinCap',
+  url: 'https://coincap.io/',
+  logo: 'https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/e9/df/9f/e9df9f6b-d299-e0a5-ab02-23d7811fea02/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.jpg',
+},{
+  name: 'TradingView',
+  url: 'https://cn.tradingview.com',
+  logo: 'https://pbs.twimg.com/profile_images/1112691953542590464/WChOrIka.png',
+},{
   name: 'CoinGecko',
   url: 'https://www.coingecko.com/zh',
   logo: 'https://static.coingecko.com/s/thumbnail-007177f3eca19695592f0b8b0eabbdae282b54154e1be912285c9034ea6cbaf2.png',

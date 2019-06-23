@@ -54,13 +54,13 @@ class FuturesPage extends Component {
     };
     return (
       <div>
-        <h1 style={{textAlign:"center"}}>比特币季度合约价格和现货价格的关系</h1>
+        <h1 style={{textAlign:"center"}}>BTC季度合约价格和现货价格的关系</h1>
         <Chart height={800} padding={[20, 45, 20, 45]} data={data} scale={scale} forceFit>
           <Tooltip
             showTitle={false}
             itemTpl="<li data-index={index}><span style=&quot;background-color:{color};&quot; class=&quot;g2-tooltip-marker&quot;></span>{name}{value}</li>"
           />
-          <View end={{x: 1, y: 0.6}} data = {data}>
+          <View end={{x: 1, y: 0.8}} data = {data}>
             <Axis name="price"  visible={false}/>
             <Axis name="range"  />
             <Geom 
@@ -97,7 +97,7 @@ class FuturesPage extends Component {
             />
             <Geom type="line" position="date*price" size={3} shape="smooth" color="#fdae6b" />
           </View>
-          <View start={{ x: 0, y: 0.65}} data={data}>
+          <View start={{ x: 0, y: 0.85}} data={data}>
             <Axis name="amount" label={{formatter: val => parseInt(val / 1000, 10) + "k"}} />
             <Axis name="date" label={null} />
             <Geom
