@@ -392,6 +392,10 @@ export const links = [{
   url: 'https://www.mytoken.io',
   logo: 'https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/01/cf/f0/01cff05f-0b89-2927-824d-c834d7756acf/AppIcon-0-1x_U007emarketing-0-0-85-220-0-7.jpeg/246x0w.jpg',
 },{
+  name: 'AICoin',
+  url: 'https://www.aicoin.net.cn/',
+  logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/9d/0c/10/9d0c10d4-1879-411e-925e-655fa59589d1/AppIcon_OverSea-0-1x_U007emarketing-0-0-85-220-7.png/246x0w.jpg',
+},{
   name: '巴比特',
   url: 'https://www.8btc.com/',
   logo: 'https://s1.bqiapp.com/images/site/8btc_com.png',
@@ -420,6 +424,38 @@ export const links = [{
   url: 'http://panews.io/',
   logo: 'https://img.chainnews.com/upload/avatar/8f00e5ee-a0e9-5f73-b9a9-93f662413fb4.jpg-avatar',
 },{
+  name: '共享财经',
+  url: 'http://www.gongxiangcj.com/',
+  logo: 'https://s1.bqiapp.com/images/site/gongxiangcj_com.png',
+},{
+  name: '链向财经',
+  url: 'https://www.chainfor.com/',
+  logo: 'https://s1.bqiapp.com/images/site/chainfor_com.png',
+},{
+  name: 'CoinDesk',
+  url: 'https://www.coindesk.com/',
+  logo: 'https://s1.bqiapp.com/images/site/coindesk_com.png',
+},{
+  name: 'bitcoinmagazine',
+  url: 'https://bitcoinmagazine.com/',
+  logo: 'https://s1.bqiapp.com/images/site/bitcoinmagazine_com.png',
+},{
+  name: '',
+  url: '',
+  logo: '',
+},{
+  name: '',
+  url: '',
+  logo: '',
+},{
+  name: '',
+  url: '',
+  logo: '',
+},{
+  name: '',
+  url: '',
+  logo: '',
+},{
   name: '',
   url: '',
   logo: '',
@@ -445,7 +481,41 @@ export const infos = [{
   name: '大炮评级',
   url: 'https://www.dprating.com',
   logo: 'https://media.licdn.com/dms/image/C510BAQFXqCiUJILawQ/company-logo_200_200/0?e=2159024400&v=beta&t=F7IoeOg0MVKiQ6IY5TpMXHLoJb4tTazRQK264MpgmNw',
-}]
+},{
+  name: 'CoinList',
+  url: 'https://coinlist.co/',
+  logo: 'https://coinlist.co/assets/index/coinlist_index/logo_square-26be7093a8b9c416fd4bf4b093413c36cc8d38dbe9b44522c991330b8a688bff.png',
+},{
+  name: 'ICO Rating',
+  url: 'https://icorating.com/',
+  logo: 'https://pbs.twimg.com/profile_images/1063387671010205698/yCaXm88L_400x400.jpg',
+},{
+  name: 'ICO Bench',
+  url: 'https://icobench.com/',
+  logo: 'https://avatars3.githubusercontent.com/u/31563765?s=460&v=4',
+},{
+  name: 'ICO Drops',
+  url: 'https://icodrops.com/',
+  logo: 'https://pbs.twimg.com/profile_images/909143405246210048/YygF9NdQ.jpg',
+},{
+  name: 'Token Market',
+  url: 'https://tokenmarket.net/',
+  logo: 'https://avatars3.githubusercontent.com/u/24798713?s=280&v=4',
+},{
+  name: '',
+  url: '',
+  logo: '',
+},{
+  name: '',
+  url: '',
+  logo: '',
+}];
+
+export const candies = [{
+  name: 'OKAirdrop',
+  url: 'https://www.okairdrop.com/cn/',
+  logo: 'https://s1.bqiapp.com/images/site/OKAirdrop.png',
+}];
 
 export const tools = [{
   name: '多币种浏览器',
@@ -475,4 +545,4 @@ export const tools = [{
   name: '币种热度排行榜',
   url: 'https://www.feixiaohao.com/maxchange/rise',
   logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/c8/f8/b1/c8f8b110-b2ff-d7d3-aab4-dde7d4bd99ed/AppIcon-0-1x_U007emarketing-0-0-85-220-5.png/246x0w.jpg',
-}]
+}];

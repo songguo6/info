@@ -28,4 +28,8 @@ export const tools = [{
   name: '比特币历史价格',
   url: 'https://blockchair.com/bitcoin/price?interval=full&granularity=date',
   logo: 'https://pbs.twimg.com/profile_images/883021233700339712/1qSm4sNT_400x400.jpg',
+},{
+  name: 'Bitcoin Clock',
+  url: 'https://www.bitcoinclock.com/',
+  logo: '../favicon.ico',
 }];
