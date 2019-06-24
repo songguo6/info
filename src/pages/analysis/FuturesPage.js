@@ -49,8 +49,8 @@ class FuturesPage extends Component {
       close: { alias: '收盘价'},
       low: { alias: '最低价'},
       high: { alias: '最高价'},
-      price: { alias: '现货价',  tickInterval:2000 },
-      range: { tickInterval:2000 },
+      price: { alias: '现货价',  tickInterval:2500 },
+      range: { tickInterval:2500 },
     };
     return (
       <div>
@@ -61,7 +61,7 @@ class FuturesPage extends Component {
             itemTpl="<li data-index={index}><span style=&quot;background-color:{color};&quot; class=&quot;g2-tooltip-marker&quot;></span>{name}{value}</li>"
           />
           <View end={{x: 1, y: 0.8}} data = {data}>
-            <Axis name="price"  visible={false}/>
+            <Axis name="price"  visible={true}/>
             <Axis name="range"  />
             <Geom 
               type="schema" position="date*range"
