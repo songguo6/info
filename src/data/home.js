@@ -365,6 +365,11 @@ export const dxchanges = [{
   url: 'https://www.binance.org/cn/trade/ANKR-E97_BNB',
   logo: 'https://s1.bqiapp.com/image/20181207/binance_mid.png',
   star: false,
+},{
+  name: 'DEXEOS',
+  url: 'https://dexeos.io/',
+  logo: 'https://cdn-images-1.medium.com/max/1024/1*y2Rhz1PU6VPvyeX8bdBIkw.png',
+  star: false,
 }];
 
 export const links = [{
