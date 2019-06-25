@@ -12,14 +12,14 @@ export default class TechnicalAnalysisWidget extends PureComponent {
     script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js'
     script.async = true;
     script.innerHTML = JSON.stringify({
-      locale: 'zh_CN',
-      width: '100%',
-      height: '450',
-      symbol: 'BINANCE:EOSUSDT',
-      showIntervalTabs: true,
-      interval: '1h',
-      colorTheme: 'light',
-      isTransparent: false,
+      locale: this.props.locale ? this.props.locale : 'zh_CN',
+      width: this.props.width ? this.props.width : '100%',
+      height: this.props.height ? this.props.height : '450',
+      symbol: this.props.symbol ? this.props.symbol : 'BINANCE:EOSUSDT',
+      showIntervalTabs: this.props.showIntervalTabs ? this.props.showIntervalTabs : true,
+      interval: this.props.interval ? this.props.interval: '1h',
+      colorTheme: this.props.colorTheme ? this.props.colorTheme : 'light',
+      isTransparent: this.props.isTransparent ? this.props.isTransparent : false,
     });
     this._ref.current.appendChild(script);
   }

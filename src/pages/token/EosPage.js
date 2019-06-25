@@ -11,7 +11,7 @@ const EosPage = () => (
     </Col>
 
     <Col xl={6} lg={24} md={24} sm={24} xs={24}>
-      <TechnicalAnalysisWidget />
+      <TechnicalAnalysisWidget isTransparent={true} />
       {createSideCard('区块浏览器', [])}
       {createSideCard('工具', [])}
       {createSideCard('其他', [])}
