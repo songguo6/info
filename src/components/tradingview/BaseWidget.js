@@ -25,9 +25,10 @@ export default class BaseWidget extends PureComponent {
   
   render() {
     return(
-      <div class="tradingview-widget-container" ref={this._ref} style={{marginBottom: 24}}>
-        <div class="tradingview-widget-container__widget"></div>
+      <div className="tradingview-widget-container" ref={this._ref} style={{marginBottom: 24}}>
+        <div className="tradingview-widget-container__widget"></div>
       </div>
     )
   }
 }
+

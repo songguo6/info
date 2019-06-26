@@ -9,6 +9,7 @@ export default class TechnicalAnalysisWidget extends BaseWidget {
     width: this.props.width ? this.props.width : '100%',
     height: this.props.height ? this.props.height : '450',
     symbol: this.props.symbol ? this.props.symbol : 'BINANCE:EOSUSDT',
+    isTransparent: this.props.isTransparent ? this.props.isTransparent : false,
   });
 }
 

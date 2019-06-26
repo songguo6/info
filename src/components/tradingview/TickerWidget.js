@@ -1,8 +1,8 @@
 import BaseWidget from './BaseWidget';
 
-export default class TickerTapeWidget extends BaseWidget {
+export default class TickerWidget extends BaseWidget {
 
-  widgetName = () => ('ticker-tape');
+  widgetName = () => ('tickers');
 
   configuration = () => ({
     locale: this.props.locale ? this.props.locale : 'zh_CN',
