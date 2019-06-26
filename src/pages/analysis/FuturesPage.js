@@ -49,8 +49,8 @@ class FuturesPage extends Component {
       close: { alias: '收盘价'},
       low: { alias: '最低价'},
       high: { alias: '最高价'},
-      price: { alias: '现货价',  tickInterval:2500 },
-      range: { tickInterval:2500 },
+      price: { alias: '现货价',  tickInterval:2000 },
+      range: { tickInterval:2000 },
     };
     return (
       <div>

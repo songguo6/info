@@ -15,6 +15,7 @@ import CandyPage from './pages/CandyPage';
 import HomePage from './pages/dashboard/HomePage';
 import FngPage from './pages/analysis/FngPage';
 import FuturesPage from './pages/analysis/FuturesPage';
+import OtcPage from './pages/analysis/OtcPage';
 import BtcPage from './pages/token/BtcPage';
 import EthPage from './pages/token/EthPage';
 import EosPage from './pages/token/EosPage';
@@ -57,7 +58,6 @@ class App extends React.Component {
     const accountName = this.props.account.name;
     return (
         <Layout style={{ minHeight: '100vh' }}>
-
           <Sider collapsible collapsed={this.state.collapsed} onCollapse={this.onCollapse}>
             <div className="logo" >
               <img src="/favicon.ico" alt=""/>
@@ -76,6 +76,7 @@ class App extends React.Component {
               <SubMenu key='sub2' title={this.subMenuTitle('line-chart', '数据分析')}>
                 {this.menuItem('/analysis/fng', false, '恐惧贪婪指数')}
                 {this.menuItem('/analysis/futures', false, 'BTC季度合约价格')}
+                {this.menuItem('/analysis/otc', false, '场外交易')}
               </SubMenu>
 
               <SubMenu key='sub3' title={this.subMenuTitle('dollar', '数字货币')}>
@@ -101,7 +102,7 @@ class App extends React.Component {
               <Button type='primary' className='login-btn' onClick={accountName ? logout: login }>
                 {accountName ? '注销' : '登录'}
               </Button>
-              <div style={{ float: 'right', width: '94.8%', marginRight: 15 }}>
+              <div style={{ float: 'right', width: '93%', marginRight: 30 }}>
                 <TickerTapeWidget />
               </div>
             </Header>
@@ -110,6 +111,7 @@ class App extends React.Component {
               <Route path='/' exact component={HomePage}></Route>
               <Route path='/analysis/fng' exact component={FngPage}></Route>
               <Route path='/analysis/futures' exact component={FuturesPage}></Route>
+              <Route path='/analysis/otc' exact component={OtcPage}></Route>
               <Route path='/token/btc' exact component={BtcPage}></Route>
               <Route path='/token/eth' exact component={EthPage}></Route>
               <Route path='/token/eos' exact component={EosPage}></Route>
