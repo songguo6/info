@@ -1,13 +1,14 @@
 import React from 'react';
 
-import { Layout, Menu, Icon } from 'antd';
+import { Layout, Menu, Icon, Button } from 'antd';
 import { withRouter, Route, Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import { login, logout, checkLogin } from './eosio/api/login';
 import { contract } from './eosio/api/config';
 
-import LayoutHeader from './LayoutHeader';
+import TickerTapeWidget from './components/tradingview/TickerTapeWidget';
+
 import DappPage from './pages/DappPage';
 import BihuPage from './pages/BihuPage';
 import CandyPage from './pages/CandyPage';
@@ -22,7 +23,7 @@ import AddPost from './pages/admin/AddPost';
 
 import './App.css';
 
-const { Content, Footer, Sider } = Layout;
+const { Content, Header, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
 
 class App extends React.Component {
@@ -56,6 +57,7 @@ class App extends React.Component {
     const accountName = this.props.account.name;
     return (
         <Layout style={{ minHeight: '100vh' }}>
+
           <Sider collapsible collapsed={this.state.collapsed} onCollapse={this.onCollapse}>
             <div className="logo" >
               <img src="/favicon.ico" alt=""/>
@@ -66,21 +68,26 @@ class App extends React.Component {
               mode="inline"
               defaultSelectedKeys={[this.props.location.pathname]} 
               defaultOpenKeys={['sub1','sub2', 'sub3']}>
+
               <SubMenu key='sub1' title={this.subMenuTitle('pie-chart', '信息总览')}>
                 {this.menuItem('/', false, '信息导航')}
               </SubMenu>
+
               <SubMenu key='sub2' title={this.subMenuTitle('line-chart', '数据分析')}>
                 {this.menuItem('/analysis/fng', false, '恐惧贪婪指数')}
                 {this.menuItem('/analysis/futures', false, 'BTC季度合约价格')}
               </SubMenu>
+
               <SubMenu key='sub3' title={this.subMenuTitle('dollar', '数字货币')}>
                 {this.menuItem('/token/btc', false, '比特币')}
                 {this.menuItem('/token/eth', false, '以太坊')}
                 {this.menuItem('/token/eos', false, 'EOS')}
               </SubMenu>
+
               {this.menuItem('/dapp', 'appstore', 'DAPP')}
               {this.menuItem('/bihu', 'bulb', '币乎好文')}
               {this.menuItem('/candy', 'heart', '糖果福利')}
+              
               {accountName === contract ? 
               <SubMenu key='sub4' title={this.subMenuTitle('user', '管理员')}>
                 {this.menuItem('/admin/addcandy', false, '添加糖果')}
@@ -88,8 +95,17 @@ class App extends React.Component {
               </SubMenu> : ''}
             </Menu>
           </Sider>
+
           <Layout>
-            <LayoutHeader accountName={accountName} login={login} logout={logout} />      
+            <Header style={{ background: '#fff', marginBottom: 16, padding: '0 0 0 12px' }} >
+              <Button type='primary' className='login-btn' onClick={accountName ? logout: login }>
+                {accountName ? '注销' : '登录'}
+              </Button>
+              <div style={{ float: 'right', width: '94.8%', marginRight: 15 }}>
+                <TickerTapeWidget />
+              </div>
+            </Header>
+
             <Content style={{ margin: '0 16px' }}>
               <Route path='/' exact component={HomePage}></Route>
               <Route path='/analysis/fng' exact component={FngPage}></Route>

@@ -22,10 +22,12 @@ export default class BaseWidget extends PureComponent {
     script.innerHTML = JSON.stringify(this.configuration());
     this._ref.current.appendChild(script);
   }
+
+  style = () => ({ marginBottom: 24 })
   
   render() {
     return(
-      <div className="tradingview-widget-container" ref={this._ref} style={{marginBottom: 24}}>
+      <div className="tradingview-widget-container" ref={this._ref} style={this.style()}>
         <div className="tradingview-widget-container__widget"></div>
       </div>
     )
