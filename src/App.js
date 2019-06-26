@@ -97,7 +97,7 @@ class App extends React.Component {
           </Sider>
 
           <Layout>
-            <Header style={{ background: '#fff', marginBottom: 16, padding: '0 0 0 12px' }} >
+            <Header style={{ background: '#fff', marginBottom: 16, paddingLeft: '12px' }} >
               <Button type='primary' className='login-btn' onClick={accountName ? logout: login }>
                 {accountName ? '注销' : '登录'}
               </Button>
