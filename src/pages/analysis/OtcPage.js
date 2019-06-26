@@ -101,6 +101,7 @@ class OtcPage extends Component {
   }
 
   premiumRate = (price, priceOtc) => {
+    if(!price) return '';
     const rate = parseFloat((priceOtc - price) / price * 100).toFixed(2);
     return (
       <span style={{color: rate >= 0 ? 'green' : 'red', fontWeight: 'bold'}}>
