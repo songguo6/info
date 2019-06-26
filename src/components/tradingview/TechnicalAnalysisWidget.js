@@ -10,6 +10,7 @@ export default class TechnicalAnalysisWidget extends BaseWidget {
     height: this.props.height ? this.props.height : '450',
     symbol: this.props.symbol ? this.props.symbol : 'BINANCE:EOSUSDT',
     isTransparent: this.props.isTransparent ? this.props.isTransparent : false,
+    interval: this.props.interval ? this.props.interval : '1h',
   });
 }
 
