@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import { Chart, Geom, Axis, Tooltip, View, Guide } from 'bizcharts';
+import { Chart, Geom, Axis, Tooltip, View } from 'bizcharts';
 import axios from 'axios';
 import moment from 'moment';
 import { getTodayZeroStamp } from '../../utils';
 
 const START_TIME = 1541692800000;
-
-const { RegionFilter } = Guide;
 
 class FuturesPage extends Component {
 
@@ -54,8 +52,8 @@ class FuturesPage extends Component {
           <Tooltip />
           <View end={{x: 1, y: 0.5}} data = {data}>
             <Axis />
-            <Geom type="area" position="date*change" color="white" size={2.5} shape="smooth" />
-            <Geom type="line" position="date*change" color="white" size={2.5} shape="smooth" />
+            <Geom type="area" position="date*change" color="#18a1cd" size={2.5} shape="smooth" />
+            <Geom type="line" position="date*change" color="#ff4d4f" size={2.5} shape="smooth" />
           </View>
           <View start={{ x: 0, y: 0.55}} data={data}>
             <Axis />
