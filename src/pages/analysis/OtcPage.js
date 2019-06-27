@@ -63,7 +63,7 @@ class OtcPage extends Component {
   requestDataInner = (coinId) => {
     const { usdcnyRate } = this.state;
     axios.get('https://otc-api.eiijo.cn/v1/data/trade-market?coinId=' + coinId
-      + '&currency=1&tradeType=sell&currPage=1&country=37&blockType=general&online=1').then(res => {
+      + '&currency=1&tradeType=buy&currPage=1&country=37&blockType=general&online=1').then(res => {
 
       const priceOtc = res.data.data[0].price;  
     
