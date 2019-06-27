@@ -53,7 +53,6 @@ class FuturesPage extends Component {
           <View end={{x: 1, y: 0.5}} data = {data}>
             <Axis />
             <Geom type="area" position="date*change" color="#18a1cd" size={2.5} shape="smooth" />
-            <Geom type="line" position="date*change" color="#ff4d4f" size={2.5} shape="smooth" />
           </View>
           <View start={{ x: 0, y: 0.55}} data={data}>
             <Axis />
