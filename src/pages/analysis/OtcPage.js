@@ -19,7 +19,7 @@ class OtcPage extends Component {
     btcPrice: '',
     ethPrice: '',
     eosPrice: '',
-    usdcnyRate: '',
+    usdPrice: '',
   }
 
   getCoin = (coinId) => {
