@@ -7,7 +7,7 @@ import { createSideCard } from '../common';
 const EosPage = () => (
   <Row gutter={24}>
     <Col xl={18} lg={24} md={24} sm={24} xs={24}>
-      <TradingViewWidget symbol="BINANCE:EOSUSDT" locale='zh_CN' width='100%' theme={Themes.DARK}/>    
+      <TradingViewWidget symbol="BINANCE:EOSUSDT" locale='zh_CN' width='100%' interval='120' theme={Themes.DARK}/>    
     </Col>
 
     <Col xl={6} lg={24} md={24} sm={24} xs={24}>

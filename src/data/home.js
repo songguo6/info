@@ -264,11 +264,6 @@ export const exchanges = [{
   logo: 'https://s1.bqiapp.com/image/20181124/qbtc_mid.png',
   star: false,
 },{
-  name: 'OTCBTC',
-  url: 'https://otcbtc.zendesk.com/hc/zh-cn/categories/360000039452-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
-  logo: 'https://s1.bqiapp.com/image/20181122/otcbtc_mid.png',
-  star: false,
-},{
   name: 'CoinBene',
   url: 'https://www.coinbene.vip/#/notice',
   logo: 'https://s1.bqiapp.com/image/20190226/coinbene_mid.png',
@@ -372,6 +367,18 @@ export const dxchanges = [{
   star: false,
 }];
 
+export const oxchanges = [{
+  name: '火币 OTC',
+  url: 'https://otc.huobi.co/zh-cn/trade/buy-btc/',
+  logo: 'https://s1.bqiapp.com/images/site/huobi_pro.png',
+  star: false,
+},{
+  name: 'OTCBTC',
+  url: 'https://otcbtc.zendesk.com/hc/zh-cn/categories/360000039452-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
+  logo: 'https://s1.bqiapp.com/image/20181122/otcbtc_mid.png',
+  star: false,
+}]
+
 export const links = [{
   name: 'CoinMarketCap',
   url: 'https://coinmarketcap.com',
@@ -445,37 +452,41 @@ export const links = [{
   url: 'https://bitcoinmagazine.com/',
   logo: 'https://s1.bqiapp.com/images/site/bitcoinmagazine_com.png',
 },{
-  name: '',
-  url: '',
-  logo: '',
+  name: 'LetsTalkBitcoin',
+  url: 'https://letstalkbitcoin.com/',
+  logo: 'https://s1.bqiapp.com/images/site/letstalkbitcoin_com.png',
 },{
-  name: '',
-  url: '',
-  logo: '',
+  name: 'CoinTelegraph',
+  url: 'https://cointelegraph.com/',
+  logo: 'https://s1.bqiapp.com/images/site/cointelegraph_com.png',
 },{
-  name: '',
-  url: '',
-  logo: '',
+  name: 'TheBitcoinNews',
+  url: 'https://thebitcoinnews.com/',
+  logo: 'https://s1.bqiapp.com/images/site/thebitcoinnews_com.png',
 },{
-  name: '',
-  url: '',
-  logo: '',
+  name: 'NEWSBTC',
+  url: 'https://www.newsbtc.com/',
+  logo: 'https://s1.bqiapp.com/images/site/newsbtc_com.png',
 },{
-  name: '',
-  url: '',
-  logo: '',
+  name: 'CoinCenter',
+  url: 'https://coincenter.org/',
+  logo: 'https://s1.bqiapp.com/images/site/coincenter_org.png',
 },{
-  name: '',
-  url: '',
-  logo: '',
+  name: 'BitcoinWarrior',
+  url: 'https://bitcoinwarrior.net/',
+  logo: 'https://s1.bqiapp.com/images/site/bitcoinwarrior_net.png',
 },{
-  name: '',
-  url: '',
-  logo: '',
+  name: 'BitcoinInvestor',
+  url: 'https://bitcoininvestor.com/',
+  logo: 'https://s1.bqiapp.com/images/site/bitcoininvestor_com.png',
 },{
-  name: '',
-  url: '',
-  logo: '',
+  name: 'Bitcoinist',
+  url: 'https://bitcoinist.com/',
+  logo: 'https://s1.bqiapp.com/images/site/bitcoinist_com.png',
+},{
+  name: 'CCN',
+  url: 'https://www.ccn.com/',
+  logo: 'https://s1.bqiapp.com/images/site/ccn_com.png',
 }];
 
 export const infos = [{
