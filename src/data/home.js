@@ -13,6 +13,10 @@ export const exchanges = [{
   url: 'https://www.bitmex.com/app/tradingOverview',
   logo: 'https://s1.bqiapp.com/image/20181126/bitmex_mid_1543202270365.png',
 },{
+  name: 'Bitfinex',
+  url: 'https://www.bitfinex.com/',
+  logo: 'https://s1.bqiapp.com/image/20181126/bitfinex_mid.png',
+},{
   name: 'HitBTC',
   url: 'https://hitbtc.com',
   logo: 'https://s1.bqiapp.com/image/20181126/hitbtc_mid.png',
@@ -84,10 +88,6 @@ export const exchanges = [{
   url: 'https://lbankinfo.zendesk.com/hc/zh-cn/categories/115000249773-%E5%85%AC%E5%91%8A%E6%9D%BF',
   logo: 'https://s1.bqiapp.com/image/20181126/lhang_mid.png',
   reg: 'https://www.lbex.io/invite?icode=8BSM',
-},{
-  name: 'Exmo',
-  url: 'https://exmo.com/zh',
-  logo: 'https://s1.bqiapp.com/image/20181124/exmo_mid.png',
 },{
   name: 'CoinEx',
   url: 'https://announcement.coinex.com/hc/zh-cn',
