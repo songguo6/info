@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Avatar, Icon } from 'antd';
+import { Card, Avatar, Tag } from 'antd';
 
 export const createItem = (item, index, width = '20%') => {
   return (
@@ -7,11 +7,15 @@ export const createItem = (item, index, width = '20%') => {
       <Card bodyStyle={{ padding: 0 }} bordered={false}>
         <Card.Meta
           title={
-            <a href={item.url} target="_blank" rel="noopener noreferrer">
-              <Avatar src={item.logo} />&nbsp;&nbsp;&nbsp;
-              {item.name}&nbsp;&nbsp;&nbsp;
-              {item.star ? <Icon type='star' theme='twoTone' twoToneColor='orange' /> : ''}
-            </a>
+            <span>
+              <a href={item.url} target="_blank" rel="noopener noreferrer">
+                <Avatar src={item.logo} />&nbsp;&nbsp;&nbsp;
+                {item.name}&nbsp;&nbsp;&nbsp;
+              </a>
+              {item.reg ? <a href={item.reg} target="_blank" rel="noopener noreferrer">
+                <Tag color='orange'>直达</Tag>
+              </a> : ''}
+            </span>
           }
         />
       </Card>

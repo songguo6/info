@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import { createSideCard, createMainCard } from '../common';
-import { exchanges, dxchanges, links, infos, candies, tools } from '../../data/home';
+import { exchanges, dxchanges, oxchanges, links, infos, candies, tools } from '../../data/home';
 
 const HomePage = () => (
   <Row gutter={24}>
@@ -14,6 +14,7 @@ const HomePage = () => (
           </span>)
       }
       {createMainCard('去中心化交易所', dxchanges)}
+      {createMainCard('场外交易所', oxchanges)}
     </Col>
 
     <Col xl={9} lg={24} md={24} sm={24} xs={24}>

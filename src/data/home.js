@@ -1,382 +1,132 @@
 export const exchanges = [{ 
-  name: '火币全球站', 
+  name: '火币', 
   url: 'https://huobiglobal.zendesk.com/hc/zh-cn/categories/360000031902-Huobi-Global-%E5%85%AC%E5%91%8A',
   logo: 'https://s1.bqiapp.com/image/20181119/huobipro_mid.png',
-  star: 'https://www.huobi.co/zh-cn/topic/invited/?invite_code=3c883',
+  reg: 'https://www.huobi.co/zh-cn/topic/invited/?invite_code=3c883',
 },{
   name: '币安',
   url: 'https://binance.zendesk.com/hc/zh-cn/categories/115000056351-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
   logo: 'https://s1.bqiapp.com/image/20181207/binance_mid.png',
-  star: 'https://www.binance.com/?ref=10101853',
-},{
-  name: 'OKEX',
-  url: 'https://support.okex.com/hc/zh-cn/categories/115000275131-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
-  logo: 'https://s1.bqiapp.com/image/20181115/okex_mid.png',
-  star: false,
-},{
-  name: 'Coinbase Pro',
-  url: 'https://pro.coinbase.com',
-  logo: 'https://s1.bqiapp.com/image/20181123/coinbasepro_mid.png',
-  star: false,
+  reg: 'https://www.binance.com/?ref=10101853',
 },{
   name: 'BitMEX',
   url: 'https://www.bitmex.com/app/tradingOverview',
   logo: 'https://s1.bqiapp.com/image/20181126/bitmex_mid_1543202270365.png',
-  star: false,
-},{
-  name: 'ZB',
-  url: 'https://www.zb.com/i/blog?type=proclamation',
-  logo: 'https://s1.bqiapp.com/image/20190222/zb_mid.png',
-  star: false,
-},{
-  name: 'Bitfinex',
-  url: 'https://www.bitfinex.com/posts?locale=en',
-  logo: 'https://s1.bqiapp.com/image/20181126/bitfinex_mid.png',
-  star: false,
-},{
-  name: 'Bittrex',
-  url: 'https://bittrex.zendesk.com/hc/en-us/categories/200236600-News-and-Announcements',
-  logo: 'https://s1.bqiapp.com/image/20181127/bittrex_mid.png',
-  star: false,
-},{
-  name: 'bitFlyer',
-  url: 'https://bitflyer.com/ja-jp',
-  logo: 'https://s1.bqiapp.com/image/20181119/bitflyer_mid.png',
-  star: false,
-},{
-  name: 'Upbit',
-  url: 'https://upbit.com/home',
-  logo: 'https://s1.bqiapp.com/image/20181119/upbit_mid_1542612399891.png',
-  star: false,
-},{
-  name: 'Bitstamp',
-  url: 'https://www.bitstamp.net',
-  logo: 'https://s1.bqiapp.com/image/20181119/bitstamp_mid.png',
-  star: false,
-},{
-  name: 'Kraken',
-  url: 'https://www.kraken.com',
-  logo: 'https://s1.bqiapp.com/image/20181119/kraken_mid.png',
-  star: false,
 },{
   name: 'HitBTC',
   url: 'https://hitbtc.com',
   logo: 'https://s1.bqiapp.com/image/20181126/hitbtc_mid.png',
-  star: false,
-},{
-  name: 'MXC',
-  url: 'https://mxc-exchange.zendesk.com/hc/zh-cn/categories/360000254192-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
-  logo: 'https://s1.bqiapp.com/image/20190308/mexc_mid.png?v=1560386822',
-  star: 'https://www.mxc.com/auth/signup?inviteCode=12gTm',
-},{
-  name: 'IDAX',
-  url: 'https://idax.zendesk.com/hc/zh-cn/categories/360000127131',
-  logo: 'https://s1.bqiapp.com/image/20181124/idax_mid.png',
-  star: 'https://www.idax.pro/register?inviteCode=i44boh&o=10002',
 },{
   name: 'Gate.io',
   url: 'https://gateio.news/articlelist/ann',
   logo: 'https://s1.bqiapp.com/image/20181204/gateio_mid.png',
-  star: 'https://gateio.news/signup/417960',
+  reg: 'https://gateio.news/signup/417960',
 },{
-  name: 'Poloniex',
-  url: 'https://poloniex.com',
-  logo: 'https://s1.bqiapp.com/image/20181126/poloniex_mid.png',
-  star: false,
+  name: 'MXC',
+  url: 'https://mxc-exchange.zendesk.com/hc/zh-cn/categories/360000254192-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
+  logo: 'https://s1.bqiapp.com/image/20190308/mexc_mid.png?v=1560386822',
+  reg: 'https://www.mxc.com/auth/signup?inviteCode=12gTm',
 },{
-  name: 'ZG.com',
-  url: 'https://zgcom.udesk.cn/hc',
-  logo: 'https://s1.bqiapp.com/image/20190326/zgcom_mid.png',
-  star: 'https://www.zg.com/h5/invitation?user=180****9007_invite_code=82189497_partner',
+  name: 'IDAX',
+  url: 'https://idax.zendesk.com/hc/zh-cn/categories/360000127131',
+  logo: 'https://s1.bqiapp.com/image/20181124/idax_mid.png',
+  reg: 'https://www.idax.pro/register?inviteCode=i44boh&o=10002',
 },{
   name: 'BiKi',
   url: 'https://www.biki.com/noticeInfo',
   logo: 'https://s1.bqiapp.com/image/20190228/bikicoin_mid.png',
-  star: 'https://www.biki.com/register?inviteCode=EEVEQWT',
-},{
-  name: 'Bithumb',
-  url: 'https://www.bithumb.com',
-  logo: 'https://s1.bqiapp.com/image/20181120/bithumb_mid.png',
-  star: false,
+  reg: 'https://www.biki.com/register?inviteCode=EEVEQWT',
 },{
   name: 'Bibox',
   url: 'https://bibox.zendesk.com/hc/zh-cn/categories/115000448994-%E6%B4%BB%E5%8A%A8',
   logo: 'https://s1.bqiapp.com/image/20190408/bibox_mid_1554712762773.png',
-  star: 'https://www.bibox.com/signPage?id=11291419&lang=zh',
-},{
-  name: 'Liquid',
-  url: 'https://www.liquid.com',
-  logo: 'https://s1.bqiapp.com/image/20181119/liquid_mid.png',
-  star: false,
+  reg: 'https://www.bibox.com/signPage?id=11291419&lang=zh',
 },{
   name: '币客',
   url: 'https://www.bitker.biz/#/notice',
   logo: 'https://s1.bqiapp.com/image/20181126/bitker_mid.png',
-  star: 'https://www.bitker.com/#/register?invite_code=x1YDM6Vn&lang=cn',
+  reg: 'https://www.bitker.com/#/register?invite_code=x1YDM6Vn&lang=cn',
 },{
   name: 'DigiFinex',
   url: 'https://www.digifinex.com/zh-cn/notice',
   logo: 'https://s1.bqiapp.com/image/20181119/shuzibi_mid.png',
-  star: 'https://www.digifinex.com/zh-cn/from/QGHxHY/3485****2908',
-},{
-  name: 'GEMINI',
-  url: 'https://gemini.com',
-  logo: 'https://s1.bqiapp.com/image/20181126/gemini_mid.png',
-  star: false,
+  reg: 'https://www.digifinex.com/zh-cn/from/QGHxHY/3485****2908',
 },{
   name: '库币',
   url: 'https://www.kcs.top/activity-center',
   logo: 'https://s1.bqiapp.com/image/20181122/kucoin_mid.png',
-  star: true,
-},{
-  name: 'BitMart',
-  url: 'https://bitmartexchange.zendesk.com/hc/zh-cn/categories/115000436413-%E6%9C%80%E6%96%B0%E5%85%AC%E5%91%8A',
-  logo: 'https://s1.bqiapp.com/image/20181122/bitmart_mid.png',
-  star: true,
-},{
-  name: 'FUBT',
-  url: 'https://www.fubt.com',
-  logo: 'https://s1.bqiapp.com/image/20181124/fubt_mid.png',
-  star: false,
+  reg: 'https://www.kcs.top/?rcode=E1hGTF',
 },{
   name: 'BigONE',
   url: 'https://bigone.zendesk.com/hc/zh-cn/categories/115000217873',
   logo: 'https://s1.bqiapp.com/image/20181126/bigone_mid.png',
-  star: 'https://b1.run/users/new?code=71KCQJJF',
+  reg: 'https://b1.run/users/new?code=71KCQJJF',
 },{
   name: '币虎',
   url: 'https://support.cointiger.one/hc/zh-cn/categories/360000859434-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
   logo: 'https://s1.bqiapp.com/image/20181119/cointiger_mid.png',
-  star: true,
-},{
-  name: 'ZG.TOP',
-  url: 'https://www.zgtop.io/news/all?type=1',
-  logo: 'https://s1.bqiapp.com/image/20181126/zgtop_mid.png',
-  star: true,
 },{
   name: '币赢',
   url: 'https://www.coinw.ai/service/ourService.html',
   logo: 'https://s1.bqiapp.com/image/20181119/coinw_mid.png',
-  star: true,
-},{
-  name: 'BTB.io',
-  url: 'https://btbex.zendesk.com/hc/zh-cn/categories/360001447793-BTB-io%E5%85%AC%E5%91%8A',
-  logo: 'https://s1.bqiapp.com/image/20190530/bihuex_mid.png',
-  star: true,
-},{
-  name: 'FCoin',
-  url: 'https://fcoin.zendesk.com/hc/zh-cn/categories/360000333493-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
-  logo: 'https://s1.bqiapp.com/image/20190329/fcoin_mid.png',
-  star: true,
-},{
-  name: 'ZZEX',
-  url: 'https://www.zzex.pro',
-  logo: 'https://s1.bqiapp.com/image/20181124/zzex_mid.png',
-  star: false,
-},{
-  name: 'AEX',
-  url: 'https://www.aex.plus',
-  logo: 'https://s1.bqiapp.com/image/20190227/aex_mid_1551237474752.png',
-  star: false,
-},{
-  name: 'Bitget',
-  url: 'https://bitget.zendesk.com/hc/zh-cn/categories/360000729291',
-  logo: 'https://s1.bqiapp.com/image/20181120/bitget_mid.png',
-  star: true,
-},{
-  name: 'BCEX',
-  url: 'https://www.bcex.hk',
-  logo: 'https://s1.bqiapp.com/image/20181119/bcex_mid.png',
-  star: false,
-},{
-  name: 'Coinone',
-  url: 'https://coinone.co.kr',
-  logo: 'https://s1.bqiapp.com/image/20181127/coinone_mid.png',
-  star: false,
-},{
-  name: 'DFEX',
-  url: 'https://www.dfex.com/announce',
-  logo: 'https://s1.bqiapp.com/image/20181204/dfex_mid.png',
-  star: false,
-},{
-  name: 'YoBit',
-  url: 'https://yobit.net/cn',
-  logo: 'https://s1.bqiapp.com/image/20181126/yobit_mid.png',
-  star: false,
-},{
-  name: 'ZT.COM',
-  url: 'https://www.zt.com/article/announce',
-  logo: 'https://s1.bqiapp.com/image/20181210/ztcom_mid.png',
-  star: true,
-},{
-  name: 'LOEX',
-  url: 'https://www.loex.io',
-  logo: 'https://s1.bqiapp.com/image/20190114/loex_mid.png',
-  star: false,
+  reg: 'https://www.coinw.ai/user/register.html?r=28351&language=zh_CN',
 },{
   name: 'BKEX',
   url: 'https://bkex.zendesk.com/hc/zh-cn/categories/360001640373-BKEX-Global-%E5%85%AC%E5%91%8A',
   logo: 'https://s1.bqiapp.com/image/20190321/bkex_mid.png',
-  star: true,
 },{
   name: 'Bit-Z',
   url: 'https://www.bitz.top/activity',
   logo: 'https://s1.bqiapp.com/image/20181119/bitz_mid.png',
-  star: true,
-},{
-  name: 'BIONE',
-  url: 'https://www.bione.cc/c/notice.html',
-  logo: 'https://s1.bqiapp.com/image/20190108/bione_mid.png',
-  star: false,
-},{
-  name: 'OCX',
-  url: 'https://ocx.kf5.com/hc',
-  logo: 'https://s1.bqiapp.com/image/20181207/ocx_mid.png',
-  star: false,
-},{
-  name: 'BG交易所',
-  url: 'http://www.bg.ink/#/home',
-  logo: 'https://s1.bqiapp.com/image/20190409/1554792752881_mid.png',
-  star: false,
-},{
-  name: 'BFX合约平台',
-  url: 'https://www.bfx.nu',
-  logo: 'https://s1.bqiapp.com/image/20190428/bfx_mid.png',
-  star: false,
-},{
-  name: 'COINBIG',
-  url: 'https://www.coinbig.org/hc/category.html?tid=1wsNbbNgez100691',
-  logo: 'https://s1.bqiapp.com/image/20181130/coinbig_mid_1543549555350.png',
-  star: true,
-},{
-  name: '胖比特',
-  url: 'https://www.fatbtc.com/notice',
-  logo: 'https://s1.bqiapp.com/image/20181126/fatbtc_mid.png',
-  star: false,
-},{
-  name: '币网',
-  url: 'https://bwexchange.zendesk.com/hc/zh-cn/sections/360003863172-%E6%9C%80%E6%96%B0%E6%B4%BB%E5%8A%A8',
-  logo: 'https://s1.bqiapp.com/image/20181120/bw_mid.png',
-  star: true,
-},{
-  name: 'QBTC',
-  url: 'https://qbtcsupport.zendesk.com/hc/zh-cn/categories/360001839053-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
-  logo: 'https://s1.bqiapp.com/image/20181124/qbtc_mid.png',
-  star: false,
-},{
-  name: 'CoinBene',
-  url: 'https://www.coinbene.vip/#/notice',
-  logo: 'https://s1.bqiapp.com/image/20190226/coinbene_mid.png',
-  star: true,
+  reg: 'https://u.bitz.top/register?invite_code=2772116',
 },{
   name: 'LBank',
   url: 'https://lbankinfo.zendesk.com/hc/zh-cn/categories/115000249773-%E5%85%AC%E5%91%8A%E6%9D%BF',
   logo: 'https://s1.bqiapp.com/image/20181126/lhang_mid.png',
-  star: true,
-},{
-  name: 'IDEX',
-  url: 'https://idex.market',
-  logo: 'https://s1.bqiapp.com/image/20181124/idex_mid.png',
-  star: false,
+  reg: 'https://www.lbex.io/invite?icode=8BSM',
 },{
   name: 'Exmo',
   url: 'https://exmo.com/zh',
   logo: 'https://s1.bqiapp.com/image/20181124/exmo_mid.png',
-  star: false,
 },{
   name: 'CoinEx',
   url: 'https://announcement.coinex.com/hc/zh-cn',
   logo: 'https://s1.bqiapp.com/image/20181126/coinex_mid.png',
-  star: true,
-},{
-  name: 'Indodax',
-  url: 'https://indodax.com/',
-  logo: 'https://s1.bqiapp.com/image/20181130/bitcoinindonesia_mid.png',
-  star: false,
-},{
-  name: 'ZBG',
-  url: 'https://zbg.zendesk.com/hc/zh-cn/categories/360001147874-%E5%85%AC%E5%91%8A',
-  logo: 'https://s1.bqiapp.com/image/20181123/zbg_mid.png',
-  star: false,
-},{
-  name: 'Livecoin',
-  url: 'https://www.livecoin.net/zh',
-  logo: 'https://s1.bqiapp.com/image/20181126/livecoin_mid.png',
-  star: false,
-},{
-  name: 'Mercatox',
-  url: 'https://mercatox.com',
-  logo: 'https://s1.bqiapp.com/image/20181126/mercatox_mid.png',
-  star: false,
-},{
-  name: 'Bitbank',
-  url: 'https://bitbank.cc',
-  logo: 'https://s1.bqiapp.com/image/20181119/bitbank_mid.png',
-  star: false,
-},{
-  name: 'CREX24',
-  url: 'https://crex24.com/zh',
-  logo: 'https://s1.bqiapp.com/image/20181126/crex24_mid.png',
-  star: false,
-},{
-  name: 'BX Thailand',
-  url: 'https://bx.in.th',
-  logo: 'https://s1.bqiapp.com/image/20181123/bxthailand_mid.png',
-  star: false,
-},{
-  name: 'Coincheck',
-  url: 'https://coincheck.com',
-  logo: 'https://s1.bqiapp.com/image/20181124/coincheck_mid.png',
-  star: false,
-},{
-  name: '币夫',
-  url: 'https://www.bitforex.com',
-  logo: 'https://s1.bqiapp.com/image/20181120/bitforex_mid.png',
-  star: false,
-},{
-  name: '龙网',
-  url: 'https://dragonex.io/zh-hans/news',
-  logo: 'https://s1.bqiapp.com/image/20181119/dragonex_mid.png',
-  star: false,
-},{
-  name: '柯宾汉',
-  url: 'https://cobinhood.com',
-  logo: 'https://s1.bqiapp.com/image/20181124/cobinhood_mid.png',
-  star: false,
 }];
 
 export const dxchanges = [{
   name: '鲸交所',
   url: 'https://whaleex.zendesk.com/hc/zh-cn/categories/360000918052-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
   logo: 'https://s1.bqiapp.com/image/20181204/whaleex_mid.png',
-  star: true,
+  reg: 'https://ym.whaleex.com.cn/WhaleEx/dash/login?inviteCode=CN-ddXpdK',
 },{
   name: 'Newdex',
   url: 'https://newdex.zendesk.com/hc/zh-cn/categories/360000802432-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
   logo: 'https://s1.bqiapp.com/image/20181203/newdex_mid.png',
-  star: true,
-},{
-  name: 'BINANCE DEX',
-  url: 'https://www.binance.org/cn/trade/ANKR-E97_BNB',
-  logo: 'https://s1.bqiapp.com/image/20181207/binance_mid.png',
-  star: false,
 },{
   name: 'DEXEOS',
   url: 'https://dexeos.io/',
   logo: 'https://cdn-images-1.medium.com/max/1024/1*y2Rhz1PU6VPvyeX8bdBIkw.png',
-  star: false,
+},{
+  name: 'BINANCE DEX',
+  url: 'https://www.binance.org/cn/trade/ANKR-E97_BNB',
+  logo: 'https://s1.bqiapp.com/image/20181207/binance_mid.png',
+},{
+  name: 'IDEX',
+  url: 'https://idex.market',
+  logo: 'https://s1.bqiapp.com/image/20181124/idex_mid.png',
 }];
 
 export const oxchanges = [{
-  name: '火币 OTC',
+  name: '火币OTC',
   url: 'https://otc.huobi.co/zh-cn/trade/buy-btc/',
   logo: 'https://s1.bqiapp.com/images/site/huobi_pro.png',
-  star: false,
+  reg: 'https://www.huobi.co/zh-cn/topic/invited/?invite_code=3c883',
 },{
   name: 'OTCBTC',
   url: 'https://otcbtc.zendesk.com/hc/zh-cn/categories/360000039452-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
   logo: 'https://s1.bqiapp.com/image/20181122/otcbtc_mid.png',
-  star: false,
+  reg: 'https://otcbtc.io/referrals/1858183946',
 }]
 
 export const links = [{
