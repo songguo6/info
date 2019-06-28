@@ -28,6 +28,7 @@ class FuturesPage extends Component {
       //期货
       axios.get('https://api.hbdm.com/market/history/kline?period=1day&symbol=BTC_CQ&size=' + size).then(res => {
         res.data.data.forEach((item, index) => {
+          chartData[index].pricef = item.close;
           chartData[index].change = parseFloat(parseFloat(item.close - chartData[index].price).toFixed(2));
         });
         this.setState({data: chartData});
@@ -43,7 +44,8 @@ class FuturesPage extends Component {
     const data = this.state.data;
     const scale = {
       price: { alias: '现货价' },
-      change: { alias: '价格差值'}
+      pricef: { alias: '期货价'},
+      change: { alias: '价格差值'},
     };
     return (
       <div>
@@ -57,6 +59,7 @@ class FuturesPage extends Component {
           <View start={{ x: 0, y: 0.55}} data={data}>
             <Axis />
             <Geom type="line" position="date*price" color="#fdae6b" size={2.5} shape="smooth" />
+            <Geom type="line" position="date*pricef" color="#18a1cd" size={2.5} shape="smooth" />
           </View>
         </Chart>
       </div>
