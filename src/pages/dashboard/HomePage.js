@@ -1,11 +1,13 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import { createSideCard, createMainCard } from '../common';
-import { exchanges, dxchanges, oxchanges, links, infos, candies, tools } from '../../data/home';
+import { navigations, infos, exchanges, dxchanges, oxchanges, tools, evaluations, candies } from '../../data/home';
 
 const HomePage = () => (
   <Row gutter={24}>
     <Col xl={15} lg={24} md={24} sm={24} xs={24}>
+      {createMainCard('导航站', navigations)}
+      {createMainCard('资讯站', infos)}
       {
         createMainCard('交易所公告', exchanges, 
           <span>
@@ -18,10 +20,9 @@ const HomePage = () => (
     </Col>
 
     <Col xl={9} lg={24} md={24} sm={24} xs={24}>
-      {createSideCard('行情资讯', links)}
-      {createSideCard('项目测评 & 资讯', infos)}
-      {createSideCard('空投', candies)}
       {createSideCard('工具', tools)}
+      {createSideCard('项目测评', evaluations)}
+      {createSideCard('空投糖果', candies)}
     </Col>
   </Row>
 )

@@ -10,6 +10,7 @@ import { contract } from './eosio/api/config';
 import TickerTapeWidget from './components/tradingview/TickerTapeWidget';
 
 import DappPage from './pages/DappPage';
+import DeveloperPage from './pages/DeveloperPage';
 import BihuPage from './pages/BihuPage';
 import CandyPage from './pages/CandyPage';
 import HomePage from './pages/dashboard/HomePage';
@@ -90,6 +91,7 @@ class App extends React.Component {
               {this.menuItem('/dapp', 'appstore', 'DAPP')}
               {this.menuItem('/bihu', 'bulb', '币乎好文')}
               {this.menuItem('/candy', 'heart', '糖果福利')}
+              {this.menuItem('/developer', 'api', '开发者')}
               
               {accountName === contract ? 
               <SubMenu key='sub4' title={this.subMenuTitle('user', '管理员')}>
@@ -121,6 +123,7 @@ class App extends React.Component {
               <Route path='/dapp' exact component={DappPage}></Route>
               <Route path='/bihu' exact component={BihuPage}></Route>
               <Route path='/candy' exact component={CandyPage}></Route>
+              <Route path='/developer' exact component={DeveloperPage}></Route>
               {accountName === contract ?
               <Route path='/admin/addcandy' exact component={AddCandy}></Route> : ''}
               {accountName === contract ?
