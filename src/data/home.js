@@ -2,33 +2,21 @@ export const navigations = [{
   name: 'CoinMarketCap',
   url: 'https://coinmarketcap.com',
   logo: 'https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/f8/71/8af87145-8d7d-935b-ddef-4c3227c511ce/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.jpg',
-},]
-
-export const infos = [{
-  name: 'CoinCap',
-  url: 'https://coincap.io/',
-  logo: 'https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/e9/df/9f/e9df9f6b-d299-e0a5-ab02-23d7811fea02/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.jpg',
 },{
-  name: 'TradingView',
-  url: 'https://cn.tradingview.com',
-  logo: 'https://pbs.twimg.com/profile_images/1112691953542590464/WChOrIka.png',
-},{
-  name: 'CoinGecko',
-  url: 'https://www.coingecko.com/zh',
-  logo: 'https://static.coingecko.com/s/thumbnail-007177f3eca19695592f0b8b0eabbdae282b54154e1be912285c9034ea6cbaf2.png',
+  name: 'QKL123',
+  url: 'https://www.qkl123.com/',
+  logo: 'https://webcdn.qkl123.com/1.2.51/img/66389ce.svg',
 },{
   name: '非小号',
   url: 'https://www.feixiaohao.com',
   logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/c8/f8/b1/c8f8b110-b2ff-d7d3-aab4-dde7d4bd99ed/AppIcon-0-1x_U007emarketing-0-0-85-220-5.png/246x0w.jpg',
 },{
-  name: 'MyToken',
-  url: 'https://www.mytoken.io',
-  logo: 'https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/01/cf/f0/01cff05f-0b89-2927-824d-c834d7756acf/AppIcon-0-1x_U007emarketing-0-0-85-220-0-7.jpeg/246x0w.jpg',
-},{
   name: 'AICoin',
   url: 'https://www.aicoin.net.cn/',
   logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/9d/0c/10/9d0c10d4-1879-411e-925e-655fa59589d1/AppIcon_OverSea-0-1x_U007emarketing-0-0-85-220-7.png/246x0w.jpg',
-},{
+}]
+
+export const infos = [{
   name: '巴比特',
   url: 'https://www.8btc.com/',
   logo: 'https://s1.bqiapp.com/images/site/8btc_com.png',
@@ -110,16 +98,16 @@ export const infos = [{
   logo: 'https://s1.bqiapp.com/images/site/ccn_com.png',
 }];
 
-export const exchanges = [{ 
-  name: '火币', 
-  url: 'https://huobiglobal.zendesk.com/hc/zh-cn/categories/360000031902-Huobi-Global-%E5%85%AC%E5%91%8A',
-  logo: 'https://s1.bqiapp.com/image/20181119/huobipro_mid.png',
-  reg: 'https://www.huobi.co/zh-cn/topic/invited/?invite_code=3c883',
-},{
+export const exchanges = [{
   name: '币安',
   url: 'https://binance.zendesk.com/hc/zh-cn/categories/115000056351-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
   logo: 'https://s1.bqiapp.com/image/20181207/binance_mid.png',
   reg: 'https://www.binance.com/?ref=10101853',
+},{ 
+  name: '火币', 
+  url: 'https://huobiglobal.zendesk.com/hc/zh-cn/categories/360000031902-Huobi-Global-%E5%85%AC%E5%91%8A',
+  logo: 'https://s1.bqiapp.com/images/site/huobi_pro.png',
+  reg: 'https://www.huobi.co/zh-cn/topic/invited/?invite_code=3c883',
 },{
   name: 'BitMEX',
   url: 'https://www.bitmex.com/app/tradingOverview',
@@ -254,6 +242,18 @@ export const tools = [{
   url: 'https://coinmarketcap.com/tokens/',
   logo: 'https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/f8/71/8af87145-8d7d-935b-ddef-4c3227c511ce/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.jpg',
 },{
+  name: 'Github提交排行',
+  url: 'https://www.feixiaohao.com/hot/github/',
+  logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/c8/f8/b1/c8f8b110-b2ff-d7d3-aab4-dde7d4bd99ed/AppIcon-0-1x_U007emarketing-0-0-85-220-5.png/246x0w.jpg',
+},{
+  name: '非小号日历',
+  url: 'https://www.feixiaohao.com/calendar',
+  logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/c8/f8/b1/c8f8b110-b2ff-d7d3-aab4-dde7d4bd99ed/AppIcon-0-1x_U007emarketing-0-0-85-220-5.png/246x0w.jpg',
+},{
+  name: '数字货币钱包',
+  url: 'https://www.feixiaohao.com/wallet',
+  logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/c8/f8/b1/c8f8b110-b2ff-d7d3-aab4-dde7d4bd99ed/AppIcon-0-1x_U007emarketing-0-0-85-220-5.png/246x0w.jpg',
+},{
   name: '多币种浏览器',
   url: 'https://chainz.cryptoid.info',
   logo: 'https://s1.bqiapp.com/images/site/cryptoid_info.png',
@@ -265,18 +265,6 @@ export const tools = [{
   name: '产量减半倒计时',
   url: 'http://idgui.com/L/index.htm',
   logo: './favicon.ico',
-},{
-  name: '钱包大全',
-  url: 'https://www.feixiaohao.com/wallet',
-  logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/c8/f8/b1/c8f8b110-b2ff-d7d3-aab4-dde7d4bd99ed/AppIcon-0-1x_U007emarketing-0-0-85-220-5.png/246x0w.jpg',
-},{
-  name: '币种日历',
-  url: 'https://www.feixiaohao.com/calendar',
-  logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/c8/f8/b1/c8f8b110-b2ff-d7d3-aab4-dde7d4bd99ed/AppIcon-0-1x_U007emarketing-0-0-85-220-5.png/246x0w.jpg',
-},{
-  name: '币种热度排行榜',
-  url: 'https://www.feixiaohao.com/maxchange/rise',
-  logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/c8/f8/b1/c8f8b110-b2ff-d7d3-aab4-dde7d4bd99ed/AppIcon-0-1x_U007emarketing-0-0-85-220-5.png/246x0w.jpg',
 }];
 
 export const evaluations = [{
@@ -291,6 +279,10 @@ export const evaluations = [{
   name: 'CoinList',
   url: 'https://coinlist.co/',
   logo: 'https://coinlist.co/assets/index/coinlist_index/logo_square-26be7093a8b9c416fd4bf4b093413c36cc8d38dbe9b44522c991330b8a688bff.png',
+},{
+  name: 'ICO日历',
+  url: 'https://www.coingecko.com/zh/ico',
+  logo: 'https://static.coingecko.com/s/thumbnail-007177f3eca19695592f0b8b0eabbdae282b54154e1be912285c9034ea6cbaf2.png',
 },{
   name: 'ICO Rating',
   url: 'https://icorating.com/',

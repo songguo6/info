@@ -17,6 +17,10 @@ export const browsers = [{
 }];
 
 export const tools = [{
+  name: '减半倒计时',
+  url: 'https://www.coingecko.com/zh/explain/bitcoin_halving',
+  logo: 'https://static.coingecko.com/s/thumbnail-007177f3eca19695592f0b8b0eabbdae282b54154e1be912285c9034ea6cbaf2.png',
+},{
   name: '比特币图表',
   url: 'https://www.blockchain.com/zh-cn/charts',
   logo: 'https://s1.bqiapp.com/images/site/blockchain_info.png',
