@@ -268,6 +268,10 @@ export const tools = [{
 }];
 
 export const evaluations = [{
+  name: 'RatingToken',
+  url: 'https://www.ratingtoken.net/?hl=zh-CN',
+  logo: 'https://www.ratingtoken.net/logo.png',
+},{
   name: 'TokenGazer',
   url: 'https://www.tokengazer.com',
   logo: 'https://img.chainnews.com/upload/avatar/a2f445aa-3a19-5ead-abb6-ffe44d1f0d8e_MygINhs.jpg-avatar',
