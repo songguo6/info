@@ -41,7 +41,7 @@ export const createMainCard = (title, data, extra = '') => {
   )
 }
 
-export const createSideCard = (title, data) => {
+export const createSideCard = (title, data, width = '33.33%') => {
   return (
     <Card
     style={{ marginBottom: 24 }}
@@ -51,7 +51,7 @@ export const createSideCard = (title, data) => {
     >
       {
         data.map((item, index) => (
-          createItem(item, index, '33.33%')
+          createItem(item, index, width)
         ))
       }
     </Card>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import { createSideCard, createMainCard } from '../common';
-import { navigations, infos, exchanges, dxchanges, oxchanges, tools, evaluations, candies } from '../../data/home';
+import { navigations, infos, exchanges, dxchanges, oxchanges, tools, browsers, evaluations, candies } from '../../data/home';
 
 const HomePage = () => (
   <Row gutter={24}>
@@ -21,6 +21,7 @@ const HomePage = () => (
 
     <Col xl={9} lg={24} md={24} sm={24} xs={24}>
       {createSideCard('工具', tools)}
+      {createSideCard('多币种浏览器', browsers)}
       {createSideCard('项目测评', evaluations)}
       {createSideCard('空投糖果', candies)}
     </Col>

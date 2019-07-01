@@ -1,7 +1,7 @@
 export const navigations = [{
   name: 'CoinMarketCap',
   url: 'https://coinmarketcap.com',
-  logo: 'https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/f8/71/8af87145-8d7d-935b-ddef-4c3227c511ce/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.jpg',
+  logo: 'https://coinmarketcap.com/favicon.ico',
 },{
   name: 'QKL123',
   url: 'https://www.qkl123.com/',
@@ -9,7 +9,7 @@ export const navigations = [{
 },{
   name: '非小号',
   url: 'https://www.feixiaohao.com',
-  logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/c8/f8/b1/c8f8b110-b2ff-d7d3-aab4-dde7d4bd99ed/AppIcon-0-1x_U007emarketing-0-0-85-220-5.png/246x0w.jpg',
+  logo: 'https://www.feixiaohao.com/favicon.ico',
 },{
   name: 'AICoin',
   url: 'https://www.aicoin.net.cn/',
@@ -230,12 +230,12 @@ export const oxchanges = [{
 }]
 
 export const tools = [{
-  name: '历史市值排行',
-  url: 'https://coinmarketcap.com/zh/historical/',
-  logo: 'https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/f8/71/8af87145-8d7d-935b-ddef-4c3227c511ce/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.jpg',
-},{
   name: '总市值比例',
   url: 'https://coinmarketcap.com/zh/charts/#dominance-percentage',
+  logo: 'https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/f8/71/8af87145-8d7d-935b-ddef-4c3227c511ce/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.jpg',
+},{
+  name: '历史市值排行',
+  url: 'https://coinmarketcap.com/zh/historical/',
   logo: 'https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/f8/71/8af87145-8d7d-935b-ddef-4c3227c511ce/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.jpg',
 },{
   name: 'Token市值排行',
@@ -243,16 +243,30 @@ export const tools = [{
   logo: 'https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/f8/71/8af87145-8d7d-935b-ddef-4c3227c511ce/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.jpg',
 },{
   name: 'Github提交排行',
-  url: 'https://www.feixiaohao.com/hot/github/',
-  logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/c8/f8/b1/c8f8b110-b2ff-d7d3-aab4-dde7d4bd99ed/AppIcon-0-1x_U007emarketing-0-0-85-220-5.png/246x0w.jpg',
+  url: 'https://www.qkl123.com/ranking',
+  logo: 'https://webcdn.qkl123.com/1.2.51/img/66389ce.svg',
+},{
+  name: '数字货币钱包',
+  url: 'https://www.qkl123.com/nav/wallet',
+  logo: 'https://webcdn.qkl123.com/1.2.51/img/66389ce.svg',
+},{
+  name: '富豪榜',
+  url: 'https://tokenview.com/cn/topaccount/btc',
+  logo: 'https://tokenview.com/favicon.ico',
+},{
+  name: '大额异动',
+  url: 'https://tokenview.com/cn/largetxs/btc',
+  logo: 'https://tokenview.com/favicon.ico',
 },{
   name: '非小号日历',
   url: 'https://www.feixiaohao.com/calendar',
-  logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/c8/f8/b1/c8f8b110-b2ff-d7d3-aab4-dde7d4bd99ed/AppIcon-0-1x_U007emarketing-0-0-85-220-5.png/246x0w.jpg',
-},{
-  name: '数字货币钱包',
-  url: 'https://www.feixiaohao.com/wallet',
-  logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/c8/f8/b1/c8f8b110-b2ff-d7d3-aab4-dde7d4bd99ed/AppIcon-0-1x_U007emarketing-0-0-85-220-5.png/246x0w.jpg',
+  logo: 'https://www.feixiaohao.com/favicon.ico',
+}];
+
+export const browsers = [{
+  name: 'TokenView',
+  url: 'https://tokenview.com/cn/',
+  logo: 'https://tokenview.com/favicon.ico'
 },{
   name: '多币种浏览器',
   url: 'https://chainz.cryptoid.info',
@@ -261,11 +275,7 @@ export const tools = [{
   name: '多币种浏览器',
   url: 'https://tokenview.com/',
   logo: 'https://s1.bqiapp.com/images/site/tokenview.png',
-},{
-  name: '产量减半倒计时',
-  url: 'http://idgui.com/L/index.htm',
-  logo: './favicon.ico',
-}];
+}]
 
 export const evaluations = [{
   name: 'RatingToken',
