@@ -21,10 +21,6 @@ export const infos = [{
   url: 'https://www.8btc.com/',
   logo: 'https://s1.bqiapp.com/images/site/8btc_com.png',
 },{
-  name: '白话区块链',
-  url: 'https://www.hellobtc.com',
-  logo: 'https://s1.bqiapp.com/image/20190506/7091557123747475.png',
-},{
   name: '星球日报',
   url: 'https://www.odaily.com/',
   logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/a9/97/84/a9978488-a622-635f-b994-887ad2b0e1df/AppIcon-0-1x_U007emarketing-0-0-85-220-0-7.png/246x0w.jpg',
@@ -33,69 +29,59 @@ export const infos = [{
   url: 'https://www.huoxing24.com',
   logo: 'https://s1.bqiapp.com/images/site/huoxincaijin.png',
 },{
+  name: '白话区块链',
+  url: 'https://www.hellobtc.com',
+  logo: 'https://s1.bqiapp.com/image/20190506/7091557123747475.png',
+},{
   name: '链闻',
   url: 'https://www.chainnews.com',
   logo: 'https://s1.bqiapp.com/images/site/chinanews.png',
-},{
-  name: '陀螺财经',
-  url: 'https://www.tuoluocaijing.cn/',
-  logo: 'https://s1.bqiapp.com/images/site/tuoluo.png',
-},{
-  name: 'PANews',
-  url: 'http://panews.io/',
-  logo: 'https://img.chainnews.com/upload/avatar/8f00e5ee-a0e9-5f73-b9a9-93f662413fb4.jpg-avatar',
-},{
-  name: '共享财经',
-  url: 'http://www.gongxiangcj.com/',
-  logo: 'https://s1.bqiapp.com/images/site/gongxiangcj_com.png',
 },{
   name: '链向财经',
   url: 'https://www.chainfor.com/',
   logo: 'https://s1.bqiapp.com/images/site/chainfor_com.png',
 },{
+  name: 'CCN',
+  url: 'https://www.ccn.com/',
+  logo: 'https://s1.bqiapp.com/images/site/ccn_com.png',
+},{
   name: 'CoinDesk',
   url: 'https://www.coindesk.com/',
   logo: 'https://s1.bqiapp.com/images/site/coindesk_com.png',
 },{
-  name: 'bitcoinmagazine',
-  url: 'https://bitcoinmagazine.com/',
-  logo: 'https://s1.bqiapp.com/images/site/bitcoinmagazine_com.png',
-},{
-  name: 'LetsTalkBitcoin',
-  url: 'https://letstalkbitcoin.com/',
-  logo: 'https://s1.bqiapp.com/images/site/letstalkbitcoin_com.png',
-},{
   name: 'CoinTelegraph',
   url: 'https://cointelegraph.com/',
   logo: 'https://s1.bqiapp.com/images/site/cointelegraph_com.png',
+}];
+
+export const forums = [{
+  name: '币乎',
+  url: 'https://bihu.com/',
+  logo: 'https://appserversrc.8btc.com/qkl/5/20181210161511_51801.jpg',
 },{
-  name: 'TheBitcoinNews',
-  url: 'https://thebitcoinnews.com/',
-  logo: 'https://s1.bqiapp.com/images/site/thebitcoinnews_com.png',
+  name: 'Steemit',
+  url: 'https://steemit.com/',
+  logo: 'https://appserversrc.8btc.com/qkl/media/community/18.png',
 },{
-  name: 'NEWSBTC',
-  url: 'https://www.newsbtc.com/',
-  logo: 'https://s1.bqiapp.com/images/site/newsbtc_com.png',
+  name: '链节点',
+  url: 'https://www.chainnode.com/',
+  logo: 'https://appserversrc.8btc.com/qkl/5/20190516110457_46018.png',
 },{
-  name: 'CoinCenter',
-  url: 'https://coincenter.org/',
-  logo: 'https://s1.bqiapp.com/images/site/coincenter_org.png',
+  name: '币问',
+  url: 'https://www.biask.com/',
+  logo: 'https://appserversrc.8btc.com/qkl/media/community/11.png',
 },{
-  name: 'BitcoinWarrior',
-  url: 'https://bitcoinwarrior.net/',
-  logo: 'https://s1.bqiapp.com/images/site/bitcoinwarrior_net.png',
+  name: 'BitcoinTalk',
+  url: 'https://bitcointalk.org/',
+  logo: 'https://appserversrc.8btc.com/qkl/5/20181129094921_28019.jpg',
 },{
-  name: 'BitcoinInvestor',
-  url: 'https://bitcoininvestor.com/',
-  logo: 'https://s1.bqiapp.com/images/site/bitcoininvestor_com.png',
+  name: 'IPFS中国社区',
+  url: 'http://www.ipfs.cn/',
+  logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ipfs-logo-1024-ice-text.png/220px-Ipfs-logo-1024-ice-text.png',
 },{
-  name: 'Bitcoinist',
-  url: 'https://bitcoinist.com/',
-  logo: 'https://s1.bqiapp.com/images/site/bitcoinist_com.png',
-},{
-  name: 'CCN',
-  url: 'https://www.ccn.com/',
-  logo: 'https://s1.bqiapp.com/images/site/ccn_com.png',
+  name: 'IOTA中国社区',
+  url: 'http://www.iotachina.com/',
+  logo: 'http://www.iotachina.com/wp-content/themes/tangle/images/favicon.ico',
 }];
 
 export const exchanges = [{
@@ -250,6 +236,14 @@ export const tools = [{
   url: 'https://www.qkl123.com/nav/wallet',
   logo: 'https://webcdn.qkl123.com/1.2.51/img/66389ce.svg',
 },{
+  name: '微信小程序',
+  url: 'https://www.qkl123.com/nav/media',
+  logo: 'https://webcdn.qkl123.com/1.2.51/img/66389ce.svg',
+},{
+  name: '区块链动态图谱',
+  url: 'http://www.gikee.com/',
+  logo: 'http://www.gikee.com/img/gikee.ico',
+},{
   name: '富豪榜',
   url: 'https://tokenview.com/cn/topaccount/btc',
   logo: 'https://tokenview.com/favicon.ico',
@@ -263,18 +257,24 @@ export const tools = [{
   logo: 'https://www.feixiaohao.com/favicon.ico',
 }];
 
+export const resources = [{
+  name: '区块链文库',
+  url: 'https://www.8btc.com/library',
+  logo: 'https://s1.bqiapp.com/images/site/8btc_com.png',
+},{
+  name: '硬件测评',
+  url: 'https://www.8btc.com/video/list?cat_id=1526',
+  logo: 'https://s1.bqiapp.com/images/site/8btc_com.png'
+}]
+
 export const browsers = [{
   name: 'TokenView',
   url: 'https://tokenview.com/cn/',
   logo: 'https://tokenview.com/favicon.ico'
 },{
-  name: '多币种浏览器',
+  name: 'Chainz',
   url: 'https://chainz.cryptoid.info',
   logo: 'https://s1.bqiapp.com/images/site/cryptoid_info.png',
-},{
-  name: '多币种浏览器',
-  url: 'https://tokenview.com/',
-  logo: 'https://s1.bqiapp.com/images/site/tokenview.png',
 }]
 
 export const evaluations = [{
@@ -285,6 +285,10 @@ export const evaluations = [{
   name: 'TokenGazer',
   url: 'https://www.tokengazer.com',
   logo: 'https://img.chainnews.com/upload/avatar/a2f445aa-3a19-5ead-abb6-ffe44d1f0d8e_MygINhs.jpg-avatar',
+},{
+  name: '链塔',
+  url: 'http://www.blockdata.club/',
+  logo: 'http://www.blockdata.club/public/content/images/ito.png',
 },{
   name: '大炮评级',
   url: 'https://www.dprating.com',
@@ -319,5 +323,9 @@ export const candies = [{
   name: 'OKAirdrop',
   url: 'https://www.okairdrop.com/cn/',
   logo: 'https://s1.bqiapp.com/images/site/OKAirdrop.png',
+},{
+  name: '链节点糖果空投',
+  url: 'https://www.chainnode.com/forum/176',
+  logo: 'https://bbtcdn.8btc.com/data/attachment/common/38/common_176_icon.svg',
 }];
 

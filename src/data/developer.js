@@ -1,3 +1,21 @@
+export const forums = [{
+  name: 'StackEx/BTC',
+  url: 'https://bitcoin.stackexchange.com/',
+  logo: 'https://appserversrc.8btc.com/qkl/5/20181129095117_59947.png',
+},{
+  name: 'StackEx/ETH',
+  url: 'https://ethereum.stackexchange.com/',
+  logo: 'https://cdn.sstatic.net/Sites/ethereum/img/apple-touch-icon.png?v=c93d3c53cfca',
+},{
+  name: 'StackEx/EOS',
+  url: 'https://eosio.stackexchange.com/',
+  logo: 'https://cdn.sstatic.net/Sites/eosio/img/apple-touch-icon.png?v=94a3f52cfed8'
+},{
+  name: '慢雾区',
+  url: 'https://slowmist.io/',
+  logo: 'https://appserversrc.8btc.com/qkl/5/20181226153412_58677.png',
+}]
+
 export const apis = [{
   name: 'CMC API',
   url: 'https://coinmarketcap.com/api/',
@@ -10,6 +28,10 @@ export const apis = [{
   name: 'CoinGecko API',
   url: 'https://www.coingecko.com/zh/api',
   logo: 'https://static.coingecko.com/s/thumbnail-007177f3eca19695592f0b8b0eabbdae282b54154e1be912285c9034ea6cbaf2.png',
+},{
+  name: 'Ethplorer API',
+  url: 'https://github.com/EverexIO/Ethplorer/wiki/Ethplorer-API?from=etop',
+  logo: 'https://pbs.twimg.com/profile_images/866230476935012352/FZyMhvCm_400x400.jpg',
 }];
 
 export const widgets = [{
