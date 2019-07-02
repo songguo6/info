@@ -29,6 +29,14 @@ export const apis = [{
   url: 'https://www.coingecko.com/zh/api',
   logo: 'https://static.coingecko.com/s/thumbnail-007177f3eca19695592f0b8b0eabbdae282b54154e1be912285c9034ea6cbaf2.png',
 },{
+  name: 'CryptoCompare',
+  url: 'https://min-api.cryptocompare.com/',
+  logo: 'https://www.cryptocompare.com/media/20562/favicon.png?v=2',
+},{
+  name: 'CoinMap API',
+  url: 'https://coinmap.org/api/',
+  logo: 'https://coinmap.org/img/logo-48x48.png'
+},{
   name: 'Ethplorer API',
   url: 'https://github.com/EverexIO/Ethplorer/wiki/Ethplorer-API?from=etop',
   logo: 'https://pbs.twimg.com/profile_images/866230476935012352/FZyMhvCm_400x400.jpg',

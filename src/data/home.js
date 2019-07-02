@@ -41,6 +41,10 @@ export const infos = [{
   url: 'https://www.chainfor.com/',
   logo: 'https://s1.bqiapp.com/images/site/chainfor_com.png',
 },{
+  name: 'LongHash',
+  url: 'https://cn.longhash.com/',
+  logo: 'https://pbs.twimg.com/profile_images/991560474436096001/l7bGkMTv.jpg',
+},{
   name: 'CCN',
   url: 'https://www.ccn.com/',
   logo: 'https://s1.bqiapp.com/images/site/ccn_com.png',
@@ -236,10 +240,6 @@ export const tools = [{
   url: 'https://www.qkl123.com/nav/wallet',
   logo: 'https://webcdn.qkl123.com/1.2.51/img/66389ce.svg',
 },{
-  name: '微信小程序',
-  url: 'https://www.qkl123.com/nav/media',
-  logo: 'https://webcdn.qkl123.com/1.2.51/img/66389ce.svg',
-},{
   name: '区块链动态图谱',
   url: 'http://www.gikee.com/',
   logo: 'http://www.gikee.com/img/gikee.ico',
@@ -255,6 +255,30 @@ export const tools = [{
   name: '非小号日历',
   url: 'https://www.feixiaohao.com/calendar',
   logo: 'https://www.feixiaohao.com/favicon.ico',
+},{
+  name: '稳定币指数',
+  url: 'https://stablecoinindex.com',
+  logo: 'https://appserversrc.8btc.com/qkl/7/20190510175947_21402.jpg',
+},{
+  name: '稳定币健康指数',
+  url: 'https://cn.longhash.com/livecharts/stablecoin-health-index',
+  logo: 'https://pbs.twimg.com/profile_images/991560474436096001/l7bGkMTv.jpg',
+},{
+  name: 'NFT数据分析',
+  url: 'https://nonfungible.com',
+  logo: 'https://appserversrc.8btc.com/qkl/7/20190524145245_28660.jpg',
+},{
+  name: '挖矿收益计算器',
+  url: 'https://www.babaofan.com/miner/',
+  logo: 'https://appserversrc.8btc.com/qkl/7/20181226153054_48792.png',
+},{
+  name: 'FRST交易追踪',
+  url: 'https://www.frst.com/',
+  logo: 'https://27ekz2729ax2nmd38ivr6wi5-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/running-pup-1.png',
+},{
+  name: "Block'tivity",
+  url: 'https://blocktivity.info/',
+  logo: 'https://blocktivity.info/design/logo100.png',
 }];
 
 export const resources = [{

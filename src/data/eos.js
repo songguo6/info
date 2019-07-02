@@ -24,6 +24,10 @@ export const tools = [{
   name: 'Jungle测试网',
   url: 'https://monitor.jungletestnet.io/',
   logo: 'https://monitor.jungletestnet.io/imgs/favicon.png',
+},{
+  name: 'RAM价格走势',
+  url: 'https://dapp.mytokenpocket.vip/ram/index.html',
+  logo: 'https://dapp.mytokenpocket.vip/favicon.ico',
 }]
 
 export const infos = [];

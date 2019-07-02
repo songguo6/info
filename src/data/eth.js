@@ -20,6 +20,14 @@ export const tools = [{
   name: 'Eth Gas Station',
   url: 'https://ethgasstation.info/',
   logo: 'https://ethgasstation.info/images/ETHGasStation.png',
+},{
+  name: 'Alethio',
+  url: 'https://aleth.io/',
+  logo: 'https://aleth.io/icons-73d009cf9d23e4146a11bc5073503e58/favicon.ico',
+},{
+  name: 'Amberdata',
+  url: 'https://amberdata.io',
+  logo: 'https://appserversrc.8btc.com/qkl/7/20190524143732_34628.jpg',
 }]
 
 export const infos = [{
