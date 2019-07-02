@@ -13,7 +13,7 @@ export const navigations = [{
 },{
   name: 'AICoin',
   url: 'https://www.aicoin.net.cn/',
-  logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/9d/0c/10/9d0c10d4-1879-411e-925e-655fa59589d1/AppIcon_OverSea-0-1x_U007emarketing-0-0-85-220-7.png/246x0w.jpg',
+  logo: 'https://assets-www.aicoin.net.cn/beta-v19/static/favicon.ico',
 }]
 
 export const infos = [{
@@ -23,7 +23,7 @@ export const infos = [{
 },{
   name: '星球日报',
   url: 'https://www.odaily.com/',
-  logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/a9/97/84/a9978488-a622-635f-b994-887ad2b0e1df/AppIcon-0-1x_U007emarketing-0-0-85-220-0-7.png/246x0w.jpg',
+  logo: 'https://www.odaily.com/favicon.ico',
 },{
   name: '火星财经',
   url: 'https://www.huoxing24.com',
@@ -222,15 +222,15 @@ export const oxchanges = [{
 export const tools = [{
   name: '总市值比例',
   url: 'https://coinmarketcap.com/zh/charts/#dominance-percentage',
-  logo: 'https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/f8/71/8af87145-8d7d-935b-ddef-4c3227c511ce/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.jpg',
+  logo: 'https://coinmarketcap.com/favicon.ico',
 },{
   name: '历史市值排行',
   url: 'https://coinmarketcap.com/zh/historical/',
-  logo: 'https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/f8/71/8af87145-8d7d-935b-ddef-4c3227c511ce/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.jpg',
+  logo: 'https://coinmarketcap.com/favicon.ico',
 },{
   name: 'Token市值排行',
   url: 'https://coinmarketcap.com/tokens/',
-  logo: 'https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/f8/71/8af87145-8d7d-935b-ddef-4c3227c511ce/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.jpg',
+  logo: 'https://coinmarketcap.com/favicon.ico',
 },{
   name: 'Github提交排行',
   url: 'https://www.qkl123.com/ranking',
