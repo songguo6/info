@@ -284,9 +284,25 @@ export const tools = [{
   url: 'https://blocktivity.info/',
   logo: 'https://blocktivity.info/design/logo100.png',
 },{
-  name: 'DeFi数据',
+  name: '恐惧贪婪指数',
+  url: 'https://alternative.me/crypto/fear-and-greed-index/',
+  logo: '../favicon.ico',
+},{
+  name: '市场情绪指数',
+  url: 'https://www.sncrating.com/cn/adr',
+  logo: 'https://appserversrc.8btc.com/agency/icon/sncrating.svg',
+},{
+  name: '矿工疯狂指数',
+  url: 'https://www.tokengazer.com/#/lab?tab=0',
+  logo: 'https://appserversrc.8btc.com/agency/icon/tokengazer.svg',
+},{
+  name: 'DeFi数据分析',
   url: 'https://defi.dapp.review/',
   logo: 'https://pbs.twimg.com/profile_images/1003807821115285504/68-tjxW0_400x400.jpg',
+},{
+  name: '区块链企业库',
+  url: 'http://www.blockdata.club/site/company',
+  logo: 'https://appserversrc.8btc.com/agency/icon/blockdata.svg',
 },{
   name: '区块链文库',
   url: 'https://www.8btc.com/library',
@@ -308,21 +324,33 @@ export const browsers = [{
 }]
 
 export const evaluations = [{
-  name: 'RatingToken',
-  url: 'https://www.ratingtoken.net/?hl=zh-CN',
-  logo: 'https://www.ratingtoken.net/logo.png',
-},{
   name: 'TokenGazer',
   url: 'https://www.tokengazer.com',
-  logo: 'https://img.chainnews.com/upload/avatar/a2f445aa-3a19-5ead-abb6-ffe44d1f0d8e_MygINhs.jpg-avatar',
+  logo: 'https://appserversrc.8btc.com/agency/icon/tokengazer.svg',
 },{
   name: '链塔',
-  url: 'http://www.blockdata.club/',
-  logo: 'http://www.blockdata.club/public/content/images/ito.png',
+  url: 'http://www.blockdata.club/site/link',
+  logo: 'https://appserversrc.8btc.com/agency/icon/blockdata.svg',
 },{
   name: '大炮评级',
   url: 'https://www.dprating.com',
-  logo: 'https://media.licdn.com/dms/image/C510BAQFXqCiUJILawQ/company-logo_200_200/0?e=2159024400&v=beta&t=F7IoeOg0MVKiQ6IY5TpMXHLoJb4tTazRQK264MpgmNw',
+  logo: 'https://appserversrc.8btc.com/agency/icon/dprating.svg',
+},{
+  name: '标准共识',
+  url: 'https://www.sncrating.com/cn',
+  logo: 'https://appserversrc.8btc.com/agency/icon/sncrating.svg',
+},{
+  name: '数链评级',
+  url: 'http://www.shulianratings.com/',
+  logo: 'https://appserversrc.8btc.com/agency/icon/shulianratings.svg',
+},{
+  name: 'TokenInsight',
+  url: 'https://tokeninsight.com/',
+  logo: 'https://appserversrc.8btc.com/agency/icon/tokeninsight.svg',
+},{
+  name: 'RatingToken',
+  url: 'https://www.ratingtoken.net/?hl=zh-CN',
+  logo: 'https://www.ratingtoken.net/logo.png',
 },{
   name: 'CoinList',
   url: 'https://coinlist.co/',

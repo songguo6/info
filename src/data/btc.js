@@ -29,6 +29,14 @@ export const tools = [{
   url: 'https://www.coingecko.com/zh/explain/bitcoin_halving',
   logo: 'https://static.coingecko.com/s/thumbnail-007177f3eca19695592f0b8b0eabbdae282b54154e1be912285c9034ea6cbaf2.png',
 },{
+  name: 'BTC周期',
+  url: 'https://www.dprating.com/btc-cycle',
+  logo: 'https://appserversrc.8btc.com/agency/icon/dprating.svg',
+},{
+  name: 'Bitmex未平仓量',
+  url: 'https://www.dprating.com/position',
+  logo: 'https://appserversrc.8btc.com/agency/icon/dprating.svg',
+},{
   name: 'BTC活跃地址数',
   url: 'https://www.qkl123.com/data/active_address/btc',
   logo: 'https://webcdn.qkl123.com/1.2.51/img/66389ce.svg',

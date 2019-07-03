@@ -11,9 +11,17 @@ export const navigations = [{
   url: 'http://dapponline.io/',
   logo: 'https://appserversrc.8btc.com/qkl/7/20190409105113_20812.jpg',
 },{
+  name: 'DappRadar',
+  url: 'https://dappradar.com/',
+  logo: 'https://appserversrc.8btc.com/qkl/7/20190409105005_33665.jpg',
+},{
   name: 'DappTotal',
   url: 'https://dapptotal.com/',
   logo: 'https://m.dapptotal.com/static/img/icon.png',
+},{
+  name: 'StateOfDapps',
+  url: 'https://www.stateofthedapps.com/zh',
+  logo: 'https://appserversrc.8btc.com/qkl/7/20190510172336_15580.jpg',
 }];
 
 export const tools = [{

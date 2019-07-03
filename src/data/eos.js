@@ -30,4 +30,8 @@ export const tools = [{
   logo: 'https://dapp.mytokenpocket.vip/favicon.ico',
 }]
 
-export const infos = [];
+export const infos = [{
+  name: 'Eos Index',
+  url: 'https://eosindex.io/',
+  logo: 'https://appserversrc.8btc.com/qkl/7/20190307173559_29059.png',
+}];
