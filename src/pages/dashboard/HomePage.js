@@ -4,7 +4,7 @@ import { createSideCard, createMainCard } from '../common';
 import { 
   navigations, infos, forums, 
   exchanges, dxchanges, oxchanges, 
-  tools, resources, browsers, evaluations, candies 
+  tools, browsers, evaluations, candies 
 } from '../../data/home';
 
 const HomePage = () => (
@@ -25,10 +25,9 @@ const HomePage = () => (
     </Col>
 
     <Col xl={9} lg={24} md={24} sm={24} xs={24}>
-      {createSideCard('工具', tools)}
-      {createSideCard('资源', resources)}
-      {createSideCard('多币种浏览器', browsers)}
+      {createSideCard('工具 & 资源', tools)}
       {createSideCard('项目测评', evaluations)}
+      {createSideCard('多币种区块浏览器', browsers)}
       {createSideCard('糖果空投', candies)}
     </Col>
   </Row>

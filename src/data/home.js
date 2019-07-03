@@ -264,6 +264,10 @@ export const tools = [{
   url: 'https://cn.longhash.com/livecharts/stablecoin-health-index',
   logo: 'https://pbs.twimg.com/profile_images/991560474436096001/l7bGkMTv.jpg',
 },{
+  name: '稳定币增销趋势',
+  url: 'https://dapptotal.com/stablecoins',
+  logo: 'https://m.dapptotal.com/static/img/icon.png',
+},{
   name: 'NFT数据分析',
   url: 'https://nonfungible.com',
   logo: 'https://appserversrc.8btc.com/qkl/7/20190524145245_28660.jpg',
@@ -279,9 +283,11 @@ export const tools = [{
   name: "Block'tivity",
   url: 'https://blocktivity.info/',
   logo: 'https://blocktivity.info/design/logo100.png',
-}];
-
-export const resources = [{
+},{
+  name: 'DeFi数据',
+  url: 'https://defi.dapp.review/',
+  logo: 'https://pbs.twimg.com/profile_images/1003807821115285504/68-tjxW0_400x400.jpg',
+},{
   name: '区块链文库',
   url: 'https://www.8btc.com/library',
   logo: 'https://s1.bqiapp.com/images/site/8btc_com.png',
@@ -289,7 +295,7 @@ export const resources = [{
   name: '硬件测评',
   url: 'https://www.8btc.com/video/list?cat_id=1526',
   logo: 'https://s1.bqiapp.com/images/site/8btc_com.png'
-}]
+}];
 
 export const browsers = [{
   name: 'TokenView',

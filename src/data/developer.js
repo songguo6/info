@@ -40,6 +40,10 @@ export const apis = [{
   name: 'Ethplorer API',
   url: 'https://github.com/EverexIO/Ethplorer/wiki/Ethplorer-API?from=etop',
   logo: 'https://pbs.twimg.com/profile_images/866230476935012352/FZyMhvCm_400x400.jpg',
+},{
+  name: 'SpiderStore API',
+  url: 'https://spiderstore.gitbook.io/dapp/openapi',
+  logo: 'https://appserversrc.8btc.com/qkl/7/20190409104305_40028.jpg',
 }];
 
 export const widgets = [{
@@ -54,4 +58,10 @@ export const widgets = [{
   name: 'CoinGecko插件',
   url: 'https://www.coingecko.com/zh/%E5%B0%8F%E5%B7%A5%E5%85%B7',
   logo: 'https://static.coingecko.com/s/thumbnail-007177f3eca19695592f0b8b0eabbdae282b54154e1be912285c9034ea6cbaf2.png',
+}];
+
+export const ides = [{
+  name: 'Libra Move',
+  url: 'https://libraide.com/',
+  logo: 'https://chainide.com/assets/img/favicon.png',
 }];

@@ -33,6 +33,10 @@ export const tools = [{
   url: 'https://www.qkl123.com/data/active_address/btc',
   logo: 'https://webcdn.qkl123.com/1.2.51/img/66389ce.svg',
 },{
+  name: 'BTC新增地址数',
+  url: 'https://www.qkl123.com/data/new_address/btc',
+  logo: 'https://webcdn.qkl123.com/1.2.51/img/66389ce.svg',
+},{
   name: 'BTC平均算力',
   url: 'https://www.qkl123.com/data/avg_hashrate/btc',
   logo: 'https://webcdn.qkl123.com/1.2.51/img/66389ce.svg',
