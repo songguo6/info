@@ -325,7 +325,7 @@ export const tools = [{
 export const resources = [{
   name: '区块链快速入门',
   url: 'https://www.hellobtc.com/ling/',
-  logo: 'https://123.hellobtc.com/bimg/dbz.jpg',
+  logo: 'https://123.hellobtc.com/bimg/bhg.jpg',
 },{
   name: '白话公众号精华',
   url: 'https://mp.weixin.qq.com/s/PAJowLo3ECp-zLncvqrSpg?',
