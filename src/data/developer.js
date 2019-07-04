@@ -33,6 +33,10 @@ export const apis = [{
   url: 'https://min-api.cryptocompare.com/',
   logo: 'https://www.cryptocompare.com/media/20562/favicon.png?v=2',
 },{
+  name: 'MatrixData',
+  url: 'https://matrixdata.io/document/default/0',
+  logo: 'http://hellobtc.com/d/file/201809/aff7f9de6f02310e4ae545f8d6cfd51f.png',
+},{
   name: 'CoinMap API',
   url: 'https://coinmap.org/api/',
   logo: 'https://coinmap.org/img/logo-48x48.png'

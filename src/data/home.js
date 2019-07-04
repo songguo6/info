@@ -14,12 +14,20 @@ export const navigations = [{
   name: 'AICoin',
   url: 'https://www.aicoin.net.cn/',
   logo: 'https://assets-www.aicoin.net.cn/beta-v19/static/favicon.ico',
+},{
+  name: 'MyToken',
+  url: 'https://www.mytoken.io/',
+  logo: 'https://www.mytoken.io/favicon.ico',
 }]
 
 export const infos = [{
   name: '巴比特',
   url: 'https://www.8btc.com/',
   logo: 'https://s1.bqiapp.com/images/site/8btc_com.png',
+},{
+  name: '白话区块链',
+  url: 'https://www.hellobtc.com',
+  logo: 'https://s1.bqiapp.com/image/20190506/7091557123747475.png',
 },{
   name: '星球日报',
   url: 'https://www.odaily.com/',
@@ -28,10 +36,6 @@ export const infos = [{
   name: '火星财经',
   url: 'https://www.huoxing24.com',
   logo: 'https://s1.bqiapp.com/images/site/huoxincaijin.png',
-},{
-  name: '白话区块链',
-  url: 'https://www.hellobtc.com',
-  logo: 'https://s1.bqiapp.com/image/20190506/7091557123747475.png',
 },{
   name: '链闻',
   url: 'https://www.chainnews.com',
@@ -268,6 +272,10 @@ export const tools = [{
   url: 'https://dapptotal.com/stablecoins',
   logo: 'https://m.dapptotal.com/static/img/icon.png',
 },{
+  name: 'GBI区块链指数',
+  url: 'https://gbi.news/zh/',
+  logo: 'https://gbi.news/favicon.png',
+},{
   name: 'NFT数据分析',
   url: 'https://nonfungible.com',
   logo: 'https://appserversrc.8btc.com/qkl/7/20190524145245_28660.jpg',
@@ -351,30 +359,28 @@ export const evaluations = [{
   name: 'RatingToken',
   url: 'https://www.ratingtoken.net/?hl=zh-CN',
   logo: 'https://www.ratingtoken.net/logo.png',
-},{
-  name: 'CoinList',
-  url: 'https://coinlist.co/',
-  logo: 'https://coinlist.co/assets/index/coinlist_index/logo_square-26be7093a8b9c416fd4bf4b093413c36cc8d38dbe9b44522c991330b8a688bff.png',
-},{
+}];
+
+export const icos = [{
   name: 'ICO日历',
   url: 'https://www.coingecko.com/zh/ico',
   logo: 'https://static.coingecko.com/s/thumbnail-007177f3eca19695592f0b8b0eabbdae282b54154e1be912285c9034ea6cbaf2.png',
 },{
-  name: 'ICO Rating',
+  name: 'ICORating',
   url: 'https://icorating.com/',
   logo: 'https://pbs.twimg.com/profile_images/1063387671010205698/yCaXm88L_400x400.jpg',
 },{
-  name: 'ICO Bench',
+  name: 'ICOBench',
   url: 'https://icobench.com/',
   logo: 'https://avatars3.githubusercontent.com/u/31563765?s=460&v=4',
 },{
-  name: 'ICO Drops',
+  name: 'ICODrops',
   url: 'https://icodrops.com/',
   logo: 'https://pbs.twimg.com/profile_images/909143405246210048/YygF9NdQ.jpg',
 },{
-  name: 'Token Market',
-  url: 'https://tokenmarket.net/',
-  logo: 'https://avatars3.githubusercontent.com/u/24798713?s=280&v=4',
+  name: 'CoinList',
+  url: 'https://coinlist.co/',
+  logo: 'https://coinlist.co/assets/index/coinlist_index/logo_square-26be7093a8b9c416fd4bf4b093413c36cc8d38dbe9b44522c991330b8a688bff.png',
 }];
 
 export const candies = [{

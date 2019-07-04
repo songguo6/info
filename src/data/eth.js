@@ -28,7 +28,11 @@ export const tools = [{
   name: 'Amberdata',
   url: 'https://amberdata.io',
   logo: 'https://appserversrc.8btc.com/qkl/7/20190524143732_34628.jpg',
-}]
+},{
+  name: '最佳手续费',
+  url: 'https://www.etherchain.org/tools/gasPriceOracle',
+  logo: 'http://www.hellobtc.com/d/file/201806/82bc803fb410a19688c57158cb73ac00.png',
+}];
 
 export const infos = [{
   name: '以太坊爱好者',

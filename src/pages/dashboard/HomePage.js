@@ -4,13 +4,13 @@ import { createSideCard, createMainCard } from '../common';
 import { 
   navigations, infos, forums, 
   exchanges, dxchanges, oxchanges, 
-  tools, browsers, evaluations, candies 
+  tools, browsers, evaluations, icos, candies 
 } from '../../data/home';
 
 const HomePage = () => (
   <Row gutter={24}>
     <Col xl={15} lg={24} md={24} sm={24} xs={24}>
-      {createMainCard('导航站', navigations)}
+      {createMainCard('行情站', navigations)}
       {createMainCard('资讯站', infos)}
       {createMainCard('论坛社区', forums)}
       {
@@ -27,6 +27,7 @@ const HomePage = () => (
     <Col xl={9} lg={24} md={24} sm={24} xs={24}>
       {createSideCard('工具 & 资源', tools)}
       {createSideCard('项目测评', evaluations)}
+      {createSideCard('ICO & IEO', icos)}
       {createSideCard('多币种区块浏览器', browsers)}
       {createSideCard('糖果空投', candies)}
     </Col>

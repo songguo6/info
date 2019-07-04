@@ -28,7 +28,7 @@ export const tools = [{
   name: 'RAM价格走势',
   url: 'https://dapp.mytokenpocket.vip/ram/index.html',
   logo: 'https://dapp.mytokenpocket.vip/favicon.ico',
-}]
+}];
 
 export const infos = [{
   name: 'Eos Index',
