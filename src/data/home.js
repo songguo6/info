@@ -320,6 +320,14 @@ export const tools = [{
   name: '区块链企业库',
   url: 'http://www.blockdata.club/site/company',
   logo: 'https://appserversrc.8btc.com/agency/icon/blockdata.svg',
+},{
+  name: 'Google趋势',
+  url: 'https://trends.google.com/trends/explore?q=Bitcoin&geo=US',
+  logo: 'https://ssl.gstatic.com/trends_nrtr/1845_RC03/favicon.ico',
+},{
+  name: '百度指数',
+  url: 'http://index.baidu.com/v2/main/index.html#/trend/%E6%AF%94%E7%89%B9%E5%B8%81?words=%E6%AF%94%E7%89%B9%E5%B8%81',
+  logo: 'https://www.baidu.com/favicon.ico',
 }];
 
 export const resources = [{

@@ -69,3 +69,58 @@ export const ides = [{
   url: 'https://libraide.com/',
   logo: 'https://chainide.com/assets/img/favicon.png',
 }];
+
+export const others = [{
+  name: '翻墙工具',
+  url: 'https://www.faststunnel.xyz/',
+  logo: 'https://pbs.twimg.com/profile_images/745130373374349312/VpsHzZ8H_400x400.jpg',
+  reg: 'https://www.faststunnel.xyz/aVBiC3kn',
+},{
+  name: '接收手机短信',
+  url: 'https://smsreceivefree.com/',
+  logo: 'https://smsreceivefree.com/images/favicons/apple-touch-icon.png',
+},{
+  name: 'IP地址查询',
+  url: 'https://www.ipaddress.com/',
+  logo: 'https://www.ipaddress.com/favicon.ico',
+},{
+  name: 'JSON格式化',
+  url: 'http://tool.oschina.net/codeformat/json',
+  logo: 'http://tool.oschina.net/img/favicon.ico',
+},{
+  name: 'APK下载工具',
+  url: 'https://www.apkmonk.com/',
+  logo: 'https://camranger.com/wp-content/uploads/2018/08/Android_square.jpg',
+},{
+  name: 'Unix时间戳',
+  url: 'http://tool.chinaz.com/Tools/unixtime.aspx',
+  logo: 'https://image.flaticon.com/icons/png/512/63/63355.png',
+},{
+  name: '时间天数转换',
+  url: 'http://www.beijing-time.org/riqi.htm',
+  logo: 'https://image.flaticon.com/icons/png/512/63/63355.png',
+},{
+  name: '网页历史快照',
+  url: 'https://archive.org/',
+  logo: 'https://archive.org/images/glogo.jpg',
+}];
+
+export const sites = [{
+  name: '慕课网',
+  url: 'https://www.imooc.com/',
+  logo: 'https://www.imooc.com/static/img/common/touch-icon-ipad-retina.png',
+},{
+  name: '51CTO学院',
+  url: 'https://edu.51cto.com/',
+  logo: 'https://edu.51cto.com/favicon.ico',
+},{
+  name: '中国大学MOOC',
+  url: 'https://www.icourse163.org/',
+  logo: 'https://edu-image.nosdn.127.net/32a8dd2a-b9aa-4ec9-abd5-66cd8751befb.png?imageView&quality=100',
+},{
+  name: '汇智网',
+  url: 'http://www.hubwiz.com/',
+  logo: 'http://www.hubwiz.com/favicon.ico',
+}];
+
+export const resources = [];
