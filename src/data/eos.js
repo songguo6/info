@@ -28,6 +28,10 @@ export const tools = [{
   name: 'RAM价格走势',
   url: 'https://dapp.mytokenpocket.vip/ram/index.html',
   logo: 'https://dapp.mytokenpocket.vip/favicon.ico',
+},{
+  name: 'EosCharge',
+  url: 'https://www.eoscharge.io/',
+  logo: 'https://www.eoscharge.io/favicon.ico',
 }];
 
 export const infos = [{

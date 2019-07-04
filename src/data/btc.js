@@ -49,6 +49,14 @@ export const tools = [{
   url: 'https://www.qkl123.com/data/avg_hashrate/btc',
   logo: 'https://webcdn.qkl123.com/1.2.51/img/66389ce.svg',
 },{
+  name: 'BTC哈希率',
+  url: 'https://bitinfocharts.com/zh/comparison/bitcoin-hashrate.html',
+  logo: 'https://pbs.twimg.com/profile_images/983562898030125056/Wi8afI54.jpg',
+},{
+  name: '最佳手续费',
+  url: 'https://btc.com/stats/unconfirmed-tx',
+  logo: 'https://s1.bqiapp.com/images/site/btc_com.png',
+},{
   name: '全球节点分布图',
   url: 'https://bitnodes.earn.com',
   logo: 'https://bitnodes.earn.com/static/img/favicon.ico',

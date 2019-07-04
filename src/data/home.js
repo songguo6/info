@@ -18,6 +18,10 @@ export const navigations = [{
   name: 'MyToken',
   url: 'https://www.mytoken.io/',
   logo: 'https://www.mytoken.io/favicon.ico',
+},{
+  name: '蜜蜂查',
+  url: 'https://block.cc/',
+  logo: 'https://block.cc/favicon.ico',
 }]
 
 export const infos = [{
@@ -217,6 +221,11 @@ export const oxchanges = [{
   logo: 'https://s1.bqiapp.com/images/site/huobi_pro.png',
   reg: 'https://www.huobi.co/zh-cn/topic/invited/?invite_code=3c883',
 },{
+  name: 'Gate OTC',
+  url: 'https://www.gate.io/c2c/usdt_cny',
+  logo: 'https://s1.bqiapp.com/image/20181204/gateio_mid.png',
+  reg: 'https://gateio.news/signup/417960',
+},{
   name: 'OTCBTC',
   url: 'https://otcbtc.zendesk.com/hc/zh-cn/categories/360000039452-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
   logo: 'https://s1.bqiapp.com/image/20181122/otcbtc_mid.png',
@@ -311,6 +320,16 @@ export const tools = [{
   name: '区块链企业库',
   url: 'http://www.blockdata.club/site/company',
   logo: 'https://appserversrc.8btc.com/agency/icon/blockdata.svg',
+}];
+
+export const resources = [{
+  name: '区块链快速入门',
+  url: 'https://www.hellobtc.com/ling/',
+  logo: 'https://123.hellobtc.com/bimg/dbz.jpg',
+},{
+  name: '白话公众号精华',
+  url: 'https://mp.weixin.qq.com/s/PAJowLo3ECp-zLncvqrSpg?',
+  logo: 'https://123.hellobtc.com/bimg/bhg.jpg',
 },{
   name: '区块链文库',
   url: 'https://www.8btc.com/library',
@@ -319,7 +338,7 @@ export const tools = [{
   name: '硬件测评',
   url: 'https://www.8btc.com/video/list?cat_id=1526',
   logo: 'https://s1.bqiapp.com/images/site/8btc_com.png'
-}];
+}]
 
 export const browsers = [{
   name: 'TokenView',
@@ -362,6 +381,14 @@ export const evaluations = [{
 }];
 
 export const icos = [{
+  name: 'IEO资讯',
+  url: 'https://block.cc/ieo',
+  logo: 'https://block.cc/favicon.ico',
+},{
+  name: 'IEO收益排行榜',
+  url: 'https://block.cc/rank?ranking=ieo-benefit',
+  logo: 'https://block.cc/favicon.ico',
+},{
   name: 'ICO日历',
   url: 'https://www.coingecko.com/zh/ico',
   logo: 'https://static.coingecko.com/s/thumbnail-007177f3eca19695592f0b8b0eabbdae282b54154e1be912285c9034ea6cbaf2.png',
