@@ -14,8 +14,8 @@ const DeveloperPage = () => (
     </Col>
 
     <Col xl={9} lg={24} md={24} sm={24} xs={24}>
-      {createSideCard('学习网站', sites)}
-      {createSideCard('学习资源', resources)}
+      {createSideCard('通用学习网站', sites)}
+      {createSideCard('通用学习资源', resources)}
     </Col>
   </Row>
 )

@@ -123,4 +123,48 @@ export const sites = [{
   logo: 'http://www.hubwiz.com/favicon.ico',
 }];
 
-export const resources = [];
+export const resources = [{
+  name: 'Linux命令大全',
+  url: 'http://man.linuxde.net/',
+  logo: 'https://d33wubrfki0l68.cloudfront.net/3cc4aae9f44acf22ae6b3123f26ee67e408fc74f/f4841/site-assets/ico_linux.png',
+},{
+  name: '快乐Linux命令行',
+  url: 'http://billie66.github.io/TLCL/index.html',
+  logo: 'http://billie66.github.io/TLCL/images/billi66.png',
+},{
+  name: 'Ubuntu基础知识',
+  url: 'https://www.cnblogs.com/resn/p/5800922.html',
+  logo: 'https://common.cnblogs.com/favicon.ico',
+},{
+  name: 'AntDesign',
+  url: 'https://ant.design/docs/react/introduce-cn',
+  logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
+},{
+  name: 'AntDesignPro',
+  url: 'https://preview.pro.ant.design',
+  logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
+},{
+  name: 'ReactWeUI',
+  url: 'https://weui.github.io/react-weui/docs/#/react-weui/docs/page/0/articles/0',
+  logo: 'https://avatars3.githubusercontent.com/u/10220215?v=3&s=460',
+},{
+  name: 'C++参考手册',
+  url: 'https://zh.cppreference.com/w/%E9%A6%96%E9%A1%B5',
+  logo: 'https://zh.cppreference.com/favicon.ico',
+},{
+  name: 'MongoDB',
+  url: 'https://www.runoob.com/mongodb/mongodb-tutorial.html',
+  logo: 'https://yt3.ggpht.com/a/AGF-l78qi1XuZt881j8EI8D-SiMXWucNjgpce0if4w=s900-mo-c-c0xffffffff-rj-k-no',
+},{
+  name: 'PostgreSQL',
+  url: 'https://www.yiibai.com/postgresql',
+  logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/150px-Postgresql_elephant.svg.png',
+},{
+  name: '',
+  url: '',
+  logo: '',
+},{
+  name: '',
+  url: '',
+  logo: '',
+}];
