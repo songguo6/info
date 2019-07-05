@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import { createMainCard, createSideCard } from './common';
+import { createMainCard } from './common';
 import { navigations, dapps } from '../data/dapp';
 
 const DappPage = () => (
@@ -11,9 +11,7 @@ const DappPage = () => (
     </Col>
 
     <Col xl={9} lg={24} md={24} sm={24} xs={24}>
-      {createSideCard('', [])}
-      {createSideCard('', [])}
-      {createSideCard('', [])}
+
     </Col>
   </Row>
 )
