@@ -16,6 +16,32 @@ export const forums = [{
   logo: 'https://appserversrc.8btc.com/qkl/5/20181226153412_58677.png',
 }];
 
+export const githubs = [{
+  name: 'eos',
+  url: 'https://github.com/eosio/eos',
+  logo: 'https://github.githubassets.com/favicon.ico',
+},{
+  name: 'eosio.cdt',
+  url: 'https://github.com/eosio/eosio.cdt',
+  logo: 'https://github.githubassets.com/favicon.ico',
+},{
+  name: 'eosio.contracts',
+  url: 'https://github.com/EOSIO/eosio.contracts',
+  logo: 'https://github.githubassets.com/favicon.ico',
+},{
+  name: 'eosjs',
+  url: 'https://github.com/EOSIO/eosjs',
+  logo: 'https://github.githubassets.com/favicon.ico',
+},{
+  name: 'scatter-js',
+  url: 'https://github.com/GetScatter/scatter-js',
+  logo: 'https://github.githubassets.com/favicon.ico',
+},{
+  name: '币圈信息站',
+  url: 'https://github.com/songguo6/info',
+  logo: 'https://github.githubassets.com/favicon.ico',
+}];
+
 export const eosdocs = [{
   name: '官方开发文档',
   url: 'https://developers.eos.io/',

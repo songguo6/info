@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col } from 'antd';
 import { createMainCard, createSideCard } from './common';
 import { 
-  forums, eosdocs, eosblogs, eostools, ipfs, polkadot, apis, ides, 
+  forums, eosdocs, eosblogs, eostools, ipfs, polkadot, apis, ides, githubs, 
   sites, resources, tools, 
 } from '../data/developer';
 
@@ -17,6 +17,7 @@ const DeveloperPage = () => (
       {createMainCard('波卡开发文档 & 技术博客 & 开发工具', polkadot)}
       {createMainCard('API & 插件', apis)}
       {createMainCard('IDE & 代码编辑器', ides)}
+      {createMainCard('Github', githubs)}
     </Col>
 
     <Col xl={9} lg={24} md={24} sm={24} xs={24}>
