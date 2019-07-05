@@ -223,6 +223,10 @@ export const apis = [{
 }];
 
 export const ides = [{
+  name: 'VSCode',
+  url: 'https://code.visualstudio.com/',
+  logo: 'https://code.visualstudio.com/favicon.ico',
+},{
   name: 'Remix',
   url: 'https://remix.ethereum.org/',
   logo: 'https://remix.ethereum.org/icon.png',
