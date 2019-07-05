@@ -24,6 +24,8 @@ export const navigations = [{
   logo: 'https://appserversrc.8btc.com/qkl/7/20190510172336_15580.jpg',
 }];
 
-export const tools = [{
-
+export const dapps = [{
+  name: 'Voice',
+  url: 'https://voice.com/',
+  logo: 'https://voice.com/wp-content/uploads/2019/05/cropped-Favicon-1-2-192x192.png',
 }];

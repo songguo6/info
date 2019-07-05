@@ -14,7 +14,137 @@ export const forums = [{
   name: '慢雾区',
   url: 'https://slowmist.io/',
   logo: 'https://appserversrc.8btc.com/qkl/5/20181226153412_58677.png',
-}]
+}];
+
+export const eosdocs = [{
+  name: '官方开发文档',
+  url: 'https://developers.eos.io/',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png', 
+},{
+  name: 'EOSIO.cdt文档',
+  url: 'https://eosio.github.io/eosio.cdt',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png',
+},{
+  name: 'EOSJS文档',
+  url: 'https://eosio.github.io/eosjs/',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png',
+},{
+  name: 'RPC API文档',
+  url: 'https://developers.eos.io/eosio-nodeos/reference',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png',
+},{
+  name: 'DemuxJS文档',
+  url: 'https://eosio.github.io/demux-js/',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png',
+}];
+
+export const eosblogs = [{
+  name: 'EOS错误代码',
+  url: 'http://cw.hubwiz.com/card/c/eos-error-code/',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png',
+},{
+  name: '区块链开发指南',
+  url: 'http://blog.eosdata.io/',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png',
+},{
+  name: 'BCSkill技术社区',
+  url: 'https://www.bcskill.com/',
+  logo: 'https://www.bcskill.com/usr/themes/material/img/favicon.ico',
+},{
+  name: '一面千人',
+  url: 'https://www.cnblogs.com/Evsward/',
+  logo: 'https://common.cnblogs.com/favicon.ico',
+},{
+  name: 'HBright',
+  url: 'https://www.cnblogs.com/hbright/',
+  logo: 'https://common.cnblogs.com/favicon.ico',
+},{
+  name: 'EOS开发系列',
+  url: 'https://shimo.im/docs/jt2MhxPYTKI6tWnp',
+  logo: 'https://cdn.bihu-static.com/bihu-pc/favicon.ico',
+},{
+  name: 'JerryEOSLIVE',
+  url: 'https://www.eos.live/user/fireS8639288',
+  logo: 'https://www.eos.live/static/favicon.ico',
+},{
+  name: '学习软件编程',
+  url: 'http://blog.hubwiz.com/categories/EOS/',
+  logo: 'http://blog.hubwiz.com/images/apple-touch-icon-next.png?v=5.1.4',
+},{
+  name: '合约安全指南',
+  url: 'https://github.com/slowmist/eos-smart-contract-security-best-practices/blob/master/README.md',
+  logo: 'https://github.githubassets.com/favicon.ico',
+},{
+  name: 'eosio.cdt/issues',
+  url: 'https://github.com/eosio/eosio.cdt/issues',
+  logo: 'https://github.githubassets.com/favicon.ico',
+},{
+  name: 'eosio@medium',
+  url: 'https://medium.com/@eosio',
+  logo: 'https://miro.medium.com/fit/c/256/256/1*RbJ0pE9ZTINQap6xqS0ixA.png',
+}];
+
+export const eostools = [{
+  name: '出块节点信息',
+  url: 'https://validate.eosnation.io/mainnet/reports/',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png',
+},{
+  name: '节点网络状态',
+  url: 'https://proxy.eosnode.network/d/b/eos-block-producer-node-overview?orgId=1&refresh=5m',
+  logo: 'https://proxy.eosnode.network/public/img/grafana_icon.svg',
+},{
+  name: '区块数据备份',
+  url: 'https://eosnode.tools/blocks',
+  logo: 'https://eosnode.tools/img/icons/apple-touch-icon.png',
+},{
+  name: 'EOS天眼',
+  url: 'https://eos.slowmist.io/',
+  logo: 'https://appserversrc.8btc.com/qkl/5/20181226153412_58677.png',
+},{
+  name: 'Jungle测试网',
+  url: 'https://monitor.jungletestnet.io/',
+  logo: 'https://monitor.jungletestnet.io/imgs/favicon.png',
+}];
+
+export const ipfs = [{
+  name: 'IPFS官方文档',
+  url: 'https://docs.ipfs.io/',
+  logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ipfs-logo-1024-ice-text.png/220px-Ipfs-logo-1024-ice-text.png',
+},{
+  name: 'IPFS命令手册',
+  url: 'http://cw.hubwiz.com/card/c/ipfs/1/1/1/',
+  logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ipfs-logo-1024-ice-text.png/220px-Ipfs-logo-1024-ice-text.png',
+},{
+  name: 'Awesome IPFS',
+  url: 'https://awesome.ipfs.io/',
+  logo: 'https://awesome.ipfs.io/images/logo.png',
+},{
+  name: 'ProtoSchool',
+  url: 'https://proto.school/?utm_source=hacpai.com#/tutorials',
+  logo: 'https://proto.school/favicon.png',
+},{
+  name: '戴嘉乐MrMaple',
+  url: 'https://blog.csdn.net/u012357002?orderby=UpdateTime',
+  logo: 'https://csdnimg.cn/public/favicon.ico',
+},{
+  name: '飞向未来',
+  url: 'https://www.zhihu.com/people/flytofuture/posts',
+  logo: 'https://static.zhihu.com/static/favicon.ico',
+},{
+  name: '可用网关检查',
+  url: 'https://ipfs.github.io/public-gateway-checker/',
+  logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ipfs-logo-1024-ice-text.png/220px-Ipfs-logo-1024-ice-text.png',
+},{
+  name: 'Pinata固定服务',
+  url: 'https://pinata.cloud/',
+  logo: 'https://pinata.cloud/pinata.ico',
+}];
+
+export const polkadot = [{
+  name: '波卡区块链开发',
+  url: 'http://boka.network/',
+  logo: 'https://s1.bqiapp.com/image/20190505/polkadot_mid.png',
+}];
 
 export const apis = [{
   name: 'CMC API',
@@ -48,10 +178,12 @@ export const apis = [{
   name: 'SpiderStore API',
   url: 'https://spiderstore.gitbook.io/dapp/openapi',
   logo: 'https://appserversrc.8btc.com/qkl/7/20190409104305_40028.jpg',
-}];
-
-export const widgets = [{
-  name: 'TradingView插件',
+},{
+  name: 'dfuse API',
+  url: 'https://www.dfuse.io/zh/%E4%B8%BB%E9%A1%B5',
+  logo: 'https://www.dfuse.io/hubfs/dfuse-website/dfuse-logo2.svg',
+},{
+  name: 'TradingView',
   url: 'https://cn.tradingview.com/widget/',
   logo: 'https://pbs.twimg.com/profile_images/1112691953542590464/WChOrIka.png',
 },{
@@ -65,44 +197,17 @@ export const widgets = [{
 }];
 
 export const ides = [{
+  name: 'Remix',
+  url: 'https://remix.ethereum.org/',
+  logo: 'https://remix.ethereum.org/icon.png',
+},{
+  name: 'EosStudio',
+  url: 'https://app.eosstudio.io/',
+  logo: 'https://app.eosstudio.io/favicon.ico',
+},{
   name: 'Libra Move',
   url: 'https://libraide.com/',
   logo: 'https://chainide.com/assets/img/favicon.png',
-}];
-
-export const others = [{
-  name: '翻墙工具',
-  url: 'https://www.faststunnel.xyz/',
-  logo: 'https://pbs.twimg.com/profile_images/745130373374349312/VpsHzZ8H_400x400.jpg',
-  reg: 'https://www.faststunnel.xyz/aVBiC3kn',
-},{
-  name: '接收手机短信',
-  url: 'https://smsreceivefree.com/',
-  logo: 'https://smsreceivefree.com/images/favicons/apple-touch-icon.png',
-},{
-  name: 'IP地址查询',
-  url: 'https://www.ipaddress.com/',
-  logo: 'https://www.ipaddress.com/favicon.ico',
-},{
-  name: 'JSON格式化',
-  url: 'http://tool.oschina.net/codeformat/json',
-  logo: 'http://tool.oschina.net/img/favicon.ico',
-},{
-  name: 'APK下载工具',
-  url: 'https://www.apkmonk.com/',
-  logo: 'https://camranger.com/wp-content/uploads/2018/08/Android_square.jpg',
-},{
-  name: 'Unix时间戳',
-  url: 'http://tool.chinaz.com/Tools/unixtime.aspx',
-  logo: 'https://image.flaticon.com/icons/png/512/63/63355.png',
-},{
-  name: '时间天数转换',
-  url: 'http://www.beijing-time.org/riqi.htm',
-  logo: 'https://image.flaticon.com/icons/png/512/63/63355.png',
-},{
-  name: '网页历史快照',
-  url: 'https://archive.org/',
-  logo: 'https://archive.org/images/glogo.jpg',
 }];
 
 export const sites = [{
@@ -159,12 +264,39 @@ export const resources = [{
   name: 'PostgreSQL',
   url: 'https://www.yiibai.com/postgresql',
   logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/150px-Postgresql_elephant.svg.png',
+}];
+
+export const tools = [{
+  name: '翻墙工具',
+  url: 'https://www.faststunnel.xyz/',
+  logo: 'https://pbs.twimg.com/profile_images/745130373374349312/VpsHzZ8H_400x400.jpg',
+  reg: 'https://www.faststunnel.xyz/aVBiC3kn',
 },{
-  name: '',
-  url: '',
-  logo: '',
+  name: '接收手机短信',
+  url: 'https://smsreceivefree.com/',
+  logo: 'https://smsreceivefree.com/images/favicons/apple-touch-icon.png',
 },{
-  name: '',
-  url: '',
-  logo: '',
+  name: 'IP地址查询',
+  url: 'https://www.ipaddress.com/',
+  logo: 'https://www.ipaddress.com/favicon.ico',
+},{
+  name: 'JSON格式化',
+  url: 'http://tool.oschina.net/codeformat/json',
+  logo: 'http://tool.oschina.net/img/favicon.ico',
+},{
+  name: 'APK下载工具',
+  url: 'https://www.apkmonk.com/',
+  logo: 'https://camranger.com/wp-content/uploads/2018/08/Android_square.jpg',
+},{
+  name: '网页历史快照',
+  url: 'https://archive.org/',
+  logo: 'https://archive.org/images/glogo.jpg',
+},{
+  name: 'Unix时间戳',
+  url: 'http://tool.chinaz.com/Tools/unixtime.aspx',
+  logo: 'https://image.flaticon.com/icons/png/512/63/63355.png',
+},{
+  name: '时间天数转换',
+  url: 'http://www.beijing-time.org/riqi.htm',
+  logo: 'https://image.flaticon.com/icons/png/512/63/63355.png',
 }];

@@ -53,6 +53,10 @@ export const infos = [{
   url: 'https://cn.longhash.com/',
   logo: 'https://pbs.twimg.com/profile_images/991560474436096001/l7bGkMTv.jpg',
 },{
+  name: 'Messari.io',
+  url: 'https://messari.io/',
+  logo: 'https://messari.io/images/Messari_icon_36x36.svg',
+},{
   name: 'CCN',
   url: 'https://www.ccn.com/',
   logo: 'https://s1.bqiapp.com/images/site/ccn_com.png',
@@ -346,7 +350,15 @@ export const resources = [{
   name: '硬件测评',
   url: 'https://www.8btc.com/video/list?cat_id=1526',
   logo: 'https://s1.bqiapp.com/images/site/8btc_com.png'
-}]
+},{
+  name: 'Fast Fintech',
+  url: 'https://growjo.com/industry/Fintech',
+  logo: 'https://growjo.com/static/img/favicon.png',
+},{
+  name: 'Facebook Libra',
+  url: 'https://libra.org/zh-CN/',
+  logo: 'https://libra.org/zh-CN/wp-content/themes/jfl-default/favicons/apple-touch-icon.png',
+}];
 
 export const browsers = [{
   name: 'TokenView',
@@ -386,6 +398,10 @@ export const evaluations = [{
   name: 'RatingToken',
   url: 'https://www.ratingtoken.net/?hl=zh-CN',
   logo: 'https://www.ratingtoken.net/logo.png',
+},{
+  name: 'FCAS Scores',
+  url: 'https://app.flipsidecrypto.com/fcas-scores',
+  logo: 'https://app.flipsidecrypto.com/favicon.ico',
 }];
 
 export const icos = [{
@@ -426,5 +442,9 @@ export const candies = [{
   name: '链节点糖果空投',
   url: 'https://www.chainnode.com/forum/176',
   logo: 'https://bbtcdn.8btc.com/data/attachment/common/38/common_176_icon.svg',
+},{
+  name: 'Coinbase Earn',
+  url: 'https://www.coinbase.com/earn',
+  logo: 'https://www.coinbase.com/img/favicon/favicon-96x96.png',
 }];
 

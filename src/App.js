@@ -129,7 +129,7 @@ class App extends React.Component {
               {accountName === contract ?
               <Route path='/admin/addpost' exact component={AddPost}></Route> : ''}
             </Content>
-            <Footer style={{ textAlign: 'center' }}>币圈信息站 ©2018 Created by <a href='https://bihu.com/people/14150'>Songguo</a></Footer>
+            <Footer style={{ textAlign: 'center' }}>币圈信息站 ©2018 Created by <a href='https://bihu.com/people/14150'>Songguo（松果）</a></Footer>
           </Layout>
         </Layout>
     );
