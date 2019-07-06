@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Layout, Menu, Icon, Button } from 'antd';
+import { Layout, Menu, Icon, Button, Popover } from 'antd';
 import { withRouter, Route, Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
@@ -8,6 +8,7 @@ import { login, logout, checkLogin } from './eosio/api/login';
 import { contract } from './eosio/api/config';
 
 import TickerTapeWidget from './components/tradingview/TickerTapeWidget';
+import SupportPopver from './pages/common/SupportPopver';
 
 import DappPage from './pages/DappPage';
 import DeveloperPage from './pages/DeveloperPage';
@@ -129,7 +130,12 @@ class App extends React.Component {
               {accountName === contract ?
               <Route path='/admin/addpost' exact component={AddPost}></Route> : ''}
             </Content>
-            <Footer style={{ textAlign: 'center' }}>币圈信息站 ©2018 Created by <a href='https://bihu.com/people/14150'>Songguo（松果）</a></Footer>
+            
+            <Footer style={{ textAlign: 'center' }}>币圈信息站 ©2018 Created by&nbsp;
+              <Popover content={<SupportPopver/>} title={<h2 style={{marginTop: 13}}>支持作者</h2>}>
+                <a href='https://bihu.com/people/14150'>Songguo（松果）</a>
+              </Popover>   
+            </Footer>
           </Layout>
         </Layout>
     );
