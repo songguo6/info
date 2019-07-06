@@ -30,10 +30,12 @@ import './App.css';
 const { Content, Header, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
 
+const DEV = false;
+
 class App extends React.Component {
 
   componentDidMount(){
-    this.props.checkLogin();
+    if(DEV) this.props.checkLogin();
   }
 
   state = {
@@ -104,10 +106,11 @@ class App extends React.Component {
 
           <Layout>
             <Header style={{ background: '#fff', marginBottom: 16, paddingLeft: '12px' }} >
+              {DEV ? 
               <Button type='primary' className='login-btn' onClick={accountName ? logout: login }>
                 {accountName ? '注销' : '登录'}
-              </Button>
-              <div style={{ float: 'right', width: '93%', marginRight: 30 }}>
+              </Button> : ''}
+              <div style={{ float: 'right', width: DEV?'93%':'99%', marginRight: DEV?30:15 }}>
                 <TickerTapeWidget />
               </div>
             </Header>
