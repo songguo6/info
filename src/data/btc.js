@@ -63,5 +63,5 @@ export const tools = [{
 },{
   name: '脚本执行过程',
   url: 'https://nioctib.tech/#/transaction/e13d407be6085f1d0a0513f47577340f41f45d0b7250f3c554e8e05590113d7a',
-  logo: '../favicon.ico',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
 }];

@@ -349,4 +349,12 @@ export const tools = [{
   name: '时间天数转换',
   url: 'http://www.beijing-time.org/riqi.htm',
   logo: 'https://image.flaticon.com/icons/png/512/63/63355.png',
+},{
+  name: '免费多图床',
+  url: 'https://share1223.com/free.html',
+  logo: 'https://share1223.com/favicon.ico',
+},{
+  name: 'SM.MS图床',
+  url: 'https://sm.ms/',
+  logo: 'https://sm.ms/favicon.ico',
 }];

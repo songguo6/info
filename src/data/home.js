@@ -307,7 +307,7 @@ export const tools = [{
 },{
   name: '恐惧贪婪指数',
   url: 'https://alternative.me/crypto/fear-and-greed-index/',
-  logo: '../favicon.ico',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
 },{
   name: '市场情绪指数',
   url: 'https://www.sncrating.com/cn/adr',

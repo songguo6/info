@@ -63,7 +63,7 @@ class BihuPage extends Component {
           <Table columns={columns} dataSource={this.state.data} />
         </Col>
         <Col xl={5} lg={24} md={24} sm={24} xs={24}>
-          <img width='100%' src='./bihu.jpg' alt='' />
+          <img width='100%' src='https://cdn.sinaimg.cn.52ecy.cn/large/005BYqpgly1g4qitbvq8bj30qo0ri0x0.jpg' alt='' />
         </Col>
       </Row>
     )
