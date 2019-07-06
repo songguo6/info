@@ -36,6 +36,10 @@ export const tools = [{
   name: 'EosCharge',
   url: 'https://www.eoscharge.io/',
   logo: 'https://www.eoscharge.io/favicon.ico',
+},{
+  name: '投票代理人',
+  url: 'https://www.alohaeos.com/zh/vote/proxy',
+  logo: 'https://www.alohaeos.com/images/favicon.ico',
 }];
 
 export const infos = [{
@@ -62,4 +66,8 @@ export const infos = [{
   name: '去中心化论坛',
   url: 'https://eos.discussions.app/',
   logo: 'https://cdn.novusphere.io/static/atmos2.png',
+},{
+  name: 'EosBlockSmith',
+  url: 'https://dashboard.eosblocksmith.io/',
+  logo: 'https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/42844192_1956263534451642_434889640860712960_n.jpg?_nc_cat=100&_nc_oc=AQmUw4pOgQLkhPcpbubD5NSjec6wbJgnMy8BngV_G-AuZhwb09Q7ZxZdJDvV5ye8gq8&_nc_ht=scontent-lax3-1.xx&oh=9f0e82564389fe3a26405c1ceb719950&oe=5DB506BB',
 }];

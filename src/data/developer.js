@@ -14,6 +14,10 @@ export const forums = [{
   name: '慢雾区',
   url: 'https://slowmist.io/',
   logo: 'https://appserversrc.8btc.com/qkl/5/20181226153412_58677.png',
+},{
+  name: 'EOS中文社区',
+  url: 'https://eosfans.io/',
+  logo: 'https://eosfans-static.strahe.com/photo/logo100x100.png',
 }];
 
 export const githubs = [{
@@ -89,6 +93,10 @@ export const eosblogs = [{
   url: 'https://shimo.im/docs/jt2MhxPYTKI6tWnp',
   logo: 'https://cdn.bihu-static.com/bihu-pc/favicon.ico',
 },{
+  name: '代码仓库整理',
+  url: 'https://bihu.com/article/1060488462',
+  logo: 'https://cdn.bihu-static.com/bihu-pc/favicon.ico',
+},{
   name: 'JerryEOSLIVE',
   url: 'https://www.eos.live/user/fireS8639288',
   logo: 'https://www.eos.live/static/favicon.ico',
@@ -96,6 +104,10 @@ export const eosblogs = [{
   name: '学习软件编程',
   url: 'http://blog.hubwiz.com/categories/EOS/',
   logo: 'http://blog.hubwiz.com/images/apple-touch-icon-next.png?v=5.1.4',
+},{
+  name: '节点安全指南',
+  url: 'https://github.com/slowmist/eos-bp-nodes-security-checklist/blob/master/README.md',
+  logo: 'https://github.githubassets.com/favicon.ico',
 },{
   name: '合约安全指南',
   url: 'https://github.com/slowmist/eos-smart-contract-security-best-practices/blob/master/README.md',
@@ -108,6 +120,10 @@ export const eosblogs = [{
   name: 'eosio@medium',
   url: 'https://medium.com/@eosio',
   logo: 'https://miro.medium.com/fit/c/256/256/1*RbJ0pE9ZTINQap6xqS0ixA.png',
+},{
+  name: 'EOS黑客松',
+  url: 'https://eoshackathon.io/',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png',
 }];
 
 export const eostools = [{
@@ -130,6 +146,10 @@ export const eostools = [{
   name: 'Jungle测试网',
   url: 'https://monitor.jungletestnet.io/',
   logo: 'https://monitor.jungletestnet.io/imgs/favicon.png',
+},{
+  name: '麒麟测试网',
+  url: 'https://www.cryptokylin.io/',
+  logo: 'https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/659/e8534a1a-a904-4dc8-a628-f15ab70eb630_f39sv4.png',
 }];
 
 export const ipfs = [{
