@@ -37,6 +37,14 @@ export const tools = [{
   url: 'https://www.eoscharge.io/',
   logo: 'https://www.eoscharge.io/favicon.ico',
 },{
+  name: 'EosTitanLabs',
+  url: 'https://eostitan.com/labs',
+  logo: 'https://eostitan.com/favicon.ico',
+},{
+  name: 'EosTitanCharts',
+  url: 'https://eostitan.com/labs',
+  logo: 'https://eostitan.com/favicon.ico',
+},{
   name: '投票代理人',
   url: 'https://www.alohaeos.com/zh/vote/proxy',
   logo: 'https://www.alohaeos.com/images/favicon.ico',
