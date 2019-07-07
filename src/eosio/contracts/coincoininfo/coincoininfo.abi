@@ -68,6 +68,24 @@
             ]
         },
         {
+            "name": "addtoken",
+            "base": "",
+            "fields": [
+                {
+                    "name": "name",
+                    "type": "symbol"
+                },
+                {
+                    "name": "url",
+                    "type": "string"
+                },
+                {
+                    "name": "logo",
+                    "type": "string"
+                }
+            ]
+        },
+        {
             "name": "candytable",
             "base": "",
             "fields": [
@@ -126,6 +144,16 @@
             ]
         },
         {
+            "name": "deltoken",
+            "base": "",
+            "fields": [
+                {
+                    "name": "name",
+                    "type": "symbol"
+                }
+            ]
+        },
+        {
             "name": "posttable",
             "base": "",
             "fields": [
@@ -158,6 +186,24 @@
                     "type": "uint64"
                 }
             ]
+        },
+        {
+            "name": "tokentable",
+            "base": "",
+            "fields": [
+                {
+                    "name": "name",
+                    "type": "symbol"
+                },
+                {
+                    "name": "url",
+                    "type": "string"
+                },
+                {
+                    "name": "logo",
+                    "type": "string"
+                }
+            ]
         }
     ],
     "actions": [
@@ -172,6 +218,11 @@
             "ricardian_contract": ""
         },
         {
+            "name": "addtoken",
+            "type": "addtoken",
+            "ricardian_contract": ""
+        },
+        {
             "name": "delcandy",
             "type": "delcandy",
             "ricardian_contract": ""
@@ -179,6 +230,11 @@
         {
             "name": "delpost",
             "type": "delpost",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "deltoken",
+            "type": "deltoken",
             "ricardian_contract": ""
         }
     ],
@@ -193,6 +249,13 @@
         {
             "name": "posttable",
             "type": "posttable",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "tokentable",
+            "type": "tokentable",
             "index_type": "i64",
             "key_names": [],
             "key_types": []

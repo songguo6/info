@@ -1,5 +1,6 @@
 
 #include <eosio/eosio.hpp>
+#include <eosio/symbol.hpp>
 
 using namespace eosio;
 
@@ -54,6 +55,23 @@ CONTRACT coincoininfo : public eosio::contract {
       posts.erase(itr);
     }
 
+    ACTION addtoken(symbol name, std::string url, std::string logo){
+      require_auth(_self);
+      token_t tokens(_self, _self.value);
+      tokens.emplace(_self, [&](auto& row){
+        row.name = name;
+        row.url = url;
+        row.logo = logo;
+      });
+    }
+
+    ACTION deltoken(symbol name){
+      require_auth(_self);
+      token_t tokens(_self, _self.value);
+      auto itr = tokens.find(name.raw());
+      tokens.erase(itr);
+    }
+
   private:
     TABLE candytable {
       uint64_t id;
@@ -86,4 +104,14 @@ CONTRACT coincoininfo : public eosio::contract {
     };
 
     typedef multi_index<"posttable"_n, posttable> post_t;
+
+    TABLE tokentable {
+      symbol name;
+      std::string url;
+      std::string logo;
+
+      uint64_t primary_key() const { return name.raw(); }
+    };
+
+    typedef multi_index<"tokentable"_n, tokentable> token_t;
 };
