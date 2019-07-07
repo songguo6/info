@@ -225,12 +225,7 @@ export const oxchanges = [{
   url: 'https://www.gate.io/c2c/usdt_cny',
   logo: 'https://s1.bqiapp.com/image/20181204/gateio_mid.png',
   reg: 'https://gateio.news/signup/417960',
-},{
-  name: 'OTCBTC',
-  url: 'https://otcbtc.zendesk.com/hc/zh-cn/categories/360000039452-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
-  logo: 'https://s1.bqiapp.com/image/20181122/otcbtc_mid.png',
-  reg: 'https://otcbtc.io/referrals/1858183946',
-}]
+}];
 
 export const tools = [{
   name: '总市值比例',
