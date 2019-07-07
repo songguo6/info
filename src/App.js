@@ -32,6 +32,7 @@ import './App.css';
 const { Content, Header, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
 
+const PREFIX = '/info';
 const DEV = false;
 
 class App extends React.Component {
@@ -77,33 +78,33 @@ class App extends React.Component {
               defaultOpenKeys={['sub1','sub2', 'sub3']}>
 
               <SubMenu key='sub1' title={this.subMenuTitle('pie-chart', '信息总览')}>
-                {this.menuItem('/', false, '信息导航')}
+                {this.menuItem(PREFIX + '/', false, '信息导航')}
               </SubMenu>
 
               <SubMenu key='sub2' title={this.subMenuTitle('line-chart', '数据分析')}>
-                {this.menuItem('/analysis/fng', false, '恐惧贪婪指数')}
-                {this.menuItem('/analysis/futures', false, 'BTC季度合约价格')}
-                {this.menuItem('/analysis/longshort', false, '多空持仓量')}
-                {this.menuItem('/analysis/otc', false, '场外交易数据')}
+                {this.menuItem(PREFIX + '/analysis/fng', false, '恐惧贪婪指数')}
+                {this.menuItem(PREFIX + '/analysis/futures', false, 'BTC季度合约价格')}
+                {this.menuItem(PREFIX + '/analysis/longshort', false, '多空持仓量')}
+                {this.menuItem(PREFIX + '/analysis/otc', false, '场外交易数据')}
               </SubMenu>
 
               <SubMenu key='sub3' title={this.subMenuTitle('dollar', '数字货币')}>
-                {this.menuItem('/token/btc', false, '比特币')}
-                {this.menuItem('/token/eth', false, '以太坊')}
-                {this.menuItem('/token/eos', false, 'EOS')}
-                {this.menuItem('/token/focus', false, '关注币种')}
+                {this.menuItem(PREFIX + '/token/btc', false, '比特币')}
+                {this.menuItem(PREFIX + '/token/eth', false, '以太坊')}
+                {this.menuItem(PREFIX + '/token/eos', false, 'EOS')}
+                {this.menuItem(PREFIX + '/token/focus', false, '关注币种')}
               </SubMenu>
 
-              {this.menuItem('/dapp', 'appstore', 'DAPP')}
-              {this.menuItem('/bihu', 'bulb', '币乎好文')}
-              {this.menuItem('/candy', 'heart', '糖果福利')}
-              {this.menuItem('/developer', 'api', '开发者')}
+              {this.menuItem(PREFIX + '/dapp', 'appstore', 'DAPP')}
+              {this.menuItem(PREFIX + '/bihu', 'bulb', '币乎好文')}
+              {this.menuItem(PREFIX + '/candy', 'heart', '糖果福利')}
+              {this.menuItem(PREFIX + '/developer', 'api', '开发者')}
               
               {accountName === contract ? 
               <SubMenu key='sub4' title={this.subMenuTitle('user', '管理员')}>
-                {this.menuItem('/admin/addcandy', false, '添加糖果')}
-                {this.menuItem('/admin/addpost', false, '添加文章')}
-                {this.menuItem('/admin/addtoken', false, '添加通证')}
+                {this.menuItem(PREFIX + '/admin/addcandy', false, '添加糖果')}
+                {this.menuItem(PREFIX + '/admin/addpost', false, '添加文章')}
+                {this.menuItem(PREFIX + '/admin/addtoken', false, '添加通证')}
               </SubMenu> : ''}
             </Menu>
           </Sider>
@@ -120,25 +121,25 @@ class App extends React.Component {
             </Header>
 
             <Content style={{ margin: '0 16px' }}>
-              <Route path='/' exact component={HomePage}></Route>
-              <Route path='/analysis/fng' exact component={FngPage}></Route>
-              <Route path='/analysis/futures' exact component={FuturesPage}></Route>
-              <Route path='/analysis/longshort' exact component={LongShortPage}></Route>
-              <Route path='/analysis/otc' exact component={OtcPage}></Route>
-              <Route path='/token/btc' exact component={BtcPage}></Route>
-              <Route path='/token/eth' exact component={EthPage}></Route>
-              <Route path='/token/eos' exact component={EosPage}></Route>
-              <Route path='/token/focus' exact component={FocusPage}></Route>
-              <Route path='/dapp' exact component={DappPage}></Route>
-              <Route path='/bihu' exact component={BihuPage}></Route>
-              <Route path='/candy' exact component={CandyPage}></Route>
-              <Route path='/developer' exact component={DeveloperPage}></Route>
+              <Route path={PREFIX + '/'} exact component={HomePage}></Route>
+              <Route path={PREFIX + '/analysis/fng'} exact component={FngPage}></Route>
+              <Route path={PREFIX + '/analysis/futures'} exact component={FuturesPage}></Route>
+              <Route path={PREFIX + '/analysis/longshort'} exact component={LongShortPage}></Route>
+              <Route path={PREFIX + '/analysis/otc'} exact component={OtcPage}></Route>
+              <Route path={PREFIX + '/token/btc'} exact component={BtcPage}></Route>
+              <Route path={PREFIX + '/token/eth'} exact component={EthPage}></Route>
+              <Route path={PREFIX + '/token/eos'} exact component={EosPage}></Route>
+              <Route path={PREFIX + '/token/focus'} exact component={FocusPage}></Route>
+              <Route path={PREFIX + '/dapp'} exact component={DappPage}></Route>
+              <Route path={PREFIX + '/bihu'} exact component={BihuPage}></Route>
+              <Route path={PREFIX + '/candy'} exact component={CandyPage}></Route>
+              <Route path={PREFIX + '/developer'} exact component={DeveloperPage}></Route>
               {accountName === contract ?
-              <Route path='/admin/addcandy' exact component={AddCandy}></Route> : ''}
+              <Route path={PREFIX + '/admin/addcandy'} exact component={AddCandy}></Route> : ''}
               {accountName === contract ?
-              <Route path='/admin/addpost' exact component={AddPost}></Route> : ''}
+              <Route path={PREFIX + '/admin/addpost'} exact component={AddPost}></Route> : ''}
               {accountName === contract ?
-              <Route path='/admin/addtoken' exact component={AddToken}></Route> : ''}
+              <Route path={PREFIX + '/admin/addtoken'} exact component={AddToken}></Route> : ''}
             </Content>
             
             <Footer style={{ textAlign: 'center' }}>币圈信息站 ©2018 Created by&nbsp;
