@@ -1,7 +1,7 @@
 {
   "name": "info",
   "version": "0.1.0",
-  "homepage": "./xxz",
+  "homepage": "https://songguo6.github.io/xxz",
   "private": true,
   "dependencies": {
     "antd": "^3.19.3",
