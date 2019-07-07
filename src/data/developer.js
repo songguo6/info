@@ -103,7 +103,7 @@ export const eosblogs = [{
 },{
   name: '学习软件编程',
   url: 'http://blog.hubwiz.com/categories/EOS/',
-  logo: 'http://blog.hubwiz.com/images/apple-touch-icon-next.png?v=5.1.4',
+  logo: 'https://i.loli.net/2019/07/07/5d21eb950c37f34594.png',
 },{
   name: '节点安全指南',
   url: 'https://github.com/slowmist/eos-bp-nodes-security-checklist/blob/master/README.md',
@@ -211,7 +211,7 @@ export const apis = [{
 },{
   name: 'MatrixData',
   url: 'https://matrixdata.io/document/default/0',
-  logo: 'http://hellobtc.com/d/file/201809/aff7f9de6f02310e4ae545f8d6cfd51f.png',
+  logo: 'https://pbs.twimg.com/profile_images/1052817688043483137/3lEvyUY9_400x400.jpg',
 },{
   name: 'CoinMap API',
   url: 'https://coinmap.org/api/',
@@ -275,7 +275,7 @@ export const sites = [{
 },{
   name: '汇智网',
   url: 'http://www.hubwiz.com/',
-  logo: 'http://www.hubwiz.com/favicon.ico',
+  logo: 'https://imgcdn.sdk.cn/data/omYU4UkzH9gsV46TW-Bx.jpg?imageMogr2/thumbnail/180x',
 }];
 
 export const resources = [{
@@ -285,7 +285,7 @@ export const resources = [{
 },{
   name: '快乐Linux命令行',
   url: 'http://billie66.github.io/TLCL/index.html',
-  logo: 'http://billie66.github.io/TLCL/images/billi66.png',
+  logo: 'https://d33wubrfki0l68.cloudfront.net/3cc4aae9f44acf22ae6b3123f26ee67e408fc74f/f4841/site-assets/ico_linux.png',
 },{
   name: 'Ubuntu基础知识',
   url: 'https://www.cnblogs.com/resn/p/5800922.html',
@@ -332,7 +332,7 @@ export const tools = [{
 },{
   name: 'JSON格式化',
   url: 'http://tool.oschina.net/codeformat/json',
-  logo: 'http://tool.oschina.net/img/favicon.ico',
+  logo: 'https://gitee.com/uploads/enterprise_logo/77691956464.png',
 },{
   name: 'APK下载工具',
   url: 'https://www.apkmonk.com/',

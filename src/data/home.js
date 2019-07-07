@@ -97,7 +97,7 @@ export const forums = [{
 },{
   name: 'IOTA中国社区',
   url: 'http://www.iotachina.com/',
-  logo: 'http://www.iotachina.com/wp-content/themes/tangle/images/favicon.ico',
+  logo: 'https://cdn.iconscout.com/icon/free/png-256/iota-2-645869.png',
 }];
 
 export const exchanges = [{
@@ -250,7 +250,7 @@ export const tools = [{
 },{
   name: '区块链动态图谱',
   url: 'http://www.gikee.com/',
-  logo: 'http://www.gikee.com/img/gikee.ico',
+  logo: 'https://i.loli.net/2019/07/07/5d21eb95ccb3d82069.png',
 },{
   name: '富豪榜',
   url: 'https://tokenview.com/cn/topaccount/btc',
