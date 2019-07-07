@@ -190,10 +190,6 @@ export const exchanges = [{
   url: 'https://lbankinfo.zendesk.com/hc/zh-cn/categories/115000249773-%E5%85%AC%E5%91%8A%E6%9D%BF',
   logo: 'https://s1.bqiapp.com/image/20181126/lhang_mid.png',
   reg: 'https://www.lbex.io/invite?icode=8BSM',
-},{
-  name: 'CoinEx',
-  url: 'https://announcement.coinex.com/hc/zh-cn',
-  logo: 'https://s1.bqiapp.com/image/20181126/coinex_mid.png',
 }];
 
 export const dxchanges = [{

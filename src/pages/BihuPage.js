@@ -10,6 +10,15 @@ const tag = (text) => {
     case '百咖说':
       color = 'green';
       break;
+    case '项目分析':
+      color = 'blue';
+      break;
+    case '行情解读':
+      color = 'orange';
+      break;
+    case 'EOS':
+      color = 'purple';
+      break;
     default:
       break;
   }
