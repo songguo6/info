@@ -77,7 +77,7 @@ export const eosblogs = [{
   url: 'http://blog.eosdata.io/',
   logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png',
 },{
-  name: 'BCSkill技术社区',
+  name: 'BCSkill技术社',
   url: 'https://www.bcskill.com/',
   logo: 'https://www.bcskill.com/usr/themes/material/img/favicon.ico',
 },{
@@ -197,7 +197,7 @@ export const apis = [{
   url: 'https://coinmarketcap.com/api/',
   logo: 'https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/8a/f8/71/8af87145-8d7d-935b-ddef-4c3227c511ce/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.jpg',
 },{
-  name: 'CoinCap API 2.0',
+  name: 'CoinCap API',
   url: 'https://docs.coincap.io/?version=latest',
   logo: 'https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/e9/df/9f/e9df9f6b-d299-e0a5-ab02-23d7811fea02/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.jpg',
 },{
@@ -269,7 +269,7 @@ export const sites = [{
   url: 'https://edu.51cto.com/',
   logo: 'https://edu.51cto.com/favicon.ico',
 },{
-  name: '中国大学MOOC',
+  name: '中国大学慕课',
   url: 'https://www.icourse163.org/',
   logo: 'https://edu-image.nosdn.127.net/32a8dd2a-b9aa-4ec9-abd5-66cd8751befb.png?imageView&quality=100',
 },{
@@ -283,11 +283,11 @@ export const resources = [{
   url: 'http://man.linuxde.net/',
   logo: 'https://d33wubrfki0l68.cloudfront.net/3cc4aae9f44acf22ae6b3123f26ee67e408fc74f/f4841/site-assets/ico_linux.png',
 },{
-  name: '快乐Linux命令行',
+  name: 'Linux命令行',
   url: 'http://billie66.github.io/TLCL/index.html',
   logo: 'https://d33wubrfki0l68.cloudfront.net/3cc4aae9f44acf22ae6b3123f26ee67e408fc74f/f4841/site-assets/ico_linux.png',
 },{
-  name: 'Ubuntu基础知识',
+  name: 'Ubuntu基础',
   url: 'https://www.cnblogs.com/resn/p/5800922.html',
   logo: 'https://common.cnblogs.com/favicon.ico',
 },{
@@ -358,7 +358,7 @@ export const tools = [{
   url: 'https://sm.ms/',
   logo: 'https://sm.ms/favicon.ico',
 },{
-  name: 'Chrome扩展程序',
+  name: 'Chrome扩展',
   url: 'https://zhuanlan.zhihu.com/p/61605124',
   logo: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Chrome__logo.max-200x200.png',
 }];
