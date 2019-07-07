@@ -7,14 +7,14 @@ import { browsers, tools } from '../../data/btc';
 
 const BtcPage = () => (
   <Row gutter={24}>
-    <Col xl={18} lg={24} md={24} sm={24} xs={24}>
+    <Col xl={17} lg={24} md={24} sm={24} xs={24}>
       <div style={{marginBottom: 24}}>
         <TradingViewWidget symbol='BINANCE:BTCUSDT' locale='zh_CN' width='100%' interval='120' theme={Themes.DARK}/>    
       </div>
       {createMainCard('区块浏览器', browsers)}
     </Col>
 
-    <Col xl={6} lg={24} md={24} sm={24} xs={24}>
+    <Col xl={7} lg={24} md={24} sm={24} xs={24}>
       <TechnicalAnalysisWidget symbol='BINANCE:BTCUSDT' isTransparent={true} />
       {createSideCard('工具', tools, '50%')}
     </Col>

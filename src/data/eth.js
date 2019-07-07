@@ -23,7 +23,7 @@ export const tools = [{
 },{
   name: 'Alethio',
   url: 'https://aleth.io/',
-  logo: 'https://aleth.io/icons-73d009cf9d23e4146a11bc5073503e58/favicon.ico',
+  logo: 'https://pbs.twimg.com/profile_images/973258307774410755/mvZMS0j_.jpg',
 },{
   name: 'Amberdata',
   url: 'https://amberdata.io',

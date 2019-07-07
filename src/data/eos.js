@@ -37,11 +37,11 @@ export const tools = [{
   url: 'https://www.eoscharge.io/',
   logo: 'https://www.eoscharge.io/favicon.ico',
 },{
-  name: 'EosTitanLabs',
+  name: 'EosTitan Labs',
   url: 'https://eostitan.com/labs',
   logo: 'https://eostitan.com/favicon.ico',
 },{
-  name: 'EosTitanCharts',
+  name: 'EosTitan Charts',
   url: 'https://eostitan.com/labs',
   logo: 'https://eostitan.com/favicon.ico',
 },{

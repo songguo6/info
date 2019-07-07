@@ -20,11 +20,11 @@ class FocusPage extends Component{
   render(){
     return(
       <Row gutter={24}>
-        <Col xl={18} lg={24} md={24} sm={24} xs={24}>
+        <Col xl={17} lg={24} md={24} sm={24} xs={24}>
           {createMainCard('关注币种', this.state.data)} 
         </Col>
     
-        <Col xl={6} lg={24} md={24} sm={24} xs={24}>
+        <Col xl={7} lg={24} md={24} sm={24} xs={24}>
     
         </Col>
       </Row>
