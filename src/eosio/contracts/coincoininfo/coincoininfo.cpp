@@ -55,20 +55,21 @@ CONTRACT coincoininfo : public eosio::contract {
       posts.erase(itr);
     }
 
-    ACTION addtoken(symbol name, std::string url, std::string logo){
+    ACTION addtoken(std::string name, std::string url, std::string logo){
       require_auth(_self);
       token_t tokens(_self, _self.value);
       tokens.emplace(_self, [&](auto& row){
+        row.id = tokens.available_primary_key();
         row.name = name;
         row.url = url;
         row.logo = logo;
       });
     }
 
-    ACTION deltoken(symbol name){
+    ACTION deltoken(uint64_t id){
       require_auth(_self);
       token_t tokens(_self, _self.value);
-      auto itr = tokens.find(name.raw());
+      auto itr = tokens.find(id);
       tokens.erase(itr);
     }
 
@@ -106,11 +107,12 @@ CONTRACT coincoininfo : public eosio::contract {
     typedef multi_index<"posttable"_n, posttable> post_t;
 
     TABLE tokentable {
-      symbol name;
+      uint64_t id; 
+      std::string name;
       std::string url;
       std::string logo;
 
-      uint64_t primary_key() const { return name.raw(); }
+      uint64_t primary_key() const { return id; }
     };
 
     typedef multi_index<"tokentable"_n, tokentable> token_t;

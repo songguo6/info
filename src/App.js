@@ -25,6 +25,7 @@ import EosPage from './pages/token/EosPage';
 import FocusPage from './pages/token/FocusPage';
 import AddCandy from './pages/admin/AddCandy';
 import AddPost from './pages/admin/AddPost';
+import AddToken from './pages/admin/AddToken';
 
 import './App.css';
 
@@ -102,6 +103,7 @@ class App extends React.Component {
               <SubMenu key='sub4' title={this.subMenuTitle('user', '管理员')}>
                 {this.menuItem('/admin/addcandy', false, '添加糖果')}
                 {this.menuItem('/admin/addpost', false, '添加文章')}
+                {this.menuItem('/admin/addtoken', false, '添加通证')}
               </SubMenu> : ''}
             </Menu>
           </Sider>
@@ -135,6 +137,8 @@ class App extends React.Component {
               <Route path='/admin/addcandy' exact component={AddCandy}></Route> : ''}
               {accountName === contract ?
               <Route path='/admin/addpost' exact component={AddPost}></Route> : ''}
+              {accountName === contract ?
+              <Route path='/admin/addtoken' exact component={AddToken}></Route> : ''}
             </Content>
             
             <Footer style={{ textAlign: 'center' }}>币圈信息站 ©2018 Created by&nbsp;

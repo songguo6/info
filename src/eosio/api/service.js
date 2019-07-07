@@ -28,3 +28,17 @@ export const addpost = async (title, title_link, author, author_link, category, 
     }
   }     
 }
+
+export const addtoken = async (name, url, logo, callback) => {
+  const account = store.getState().account;
+  if(account.name){
+    try{
+      const res = await pushAction(account.name, account.authority, 'addtoken', {
+        name, url, logo, 
+      });
+      callback(res);
+    }catch(error){
+      callback(error);
+    }
+  }
+}
