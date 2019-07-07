@@ -357,4 +357,8 @@ export const tools = [{
   name: 'SM.MS图床',
   url: 'https://sm.ms/',
   logo: 'https://sm.ms/favicon.ico',
+},{
+  name: 'Chrome扩展程序',
+  url: 'https://zhuanlan.zhihu.com/p/61605124',
+  logo: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Chrome__logo.max-200x200.png',
 }];
