@@ -205,6 +205,18 @@ export const apis = [{
   url: 'https://www.coingecko.com/zh/api',
   logo: 'https://static.coingecko.com/s/thumbnail-007177f3eca19695592f0b8b0eabbdae282b54154e1be912285c9034ea6cbaf2.png',
 },{
+  name: '币安 API',
+  url: 'https://github.com/binance-exchange/binance-official-api-docs/blob/master/rest-api_CN.md',
+  logo: 'https://s1.bqiapp.com/image/20181207/binance_mid.png',
+},{
+  name: '火币 API',
+  url: 'https://huobiapi.github.io/docs/spot/v1/cn/',
+  logo: 'https://s1.bqiapp.com/images/site/huobi_pro.png',
+},{
+  name: 'Bitfinex API',
+  url: 'https://docs.bitfinex.com/v2/docs',
+  logo: 'https://s1.bqiapp.com/image/20181126/bitfinex_mid.png',
+},{
   name: 'CryptoCompare',
   url: 'https://min-api.cryptocompare.com/',
   logo: 'https://www.cryptocompare.com/media/20562/favicon.png?v=2',
