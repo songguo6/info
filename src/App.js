@@ -84,9 +84,9 @@ class App extends React.Component {
               <SubMenu key='sub2' title={this.subMenuTitle('line-chart', '数据分析')}>
                 {this.menuItem('/analysis/fng', false, '恐惧贪婪指数')}
                 {this.menuItem('/analysis/futures', false, 'BTC季度合约价格')}
+                {this.menuItem('/analysis/sixty', false, '60日累计涨幅')}
                 {this.menuItem('/analysis/longshort', false, '多空持仓量')}
                 {this.menuItem('/analysis/otc', false, '场外交易数据')}
-                {this.menuItem('/analysis/sixty', false, '60日累计涨幅')}
               </SubMenu>
 
               <SubMenu key='sub3' title={this.subMenuTitle('dollar', '数字货币')}>
@@ -125,9 +125,9 @@ class App extends React.Component {
               <Route path='/' exact component={HomePage}></Route>
               <Route path='/analysis/fng' exact component={FngPage}></Route>
               <Route path='/analysis/futures' exact component={FuturesPage}></Route>
+              <Route path='/analysis/sixty' exact component={SixtyPage}></Route>
               <Route path='/analysis/longshort' exact component={LongShortPage}></Route>
               <Route path='/analysis/otc' exact component={OtcPage}></Route>
-              <Route path='/analysis/sixty' exact component={SixtyPage}></Route>
               <Route path='/token/btc' exact component={BtcPage}></Route>
               <Route path='/token/eth' exact component={EthPage}></Route>
               <Route path='/token/eos' exact component={EosPage}></Route>

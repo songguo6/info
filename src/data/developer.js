@@ -378,6 +378,10 @@ export const tools = [{
   url: 'https://zhuanlan.zhihu.com/p/61605124',
   logo: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Chrome__logo.max-200x200.png',
 },{
+  name: 'CORS跨域插件',
+  url: 'https://chrome.google.com/webstore/detail/moesif-orign-cors-changer/digfbfaphojjndkpccljibejjbppifbc',
+  logo: 'https://lh3.googleusercontent.com/JeZxpWdsIAu5z2CJL7NsOsGG5Mx6zLuBwokgUkOPqFGOuxdH2zDdYzaPT0ZVF83brcefCEXTxw=w128-h128-e365',
+},{
   name: '无版权图库',
   url: 'https://zhuanlan.zhihu.com/p/30613792',
   logo: 'https://picjumbo.com/wp-content/themes/picjumbofree/data/picjumbo-profile-pic.png',
