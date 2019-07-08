@@ -295,9 +295,13 @@ export const resources = [{
   url: 'https://ant.design/docs/react/introduce-cn',
   logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
 },{
-  name: 'AntDesignPro',
+  name: 'AntDesign Pro',
   url: 'https://preview.pro.ant.design',
   logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
+},{
+  name: 'AntD Mobile',
+  url: 'https://mobile.ant.design/index-cn',
+  logo: 'https://camo.githubusercontent.com/a717488dab48dea50d4d2fb3fe8977b0a4f29147/68747470733a2f2f7a6f732e616c697061796f626a656374732e636f6d2f726d73706f7274616c2f77496a4d446e7372446f50506349562e706e67',
 },{
   name: 'ReactWeUI',
   url: 'https://weui.github.io/react-weui/docs/#/react-weui/docs/page/0/articles/0',
@@ -361,4 +365,8 @@ export const tools = [{
   name: 'Chrome扩展',
   url: 'https://zhuanlan.zhihu.com/p/61605124',
   logo: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Chrome__logo.max-200x200.png',
+},{
+  name: '无版权图库',
+  url: 'https://zhuanlan.zhihu.com/p/30613792',
+  logo: 'https://picjumbo.com/wp-content/themes/picjumbofree/data/picjumbo-profile-pic.png',
 }];
