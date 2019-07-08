@@ -19,6 +19,7 @@ import FngPage from './pages/analysis/FngPage';
 import FuturesPage from './pages/analysis/FuturesPage';
 import LongShortPage from './pages/analysis/LongShortPage';
 import OtcPage from './pages/analysis/OtcPage';
+import SixtyPage from './pages/analysis/SixtyPage';
 import BtcPage from './pages/token/BtcPage';
 import EthPage from './pages/token/EthPage';
 import EosPage from './pages/token/EosPage';
@@ -85,6 +86,7 @@ class App extends React.Component {
                 {this.menuItem('/analysis/futures', false, 'BTC季度合约价格')}
                 {this.menuItem('/analysis/longshort', false, '多空持仓量')}
                 {this.menuItem('/analysis/otc', false, '场外交易数据')}
+                {this.menuItem('/analysis/sixty', false, '60日累计涨幅')}
               </SubMenu>
 
               <SubMenu key='sub3' title={this.subMenuTitle('dollar', '数字货币')}>
@@ -125,6 +127,7 @@ class App extends React.Component {
               <Route path='/analysis/futures' exact component={FuturesPage}></Route>
               <Route path='/analysis/longshort' exact component={LongShortPage}></Route>
               <Route path='/analysis/otc' exact component={OtcPage}></Route>
+              <Route path='/analysis/sixty' exact component={SixtyPage}></Route>
               <Route path='/token/btc' exact component={BtcPage}></Route>
               <Route path='/token/eth' exact component={EthPage}></Route>
               <Route path='/token/eos' exact component={EosPage}></Route>
