@@ -19,6 +19,10 @@ export const navigations = [{
   url: 'https://www.mytoken.io/',
   logo: 'https://www.mytoken.io/favicon.ico',
 },{
+  name: 'Coin360',
+  url: 'https://coin360.com/',
+  logo: 'https://coin360.com/assets/favicon.ico',
+},{
   name: '蜜蜂查',
   url: 'https://block.cc/',
   logo: 'https://block.cc/favicon.ico',
@@ -56,6 +60,10 @@ export const infos = [{
   name: 'Messari.io',
   url: 'https://messari.io/',
   logo: 'https://messari.io/images/Messari_icon_36x36.svg',
+},{
+  name: 'CryptoSlate',
+  url: 'https://cryptoslate.com',
+  logo: 'https://cryptoslate.com/wp-content/themes/cryptoslate-2017/icons/xapple-icon-57x57.png.pagespeed.ic.E5dr6Oym2D.webp',
 },{
   name: 'CCN',
   url: 'https://www.ccn.com/',
