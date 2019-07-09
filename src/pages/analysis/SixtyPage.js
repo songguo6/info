@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Chart, Geom, Axis, Tooltip } from 'bizcharts';
+import { Spin } from 'antd';
 import axios from 'axios';
 import moment from 'moment';
 import { showCorsHelper } from '../../utils';
 
 class SixtyPage extends Component {
 
-  state = {data: []}
+  state = {data: [], loading: true}
 
   componentDidMount(){
     axios.get('https://api-pub.bitfinex.com/v2/candles/trade:1D:tBTCUSD/hist?limit=5000&sort=1').then(res => {
@@ -30,7 +31,7 @@ class SixtyPage extends Component {
           })
         }
       });
-      this.setState({data: chartData});
+      this.setState({data: chartData, loading: false});
     }).catch(error => {
       showCorsHelper();
     });
@@ -44,11 +45,13 @@ class SixtyPage extends Component {
     return (
       <div>
         <h1 style={{textAlign:"center"}}>比特币60日累计涨幅</h1>
-        <Chart height={800} padding={[20, 45, 20, 45]} data={data} scale={scale} forceFit>
-          <Tooltip />
-          <Axis />
-          <Geom type="area" position="date*change" color="#18a1cd" size={2} shape="smooth" />
-        </Chart>
+        <Spin tip='图表加载中...' spinning={this.state.loading}>
+          <Chart height={800} padding={[20, 45, 20, 45]} data={data} scale={scale} forceFit>
+            <Tooltip />
+            <Axis />
+            <Geom type="area" position="date*change" color="#18a1cd" size={2} shape="smooth" />
+          </Chart>
+        </Spin>
       </div>
     )
   }

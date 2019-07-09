@@ -22,7 +22,7 @@ export const showCorsHelper = () => {
         </a>
       </div>
       <div style={{marginBottom: 15}} >
-        2.安装好后打开CORS跨域开关：<br/>
+        2.安装好后，打开CORS跨域开关：<br/>
         <img src='https://i.loli.net/2019/07/09/5d24445a9732252207.png' alt=''/>
       </div>
       <div style={{marginBottom: 15}}>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Chart, Geom, Axis, Tooltip, View } from 'bizcharts';
+import { Spin } from 'antd';
 import axios from 'axios';
 import moment from 'moment';
 import { getTodayZeroStamp, showCorsHelper } from '../../utils';
@@ -8,7 +9,7 @@ const START_TIME = 1541692800000;
 
 class FuturesPage extends Component {
 
-  state = {data: []}
+  state = {data: [], loading: true}
 
   componentDidMount(){
 
@@ -31,7 +32,7 @@ class FuturesPage extends Component {
           chartData[index].pricef = item.close;
           chartData[index].change = parseFloat(parseFloat(item.close - chartData[index].price).toFixed(2));
         });
-        this.setState({data: chartData});
+        this.setState({data: chartData, loading: false});
       }).catch(error => {
         console.log(error);
       });
@@ -50,18 +51,20 @@ class FuturesPage extends Component {
     return (
       <div>
         <h1 style={{textAlign:"center"}}>BTC季度合约价格和现货价格的关系</h1>
-        <Chart height={800} padding={[20, 45, 20, 45]} data={data} scale={scale} forceFit>
-          <Tooltip />
-          <View end={{x: 1, y: 0.5}} data = {data}>
-            <Axis />
-            <Geom type="area" position="date*change" color="#18a1cd" size={2.5} shape="smooth" />
-          </View>
-          <View start={{ x: 0, y: 0.55}} data={data}>
-            <Axis />
-            <Geom type="line" position="date*price" color="#fdae6b" size={2.5} shape="smooth" />
-            <Geom type="line" position="date*pricef" color="#18a1cd" size={2.5} shape="smooth" />
-          </View>
-        </Chart>
+        <Spin tip='图表加载中...' spinning={this.state.loading}>
+          <Chart height={800} padding={[20, 45, 20, 45]} data={data} scale={scale} forceFit>
+            <Tooltip />
+            <View end={{x: 1, y: 0.5}} data = {data}>
+              <Axis />
+              <Geom type="area" position="date*change" color="#18a1cd" size={2.5} shape="smooth" />
+            </View>
+            <View start={{ x: 0, y: 0.55}} data={data}>
+              <Axis />
+              <Geom type="line" position="date*price" color="#fdae6b" size={2.5} shape="smooth" />
+              <Geom type="line" position="date*pricef" color="#18a1cd" size={2.5} shape="smooth" />
+            </View>
+          </Chart>
+        </Spin>
       </div>
     )
   }

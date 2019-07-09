@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Table, Tag } from 'antd';
+import { Table, Tag, Spin } from 'antd';
 
 import moment from 'moment';
 import { fetchAll } from '../eosio/api/fetch';
@@ -64,7 +64,7 @@ const columns = [
 
 class CandyPage extends Component {
 
-  state = {data : []}
+  state = {data : [], loading: true}
 
   async componentDidMount(){
     const res = await fetchAll('candytable');
@@ -72,11 +72,15 @@ class CandyPage extends Component {
     datas.forEach(item => {
       item.key = item.id;
     });
-    this.setState({data: datas});
+    this.setState({data: datas, loading: false});
   }
 
   render(){
-    return <Table columns={columns} dataSource={this.state.data} />
+    return(
+      <Spin tip='加载中...' spinning={this.state.loading}>
+        <Table columns={columns} dataSource={this.state.data} />
+      </Spin>
+    ) 
   }
 }
 

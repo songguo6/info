@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Card, Avatar } from 'antd';
+import { Row, Col, Card, Avatar, Spin } from 'antd';
 import axios from 'axios';
 import { showCorsHelper } from '../../utils';
 
@@ -21,6 +21,7 @@ class OtcPage extends Component {
     ethPrice: '',
     eosPrice: '',
     usdPrice: '',
+    loading: true,
   }
 
   getCoin = (coinId) => {
@@ -73,6 +74,7 @@ class OtcPage extends Component {
       }else{
         axios.get('https://api.binance.com/api/v3/ticker/price?symbol=' + this.getCoin(coinId) + 'USDT').then(res => {
           this.setPrice(coinId, priceOtc, parseFloat(res.data.price*usdcnyRate).toFixed(2));
+          this.setState({loading: false});
         }).catch(error => {
           console.log(error);
         });
@@ -113,18 +115,20 @@ class OtcPage extends Component {
 
   createCard = (coinId, priceOtc, price) => (
     <Col xl={6} lg={24} md={24} sm={24} xs={24}>
-      <Card bodyStyle={{ padding: 20 }} bordered={false}>
-        <Card.Meta 
-          title={
-            <div style={{fontSize: 20, marginBottom: 20, fontWeight: 'bold'}}>
-              <Avatar src={this.getAvatar(coinId)} />&nbsp;&nbsp;&nbsp;{this.getCoin(coinId)}
-            </div>
-          }
-        />
-        <div style={{lineHeight:'30px', fontSize: '17px'}}>场内价格：¥{price}</div>
-        <div style={{lineHeight:'30px', fontSize: '17px'}}>场外价格：¥{priceOtc}</div>
-        <div style={{lineHeight:'30px', fontSize: '17px'}}>溢价率：{this.premiumRate(price, priceOtc)}</div>
-      </Card>
+      <Spin tip='加载中...' spinning={this.state.loading}>
+        <Card bodyStyle={{ padding: 20 }} bordered={false}>
+          <Card.Meta 
+            title={
+              <div style={{fontSize: 20, marginBottom: 20, fontWeight: 'bold'}}>
+                <Avatar src={this.getAvatar(coinId)} />&nbsp;&nbsp;&nbsp;{this.getCoin(coinId)}
+              </div>
+            }
+          />
+          <div style={{lineHeight:'30px', fontSize: '17px'}}>场内价格：¥{price}</div>
+          <div style={{lineHeight:'30px', fontSize: '17px'}}>场外价格：¥{priceOtc}</div>
+          <div style={{lineHeight:'30px', fontSize: '17px'}}>溢价率：{this.premiumRate(price, priceOtc)}</div>
+        </Card>
+      </Spin>
     </Col>
   ) 
 

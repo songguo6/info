@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Tag, Table } from 'antd';
+import { Row, Col, Tag, Table, Spin } from 'antd';
 
 import moment from 'moment';
 import { fetchAll } from '../eosio/api/fetch';
@@ -54,7 +54,7 @@ const columns = [{
 
 class BihuPage extends Component {
 
-  state = {data : []}
+  state = {data : [], loading: true}
 
   async componentDidMount(){
     const res = await fetchAll('posttable');
@@ -62,14 +62,16 @@ class BihuPage extends Component {
     datas.forEach(item => {
       item.key = item.id;
     });
-    this.setState({data: datas});
+    this.setState({data: datas, loading: false});
   }
 
   render(){
     return (
       <Row gutter={24}>
         <Col xl={19} lg={24} md={24} sm={24} xs={24}>
-          <Table columns={columns} dataSource={this.state.data} />
+          <Spin tip='加载中...' spinning={this.state.loading}>
+            <Table columns={columns} dataSource={this.state.data} />
+          </Spin>
         </Col>
         <Col xl={5} lg={24} md={24} sm={24} xs={24}>
           <img width='100%' src='https://i.loli.net/2019/07/07/5d21fbf162be851763.jpg' alt='' />

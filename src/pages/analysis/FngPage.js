@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Chart, Geom, Axis, Tooltip } from 'bizcharts';
+import { Spin } from 'antd';
 import moment from 'moment';
 import axios from 'axios';
 import { showCorsHelper } from '../../utils';
 
 class FngPage extends Component {
 
-  state = {data: []}
+  state = {data: [], loading: true}
 
   componentDidMount(){
     axios.get('https://api.alternative.me/fng/?limit=666').then(res => {
@@ -28,7 +29,7 @@ class FngPage extends Component {
             }
           })
         })
-        this.setState({data: newData});
+        this.setState({data: newData, loading: false});
       }).catch(error => {
         console.log(error);
       })
@@ -45,12 +46,14 @@ class FngPage extends Component {
     return (
       <div>
         <h1 style={{textAlign:"center"}}>恐惧贪婪指数和比特币价格的关系</h1>
-        <Chart height={800} padding={[20, 45, 20, 30]} data={this.state.data} scale={scale} forceFit>
-          <Axis />
-          <Tooltip />
-          <Geom type="line" position="date*value" size={2} shape="smooth" />
-          <Geom type="line" position="date*price" size={3} shape="smooth" color="#fdae6b" />
-        </Chart>
+        <Spin tip='图表加载中...' spinning={this.state.loading}>
+          <Chart height={800} padding={[20, 45, 20, 30]} data={this.state.data} scale={scale} forceFit>
+            <Axis />
+            <Tooltip />
+            <Geom type="line" position="date*value" size={2} shape="smooth" />
+            <Geom type="line" position="date*price" size={3} shape="smooth" color="#fdae6b" />
+          </Chart>
+        </Spin>
       </div>
     )
   }
