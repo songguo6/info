@@ -1,16 +1,20 @@
 import React, { Component } from 'react';
 import { Chart, Geom, Axis, Tooltip } from 'bizcharts';
-import { Spin } from 'antd';
+import { Radio, Spin } from 'antd';
 import axios from 'axios';
 import moment from 'moment';
 import { showCorsHelper } from '../../utils';
 
 class SixtyPage extends Component {
 
-  state = {data: [], loading: true}
+  state = {data: [], loading: true, symbol: 'BTC'}
 
   componentDidMount(){
-    axios.get('https://api-pub.bitfinex.com/v2/candles/trade:1D:tBTCUSD/hist?limit=5000&sort=1').then(res => {
+    this.requestData('BTC');
+  }
+
+  requestData(symbol){
+    axios.get('https://api-pub.bitfinex.com/v2/candles/trade:1D:t' + symbol + 'USD/hist?limit=5000&sort=1').then(res => {
       let rawData = [];
       res.data.forEach(item => {
         rawData.push({
@@ -44,7 +48,19 @@ class SixtyPage extends Component {
     };
     return (
       <div>
-        <h1 style={{textAlign:"center"}}>比特币60日累计涨幅</h1>
+        <h1 style={{textAlign:'center'}}>{this.state.symbol}&nbsp;60日累计涨幅</h1>
+        <Radio.Group defaultValue='BTC' onChange={e => {
+          this.setState({loading: true, symbol: e.target.value});
+          this.requestData(e.target.value);
+        }}>
+          <Radio.Button value='BTC'>BTC</Radio.Button>
+          <Radio.Button value='ETH'>ETH</Radio.Button>
+          <Radio.Button value='EOS'>EOS</Radio.Button>
+          <Radio.Button value='LTC'>LTC</Radio.Button>
+          <Radio.Button value='XRP'>XRP</Radio.Button>
+          <Radio.Button value='BCH'>BCH</Radio.Button>
+          <Radio.Button value='TRX'>TRX</Radio.Button>
+        </Radio.Group>
         <Spin tip='图表加载中...' spinning={this.state.loading}>
           <Chart height={800} padding={[20, 45, 20, 45]} data={data} scale={scale} forceFit>
             <Tooltip />

@@ -108,7 +108,7 @@ class OtcPage extends Component {
     const rate = parseFloat((priceOtc - price) / price * 100).toFixed(2);
     return (
       <span style={{color: rate >= 0 ? 'green' : 'red', fontWeight: 'bold'}}>
-        {rate >= 0 ? '+' : '-'}{rate}%
+        {rate >= 0 ? '+' : ''}{rate}%
       </span>
     )
   }
