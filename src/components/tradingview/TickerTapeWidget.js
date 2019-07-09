@@ -34,10 +34,6 @@ const defaultSymbols = [
     "proName": "HUOBI:BSVUSDT"
   },
   {
-    "description": "USDT",
-    "proName": "KRAKEN:USDTUSD"
-  },
-  {
     "description": "TRX",
     "proName": "BINANCE:TRXUSDT"
   },
