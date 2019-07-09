@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Chart, Geom, Axis, Tooltip } from 'bizcharts';
 import moment from 'moment';
 import axios from 'axios';
+import { showCorsHelper } from '../../utils';
 
 class FngPage extends Component {
 
@@ -32,7 +33,7 @@ class FngPage extends Component {
         console.log(error);
       })
     }).catch(error => {
-      console.log(error);
+      showCorsHelper();
     });
   }
 

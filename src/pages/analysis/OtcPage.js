@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, Card, Avatar } from 'antd';
 import axios from 'axios';
+import { showCorsHelper } from '../../utils';
 
 const BTC = '1';
 const USDT = '2';
@@ -89,7 +90,7 @@ class OtcPage extends Component {
       this.requestDataInner(EOS);
       this.requestDataInner(USDT);
     }).catch(error => {
-      console.log(error);
+      showCorsHelper();
     });
   }
 

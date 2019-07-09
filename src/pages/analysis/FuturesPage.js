@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Chart, Geom, Axis, Tooltip, View } from 'bizcharts';
 import axios from 'axios';
 import moment from 'moment';
-import { getTodayZeroStamp } from '../../utils';
+import { getTodayZeroStamp, showCorsHelper } from '../../utils';
 
 const START_TIME = 1541692800000;
 
@@ -36,7 +36,7 @@ class FuturesPage extends Component {
         console.log(error);
       });
     }).catch(error => {
-      console.log(error);
+      showCorsHelper();
     });
   }
 

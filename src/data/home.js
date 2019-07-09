@@ -221,7 +221,7 @@ export const oxchanges = [{
   logo: 'https://s1.bqiapp.com/images/site/huobi_pro.png',
   reg: 'https://www.huobi.co/zh-cn/topic/invited/?invite_code=3c883',
 },{
-  name: 'Gate OTC',
+  name: 'GateOTC',
   url: 'https://www.gate.io/c2c/usdt_cny',
   logo: 'https://s1.bqiapp.com/image/20181204/gateio_mid.png',
   reg: 'https://gateio.news/signup/417960',

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Chart, Geom, Axis, Tooltip } from 'bizcharts';
 import axios from 'axios';
 import moment from 'moment';
+import { showCorsHelper } from '../../utils';
 
 class SixtyPage extends Component {
 
@@ -31,7 +32,7 @@ class SixtyPage extends Component {
       });
       this.setState({data: chartData});
     }).catch(error => {
-      console.log(error);
+      showCorsHelper();
     });
   }
 
