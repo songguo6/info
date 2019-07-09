@@ -35,7 +35,7 @@ class SixtyPage extends Component {
           })
         }
       });
-      this.setState({data: chartData, loading: false});
+      this.setState({data: chartData, loading: false, symbol});
     }).catch(error => {
       showCorsHelper();
     });
@@ -50,15 +50,15 @@ class SixtyPage extends Component {
       <div>
         <h1 style={{textAlign:'center'}}>{this.state.symbol}&nbsp;60日累计涨幅</h1>
         <Radio.Group defaultValue='BTC' onChange={e => {
-          this.setState({loading: true, symbol: e.target.value});
+          this.setState({loading: true});
           this.requestData(e.target.value);
         }}>
           <Radio.Button value='BTC'>BTC</Radio.Button>
           <Radio.Button value='ETH'>ETH</Radio.Button>
-          <Radio.Button value='EOS'>EOS</Radio.Button>
-          <Radio.Button value='LTC'>LTC</Radio.Button>
           <Radio.Button value='XRP'>XRP</Radio.Button>
+          <Radio.Button value='LTC'>LTC</Radio.Button>
           <Radio.Button value='BCH'>BCH</Radio.Button>
+          <Radio.Button value='EOS'>EOS</Radio.Button>
           <Radio.Button value='TRX'>TRX</Radio.Button>
         </Radio.Group>
         <Spin tip='图表加载中...' spinning={this.state.loading}>
