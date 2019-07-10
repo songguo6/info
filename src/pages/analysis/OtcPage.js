@@ -134,12 +134,16 @@ class OtcPage extends Component {
 
   render() {
     return (
-      <Row gutter={24}>
-        {this.createCard(BTC, this.state.btcPriceOtc, this.state.btcPrice)}
-        {this.createCard(ETH, this.state.ethPriceOtc, this.state.ethPrice)}
-        {this.createCard(EOS, this.state.eosPriceOtc, this.state.eosPrice)}
-        {this.createCard(USDT, this.state.usdtPriceOtc, this.state.usdPrice)}
-      </Row>
+      <div>
+        <Row gutter={24}>
+          {this.createCard(BTC, this.state.btcPriceOtc, this.state.btcPrice)}
+          {this.createCard(ETH, this.state.ethPriceOtc, this.state.ethPrice)}
+          {this.createCard(EOS, this.state.eosPriceOtc, this.state.eosPrice)}
+          {this.createCard(USDT, this.state.usdtPriceOtc, this.state.usdPrice)}
+        </Row>
+        <h4 style={{marginTop: 30}}>* 场内交易数据来自币安（binance）交易所</h4>
+        <h4>* 场外交易数据来自火币（huobi）OTC交易所</h4>
+      </div>
     )
   }
 }
