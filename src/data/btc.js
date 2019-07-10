@@ -20,6 +20,16 @@ export const browsers = [{
   logo: 'https://chainflyer.bitflyer.jp/favicon.ico',
 }];
 
+export const charts = [{
+  name: '目录',
+  url: 'https://charts.woobull.com/',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+},{
+  name: 'NVT比率',
+  url: 'https://charts.woobull.com/bitcoin-nvt-ratio/',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+}];
+
 export const tools = [{
   name: 'BTC历史价格',
   url: 'https://blockchair.com/bitcoin/price?interval=full&granularity=date',
@@ -63,9 +73,5 @@ export const tools = [{
 },{
   name: '脚本执行过程',
   url: 'https://nioctib.tech/#/transaction/e13d407be6085f1d0a0513f47577340f41f45d0b7250f3c554e8e05590113d7a',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
-},{
-  name: 'WooBull图表',
-  url: 'https://charts.woobull.com/',
   logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
 }];
