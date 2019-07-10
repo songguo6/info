@@ -144,7 +144,7 @@ class App extends React.Component {
               <Route path='/admin/addtoken' exact component={AddToken}></Route> : ''}
             </Content>
             
-            <Footer style={{ textAlign: 'center' }}>币圈信息站 ©2018 Created by&nbsp;
+            <Footer style={{ textAlign: 'center' }}>币圈信息站 ©2019 Created by&nbsp;
               <Popover content={<SupportPopver/>} title={<h2 style={{marginTop: 13}}>支持作者</h2>}>
                 <a href='https://bihu.com/people/14150'>Songguo（松果）</a>
               </Popover>   
