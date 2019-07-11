@@ -64,17 +64,17 @@ class OtcPage extends Component {
   }
 
   requestDataInner = (coinId) => {
-    const { usdcnyRate } = this.state;
+    const { usdPrice } = this.state;
     axios.get('https://otc-api.eiijo.cn/v1/data/trade-market?coinId=' + coinId
       + '&currency=1&tradeType=buy&currPage=1&country=37&blockType=general&online=1').then(res => {
 
       const priceOtc = res.data.data[0].price;  
     
       if(coinId === USDT){
-        this.setPrice(coinId, priceOtc, usdcnyRate);
+        this.setPrice(coinId, priceOtc, usdPrice);
       }else{
         axios.get('https://api.binance.com/api/v3/ticker/price?symbol=' + this.getCoin(coinId) + 'USDT').then(res => {
-          this.setPrice(coinId, priceOtc, parseFloat(res.data.price*usdcnyRate).toFixed(2));
+          this.setPrice(coinId, priceOtc, parseFloat(res.data.price*usdPrice).toFixed(2));
           this.setState({loading: false});
         }).catch(error => {
           console.log(error);
@@ -87,7 +87,7 @@ class OtcPage extends Component {
 
   requestData = () => {
     axios.get(RATE_URL).then(res => {
-      this.setState({usdcnyRate: res.data.chart.result[0].meta.previousClose});
+      this.setState({usdPrice: res.data.chart.result[0].meta.previousClose});
       this.requestDataInner(BTC);
       this.requestDataInner(ETH);
       this.requestDataInner(EOS);
