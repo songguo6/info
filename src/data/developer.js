@@ -366,14 +366,6 @@ export const tools = [{
   url: 'http://www.beijing-time.org/riqi.htm',
   logo: 'https://image.flaticon.com/icons/png/512/63/63355.png',
 },{
-  name: '免费多图床',
-  url: 'https://share1223.com/free.html',
-  logo: 'https://share1223.com/favicon.ico',
-},{
-  name: 'SM.MS图床',
-  url: 'https://sm.ms/',
-  logo: 'https://sm.ms/favicon.ico',
-},{
   name: 'Chrome扩展',
   url: 'https://zhuanlan.zhihu.com/p/61605124',
   logo: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Chrome__logo.max-200x200.png',
@@ -381,6 +373,18 @@ export const tools = [{
   name: 'CORS跨域插件',
   url: 'https://chrome.google.com/webstore/detail/moesif-orign-cors-changer/digfbfaphojjndkpccljibejjbppifbc',
   logo: 'https://lh3.googleusercontent.com/JeZxpWdsIAu5z2CJL7NsOsGG5Mx6zLuBwokgUkOPqFGOuxdH2zDdYzaPT0ZVF83brcefCEXTxw=w128-h128-e365',
+},{
+  name: 'Motrix下载工具',
+  url: 'https://motrix.app/zh-CN/',
+  logo: 'https://motrix.app/apple-touch-icon.png',
+},{
+  name: '免费多图床',
+  url: 'https://share1223.com/free.html',
+  logo: 'https://share1223.com/favicon.ico',
+},{
+  name: 'SM.MS图床',
+  url: 'https://sm.ms/',
+  logo: 'https://sm.ms/favicon.ico',
 },{
   name: '无版权图库',
   url: 'https://zhuanlan.zhihu.com/p/30613792',
