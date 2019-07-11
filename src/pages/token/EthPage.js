@@ -1,7 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import TradingViewWidget, { Themes } from 'react-tradingview-widget';
-import TechnicalAnalysisWidget from '../../components/tradingview/TechnicalAnalysisWidget';
 import { createMainCard, createSideCard } from '../common';
 import { browsers, tools, infos } from '../../data/eth';
 
@@ -15,7 +14,6 @@ const EthPage = () => (
     </Col>
 
     <Col xl={7} lg={24} md={24} sm={24} xs={24}>
-      <TechnicalAnalysisWidget symbol='BINANCE:ETHUSDT' isTransparent={true} />
       {createSideCard('工具', tools, '50%')}
       {createSideCard('资讯', infos, '50%')}
     </Col>
