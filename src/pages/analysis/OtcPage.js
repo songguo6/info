@@ -94,7 +94,7 @@ class OtcPage extends Component {
       this.requestDataInner(USDT);
     }).catch(error => {
       if(!this.state.showing){
-        showCorsHelper(() => { this.setState({showing: false })});
+        showCorsHelper();
       }
       this.setState({showing: true});
     });

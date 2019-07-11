@@ -33,7 +33,7 @@ import './App.css';
 const { Content, Header, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
 
-const DEV = true;
+const DEV = false;
 
 class App extends React.Component {
 

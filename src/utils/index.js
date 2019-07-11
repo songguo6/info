@@ -8,10 +8,9 @@ export const getTodayZeroStamp = () => {
   return moment(zero).toDate().getTime();
 }
 
-export const showCorsHelper = (onOk = () => {}) => {
+export const showCorsHelper = () => {
   Modal.warning({
     title: '浏览此页面需要安装CORS跨域插件',
-    onOk,
     content: 
     <div style={{fontWeight: 'bold', lineHeight: '25px'}}>
       <div style={{margin: '25px 0 15px 0'}}>
