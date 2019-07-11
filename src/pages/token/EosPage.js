@@ -11,11 +11,11 @@ const EosPage = () => (
         <TradingViewWidget symbol='BINANCE:EOSUSDT' locale='zh_CN' width='100%' interval='120' theme={Themes.DARK}/>   
       </div>
       {createMainCard('区块浏览器', browsers)} 
-      {createMainCard('资讯', infos)}
     </Col>
 
     <Col xl={7} lg={24} md={24} sm={24} xs={24}>
       {createSideCard('工具', tools, '50%')}
+      {createSideCard('资讯', infos, '50%')}
     </Col>
   </Row>
 )
