@@ -22,6 +22,7 @@ class OtcPage extends Component {
     eosPrice: '',
     usdPrice: '',
     loading: true,
+    showing: false,
   }
 
   getCoin = (coinId) => {
@@ -92,7 +93,10 @@ class OtcPage extends Component {
       this.requestDataInner(EOS);
       this.requestDataInner(USDT);
     }).catch(error => {
-      showCorsHelper();
+      if(!this.state.showing){
+        showCorsHelper(() => { this.setState({showing: false })});
+      }
+      this.setState({showing: true});
     });
   }
 
