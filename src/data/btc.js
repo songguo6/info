@@ -32,6 +32,10 @@ export const charts = [{
   name: 'NVTS',
   url: 'https://charts.woobull.com/bitcoin-nvt-signal/',
   logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+},{
+  name: 'MVRV',
+  url: 'https://charts.woobull.com/bitcoin-mvrv-ratio/',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
 }];
 
 export const tools = [{
