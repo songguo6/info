@@ -15,7 +15,7 @@ const BtcPage = () => (
 
     <Col xl={7} lg={24} md={24} sm={24} xs={24}>
       {createSideCard('工具', tools, '50%')}
-      {createSideCard('WooBull图表', charts, '33%')}
+      {createSideCard('WooBull图表', charts, '33.33%')}
     </Col>
   </Row>
 )
