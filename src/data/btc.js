@@ -22,7 +22,7 @@ export const browsers = [{
 
 export const charts = [{
   name: '目录',
-  url: 'https://charts.woobull.com/',
+  url: 'https://charts.woobull.com',
   logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
 },{
   name: 'NVT',
