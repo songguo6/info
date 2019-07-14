@@ -36,6 +36,10 @@ export const charts = [{
   name: 'MVRV',
   url: 'https://charts.woobull.com/bitcoin-mvrv-ratio/',
   logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+},{
+  name: 'BNM',
+  url: 'https://charts.woobull.com/bitcoin-network-momentum/',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
 }];
 
 export const tools = [{
