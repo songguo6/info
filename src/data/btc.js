@@ -41,7 +41,7 @@ export const charts = [{
   url: 'https://charts.woobull.com/bitcoin-network-momentum/',
   logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
 },{
-  name: 'Mayer倍数',
+  name: 'Mayer',
   url: 'https://charts.woobull.com/bitcoin-mayer-multiple/',
   logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
 }];
