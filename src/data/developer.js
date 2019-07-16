@@ -366,6 +366,10 @@ export const tools = [{
   url: 'http://www.beijing-time.org/riqi.htm',
   logo: 'https://image.flaticon.com/icons/png/512/63/63355.png',
 },{
+  name: 'Linux应用',
+  url: 'https://zhuanlan.zhihu.com/p/71833109',
+  logo: 'https://d33wubrfki0l68.cloudfront.net/3cc4aae9f44acf22ae6b3123f26ee67e408fc74f/f4841/site-assets/ico_linux.png',
+},{
   name: 'Chrome扩展',
   url: 'https://zhuanlan.zhihu.com/p/61605124',
   logo: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Chrome__logo.max-200x200.png',
