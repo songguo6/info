@@ -83,11 +83,11 @@ export const eosblogs = [{
 },{
   name: '一面千人',
   url: 'https://www.cnblogs.com/Evsward/',
-  logo: 'https://common.cnblogs.com/favicon.ico',
+  logo: 'https://is3-ssl.mzstatic.com/image/thumb/Purple/v4/5d/75/83/5d7583b3-680e-54d1-a978-c5bec1bd900e/source/512x512bb.jpg',
 },{
   name: 'HBright',
   url: 'https://www.cnblogs.com/hbright/',
-  logo: 'https://common.cnblogs.com/favicon.ico',
+  logo: 'https://is3-ssl.mzstatic.com/image/thumb/Purple/v4/5d/75/83/5d7583b3-680e-54d1-a978-c5bec1bd900e/source/512x512bb.jpg',
 },{
   name: 'EOS开发系列',
   url: 'https://shimo.im/docs/jt2MhxPYTKI6tWnp',
@@ -301,7 +301,7 @@ export const resources = [{
 },{
   name: 'Ubuntu基础',
   url: 'https://www.cnblogs.com/resn/p/5800922.html',
-  logo: 'https://common.cnblogs.com/favicon.ico',
+  logo: 'https://pbs.twimg.com/profile_images/1486153713/cof_orange_hex_400x400.jpg',
 },{
   name: 'AntDesign',
   url: 'https://ant.design/docs/react/introduce-cn',
@@ -366,9 +366,9 @@ export const tools = [{
   url: 'http://www.beijing-time.org/riqi.htm',
   logo: 'https://image.flaticon.com/icons/png/512/63/63355.png',
 },{
-  name: 'Linux应用',
+  name: 'Ubuntu应用',
   url: 'https://zhuanlan.zhihu.com/p/71833109',
-  logo: 'https://d33wubrfki0l68.cloudfront.net/3cc4aae9f44acf22ae6b3123f26ee67e408fc74f/f4841/site-assets/ico_linux.png',
+  logo: 'https://pbs.twimg.com/profile_images/1486153713/cof_orange_hex_400x400.jpg',
 },{
   name: 'Chrome扩展',
   url: 'https://zhuanlan.zhihu.com/p/61605124',
