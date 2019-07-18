@@ -55,6 +55,10 @@ export const tools = [{
   url: 'https://www.coingecko.com/zh/explain/bitcoin_halving',
   logo: 'https://static.coingecko.com/s/thumbnail-007177f3eca19695592f0b8b0eabbdae282b54154e1be912285c9034ea6cbaf2.png',
 },{
+  name: 'BTC价格走势',
+  url: 'http://www.btcie.com/?b=usd',
+  logo: 'http://www.btcie.com/favicon.ico',
+},{
   name: 'BTC周期',
   url: 'https://www.dprating.com/btc-cycle',
   logo: 'https://appserversrc.8btc.com/agency/icon/dprating.svg',
