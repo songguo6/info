@@ -56,6 +56,10 @@ export const charts = [{
   name: '波动率',
   url: 'https://charts.woobull.com/bitcoin-volatility/',
   logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+},{
+  name: '通胀率',
+  url: 'https://charts.woobull.com/bitcoin-inflation/',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
 }];
 
 export const tools = [{
