@@ -382,6 +382,10 @@ export const tools = [{
   url: 'https://motrix.app/zh-CN/',
   logo: 'https://motrix.app/apple-touch-icon.png',
 },{
+  name: '在线PS',
+  url: 'https://www.uupoop.com/ps/',
+  logo: 'https://www.uupoop.com/favicon.ico',
+},{
   name: '免费多图床',
   url: 'https://share1223.com/free.html',
   logo: 'https://share1223.com/favicon.ico',
