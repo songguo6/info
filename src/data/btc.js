@@ -45,11 +45,11 @@ export const charts = [{
   url: 'https://charts.woobull.com/bitcoin-mayer-multiple/',
   logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
 },{
-  name: 'HODL W',
+  name: 'HODLW',
   url: 'https://charts.woobull.com/bitcoin-hodl-waves/',
   logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
 },{
-  name: 'HODL C',
+  name: 'HODLC',
   url: 'https://charts.woobull.com/bitcoin-hodl-capitalisation/',
   logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
 },{
