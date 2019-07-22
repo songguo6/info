@@ -64,6 +64,10 @@ export const charts = [{
   name: '流通度',
   url: 'https://charts.woobull.com/bitcoin-velocity/',
   logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+},{
+  name: '拥堵度',
+  url: 'https://charts.woobull.com/bitcoin-congestion/',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
 }];
 
 export const tools = [{
