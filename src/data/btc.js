@@ -61,6 +61,10 @@ export const charts = [{
   url: 'https://charts.woobull.com/bitcoin-inflation/',
   logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
 },{
+  name: '哈希率',
+  url: 'https://charts.woobull.com/bitcoin-hash-price/',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+},{
   name: '流通度',
   url: 'https://charts.woobull.com/bitcoin-velocity/',
   logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
