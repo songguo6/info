@@ -60,6 +60,10 @@ export const charts = [{
   name: '通胀率',
   url: 'https://charts.woobull.com/bitcoin-inflation/',
   logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+},{
+  name: '流通速度',
+  url: 'https://charts.woobull.com/bitcoin-velocity/',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
 }];
 
 export const tools = [{
