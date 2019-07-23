@@ -48,6 +48,10 @@ export const tools = [{
   name: '投票代理人',
   url: 'https://www.alohaeos.com/zh/vote/proxy',
   logo: 'https://www.alohaeos.com/images/favicon.ico',
+},{
+  name: '投票衰减查询',
+  url: 'https://eosauthority.com/voting_decay',
+  logo: 'https://eosauthority.com/common/images/favicon.ico',
 }];
 
 export const infos = [{
