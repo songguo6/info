@@ -75,10 +75,6 @@ export const charts = [{
 }];
 
 export const tools = [{
-  name: 'CoinMetrics',
-  url: 'https://coinmetrics.io/charts',
-  logo: 'https://coinmetrics.io/wp-content/uploads/2019/02/cropped-Logo_White_CM_Favicon-32x32.png',
-},{
   name: 'BTC历史价格',
   url: 'https://blockchair.com/bitcoin/price?interval=full&granularity=date',
   logo: 'https://pbs.twimg.com/profile_images/883021233700339712/1qSm4sNT_400x400.jpg',

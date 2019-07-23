@@ -236,6 +236,10 @@ export const oxchanges = [{
 }];
 
 export const tools = [{
+  name: 'CoinMetrics',
+  url: 'https://coinmetrics.io/charts',
+  logo: 'https://coinmetrics.io/wp-content/uploads/2019/02/cropped-Logo_White_CM_Favicon-32x32.png',
+},{
   name: '总市值比例',
   url: 'https://coinmarketcap.com/zh/charts/#dominance-percentage',
   logo: 'https://coinmarketcap.com/favicon.ico',
