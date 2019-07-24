@@ -302,7 +302,7 @@ export const tools = [{
 },{
   name: 'FRST交易追踪',
   url: 'https://www.frst.com/',
-  logo: 'https://27ekz2729ax2nmd38ivr6wi5-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/running-pup-1.png',
+  logo: 'https://27ekz2729ax2nmd38ivr6wi5-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/favicon.png',
 },{
   name: "Block'tivity",
   url: 'https://blocktivity.info/',
