@@ -316,6 +316,18 @@ export const tools = [{
   url: 'https://www.sncrating.com/cn/adr',
   logo: 'https://appserversrc.8btc.com/agency/icon/sncrating.svg',
 },{
+  name: 'BTC泡沫指数',
+  url: 'https://chainext.io/mood_detail/90002/BBI',
+  logo: 'https://chainext.io/assets/img/logo.png',
+},{
+  name: 'ETH泡沫指数',
+  url: 'https://chainext.io/mood_detail/90004/EBI',
+  logo: 'https://chainext.io/assets/img/logo.png',
+},{
+  name: 'USDT折溢价指数',
+  url: 'https://chainext.io/mood_detail/90003/USDT%20FTP%20Index',
+  logo: 'https://appserversrc.8btc.com/agency/icon/tokengazer.svg',
+},{
   name: '矿工疯狂指数',
   url: 'https://www.tokengazer.com/#/lab?tab=0',
   logo: 'https://appserversrc.8btc.com/agency/icon/tokengazer.svg',
