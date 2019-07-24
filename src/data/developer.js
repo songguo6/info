@@ -175,7 +175,7 @@ export const ipfs = [{
 },{
   name: '飞向未来',
   url: 'https://www.zhihu.com/people/flytofuture/posts',
-  logo: 'https://static.zhihu.com/static/favicon.ico',
+  logo: 'https://static.zhihu.com/heifetz/assets/apple-touch-icon-152.67c7b278.png',
 },{
   name: '可用网关检查',
   url: 'https://ipfs.github.io/public-gateway-checker/',
