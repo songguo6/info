@@ -315,10 +315,6 @@ export const resources = [{
   url: 'https://mobile.ant.design/index-cn',
   logo: 'https://camo.githubusercontent.com/a717488dab48dea50d4d2fb3fe8977b0a4f29147/68747470733a2f2f7a6f732e616c697061796f626a656374732e636f6d2f726d73706f7274616c2f77496a4d446e7372446f50506349562e706e67',
 },{
-  name: 'Iconfont',
-  url: 'https://www.iconfont.cn/',
-  logo: 'https://gtms04.alicdn.com/tps/i4/TB1_oz6GVXXXXaFXpXXJDFnIXXX-64-64.ico',
-},{
   name: 'ReactWeUI',
   url: 'https://weui.github.io/react-weui/docs/#/react-weui/docs/page/0/articles/0',
   logo: 'https://avatars3.githubusercontent.com/u/10220215?v=3&s=460',
@@ -401,4 +397,8 @@ export const tools = [{
   name: '无版权图库',
   url: 'https://zhuanlan.zhihu.com/p/30613792',
   logo: 'https://picjumbo.com/wp-content/themes/picjumbofree/data/picjumbo-profile-pic.png',
+},{
+  name: 'Iconfont',
+  url: 'https://www.iconfont.cn/',
+  logo: 'https://gtms04.alicdn.com/tps/i4/TB1_oz6GVXXXXaFXpXXJDFnIXXX-64-64.ico',
 }];
