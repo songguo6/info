@@ -23,55 +23,55 @@ export const browsers = [{
 export const charts = [{
   name: '目录',
   url: 'https://charts.woobull.com',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/bitcoin_200_200.png?v=1561015933',
 },{
   name: 'NVT',
   url: 'https://charts.woobull.com/bitcoin-nvt-ratio/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/bitcoin_200_200.png?v=1561015933',
 },{
   name: 'NVTS',
   url: 'https://charts.woobull.com/bitcoin-nvt-signal/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/bitcoin_200_200.png?v=1561015933',
 },{
   name: 'MVRV',
   url: 'https://charts.woobull.com/bitcoin-mvrv-ratio/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/bitcoin_200_200.png?v=1561015933',
 },{
   name: 'BNM',
   url: 'https://charts.woobull.com/bitcoin-network-momentum/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/bitcoin_200_200.png?v=1561015933',
 },{
   name: 'Mayer',
   url: 'https://charts.woobull.com/bitcoin-mayer-multiple/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/bitcoin_200_200.png?v=1561015933',
 },{
   name: 'HODLW',
   url: 'https://charts.woobull.com/bitcoin-hodl-waves/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/bitcoin_200_200.png?v=1561015933',
 },{
   name: 'HODLC',
   url: 'https://charts.woobull.com/bitcoin-hodl-capitalisation/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/bitcoin_200_200.png?v=1561015933',
 },{
   name: '波动率',
   url: 'https://charts.woobull.com/bitcoin-volatility/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/bitcoin_200_200.png?v=1561015933',
 },{
   name: '通胀率',
   url: 'https://charts.woobull.com/bitcoin-inflation/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/bitcoin_200_200.png?v=1561015933',
 },{
   name: '哈希率',
   url: 'https://charts.woobull.com/bitcoin-hash-price/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/bitcoin_200_200.png?v=1561015933',
 },{
   name: '流通度',
   url: 'https://charts.woobull.com/bitcoin-velocity/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/bitcoin_200_200.png?v=1561015933',
 },{
   name: '拥堵度',
   url: 'https://charts.woobull.com/bitcoin-congestion/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/bitcoin_200_200.png?v=1561015933',
 }];
 
 export const tools = [{
@@ -121,5 +121,5 @@ export const tools = [{
 },{
   name: '脚本执行过程',
   url: 'https://nioctib.tech/#/transaction/e13d407be6085f1d0a0513f47577340f41f45d0b7250f3c554e8e05590113d7a',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/bitcoin_200_200.png?v=1561015933',
 }];

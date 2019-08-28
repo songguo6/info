@@ -1,7 +1,7 @@
 export const navigations = [{
   name: 'CoinMarketCap',
   url: 'https://coinmarketcap.com',
-  logo: 'https://coinmarketcap.com/favicon.ico',
+  logo: 'https://pbs.twimg.com/profile_images/991282814518743040/OEj1fTFp.jpg',
 },{
   name: 'QKL123',
   url: 'https://www.qkl123.com/',
@@ -238,15 +238,15 @@ export const oxchanges = [{
 export const tools = [{
   name: '总市值比例',
   url: 'https://coinmarketcap.com/zh/charts/#dominance-percentage',
-  logo: 'https://coinmarketcap.com/favicon.ico',
+  logo: 'https://pbs.twimg.com/profile_images/991282814518743040/OEj1fTFp.jpg',
 },{
   name: '历史市值排行',
   url: 'https://coinmarketcap.com/zh/historical/',
-  logo: 'https://coinmarketcap.com/favicon.ico',
+  logo: 'https://pbs.twimg.com/profile_images/991282814518743040/OEj1fTFp.jpg',
 },{
   name: 'Token市值排行',
   url: 'https://coinmarketcap.com/tokens/',
-  logo: 'https://coinmarketcap.com/favicon.ico',
+  logo: 'https://pbs.twimg.com/profile_images/991282814518743040/OEj1fTFp.jpg',
 },{
   name: 'Github提交排行',
   url: 'https://www.qkl123.com/ranking',
@@ -310,7 +310,7 @@ export const tools = [{
 },{
   name: '恐惧贪婪指数',
   url: 'https://alternative.me/crypto/fear-and-greed-index/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/bitcoin_200_200.png?v=1561015933',
 },{
   name: '市场情绪指数',
   url: 'https://www.sncrating.com/cn/adr',
@@ -456,6 +456,6 @@ export const candies = [{
 },{
   name: 'Coinbase Earn',
   url: 'https://www.coinbase.com/earn',
-  logo: 'https://www.coinbase.com/img/favicon/favicon-96x96.png',
+  logo: 'https://pbs.twimg.com/profile_images/1139570739747536896/HVEeWmV4_400x400.png',
 }];
 

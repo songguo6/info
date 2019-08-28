@@ -49,33 +49,33 @@ export const githubs = [{
 export const eosdocs = [{
   name: '官方开发文档',
   url: 'https://developers.eos.io/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png', 
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030', 
 },{
   name: 'EOSIO.cdt文档',
   url: 'https://eosio.github.io/eosio.cdt',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
 },{
   name: 'EOSJS文档',
   url: 'https://eosio.github.io/eosjs/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
 },{
   name: 'RPC API文档',
   url: 'https://developers.eos.io/eosio-nodeos/reference',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
 },{
   name: 'DemuxJS文档',
   url: 'https://eosio.github.io/demux-js/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
 }];
 
 export const eosblogs = [{
   name: 'EOS错误代码',
   url: 'http://cw.hubwiz.com/card/c/eos-error-code/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
 },{
   name: '区块链开发指南',
   url: 'http://blog.eosdata.io/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
 },{
   name: 'BCSkill技术社',
   url: 'https://www.bcskill.com/',
@@ -123,13 +123,13 @@ export const eosblogs = [{
 },{
   name: 'EOS黑客松',
   url: 'https://eoshackathon.io/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
 }];
 
 export const eostools = [{
   name: '出块节点信息',
   url: 'https://validate.eosnation.io/mainnet/reports/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
 },{
   name: '节点网络状态',
   url: 'https://proxy.eosnode.network/d/b/eos-block-producer-node-overview?orgId=1&refresh=5m',
@@ -171,11 +171,11 @@ export const ipfs = [{
 },{
   name: '戴嘉乐MrMaple',
   url: 'https://blog.csdn.net/u012357002?orderby=UpdateTime',
-  logo: 'https://csdnimg.cn/public/favicon.ico',
+  logo: 'https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/46/f5/ae/46f5aefb-67ee-8cb4-d3fd-eb9908e3e599/AppIcon-0-1x_U007emarketing-0-0-sRGB-85-220-0-7.png/246x0w.jpg',
 },{
   name: '飞向未来',
   url: 'https://www.zhihu.com/people/flytofuture/posts',
-  logo: 'https://static.zhihu.com/heifetz/assets/apple-touch-icon-152.67c7b278.png',
+  logo: 'http://zntx.cc/bbs/upload/956/2018/07/19/12345_1317120256(1).png',
 },{
   name: '可用网关检查',
   url: 'https://ipfs.github.io/public-gateway-checker/',
