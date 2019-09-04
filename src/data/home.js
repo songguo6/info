@@ -3,6 +3,10 @@ export const navigations = [{
   url: 'https://coinmarketcap.com',
   logo: 'https://pbs.twimg.com/profile_images/991282814518743040/OEj1fTFp.jpg',
 },{
+  name: 'CoinMarketBook',
+  url: 'https://coinmarketbook.cc',
+  logo: 'https://coinmarketbook.cc/logo-lg.jpg',
+},{
   name: 'QKL123',
   url: 'https://www.qkl123.com/',
   logo: 'https://webcdn.qkl123.com/1.2.51/img/66389ce.svg',
@@ -254,6 +258,10 @@ export const tools = [{
 },{
   name: '数字货币钱包',
   url: 'https://www.qkl123.com/nav/wallet',
+  logo: 'https://webcdn.qkl123.com/1.2.51/img/66389ce.svg',
+},{
+  name: '比特币十年',
+  url: 'https://h5.qkl123.com/bbt-trend',
   logo: 'https://webcdn.qkl123.com/1.2.51/img/66389ce.svg',
 },{
   name: '区块链动态图谱',
