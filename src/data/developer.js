@@ -332,7 +332,6 @@ export const tools = [{
   name: '翻墙工具',
   url: 'https://www.faststunnel.net/',
   logo: 'https://pbs.twimg.com/profile_images/745130373374349312/VpsHzZ8H_400x400.jpg',
-  reg: 'https://www.faststunnel.net/aVBiC3kn',
 },{
   name: '接收手机短信',
   url: 'https://smsreceivefree.com/',

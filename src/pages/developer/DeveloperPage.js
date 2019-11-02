@@ -1,10 +1,10 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import { createMainCard, createSideCard } from './common';
+import { createMainCard, createSideCard } from '../common';
 import { 
   forums, eosdocs, eosblogs, eostools, ipfs, polkadot, apis, ides, githubs, 
   sites, resources, tools, 
-} from '../data/developer';
+} from '../../data/developer';
 
 const DeveloperPage = () => (
   <Row gutter={24}>

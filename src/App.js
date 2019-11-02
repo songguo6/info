@@ -11,7 +11,8 @@ import TickerTapeWidget from './components/tradingview/TickerTapeWidget';
 import SupportPopver from './pages/common/SupportPopver';
 
 import DappPage from './pages/DappPage';
-import DeveloperPage from './pages/DeveloperPage';
+import DeveloperPage from './pages/developer/DeveloperPage';
+import EosDevPage from './pages/developer/EosDevPage';
 import BihuPage from './pages/BihuPage';
 import CandyPage from './pages/CandyPage';
 import HomePage from './pages/dashboard/HomePage';
@@ -99,10 +100,14 @@ class App extends React.Component {
               {this.menuItem('/dapp', 'appstore', 'DAPP')}
               {this.menuItem('/bihu', 'bulb', '币乎好文')}
               {this.menuItem('/candy', 'heart', '糖果福利')}
-              {this.menuItem('/developer', 'api', '开发者')}
+              
+              <SubMenu key='sub4' title={this.subMenuTitle('api', '开发者')}>
+                {this.menuItem('/developer/main', false, '开发者主页')}
+                {this.menuItem('/developer/eos', false, 'EOS常用命令')}
+              </SubMenu>
               
               {accountName === contract ? 
-              <SubMenu key='sub4' title={this.subMenuTitle('user', '管理员')}>
+              <SubMenu key='sub5' title={this.subMenuTitle('user', '管理员')}>
                 {this.menuItem('/admin/addcandy', false, '添加糖果')}
                 {this.menuItem('/admin/addpost', false, '添加文章')}
                 {this.menuItem('/admin/addtoken', false, '添加通证')}
@@ -135,7 +140,8 @@ class App extends React.Component {
               <Route path='/dapp' exact component={DappPage}></Route>
               <Route path='/bihu' exact component={BihuPage}></Route>
               <Route path='/candy' exact component={CandyPage}></Route>
-              <Route path='/developer' exact component={DeveloperPage}></Route>
+              <Route path='/developer/main' exact component={DeveloperPage}></Route>
+              <Route path='/developer/eos' exact component={EosDevPage}></Route>
               {accountName === contract ?
               <Route path='/admin/addcandy' exact component={AddCandy}></Route> : ''}
               {accountName === contract ?
