@@ -97,14 +97,14 @@ class App extends React.Component {
                 {this.menuItem('/token/focus', false, '关注币种')}
               </SubMenu>
 
-              {this.menuItem('/dapp', 'appstore', 'DAPP')}
-              {this.menuItem('/bihu', 'bulb', '币乎好文')}
-              {this.menuItem('/candy', 'heart', '糖果福利')}
-              
               <SubMenu key='sub4' title={this.subMenuTitle('api', '开发者')}>
                 {this.menuItem('/developer/main', false, '开发者主页')}
                 {this.menuItem('/developer/eos', false, 'EOS常用命令')}
               </SubMenu>
+
+              {this.menuItem('/dapp', 'appstore', 'DAPP')}
+              {this.menuItem('/bihu', 'bulb', '币乎好文')}
+              {this.menuItem('/candy', 'heart', '糖果福利')}
               
               {accountName === contract ? 
               <SubMenu key='sub5' title={this.subMenuTitle('user', '管理员')}>
