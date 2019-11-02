@@ -131,10 +131,6 @@ export const eostools = [{
   url: 'https://validate.eosnation.io/mainnet/reports/',
   logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
 },{
-  name: '节点网络状态',
-  url: 'https://proxy.eosnode.network/d/b/eos-block-producer-node-overview?orgId=1&refresh=5m',
-  logo: 'https://proxy.eosnode.network/public/img/grafana_icon.svg',
-},{
   name: '区块数据备份',
   url: 'https://eosnode.tools/blocks',
   logo: 'https://eosnode.tools/img/icons/apple-touch-icon.png',
