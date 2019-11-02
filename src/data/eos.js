@@ -67,19 +67,7 @@ export const infos = [{
   url: 'https://www.eoswriter.io/',
   logo: 'https://www.eoswriter.io/wp-content/uploads/2019/04/EOSwriter-Site-Icon.png',
 },{
-  name: 'EOS LIVE',
-  url: 'https://www.eos.live/',
-  logo: 'https://www.eos.live/static/favicon.ico',
-},{
   name: 'Eos Index',
   url: 'https://eosindex.io/',
   logo: 'https://appserversrc.8btc.com/qkl/7/20190307173559_29059.png',
-},{
-  name: '去中心化论坛',
-  url: 'https://eos.discussions.app/',
-  logo: 'https://cdn.novusphere.io/static/atmos2.png',
-},{
-  name: 'EosBlockSmith',
-  url: 'https://dashboard.eosblocksmith.io/',
-  logo: 'https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/42844192_1956263534451642_434889640860712960_n.jpg?_nc_cat=100&_nc_oc=AQmUw4pOgQLkhPcpbubD5NSjec6wbJgnMy8BngV_G-AuZhwb09Q7ZxZdJDvV5ye8gq8&_nc_ht=scontent-lax3-1.xx&oh=9f0e82564389fe3a26405c1ceb719950&oe=5DB506BB',
 }];
