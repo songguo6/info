@@ -14,8 +14,8 @@ const data = [
   {'t':'租用CPU', 'i':'cleos -u https://api.eosnewyork.io system rex rentcpu gamesforboys gamesforboys "2.0000 EOS" "0.0000 EOS"'},
   {'t':'查询数据表', 'i':'cleos -u https://api.eosnewyork.io get table gamesforboys gamesforboys global'},
   {'t':'创建账户', 'i':"cleos system newaccount --stake-net '1.0000 EOS' --stake-cpu '1.0000 EOS' --buy-ram-kbytes 4 gamesforboys newaccount12 EOS6W8V9TguKRMWGrGKcfBPNAPSdk1asKL5QnwbFZV7fJyNMNRLN5"},
-  {'t':'修改权限（owner）', 'i':'cleos -u https://api.eosnewyork.io push action eosio updateauth /'["<account_name>","owner","",{"threshold":1,"keys":[{"key":"EOS8FqXhJo22AHGAGCcHEDPnyg3rphfVo7fRigZwnBU7nExWrQFyt","weight":1}],"accounts":[],"waits":[]}]/' -p <account_name>@owner'},
-  {'t':'修改权限（active）', 'i':'cleos -u https://api.eosnewyork.io push action eosio updateauth /'["<account_name>","active","owner",{"threshold":1,"keys":[{"key":"EOS8FqXhJo22AHGAGCcHEDPnyg3rphfVo7fRigZwnBU7nExWrQFyt","weight":1}],"accounts":[],"waits":[]}]/' -p <account_name>@owner'},
+  {'t':'修改权限（owner）', 'i':'cleos -u https://api.eosnewyork.io push action eosio updateauth \'["<account_name>","owner","",{"threshold":1,"keys":[{"key":"EOS8FqXhJo22AHGAGCcHEDPnyg3rphfVo7fRigZwnBU7nExWrQFyt","weight":1}],"accounts":[],"waits":[]}]\' -p <account_name>@owner'},
+  {'t':'修改权限（active）', 'i':'cleos -u https://api.eosnewyork.io push action eosio updateauth \'["<account_name>","active","owner",{"threshold":1,"keys":[{"key":"EOS8FqXhJo22AHGAGCcHEDPnyg3rphfVo7fRigZwnBU7nExWrQFyt","weight":1}],"accounts":[],"waits":[]}]\' -p <account_name>@owner'},
 ];
 
 const EosDevPage = () => (
