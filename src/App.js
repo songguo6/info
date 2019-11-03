@@ -149,6 +149,7 @@ class App extends React.Component {
               <Route path='/admin/addpost' exact component={AddPost}></Route> : ''}
               {accountName === contract ?
               <Route path='/admin/addtoken' exact component={AddToken}></Route> : ''}
+              <Route path='/cmd' exact component={CmdPage}></Route>
             </Content>
             
             <Footer style={{ textAlign: 'center' }}>币圈信息站 ©2019 Created by&nbsp;
@@ -157,8 +158,6 @@ class App extends React.Component {
               </Popover>   
             </Footer>
           </Layout>
-
-          <Route path='/cmd' exact component={CmdPage}></Route>
         </Layout>
     );
   }
