@@ -284,6 +284,10 @@ export const sites = [{
   name: '汇智网',
   url: 'http://www.hubwiz.com/',
   logo: 'https://imgcdn.sdk.cn/data/omYU4UkzH9gsV46TW-Bx.jpg?imageMogr2/thumbnail/180x',
+},{
+  name: '愿码',
+  url: 'https://www.chaindesk.cn/',
+  logo: 'https://www.chaindesk.cn/favicon.ico',
 }];
 
 export const resources = [{

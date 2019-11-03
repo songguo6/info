@@ -5,11 +5,25 @@ var tp = require('tp-eosjs');
 
 class CmdPage extends Component {
 
-  state = { txId: '' }
+  state = { tx: '' }
 
   onBtnClick = () => {
     if(tp.isConnected()){
-      this.setState({txId: 'connect success'});
+      tp.pushEosAction({
+        actions: [{
+          account: 'gamesforboys',
+          name: 'run',
+          authorization: [{
+            actor: 'gamesforboys',
+            permission: 'active'
+          }],
+          data: {}
+        }],
+        address: 'EOS5DBwXHwmq9igQe39w6LRDHZmb7EjrALXAnATvxoeYLpHxWgPS7',
+        account: 'gamesforboys'
+      }).then(res =>{
+        this.setState({tx: res.data});    
+      });
     }else{
       this.setState({txId: 'connect failed'});
     }
@@ -19,7 +33,7 @@ class CmdPage extends Component {
     return (
       <Row gutter={24}>
         <Button onClick={this.onBtnClick}>Run</Button>
-        <h5>{this.state.txId}</h5>
+        <h5>{this.state.tx}</h5>
       </Row>
     )
   }
