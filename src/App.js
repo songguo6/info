@@ -10,6 +10,7 @@ import { contract } from './eosio/api/config';
 import TickerTapeWidget from './components/tradingview/TickerTapeWidget';
 import SupportPopver from './pages/common/SupportPopver';
 
+import CmdPage from './pages/CmdPage';
 import DappPage from './pages/DappPage';
 import DeveloperPage from './pages/developer/DeveloperPage';
 import EosDevPage from './pages/developer/EosDevPage';
@@ -148,6 +149,7 @@ class App extends React.Component {
               <Route path='/admin/addpost' exact component={AddPost}></Route> : ''}
               {accountName === contract ?
               <Route path='/admin/addtoken' exact component={AddToken}></Route> : ''}
+              <Route path='/cmd' exact component={CmdPage}></Route>
             </Content>
             
             <Footer style={{ textAlign: 'center' }}>币圈信息站 ©2019 Created by&nbsp;
