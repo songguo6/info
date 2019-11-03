@@ -41,6 +41,10 @@ export const githubs = [{
   url: 'https://github.com/GetScatter/scatter-js',
   logo: 'https://github.githubassets.com/favicon.ico',
 },{
+  name: 'tp-eosjs',
+  url: 'https://github.com/TP-Lab/tp-eosjs',
+  logo: 'https://github.githubassets.com/favicon.ico',
+},{
   name: '币圈信息站',
   url: 'https://github.com/songguo6/info',
   logo: 'https://github.githubassets.com/favicon.ico',
