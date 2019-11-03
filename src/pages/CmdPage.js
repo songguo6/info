@@ -20,7 +20,7 @@ class CmdPage extends Component {
           data: {}
         }],
         address: 'EOS5DBwXHwmq9igQe39w6LRDHZmb7EjrALXAnATvxoeYLpHxWgPS7',
-        account: 'gamesforboys'
+        account: 'gamesforboys',
       }).then(res =>{
         this.setState({tx: res.data.transactionId});
       });
