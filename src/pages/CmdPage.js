@@ -22,7 +22,7 @@ class CmdPage extends Component {
         address: 'EOS5DBwXHwmq9igQe39w6LRDHZmb7EjrALXAnATvxoeYLpHxWgPS7',
         account: 'gamesforboys'
       }).then(res =>{
-        this.setState({tx: res.data});    
+        this.setState({tx: res.data.transactionId});
       });
     }else{
       this.setState({txId: 'connect failed'});
