@@ -180,7 +180,7 @@ export const exchanges = [{
   logo: 'https://s1.bqiapp.com/image/20181124/idax_mid.png',
   reg: 'https://www.idax.pro/register?inviteCode=i44boh&o=10002',
 },{
-  name: 'DigiFinex',
+  name: 'Digi',
   url: 'https://www.digifinex.com/zh-cn/notice',
   logo: 'https://s1.bqiapp.com/image/20181119/shuzibi_mid.png',
   reg: 'https://www.digifinex.com/zh-cn/from/QGHxHY/3485****2908',
@@ -228,12 +228,12 @@ export const dxchanges = [{
 }];
 
 export const oxchanges = [{
-  name: '火币OTC',
+  name: '火币',
   url: 'https://otc.huobi.co/zh-cn/trade/buy-btc/',
   logo: 'https://s1.bqiapp.com/images/site/huobi_pro.png',
   reg: 'https://www.huobi.co/zh-cn/topic/invited/?invite_code=3c883',
 },{
-  name: 'GateOTC',
+  name: 'Gate',
   url: 'https://www.gate.io/c2c/usdt_cny',
   logo: 'https://s1.bqiapp.com/image/20181204/gateio_mid.png',
   reg: 'https://gateio.news/signup/417960',
@@ -351,6 +351,10 @@ export const tools = [{
   name: '百度指数',
   url: 'http://index.baidu.com/v2/main/index.html#/trend/%E6%AF%94%E7%89%B9%E5%B8%81?words=%E6%AF%94%E7%89%B9%E5%B8%81',
   logo: 'https://www.baidu.com/favicon.ico',
+},{
+  name: '六道分析',
+  url: 'https://www.tokengazer.com/#/fnten',
+  logo: 'https://appserversrc.8btc.com/agency/icon/tokengazer.svg',
 }];
 
 export const resources = [{
