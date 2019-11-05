@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
 import { Row, Col } from 'antd';
+import { createMainCard } from './common';
+import { navigations } from '../data/dapp';
 import TradingViewWidget, { Themes } from 'react-tradingview-widget';
 
 const FinancePage = () => (
@@ -15,6 +17,7 @@ const FinancePage = () => (
         <TradingViewWidget symbol='SPCFD:SPX' locale='zh_CN' width='100%' interval='M' theme={Themes.DARK}/>    
       </Col>
     </Row>
+    {createMainCard('DAPP导航', navigations)}
   </Fragment>
 )
 
