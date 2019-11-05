@@ -10,4 +10,8 @@ export const indexs = [{
   name: '标普500',
   url: 'https://cn.tradingview.com/symbols/SPX/',
   logo: 'https://pbs.twimg.com/profile_images/1112691953542590464/WChOrIka.png',
+},{
+  name: '上证综指',
+  url: 'https://cn.tradingview.com/symbols/TVC-SHCOMP/',
+  logo: 'https://pbs.twimg.com/profile_images/1112691953542590464/WChOrIka.png',
 }];
