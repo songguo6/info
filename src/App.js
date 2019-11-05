@@ -19,6 +19,7 @@ import CandyPage from './pages/CandyPage';
 import HomePage from './pages/dashboard/HomePage';
 import FngPage from './pages/analysis/FngPage';
 import FuturesPage from './pages/analysis/FuturesPage';
+import FinancePage from './pages/analysis/FinancePage';
 import LongShortPage from './pages/analysis/LongShortPage';
 import OtcPage from './pages/analysis/OtcPage';
 import SixtyPage from './pages/analysis/SixtyPage';
@@ -89,6 +90,7 @@ class App extends React.Component {
                 {this.menuItem('/analysis/sixty', false, '60日累计涨幅')}
                 {this.menuItem('/analysis/longshort', false, '多空持仓量')}
                 {this.menuItem('/analysis/otc', false, '场外交易数据')}
+                {this.menuItem('/analysis/finance', false, '财经指数')}
               </SubMenu>
 
               <SubMenu key='sub3' title={this.subMenuTitle('dollar', '数字货币')}>
@@ -131,6 +133,7 @@ class App extends React.Component {
               <Route path='/' exact component={HomePage}></Route>
               <Route path='/analysis/fng' exact component={FngPage}></Route>
               <Route path='/analysis/futures' exact component={FuturesPage}></Route>
+              <Route path='/analysis/finance' exact component={FinancePage}></Route>
               <Route path='/analysis/sixty' exact component={SixtyPage}></Route>
               <Route path='/analysis/longshort' exact component={LongShortPage}></Route>
               <Route path='/analysis/otc' exact component={OtcPage}></Route>
