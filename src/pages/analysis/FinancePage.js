@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { Row, Col } from 'antd';
-import { createMainCard } from './common';
-import { navigations } from '../data/dapp';
+import { createMainCard } from '../common';
+import { indexs } from '../../data/finance';
 import TradingViewWidget, { Themes } from 'react-tradingview-widget';
 
 const FinancePage = () => (
@@ -13,11 +13,12 @@ const FinancePage = () => (
       </Col>
 
       <Col xl={12} lg={24} md={24} sm={24} xs={24}>
-        <h1 style={{textAlign:'center'}}>标准普尔500指数</h1>
-        <TradingViewWidget symbol='SPCFD:SPX' locale='zh_CN' width='100%' interval='M' theme={Themes.DARK}/>    
+        <h1 style={{textAlign:'center'}}>上证综指</h1>
+        <TradingViewWidget symbol='TVC:SHCOMP' locale='zh_CN' width='100%' interval='M' theme={Themes.DARK}/>    
       </Col>
     </Row>
-    {createMainCard('DAPP导航', navigations)}
+    <br/><br/>
+    {createMainCard('财经指数', indexs)}
   </Fragment>
 )
 
