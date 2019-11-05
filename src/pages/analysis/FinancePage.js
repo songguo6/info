@@ -17,7 +17,7 @@ const FinancePage = () => (
         <TradingViewWidget symbol='NASDAQ:AAPL' locale='zh_CN' width='100%' interval='M' theme={Themes.DARK}/>    
       </Col>
     </Row>
-    <br/><br/>
+    <br/>
     {createMainCard('财经指数', indexs)}
   </Fragment>
 )
