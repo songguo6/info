@@ -14,4 +14,8 @@ export const indexs = [{
   name: '上证综指',
   url: 'https://cn.tradingview.com/symbols/TVC-SHCOMP/',
   logo: 'https://pbs.twimg.com/profile_images/1112691953542590464/WChOrIka.png',
+},{
+  name: '美元/人民币',
+  url: 'https://cn.tradingview.com/symbols/USDCNY/',
+  logo: 'https://pbs.twimg.com/profile_images/1112691953542590464/WChOrIka.png',
 }];
