@@ -3,6 +3,8 @@ import { Row, Button } from 'antd';
 
 var tp = require('tp-eosjs');
 
+const bs58 = require('bs58');
+
 class CmdPage extends Component {
 
   state = { txId: '' }
@@ -12,7 +14,11 @@ class CmdPage extends Component {
   }
 
   onBtnClick2 = () => {
-    this.onClick('gm4tgojxgene', 'EOS4x3gwEmgf6k6nSyWmkwYGnrkMQ7jhwAaQ3ZLYk6wjGrViWFjtt');
+    // this.onClick('gm4tgojxgene', 'EOS4x3gwEmgf6k6nSyWmkwYGnrkMQ7jhwAaQ3ZLYk6wjGrViWFjtt');
+
+    const bytes = Buffer.from('80a3370527cf8b72e5833f5990531dda218c30adb73587ee2d5debd179ec22da8b0d1b6923', 'hex')
+    const address = bs58.encode(bytes)
+    console.log(address);
   }
 
   onClick = (account, address) => {
