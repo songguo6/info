@@ -39,8 +39,8 @@ class CmdPage extends Component {
   
   render(){
     return (
-      <div style={{padding: 10}}>
-        <Button onClick={this.onBtnClick} className="mr">Run</Button>
+      <div style={{padding: 20}}>
+        <Button onClick={this.onBtnClick} className="mr mb">Run</Button>
         <Button onClick={this.onBtnClick2} className="mr mb">Run2</Button>
         <h3>{this.state.txId}</h3>
       </div>
