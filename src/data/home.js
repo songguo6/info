@@ -329,11 +329,11 @@ export const tools = [{
   logo: 'https://appserversrc.8btc.com/agency/icon/tokengazer.svg',
 },{
   name: 'BTC泡沫指数',
-  url: 'https://chainext.io/mood_detail/90002/BBI',
+  url: 'https://chainext.io/mood_detail/90002/BBI#/index/specialOverview/90002',
   logo: 'https://chainext.io/assets/img/logo.png',
 },{
   name: 'ETH泡沫指数',
-  url: 'https://chainext.io/mood_detail/90004/EBI',
+  url: 'https://chainext.io/mood_detail/90002/BBI#/index/specialOverview/90004',
   logo: 'https://chainext.io/assets/img/logo.png',
 },{
   name: 'DeFi数据分析',
@@ -458,10 +458,6 @@ export const icos = [{
 }];
 
 export const candies = [{
-  name: 'OKAirdrop',
-  url: 'https://www.okairdrop.com/cn/',
-  logo: 'https://s1.bqiapp.com/images/site/OKAirdrop.png',
-},{
   name: '链节点糖果空投',
   url: 'https://www.chainnode.com/forum/176',
   logo: 'https://bbtcdn.8btc.com/data/attachment/common/38/common_176_icon.svg',
