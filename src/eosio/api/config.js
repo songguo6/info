@@ -1,4 +1,4 @@
-import { Api, JsonRpc } from 'eosjs'
+import { Api, JsonRpc, } from 'eosjs'
 
 import ScatterJS from 'scatterjs-core'
 import ScatterEOS from 'scatterjs-plugin-eosjs2'
@@ -6,7 +6,7 @@ import ScatterEOS from 'scatterjs-plugin-eosjs2'
 import * as env from './env';
 
 const appName = '币圈信息站';
-const contract = 'coincoininfo';
+const contract = 'mykeymanager';
 
 const network = {
   blockchain: 'eos',
@@ -19,6 +19,7 @@ const network = {
 ScatterJS.plugins(new ScatterEOS());
 
 const signatureProvider = ScatterJS.scatter.eosHook(network, null, true);
+
 const url = network.protocol + '://' + network.host + ':' + network.port;
 
 const rpc = new JsonRpc(url, { fetch })

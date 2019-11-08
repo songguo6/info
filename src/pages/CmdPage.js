@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import { Row, Button } from 'antd';
+import { Button } from 'antd';
 
 var tp = require('tp-eosjs');
-
-const bs58 = require('bs58');
 
 class CmdPage extends Component {
 
@@ -14,11 +12,7 @@ class CmdPage extends Component {
   }
 
   onBtnClick2 = () => {
-    // this.onClick('gm4tgojxgene', 'EOS4x3gwEmgf6k6nSyWmkwYGnrkMQ7jhwAaQ3ZLYk6wjGrViWFjtt');
-
-    const bytes = Buffer.from('80a3370527cf8b72e5833f5990531dda218c30adb73587ee2d5debd179ec22da8b0d1b6923', 'hex')
-    const address = bs58.encode(bytes)
-    console.log(address);
+    this.onClick('gm4tgojxgene', 'EOS4x3gwEmgf6k6nSyWmkwYGnrkMQ7jhwAaQ3ZLYk6wjGrViWFjtt');
   }
 
   onClick = (account, address) => {
@@ -45,13 +39,13 @@ class CmdPage extends Component {
   
   render(){
     return (
-      <Row gutter={24}>
-        <Button onClick={this.onBtnClick}>Run</Button>
-        <Button onClick={this.onBtnClick2}>Run2</Button>
-        <h5>{this.state.txId}</h5>
-      </Row>
+      <div style={{padding: 20}}>
+        <Button onClick={this.onBtnClick} className="mr">Run</Button>
+        <Button onClick={this.onBtnClick2} className="mr mb">Run2</Button>
+        <h3>{this.state.txId}</h3>
+      </div>
     )
-  }
+  }  
 }
 
 export default CmdPage;
