@@ -1,4 +1,4 @@
-import { Api, JsonRpc, } from 'eosjs'
+import { Api, JsonRpc } from 'eosjs'
 
 import ScatterJS from 'scatterjs-core'
 import ScatterEOS from 'scatterjs-plugin-eosjs2'
@@ -6,7 +6,7 @@ import ScatterEOS from 'scatterjs-plugin-eosjs2'
 import * as env from './env';
 
 const appName = '币圈信息站';
-const contract = 'mykeymanager';
+const contract = 'coincoininfo';
 
 const network = {
   blockchain: 'eos',
