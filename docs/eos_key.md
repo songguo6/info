@@ -33,7 +33,7 @@ f017c469c63da0524a273aee7557a3c238ee3f3360e82ba0e2799d5beafc129c
 
 80a3370527cf8b72e5833f5990531dda218c30adb73587ee2d5debd179ec22da8b0a3f8a2d
 
-#### 8、[对上一步结果值进行base58编码](https://www.npmjs.com/package/bs58)
+#### 8、对上一步结果值进行[base58](https://www.npmjs.com/package/bs58)编码
 
 WIF私钥：
 5K4AgqVQY98vCYtPK9xbT99ui3FgLFp3j5Vso1dFuVmaVPuppD2
@@ -62,11 +62,11 @@ WIF私钥：
 (2) 大质数p=2^256-2^32-2^9-2^8-2^7-2^6-2^4-2^0，十六进制表示为FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFE FFFFFC2F  
 (3) 基准点G坐标为(79BE667E F9DCBBAC 55A06295 CE870B07 029BFCDB 2DCE28D9 59F2815B 16F81798, 483ADA77 26A3C465 5DA4FBFC 0E1108A8 FD17B448 A6855419 9C47D08F FB10D4B8)
 
-#### 4、未压缩格式公钥
+#### 4、未压缩格式公钥（65字节）
 
 公钥 K = k*G 是椭圆曲线上的一个坐标点，G是基准点（生成点）。  
 
-未压缩公钥取点K(x,y)的坐标值加前缀0x04拼接而成（65字节）：
+未压缩公钥取点K(x,y)的坐标值加前缀0x04拼接而成：
 04 360c18aab0eabbd8b6b26ca8032c693ed1aab28da6eb1d0472eabd8e21233816 f6a8b41be315205daefba5648e947bc106f254f56b1a40d6190cec7b9f40813d
 
 #### 5、压缩格式公钥（33字节）
@@ -101,11 +101,11 @@ EOS7F36SKLm2toCBrA9DWV8UHeNLpSwAW2DWYLejcSoFvrrbG3hWT
 私钥k随机生成，公钥K=k*G，公钥对外公开，私钥仅自己知道。  
 
 #### 1、数据加密
-Alice： ka*Kb -> ka*(kb*G)    Alice加密需要Bob的公钥
+Alice： ka*Kb -> ka*(kb*G)    Alice加密需要Bob的公钥  
 Bob：   kb*Ka -> kb*(ka*G)    Bob加密需要Alice的公钥
 
 #### 2、数字签名
-签名：  m*k=N
+签名：  m*k=N  
 验证：  m*K -> m*k*G -> NG    G是常数
 
 （以上乘法均为群乘法）
