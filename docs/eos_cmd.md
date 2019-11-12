@@ -47,6 +47,8 @@ cleos -u http://eospush.tokenpocket.pro set contract gamesforboys gamesforboys -
 cleos -u http://eospush.tokenpocket.pro push action gamesforboys run '[]' -p gamesforboys
 #### 某账户是否部署了合约
 cleos -u http://eospush.tokenpocket.pro get code gamesforboys
+#### 删除合约
+cleos -u http://eospush.tokenpocket.pro set contract gamesforboys --clear
 
 ## 交易 & 资源
 #### 转账EOS

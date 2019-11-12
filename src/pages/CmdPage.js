@@ -20,10 +20,6 @@ class CmdPage extends Component {
     this.onClick('gamesforboys', 'EOS5DBwXHwmq9igQe39w6LRDHZmb7EjrALXAnATvxoeYLpHxWgPS7');
   }
 
-  onBtnClick2 = () => {
-    this.onClick('gm4tgojxgene', 'EOS4x3gwEmgf6k6nSyWmkwYGnrkMQ7jhwAaQ3ZLYk6wjGrViWFjtt');
-  }
-
   onClick = (account, address) => {
     if(tp.isConnected()){
       tp.pushEosAction({
@@ -50,7 +46,6 @@ class CmdPage extends Component {
     return (
       <div style={{padding: 20}}>
         <Button onClick={this.onBtnClick} className="mr mb">Run</Button>
-        <Button onClick={this.onBtnClick2} className="mr mb">Run2</Button>
         <h3>{this.state.txId}</h3>
         <br/>
         <Input onChange={e => this.setState({inputOri: e.target.value})} value={this.state.inputOri}/>
