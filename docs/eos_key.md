@@ -110,4 +110,70 @@ Bob：   kb*Ka -> kb*(ka*G)    Bob加密需要Alice的公钥
 
 （以上乘法均为群乘法）
 
+# 助记词
+
+#### 助记词 -> 私钥
+./mnemonicTool-linux -mnemonic "ask language rude digital glare thumb civil cousin urban trial lake second"
+
+# keystore + password
+
+#### keystore.json数据结构（Ethereum wallet v3 format）
+```
+{
+    "address": "43a78b73a23edc878c88215d3b6c588644b54b22", 
+    "crypto": {
+        "cipher": "aes-128-ctr", 
+        "ciphertext": "6381989b86de953ed86d1e77a808beb0e98f2fcd943c746de221d9cd9de13098", 
+        "cipherparams": {
+            "iv": "0caff26d3aba0d28f02a20ae503cd49e"
+        }, 
+        "kdf": "scrypt", 
+        "kdfparams": {
+            "dklen": 32, 
+            "n": 4096, 
+            "p": 6, 
+            "r": 8, 
+            "salt": "2334b3d2fe2a4e4a9aa790327e7fcb87eee18958ae5b3ba64617444f33291622"
+        }, 
+        "mac": "af3a38740d691b9b19a481d10a95d24fed529e04e60de69e1f11e01ab9d218d0"
+    }, 
+    "id": "97f1e5cb-721c-40cb-a7ab-85f381131964", 
+    "version": 3
+}
+```
+
+- cipher：AES（对称加密）算法；
+- cipherparams：cipher算法需要的参数， iv是aes-128-ctr加密算法需要的初始化向量；
+- ciphertext：使用cipher算法加密后的私钥；
+- kdf：密钥生成函数，可使用password加密keystore文件；
+- kdfparams：kdf函数需要的参数；
+- mac：验证password的代码。
+
+nodejs代码：
+```
+const Wallet = require('ethereumjs-wallet');
+const fs = require('fs');
+
+const utcFile = './keystore.json';
+const password = 'mk20190820';
+
+const myWallet = Wallet.fromV3(fs.readFileSync(utcFile).toString(), password, true);
+
+console.log("Private Key: " + myWallet.getPrivateKey().toString('hex')); 
+console.log("Address: " + myWallet.getAddress().toString('hex'));
+
+//Address: 43a78b73a23edc878c88215d3b6c588644b54b22               
+//Private Key: 791ef15d9ea8a89b48d36fbf4df0fc24d74ff74349aa10a8772e97c5a1d8d878
+//WIF: 5JjdT9P1JEkWnopP9qpPVGQRkz88V3JvyZ54S3tv6PM5hBDauAK
+//Public Key: EOS5xGaq22erUFYhDjnpCzG2wXbJseTgdynCzm4xR4ANMero77HFR
+```
+
+
+
+
+
+
+
+
+
 

@@ -93,12 +93,3 @@ receiver:eosio.token account:eosio.token action:transfer data.from:gamesforboys 
 auth:songguo55555
 #### 某账户泛代币查询
 data.to:songguo55555
-
-## [MYKEY](https://github.com/mykeylab)
-#### 合约账户
-[mykeymanager](https://bloks.io/account/mykeymanager)  
-[mykeylogica1](https://bloks.io/account/mykeylogica1)  
-
-## 编解码
-#### 助记词 -> 私钥
-./mnemonicTool-linux -mnemonic "ask language rude digital glare thumb civil cousin urban trial lake second"
