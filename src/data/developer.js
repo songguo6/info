@@ -408,4 +408,8 @@ export const tools = [{
   name: 'Iconfont',
   url: 'https://www.iconfont.cn/',
   logo: 'https://gtms04.alicdn.com/tps/i4/TB1_oz6GVXXXXaFXpXXJDFnIXXX-64-64.ico',
+},{
+  name: '正则表达式',
+  url: 'https://c.runoob.com/front-end/854',
+  logo: 'https://c.runoob.com/favicon.ico',
 }];

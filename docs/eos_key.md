@@ -149,7 +149,7 @@ Bob：   kb*Ka -> kb*(ka*G)    Bob加密需要Alice的公钥
 - kdfparams：kdf函数需要的参数；
 - mac：验证password的代码。
 
-nodejs代码：
+#### keystore -> 私钥
 ```
 const Wallet = require('ethereumjs-wallet');
 const fs = require('fs');
