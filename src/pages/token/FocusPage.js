@@ -1,31 +1,48 @@
 import React, { Component } from 'react';
-import { Row, Col, Spin } from 'antd';
+import { Row, Col, Table } from 'antd';
+import moment from 'moment';
 
-import { createMainCard } from '../common';
-import { fetchAll } from '../../eosio/api/fetch';
+import { tokens } from '../../data/token';
+
+const columns = [{ 
+  title: '项目名', 
+  dataIndex: 'name', 
+  key: 'name', 
+  render: (text, record) => <a href={record.link} target='_blank' rel="noopener noreferrer">{text}</a>,
+},{ 
+  title: '代币符号', 
+  dataIndex: 'symbol', 
+  key: 'symbol', 
+},{ 
+  title: '众筹单价($)', 
+  dataIndex: 'price', 
+  key: 'price', 
+},{
+  title: '总供应量',
+  dataIndex: 'supply',
+  key: 'supply',
+},{ 
+  title: '众筹时间', 
+  dataIndex: 'time', 
+  key: 'time', 
+},{
+  title: 'Github',
+  dataIndex: 'github',
+  key: 'github',
+  render: text => <a href={'https://' + text} target='_blank' rel="noopener noreferrer">{text}</a>,
+}];
 
 class FocusPage extends Component{
-
-  state = {data : [], loading: true}
-
-  async componentDidMount(){
-    const res = await fetchAll('tokentable');
-    let datas = [...res];
-    datas.forEach(item => item.key = item.id);
-    this.setState({data: datas, loading: false});
-  }
 
   render(){
     return(
       <Row gutter={24}>
         <Col xl={17} lg={24} md={24} sm={24} xs={24}>
-          <Spin tip='加载中...' spinning={this.state.loading}>
-            {createMainCard('关注币种', this.state.data)} 
-          </Spin>
+          <Table columns={columns} dataSource={tokens} />
         </Col>
         
         <Col xl={7} lg={24} md={24} sm={24} xs={24}>
-      
+
         </Col>
       </Row>
     )
