@@ -1,9 +1,25 @@
 export const tokens = [{
+  name: 'COSMOS',
+  link: 'https://cosmos.network',
+  symbol: 'ATOM',
+  price: '0.1',
+  supply: '2亿+',
+  time: '2017/04/06',
+  github: 'github.com/cosmos',
+},{
   name: 'EOS',
   link: 'https://eos.io',
   symbol: 'EOS',
   price: '1',
-  supply: '10亿',
+  supply: '10亿+',
   time: '2017/06/25~2017/06/30',
   github: 'github.com/eosio',
+},{
+  name: 'Polkadot',
+  link: 'https://polkadot.network',
+  symbol: 'DOT',
+  price: '35',
+  supply: '1000万',
+  time: '2017/10/17',
+  github: 'github.com/paritytech',
 }];
