@@ -132,6 +132,10 @@ export const eosblogs = [{
   name: 'EOS黑客松',
   url: 'https://eoshackathon.io/',
   logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
+},{
+  name: 'cmichel',
+  url: 'https://medium.com/@cmichel',
+  logo: 'http://the-cma.com/wp-content/uploads/2016/09/medium_logo_detail_icon.png',
 }];
 
 export const eostools = [{
