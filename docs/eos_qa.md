@@ -29,4 +29,4 @@ cleos -u http://eospush.tokenpocket.pro get table eosio eosio rexpool
 unlent_lower_bound = 79719557.3409 * 2 / 10 = 15943911.4
 available_unlent = 15944018.1225 - 15943911.4 = 106.7225
 ```
-
+## 合约如何实现为用户支付CPU？
