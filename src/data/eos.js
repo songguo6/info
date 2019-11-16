@@ -52,6 +52,10 @@ export const tools = [{
   name: '投票衰减查询',
   url: 'https://eosauthority.com/voting_decay',
   logo: 'https://eosauthority.com/common/images/favicon.ico',
+},{
+  name: 'Airgrab',
+  url: 'https://eosauthority.com/wallet/airgrab',
+  logo: 'https://eosauthority.com/common/images/favicon.ico',
 }];
 
 export const infos = [{

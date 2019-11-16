@@ -16,7 +16,7 @@ export const navigations = [{
   logo: 'https://www.feixiaohao.com/favicon.ico',
 },{
   name: 'AICoin',
-  url: 'https://www.aicoin.net.cn/',
+  url: 'https://www.aicoin.cn/',
   logo: 'https://assets-www.aicoin.net.cn/beta-v19/static/favicon.ico',
 },{
   name: 'MyToken',
@@ -329,12 +329,12 @@ export const tools = [{
   logo: 'https://appserversrc.8btc.com/agency/icon/tokengazer.svg',
 },{
   name: 'BTC泡沫指数',
-  url: 'https://chainext.io/mood_detail/90002/BBI#/index/specialOverview/90002',
-  logo: 'https://chainext.io/assets/img/logo.png',
+  url: 'https://chainext.io/index/specialOverview/90002',
+  logo: 'https://chainext.io/favicon.ico',
 },{
   name: 'ETH泡沫指数',
-  url: 'https://chainext.io/mood_detail/90002/BBI#/index/specialOverview/90004',
-  logo: 'https://chainext.io/assets/img/logo.png',
+  url: 'https://chainext.io/index/specialOverview/90004',
+  logo: 'https://chainext.io/favicon.ico',
 },{
   name: 'DeFi数据分析',
   url: 'https://defi.dapp.review/',

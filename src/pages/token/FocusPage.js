@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Row, Col, Table } from 'antd';
-import moment from 'moment';
 
 import { tokens } from '../../data/token';
 

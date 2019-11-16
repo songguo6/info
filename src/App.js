@@ -26,6 +26,7 @@ import BtcPage from './pages/token/BtcPage';
 import EthPage from './pages/token/EthPage';
 import EosPage from './pages/token/EosPage';
 import FocusPage from './pages/token/FocusPage';
+import GrabPage from './pages/token/GrabPage';
 import AddCandy from './pages/admin/AddCandy';
 import AddPost from './pages/admin/AddPost';
 import AddToken from './pages/admin/AddToken';
@@ -97,6 +98,7 @@ class App extends React.Component {
                 {this.menuItem('/token/eth', false, '以太坊')}
                 {this.menuItem('/token/eos', false, 'EOS')}
                 {this.menuItem('/token/focus', false, '关注币种')}
+                {this.menuItem('/token/grab', false, 'EOS Airgrabs')}
               </SubMenu>
 
               {this.menuItem('/developer', 'api', '开发者')}
@@ -136,6 +138,7 @@ class App extends React.Component {
               <Route path='/token/eth' exact component={EthPage}></Route>
               <Route path='/token/eos' exact component={EosPage}></Route>
               <Route path='/token/focus' exact component={FocusPage}></Route>
+              <Route path='/token/grab' exact component={GrabPage}></Route>
               <Route path='/dapp' exact component={DappPage}></Route>
               <Route path='/bihu' exact component={BihuPage}></Route>
               <Route path='/candy' exact component={CandyPage}></Route>
