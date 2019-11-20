@@ -109,7 +109,7 @@ export const eosblogs = [{
   url: 'https://www.eos.live/user/fireS8639288',
   logo: 'https://www.eos.live/static/favicon.ico',
 },{
-  name: '学习软件编程',
+  name: '汇智网博客',
   url: 'http://blog.hubwiz.com/categories/EOS/',
   logo: 'https://i.loli.net/2019/07/07/5d21eb950c37f34594.png',
 },{
