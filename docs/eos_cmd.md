@@ -42,7 +42,7 @@ cleos -u http://eospush.tokenpocket.pro get schedule
 #### 编译合约
 eosio-cpp -o gamesforboys.wasm gamesforboys.cpp --abigen
 #### 部署合约
-cleos -u http://eospush.tokenpocket.pro set contract gamesforboys gamesforboys -p gamesforboys@active
+cleos -u http://eospush.tokenpocket.pro set contract gamesforboys contractfolder -p gamesforboys@active
 #### 调用合约
 cleos -u http://eospush.tokenpocket.pro push action gamesforboys run '[]' -p gamesforboys
 #### 某账户是否部署了合约

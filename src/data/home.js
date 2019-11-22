@@ -355,6 +355,10 @@ export const tools = [{
   name: '六道分析',
   url: 'https://www.tokengazer.com/#/fnten',
   logo: 'https://appserversrc.8btc.com/agency/icon/tokengazer.svg',
+},{
+  name: 'ahr999指数',
+  url: 'https://btcie.com/ahr999',
+  logo: 'https://btcie.com/favicon.ico',
 }];
 
 export const resources = [{
