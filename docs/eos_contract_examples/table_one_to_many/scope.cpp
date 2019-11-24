@@ -4,7 +4,7 @@
 using namespace eosio;
 using namespace std;
 
-CONTRACT tablevectors : public contract {
+CONTRACT scope : public contract {
 public:
   using contract::contract;
 
@@ -23,34 +23,30 @@ public:
   ACTION add(const name account, string name){
     require_auth(account);
 
-    player_table players(_self, _self.value);
-    auto cur_player = players.find(account.value);
-    check(cur_player != players.end(), "Account not registered");
-
-    item_table items(_self, _self.value);
+    item_table items(_self, account.value);
     auto cur_item = items.emplace(account, [&](auto &item){
       item.id = items.available_primary_key();
       item.name = name;
     });
+  }
 
-    players.modify(cur_player, account, [&](auto &player){
-      player.items.push_back(cur_item->id);
-    });
+  ACTION get(const name account){
+    item_table items(_self, account.value);
+    for(auto &item : items){
+      print(item.name, " ");
+    }
   }
 
 private:
   TABLE playertable {
     name account;
-    vector<uint64_t> items;
-
     uint64_t primary_key() const { return account.value; }
   };
 
   TABLE itemtable {
     uint64_t id;
     string name;
-
-    uint64_t primary_key() const { return id; }    
+    uint64_t primary_key() const { return id; }  
   };  
 
   typedef multi_index<"player"_n, playertable> player_table;
