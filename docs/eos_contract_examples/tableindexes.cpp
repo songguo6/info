@@ -4,7 +4,7 @@
 using namespace eosio;
 using namespace std;
 
-CONTRACT indexes : public contract {
+CONTRACT tableindexes : public contract {
 public:
   using contract::contract;
 

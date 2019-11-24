@@ -4,7 +4,7 @@
 using namespace eosio;
 using namespace std;
 
-CONTRACT vectors : public contract {
+CONTRACT tablevectors : public contract {
 public:
   using contract::contract;
 

@@ -1,12 +1,4 @@
 export const tokens = [{
-  name: 'COSMOS',
-  link: 'https://cosmos.network',
-  symbol: 'ATOM',
-  price: '0.1',
-  supply: '2亿+',
-  time: '2017/04/06',
-  github: 'github.com/cosmos',
-},{
   name: 'EOS',
   link: 'https://eos.io',
   symbol: 'EOS',
