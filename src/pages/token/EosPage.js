@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col } from 'antd';
 import TradingViewWidget, { Themes } from 'react-tradingview-widget';
 import { createMainCard, createSideCard } from '../common';
-import { browsers, tools, infos } from '../../data/eos';
+import { browsers, creators, tools, infos } from '../../data/eos';
 
 const EosPage = () => (
   <Row gutter={24}>
@@ -14,6 +14,7 @@ const EosPage = () => (
     </Col>
 
     <Col xl={7} lg={24} md={24} sm={24} xs={24}>
+      {createSideCard('账号创建', creators, '50%')}
       {createSideCard('工具', tools, '50%')}
       {createSideCard('资讯', infos, '50%')}
     </Col>

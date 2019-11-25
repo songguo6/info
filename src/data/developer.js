@@ -77,6 +77,10 @@ export const eosdocs = [{
 }];
 
 export const eosblogs = [{
+  name: '开源合约代码',
+  url: 'http://blog.hubwiz.com/2019/07/10/eos-smartcontracts',
+  logo: 'https://i.loli.net/2019/07/07/5d21eb950c37f34594.png',
+},{
   name: 'EOS错误代码',
   url: 'http://cw.hubwiz.com/card/c/eos-error-code/',
   logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
@@ -104,10 +108,6 @@ export const eosblogs = [{
   name: '代码仓库整理',
   url: 'https://bihu.com/article/1060488462',
   logo: 'https://cdn.bihu-static.com/bihu-pc/favicon.ico',
-},{
-  name: 'JerryEOSLIVE',
-  url: 'https://www.eos.live/user/fireS8639288',
-  logo: 'https://www.eos.live/static/favicon.ico',
 },{
   name: '汇智网博客',
   url: 'http://blog.hubwiz.com/categories/EOS/',

@@ -20,6 +20,28 @@ export const browsers = [{
   logo: 'https://appserversrc.8btc.com/qkl/4/20190329125812_12334.jpg',
 }];
 
+export const creators = [{
+  name: 'Eos Account Creator',
+  url: 'https://eos-account-creator.com',
+  logo: 'https://eosvibes.io/favicon.ico',
+},{
+  name: 'ZEOS',
+  url: 'https://www.zeos.co/en/home',
+  logo: 'https://www.zeos.co/images/logo_256.png',
+},{
+  name: 'BitKeep',
+  url: 'https://bitkeep.com/',
+  logo: 'https://bitkeep.com/favicon.ico',
+},{
+  name: '比特派',
+  url: 'https://bitpie.com',
+  logo: 'https://bitpie.com/favicon.ico',
+},{
+  name: 'Token Pocket',
+  url: 'https://www.tokenpocket.pro',
+  logo: 'https://www.tokenpocket.pro/favicon.ico',
+}];
+
 export const tools = [{
   name: 'RAM价格走势',
   url: 'https://dapp.mytokenpocket.vip/ram/index.html',
