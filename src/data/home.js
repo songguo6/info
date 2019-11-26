@@ -13,7 +13,7 @@ export const navigations = [{
 },{
   name: '非小号',
   url: 'https://www.feixiaohao.com',
-  logo: 'https://www.feixiaohao.com/favicon.ico',
+  logo: 'https://lh3.googleusercontent.com/WUBIvkE8Y3jvLlECsUJAanESwsTh6czPrFbx23uFK6RNxkWHBg6JOQ9gFNSS8uh9JGo=s180',
 },{
   name: 'AICoin',
   url: 'https://www.aicoin.cn/',
@@ -282,7 +282,7 @@ export const tools = [{
 },{
   name: '非小号日历',
   url: 'https://www.feixiaohao.com/calendar',
-  logo: 'https://www.feixiaohao.com/favicon.ico',
+  logo: 'https://lh3.googleusercontent.com/WUBIvkE8Y3jvLlECsUJAanESwsTh6czPrFbx23uFK6RNxkWHBg6JOQ9gFNSS8uh9JGo=s180',
 },{
   name: '稳定币指数',
   url: 'https://stablecoinindex.com',

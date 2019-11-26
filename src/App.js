@@ -79,7 +79,7 @@ class App extends React.Component {
               theme="dark"
               mode="inline"
               defaultSelectedKeys={[this.props.location.pathname]} 
-              defaultOpenKeys={['sub1','sub2', 'sub3']}>
+              defaultOpenKeys={['sub1','sub2']}>
 
               <SubMenu key='sub1' title={this.subMenuTitle('pie-chart', '信息总览')}>
                 {this.menuItem('/', false, '信息导航')}

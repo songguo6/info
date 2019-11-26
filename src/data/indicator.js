@@ -1,9 +1,67 @@
 export const indicators = [{
   name: 'NVT',
-  link: 'https://www.qkl123.com/data/nvt/btc',
-  info: 'NVT=市值/链上交易额。NVT比率（网络价值与交易比率）类似于股票中的PE比率。当比特币的NVT值大时，表明其网络估值超过其支付网络上传输的价值，这可能在网络处于高增长且投资者将其视为高回报投资时发生，或者价格处于不可持续的泡沫中。',
-},{
-  name: 'NVTS',
-  link: 'https://www.qkl123.com/data/nvt/btc',
-  info: 'NVTS为NVT的90天平滑处理曲线。',
-}];
+  info: 'NVT=市值/链上交易额。当NVT比率变得很高时，表示总市值在增长，但链上交易没有相应的增长，这表明市场可能正处在泡沫之中，当前价格相对高估。',
+  charts:[{
+    title: 'bitcoin-nvt-ratio',
+    link: 'https://charts.woobull.com/bitcoin-nvt-ratio',
+  }],
+  articles: [{
+    title: '比特币是泡沫吗？看一下NVT比率 - 马烈',
+    link: 'https://www.jianshu.com/p/8e71040a4eba',
+  },{
+    title: '比特币网络价值和交易量的比率（Bitcoin NVT Ratio） - 松果',
+    link: 'https://bihu.com/article/1967128767',
+  }],
+},
+// {
+//   name: 'NVTS',
+//   link: 'https://www.qkl123.com/data/nvt/btc',
+//   info: 'NVTS为NVT的90天平滑处理曲线。',
+//   articles: ['https://bihu.com/article/1674852192'],
+// },{
+//   name: 'Realized Capitalization',
+//   link: '',
+//   info: '',
+//   articles: ['https://bihu.com/article/1650361136'],
+// },{
+//   name: 'MVRV',
+//   link: '',
+//   info: '',
+//   articles: ['https://bihu.com/article/1611687299'],
+// },{
+//   name: 'Network Momentum',
+//   link: '',
+//   info: '',
+//   articles: ['https://bihu.com/article/1887140906'],
+// },{
+//   name: 'Mayer Multiple',
+//   link: '',
+//   info: '',
+//   articles: ['https://bihu.com/article/1090511101'],
+// },{
+//   name: 'Risk Adjusted Returns',
+//   link: '',
+//   info: '',
+//   articles: ['https://bihu.com/article/1253511217'],
+// },{
+//   name: 'HODL Waves',
+//   link: '',
+//   info: '',
+//   articles: ['https://bihu.com/article/1894889723'],
+// },{
+//   name: '60天波动率',
+//   link: '',
+//   info: '',
+//   articles: ['https://bihu.com/article/1275762801'],
+// },{
+//   name: 'Velocity',
+//   link: '',
+//   info: '',
+//   articles: ['https://bihu.com/article/1130198469'],
+// },{
+//   name: '四大指标',
+//   link: '',
+//   info: '',
+//   articles: ['https://bihu.com/article/1115889696'],
+// }
+];
