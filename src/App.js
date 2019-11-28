@@ -17,6 +17,7 @@ import BihuPage from './pages/BihuPage';
 import CandyPage from './pages/CandyPage';
 import HomePage from './pages/dashboard/HomePage';
 import IndicatorPage from './pages/analysis/IndicatorPage';
+import IndicatorAnalysisPage from './pages/analysis/IndicatorAnalysisPage';
 import FngPage from './pages/analysis/FngPage';
 import FuturesPage from './pages/analysis/FuturesPage';
 import FinancePage from './pages/analysis/FinancePage';
@@ -87,6 +88,7 @@ class App extends React.Component {
 
               <SubMenu key='sub2' title={this.subMenuTitle('line-chart', '数据分析')}>
                 {this.menuItem('/analysis/idx', false, '关键指标')}
+                {this.menuItem('/analysis/idxa', false, '关键指标分析')}
                 {this.menuItem('/analysis/fng', false, '恐惧贪婪指数')}
                 {this.menuItem('/analysis/futures', false, 'BTC季度合约价格')}
                 {this.menuItem('/analysis/sixty', false, '60日累计涨幅')}
@@ -131,6 +133,7 @@ class App extends React.Component {
             <Content style={{ margin: '0 16px' }}>
               <Route path='/' exact component={HomePage}></Route>
               <Route path='/analysis/idx' exact component={IndicatorPage}></Route>
+              <Route path='/analysis/idxa' exact component={IndicatorAnalysisPage}></Route>
               <Route path='/analysis/fng' exact component={FngPage}></Route>
               <Route path='/analysis/futures' exact component={FuturesPage}></Route>
               <Route path='/analysis/finance' exact component={FinancePage}></Route>
