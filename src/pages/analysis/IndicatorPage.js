@@ -8,6 +8,7 @@ const columns = [{
   dataIndex: 'name', 
   key: 'name', 
   width: '100px',
+  render: text => <div style={{color:'black'}}>{text}</div>
 },{ 
   title: '说明', 
   dataIndex: 'info', 
