@@ -5,9 +5,9 @@ export const medium = [{
 },];
 
 export const twitter = [{
-  name: '',
-  url: '',
-  logo: '',
+  name: 'Willy Woo',
+  url: 'https://twitter.com/woonomic',
+  logo: 'https://pbs.twimg.com/profile_images/1061456386746269696/-0v6Qw17_200x200.jpg',
 },{
   name: '',
   url: '',

@@ -15,7 +15,7 @@ const defaultSymbols = [
   },
   {
     "description": "BCH",
-    "proName": "BINANCE:BCHABCUSDT"
+    "proName": "BINANCE:BCHUSDT"
   },
   {
     "description": "LTC",
@@ -28,18 +28,6 @@ const defaultSymbols = [
   {
     "description": "BNB",
     "proName": "BINANCE:BNBUSDT"
-  },
-  {
-    "description": "BSV",
-    "proName": "HUOBI:BSVUSDT"
-  },
-  {
-    "description": "TRX",
-    "proName": "BINANCE:TRXUSDT"
-  },
-  {
-    "description": "ADA",
-    "proName": "BINANCE:ADAUSDT"
   }
 ];
 
