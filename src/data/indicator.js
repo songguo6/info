@@ -15,6 +15,23 @@ export const indicators = [{
     link: 'https://bihu.com/article/1115889696',
   }],
 },{
+  name: 'SOPR',
+  info: [
+    'SOPR = 卖出价格 / 买入价格。',
+    'SOPR > 1时，表名这笔交易是盈利的，否则亏损。',
+    '在牛市中，SOPR=1基本上是支撑位；',
+    '在熊市中，SOPR=1基本上是阻力位。',
+    '(Spent Output Profit Ratio)',
+  ],
+  charts: [{
+    title: 'Bitcoin: SOPR (10d Moving Average)',
+    link: 'https://studio.glassnode.com/metrics?a=BTC&m=indicators.Sopr&mAvg=10&zoom=all',
+  }],
+  articles: [{
+    title: 'Introducing SOPR: spent outputs to predict bitcoin lows and tops',
+    link: 'https://medium.com/unconfiscatable/introducing-sopr-spent-outputs-to-predict-bitcoin-lows-and-tops-ceb4536b3b9',
+  }],
+},{
   name: 'NVT',
   info: [
     'NVT Ratio = 比特币总市值 / 每日链上交易额。',
@@ -22,7 +39,7 @@ export const indicators = [{
     '(Network Value to Transactions Ratio)',
   ],
   charts:[{
-    title: 'bitcoin-nvt-ratio（14天中位数调整）',
+    title: 'bitcoin-nvt-ratio(14 day median)',
     link: 'https://charts.woobull.com/bitcoin-nvt-ratio',
   }],
   articles: [{
