@@ -7,7 +7,7 @@ const columns = [{
   title: '名称', 
   dataIndex: 'name', 
   key: 'name', 
-  width: '100px',
+  width: '180px',
   render: text => <div style={{color:'black'}}>{text}</div>
 },{ 
   title: '说明', 
@@ -33,7 +33,7 @@ class IndicatorPage extends Component{
   render(){
     return(
       <Row gutter={24}>
-        <Col xl={22} lg={24} md={24} sm={24} xs={24}>
+        <Col xl={23} lg={24} md={24} sm={24} xs={24}>
           <Table columns={columns} dataSource={indicators} />
         </Col>
       </Row>

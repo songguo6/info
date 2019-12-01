@@ -363,6 +363,10 @@ export const tools = [{
   name: 'Glassnode',
   url: 'https://studio.glassnode.com',
   logo: 'https://d1qb2nb5cznatu.cloudfront.net/startups/i/6047845-941da6e03a0f2d6981bf9f5133fb007d-medium_jpg.jpg?buster=1552581047',
+},{
+  name: 'lookintobitcoin',
+  url: 'https://www.lookintobitcoin.com/charts',
+  logo: 'https://www.lookintobitcoin.com/static/img/logo/logo-stacked.png',
 }];
 
 export const resources = [{

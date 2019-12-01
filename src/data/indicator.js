@@ -64,6 +64,22 @@ export const indicators = [{
     link: 'https://woobull.com/nvt-signal-a-new-trading-indicator-to-pick-tops-and-bottoms',
   }],
 },{
+  name: '2-Year MA Multiplier',
+  info: [],
+  charts: [{
+    title: 'bitcoin-investor-tool',
+    link: 'https://www.lookintobitcoin.com/charts/bitcoin-investor-tool',
+  }],
+  articles: [],
+},{
+  name: '200 Week Moving Average Heatmap',
+  info: [],
+  charts: [{
+    title: '200-week-moving-average-heatmap',
+    link: 'https://www.lookintobitcoin.com/charts/200-week-moving-average-heatmap',
+  }],
+  articles: [],
+},{
   name: 'MVRV',
   info: [
     'MVRV Ratio = 市值 / 实际市值。',
@@ -89,6 +105,14 @@ export const indicators = [{
     title: '比特币价格分析指标之实际市值（Realized Capitalization）',
     link: 'https://bihu.com/article/1650361136',
   }],
+},{
+  name: 'MVRV Z-Score',
+  info: [],
+  charts: [{
+    title: 'mvrv-zscore',
+    link: 'https://www.lookintobitcoin.com/charts/mvrv-zscore',
+  }],
+  articles: [],
 },{
   name: 'Mayer Multiple',
   info: [

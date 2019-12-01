@@ -9,7 +9,7 @@ export const twitter = [{
   url: 'https://twitter.com/woonomic',
   logo: 'https://pbs.twimg.com/profile_images/1061456386746269696/-0v6Qw17_200x200.jpg',
 },{
-  name: '',
-  url: '',
-  logo: '',
+  name: 'Philip Swift',
+  url: 'https://twitter.com/PositiveCrypto',
+  logo: 'https://pbs.twimg.com/profile_images/1118158833539588096/wgni9i8o_200x200.png',
 }];
