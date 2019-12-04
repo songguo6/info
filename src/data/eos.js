@@ -47,6 +47,10 @@ export const tools = [{
   url: 'https://dapp.mytokenpocket.vip/ram/index.html',
   logo: 'https://dapp.mytokenpocket.vip/favicon.ico',
 },{
+  name: 'CPU价格走势',
+  url: 'https://newdex.io/resources/cpu_net',
+  logo: 'https://s1.bqiapp.com/image/20181203/newdex_mid.png',
+},{
   name: 'REX交易',
   url: 'http://rex.tokenpocket.pro/#/',
   logo: 'https://dapp.mytokenpocket.vip/favicon.ico',

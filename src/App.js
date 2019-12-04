@@ -85,7 +85,7 @@ class App extends React.Component {
 
               <SubMenu key='sub1' title={this.subMenuTitle('pie-chart', '信息总览')}>
                 {this.menuItem('/', false, '信息导航')}
-                {this.menuItem('/media', false, '币圈自媒体')}
+                {this.menuItem('/media', false, '自媒体')}
               </SubMenu>
 
               <SubMenu key='sub2' title={this.subMenuTitle('line-chart', '数据分析')}>
