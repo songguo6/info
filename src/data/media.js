@@ -6,7 +6,11 @@ export const medium = [{
   name: 'Renato Shirakashi',
   url: 'https://medium.com/@renato_shira',
   logo: 'https://miro.medium.com/fit/c/128/128/1*stBFDaQ0vxXNR2A8VPm0_g.jpeg',
-},];
+},{
+  name: 'Christoph Michel',
+  url: 'https://medium.com/@cmichel',
+  logo: 'https://miro.medium.com/fit/c/128/128/0*cghdEe2S5U1eaCFN.jpg',
+}];
 
 export const twitter = [{
   name: 'vitalik.eth',
@@ -22,8 +26,12 @@ export const twitter = [{
   logo: 'https://pbs.twimg.com/profile_images/1118158833539588096/wgni9i8o_200x200.png',
 }];
 
-export const websites = [{
+export const blog = [{
   name: 'EOS Nation',
   url: 'https://eosnation.io/blog',
   logo: 'https://pbs.twimg.com/profile_images/1056664405117673472/MX5jna39_400x400.jpg',
+},{
+  name: 'Voice',
+  url: 'https://voice.com/blog/road-to-beta',
+  logo: 'https://pbs.twimg.com/media/D8FV9aZWkAAOfSo.jpg',
 }];

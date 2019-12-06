@@ -1,7 +1,7 @@
 export const navigations = [{
   name: 'CoinMarketCap',
   url: 'https://coinmarketcap.com',
-  logo: 'https://coinmarketcap.com/favicon.ico',
+  logo: 'https://miro.medium.com/max/3150/1*KLgE-Hc-dNuqgLYWMujhAQ@2x.png',
 },{
   name: 'CoinMarketBook',
   url: 'https://coinmarketbook.cc',
@@ -242,15 +242,15 @@ export const oxchanges = [{
 export const tools = [{
   name: '总市值比例',
   url: 'https://coinmarketcap.com/zh/charts/#dominance-percentage',
-  logo: 'https://coinmarketcap.com/favicon.ico',
+  logo: 'https://miro.medium.com/max/3150/1*KLgE-Hc-dNuqgLYWMujhAQ@2x.png',
 },{
   name: '历史市值排行',
   url: 'https://coinmarketcap.com/zh/historical/',
-  logo: 'https://coinmarketcap.com/favicon.ico',
+  logo: 'https://miro.medium.com/max/3150/1*KLgE-Hc-dNuqgLYWMujhAQ@2x.png',
 },{
   name: 'Token市值排行',
   url: 'https://coinmarketcap.com/tokens/',
-  logo: 'https://coinmarketcap.com/favicon.ico',
+  logo: 'https://miro.medium.com/max/3150/1*KLgE-Hc-dNuqgLYWMujhAQ@2x.png',
 },{
   name: 'Github提交排行',
   url: 'https://www.qkl123.com/ranking',
