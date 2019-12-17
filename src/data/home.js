@@ -61,6 +61,10 @@ export const infos = [{
   url: 'https://cn.longhash.com/',
   logo: 'https://pbs.twimg.com/profile_images/991560474436096001/l7bGkMTv.jpg',
 },{
+  name: 'CBX Research',
+  url: 'https://www.cbxresearch.io',
+  logo: 'https://www.cbxresearch.io/wp-content/uploads/2019/06/cropped-CBX_RESEARCH_LOGO_website-1-e1561564650864-5.png',
+},{
   name: 'Messari.io',
   url: 'https://messari.io/',
   logo: 'https://messari.io/images/Messari_icon_36x36.svg',
