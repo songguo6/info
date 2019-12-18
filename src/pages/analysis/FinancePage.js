@@ -8,8 +8,8 @@ const FinancePage = () => (
   <Fragment>
     <Row gutter={24}>
       <Col xl={12} lg={24} md={24} sm={24} xs={24}>
-        <h1 style={{textAlign:'center'}}>道琼斯工业平均指数</h1>
-        <TradingViewWidget symbol='DJCFD:DJI' locale='zh_CN' width='100%' interval='M' theme={Themes.DARK}/>    
+        <h1 style={{textAlign:'center'}}>纽交所-阿里巴巴</h1>
+        <TradingViewWidget symbol='NYSE:BABA' locale='zh_CN' width='100%' interval='W' theme={Themes.DARK}/>    
       </Col>
 
       <Col xl={12} lg={24} md={24} sm={24} xs={24}>
