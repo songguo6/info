@@ -34,4 +34,8 @@ export const blog = [{
   name: 'Voice',
   url: 'https://voice.com/blog/road-to-beta',
   logo: 'https://pbs.twimg.com/media/D8FV9aZWkAAOfSo.jpg',
+},{
+  name: 'Binance',
+  url: 'https://www.binance.com/en/blog',
+  logo: 'https://s1.bqiapp.com/image/20181207/binance_mid.png',
 }];
