@@ -27,6 +27,10 @@ export const twitter = [{
 }];
 
 export const blog = [{
+  name: 'EOSIO News',
+  url: 'https://eos.io/news',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
+},{
   name: 'EOS Nation',
   url: 'https://eosnation.io/blog',
   logo: 'https://pbs.twimg.com/profile_images/1056664405117673472/MX5jna39_400x400.jpg',
