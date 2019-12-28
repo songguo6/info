@@ -444,7 +444,7 @@ export const evaluations = [{
 }];
 
 export const capitals = [{
-  name: 'Electric',
+  name: 'Electric Capital',
   url: 'https://www.electriccapital.com',
   logo: 'https://pbs.twimg.com/profile_images/995890561478545408/NmJ6Mbpw_400x400.jpg',
 }];
