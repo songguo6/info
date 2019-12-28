@@ -14,10 +14,6 @@ export const browsers = [{
   name: 'stats.ethfans.org',
   url: 'https://stats.ethfans.org/',
   logo: 'https://stats.ethfans.org/favicon.ico',
-},{
-  name: '全球节点分布',
-  url: 'https://ethernodes.org/countries',
-  logo: 'https://ethernodes.org/favicon.ico',
 }];
 
 export const tools = [{
@@ -36,6 +32,10 @@ export const tools = [{
   name: '最佳手续费',
   url: 'https://www.etherchain.org/tools/gasPriceOracle',
   logo: 'https://www.etherchain.org/images/favicon.png',
+},{
+  name: '全球节点分布',
+  url: 'https://ethernodes.org/countries',
+  logo: 'https://avatars2.githubusercontent.com/u/23154020?s=460&v=4',
 }];
 
 export const infos = [{
