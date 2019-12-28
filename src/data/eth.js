@@ -14,6 +14,10 @@ export const browsers = [{
   name: 'stats.ethfans.org',
   url: 'https://stats.ethfans.org/',
   logo: 'https://stats.ethfans.org/favicon.ico',
+},{
+  name: '全球节点分布',
+  url: 'https://ethernodes.org/countries',
+  logo: 'https://ethernodes.org/favicon.ico',
 }];
 
 export const tools = [{
