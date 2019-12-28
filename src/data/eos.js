@@ -82,6 +82,10 @@ export const tools = [{
   name: 'Airgrab',
   url: 'https://eosauthority.com/wallet/airgrab',
   logo: 'https://eosauthority.com/common/images/favicon.ico',
+},{
+  name: 'MarketCap',
+  url: 'https://marketcap.one',
+  logo: 'https://pbs.twimg.com/profile_images/1168509239104376834/jS8rD8hz_400x400.png',
 }];
 
 export const infos = [{
