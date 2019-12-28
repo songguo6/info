@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col } from 'antd';
 import { createSideCard, createMainCard } from '../common';
 import { 
-  navigations, infos, forums, evaluations, 
+  navigations, infos, forums, evaluations, capitals,
   exchanges, dxchanges, oxchanges, 
   tools, resources, browsers, icos, candies, 
 } from '../../data/home';
@@ -14,6 +14,7 @@ const HomePage = () => (
       {createMainCard('资讯站', infos)}
       {createMainCard('论坛 & 社区', forums)}
       {createMainCard('项目测评', evaluations)}
+      {createMainCard('投资机构', capitals)}
       {
         createMainCard('交易所公告', exchanges, 
           <span>

@@ -443,6 +443,12 @@ export const evaluations = [{
   logo: 'https://app.flipsidecrypto.com/favicon.ico',
 }];
 
+export const capitals = [{
+  name: 'Electric',
+  url: 'https://www.electriccapital.com',
+  logo: 'https://pbs.twimg.com/profile_images/995890561478545408/NmJ6Mbpw_400x400.jpg',
+}];
+
 export const icos = [{
   name: 'IEO资讯',
   url: 'https://block.cc/ieo',
