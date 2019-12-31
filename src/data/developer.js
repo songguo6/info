@@ -289,9 +289,17 @@ export const sites = [{
   url: 'https://edu.51cto.com/',
   logo: 'https://edu.51cto.com/favicon.ico',
 },{
+  name: 'CSDN学院',
+  url: 'https://edu.csdn.net',
+  logo: 'https://edu.csdn.net/favicon.ico',
+},{
   name: '中国大学慕课',
   url: 'https://www.icourse163.org/',
   logo: 'https://edu-image.nosdn.127.net/32a8dd2a-b9aa-4ec9-abd5-66cd8751befb.png?imageView&quality=100',
+},{
+  name: '明日学院',
+  url: 'https://www.mingrisoft.com',
+  logo: 'http://www.pc0359.cn/d/file/2019/10/31/ico7149709f5129bda7dec0d0e672661fe5.png',
 },{
   name: '汇智网',
   url: 'http://www.hubwiz.com/',
