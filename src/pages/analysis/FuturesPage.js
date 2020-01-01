@@ -13,7 +13,8 @@ class FuturesPage extends Component {
 
   componentDidMount(){
 
-    const size = (getTodayZeroStamp() - START_TIME) / 86400000 + 1;
+    // const size = (getTodayZeroStamp() - START_TIME) / 86400000 + 1;
+    const size = 365;
 
     //现货
     axios.get('https://api.huobi.pro/market/history/kline?symbol=btcusdt&period=1day&size=' + size).then(res => {
