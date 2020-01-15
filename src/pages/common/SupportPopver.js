@@ -22,7 +22,7 @@ const SupportPopover = () => (
       {createItem('BTC', '17yHqWhAVDyJkxuG7C7DwpFGWcoyyNU4Nu')}
     </Col>
     <Col xl={8} lg={24} md={24} sm={24} xs={24}>
-      {createItem('ETH / ERC20', '0x93851d69700F75ae3568503b30DDF70E1Df88e20')}
+      {createItem('ETH / ERC20', '0x369C4d9c1858909B5b4aA94A5d52eB2bAcCA2430')}
     </Col>
     <Col xl={8} lg={24} md={24} sm={24} xs={24}>
       {createItem('EOS / KEY', 'songguo55555')}
