@@ -143,10 +143,6 @@ export const eostools = [{
   url: 'https://validate.eosnation.io/mainnet/reports/',
   logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
 },{
-  name: '区块数据备份',
-  url: 'https://eosnode.tools/blocks',
-  logo: 'https://eosnode.tools/img/icons/apple-touch-icon.png',
-},{
   name: 'EOS天眼',
   url: 'https://eos.slowmist.io/',
   logo: 'https://appserversrc.8btc.com/qkl/5/20181226153412_58677.png',
@@ -251,7 +247,7 @@ export const apis = [{
 },{
   name: 'TradingView',
   url: 'https://cn.tradingview.com/widget/',
-  logo: 'https://pbs.twimg.com/profile_images/1112691953542590464/WChOrIka.png',
+  logo: 'https://www.tradingview.com/static/images/logo-151x151.png',
 },{
   name: 'AICoin插件',
   url: 'https://www.aicoin.net.cn/widgets/chart',
@@ -277,7 +273,7 @@ export const ides = [{
 },{
   name: 'Libra Move',
   url: 'https://libraide.com/',
-  logo: 'https://chainide.com/assets/img/favicon.png',
+  logo: 'https://libra.org/zh-CN/wp-content/themes/jfl-default/favicons/apple-touch-icon.png',
 }];
 
 export const sites = [{
