@@ -250,7 +250,7 @@ export const apis = [{
   logo: 'https://www.tradingview.com/static/images/logo-151x151.png',
 },{
   name: 'AICoin插件',
-  url: 'https://www.aicoin.net.cn/widgets/chart',
+  url: 'https://www.aicoin.cn/widgets/chart',
   logo: 'https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/9d/0c/10/9d0c10d4-1879-411e-925e-655fa59589d1/AppIcon_OverSea-0-1x_U007emarketing-0-0-85-220-7.png/246x0w.jpg',
 },{
   name: 'CoinGecko插件',
