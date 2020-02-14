@@ -54,12 +54,10 @@ class SixtyPage extends Component {
           this.requestData(e.target.value);
         }}>
           <Radio.Button value='BTC'>BTC</Radio.Button>
-          <Radio.Button value='ETH'>ETH</Radio.Button>
-          <Radio.Button value='XRP'>XRP</Radio.Button>
           <Radio.Button value='LTC'>LTC</Radio.Button>
-          <Radio.Button value='BCH'>BCH</Radio.Button>
+          <Radio.Button value='ETH'>ETH</Radio.Button>
           <Radio.Button value='EOS'>EOS</Radio.Button>
-          <Radio.Button value='TRX'>TRX</Radio.Button>
+          <Radio.Button value='BCH'>BCH</Radio.Button>
         </Radio.Group>
         <Spin tip='图表加载中...' spinning={this.state.loading}>
           <Chart height={800} padding={[20, 45, 20, 45]} data={data} scale={scale} forceFit>
