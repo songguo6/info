@@ -15,30 +15,41 @@ class SixtyPage extends Component {
 
   requestData(symbol){
     axios.get('https://api-pub.bitfinex.com/v2/candles/trade:1D:t' + symbol + 'USD/hist?limit=5000&sort=1').then(res => {
-      let rawData = [];
-      res.data.forEach(item => {
-        rawData.push({
-          date: moment(parseInt(item[0])).format('YYYY-MM-DD'),
-          change: (item[2] - item[1]) / item[1],
-        })
-      });
-      let chartData = [];
-      rawData.forEach((item, index) => {
-        if(index > 58){
-          let change60 = 0;
-          for(let i = 0; i < 60; i++){
-            change60 += rawData[index - i].change;
-          }
-          chartData.push({
-            date: item.date,
-            change: parseFloat(change60.toFixed(2)),    
-          })
-        }
-      });
-      this.setState({data: chartData, loading: false, symbol});
+      if(symbol === 'BCH'){
+        axios.get('https://api-pub.bitfinex.com/v2/candles/trade:1D:tBABUSD/hist?limit=5000&sort=1').then(res2 => {
+          res2.data.splice(0, 3);
+          this.dealData(res.data.concat(res2.data), symbol);  
+        });
+      }else{
+        this.dealData(res.data, symbol);
+      }
     }).catch(error => {
       showCorsHelper();
     });
+  }
+
+  dealData(data, symbol){
+    let rawData = [];
+    data.forEach(item => {
+      rawData.push({
+        date: moment(parseInt(item[0])).format('YYYY-MM-DD'),
+        change: (item[2] - item[1]) / item[1],
+      })
+    });
+    let chartData = [];
+    rawData.forEach((item, index) => {
+      if(index > 58){
+        let change60 = 0;
+        for(let i = 0; i < 60; i++){
+          change60 += rawData[index - i].change;
+        }
+        chartData.push({
+          date: item.date,
+          change: parseFloat(change60.toFixed(2)),    
+        })
+      }
+    });
+    this.setState({data: chartData, loading: false, symbol});
   }
 
   render(){
@@ -57,7 +68,7 @@ class SixtyPage extends Component {
           <Radio.Button value='LTC'>LTC</Radio.Button>
           <Radio.Button value='ETH'>ETH</Radio.Button>
           <Radio.Button value='EOS'>EOS</Radio.Button>
-          <Radio.Button value='BAB'>BCH</Radio.Button>
+          <Radio.Button value='BCH'>BCH</Radio.Button>
         </Radio.Group>
         <Spin tip='图表加载中...' spinning={this.state.loading}>
           <Chart height={800} padding={[20, 45, 20, 45]} data={data} scale={scale} forceFit>
