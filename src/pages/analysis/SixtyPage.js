@@ -57,7 +57,7 @@ class SixtyPage extends Component {
           <Radio.Button value='LTC'>LTC</Radio.Button>
           <Radio.Button value='ETH'>ETH</Radio.Button>
           <Radio.Button value='EOS'>EOS</Radio.Button>
-          <Radio.Button value='BCH'>BCH</Radio.Button>
+          <Radio.Button value='BAB'>BCH</Radio.Button>
         </Radio.Group>
         <Spin tip='图表加载中...' spinning={this.state.loading}>
           <Chart height={800} padding={[20, 45, 20, 45]} data={data} scale={scale} forceFit>
