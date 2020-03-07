@@ -110,12 +110,12 @@ Bob：   kb*Ka -> kb*(ka*G)    Bob加密需要Alice的公钥
 
 （以上乘法均为群乘法）
 
-# 助记词
+# 助记词（比特币）
 
 #### 助记词 -> 私钥
 ./mnemonicTool-linux -mnemonic "ask language rude digital glare thumb civil cousin urban trial lake second"
 
-# keystore + password
+# keystore + password（以太坊）
 
 #### keystore.json数据结构（Ethereum wallet v3 format）
 ```
