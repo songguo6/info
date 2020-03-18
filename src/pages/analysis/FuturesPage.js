@@ -5,7 +5,7 @@ import axios from 'axios';
 import moment from 'moment';
 import { getTodayZeroStamp, showCorsHelper } from '../../utils';
 
-const START_TIME = 1541692800000;
+const START_TIME = 1546272000000;
 
 class FuturesPage extends Component {
 
@@ -13,8 +13,7 @@ class FuturesPage extends Component {
 
   componentDidMount(){
 
-    // const size = (getTodayZeroStamp() - START_TIME) / 86400000 + 1;
-    const size = 365;
+    const size = (getTodayZeroStamp() - START_TIME) / 86400000 + 1;
 
     //现货
     axios.get('https://api.huobi.pro/market/history/kline?symbol=btcusdt&period=1day&size=' + size).then(res => {
