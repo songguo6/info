@@ -87,7 +87,10 @@ class FuturesPage extends Component {
           chartData[index].pricef = item.close;
           chartData[index].change = parseFloat(parseFloat(item.close - chartData[index].price).toFixed(2));
         });
-        this.setState({data: chartData, loading: false});
+        STATIC_DATA.forEach(item => {
+          item.change = parseFloat(parseFloat(item.pricef - item.price).toFixed(2));
+        });
+        this.setState({data: [...STATIC_DATA, ...chartData], loading: false});
       }).catch(error => {
         console.log(error);
       });
@@ -97,12 +100,7 @@ class FuturesPage extends Component {
   }
 
   render(){
-
-    STATIC_DATA.forEach(item => {
-      item.change = parseFloat(item.pricef - item.price).toFixed(2);
-    });
-    const data = [...STATIC_DATA, ...this.state.data];
-    console.log(data);
+    const data = this.state.data;
     const scale = {
       price: { alias: '现货价' },
       pricef: { alias: '期货价'},
