@@ -99,10 +99,10 @@ class FuturesPage extends Component {
   render(){
 
     STATIC_DATA.forEach(item => {
-      item.change = item.pricef - item.price;
+      item.change = parseFloat(item.pricef - item.price).toFixed(2);
     });
-
     const data = [...STATIC_DATA, ...this.state.data];
+    console.log(data);
     const scale = {
       price: { alias: '现货价' },
       pricef: { alias: '期货价'},
