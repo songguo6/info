@@ -14,7 +14,7 @@ const FinancePage = () => (
 
       <Col xl={12} lg={24} md={24} sm={24} xs={24}>
         <h1 style={{textAlign:'center'}}>纳斯达克-苹果公司</h1>
-        <TradingViewWidget symbol='NASDAQ:AAPL' locale='zh_CN' width='100%' interval='M' theme={Themes.DARK}/>    
+        <TradingViewWidget symbol='NASDAQ:AAPL' locale='zh_CN' width='100%' interval='W' theme={Themes.DARK}/>    
       </Col>
     </Row>
     <br/>
