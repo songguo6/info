@@ -192,6 +192,6 @@ export const nvt = [{
 },{
   'nvt_period': '2020-01-12 ~ ',
   'nvt' : [97.54, DOWN],
-  'btc_period': '2020-01-12 ~ ',
-  'btc': [8164.55, DOWN],
+  'btc_period': '2020-01-12 ~ 2020-03-12',
+  'btc': [8164.55, DOWN, 4959.31, UP],
 }];
