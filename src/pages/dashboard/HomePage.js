@@ -2,29 +2,26 @@ import React from 'react';
 import { Row, Col } from 'antd';
 import { createSideCard, createMainCard } from '../common';
 import { 
-  navigations, infos, forums, evaluations, capitals,
-  exchanges, dxchanges, oxchanges, 
+  navigations, klines, indexs, infos, evaluations,
+  exchanges, 
   tools, resources, browsers, icos, candies, 
 } from '../../data/home';
 
 const HomePage = () => (
   <Row gutter={24}>
     <Col xl={15} lg={24} md={24} sm={24} xs={24}>
-      {createMainCard('行情站', navigations)}
+      {createMainCard('综合导航', navigations)}
+      {createMainCard('综合指标', indexs)}
+      {createMainCard('K线', klines)}
       {createMainCard('资讯站', infos)}
-      {createMainCard('论坛 & 社区', forums)}
       {createMainCard('项目测评', evaluations)}
-      {createMainCard('投资机构', capitals)}
       {
-        createMainCard('交易所公告', exchanges, 
+        createMainCard('交易所', exchanges, 
           <span>
             <a href="https://www.feixiaohao.com/exchange/notice" target="_blank" rel="noopener noreferrer">非小号&nbsp;|&nbsp;</a>
-            <a href="https://www.mytoken.io/media/notice" target="_blank" rel="noopener noreferrer">MyToken&nbsp;|&nbsp;</a>
             <a href="https://block.cc/notice" target="_blank" rel="noopener noreferrer">蜜蜂查</a>
           </span>)
       }
-      {createMainCard('去中心化交易所', dxchanges)}
-      {createMainCard('场外交易所', oxchanges)}
     </Col>
 
     <Col xl={9} lg={24} md={24} sm={24} xs={24}>

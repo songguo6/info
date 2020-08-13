@@ -1,12 +1,4 @@
 export const navigations = [{
-  name: 'CoinMarketCap',
-  url: 'https://coinmarketcap.com',
-  logo: 'https://miro.medium.com/max/3150/1*KLgE-Hc-dNuqgLYWMujhAQ@2x.png',
-},{
-  name: 'CoinMarketBook',
-  url: 'https://coinmarketbook.cc',
-  logo: 'https://coinmarketbook.cc/logo-lg.jpg',
-},{
   name: 'QKL123',
   url: 'https://www.qkl123.com/',
   logo: 'https://webcdn.qkl123.com/1.2.51/img/66389ce.svg',
@@ -14,32 +6,32 @@ export const navigations = [{
   name: '非小号',
   url: 'https://www.feixiaohao.com',
   logo: 'https://lh3.googleusercontent.com/WUBIvkE8Y3jvLlECsUJAanESwsTh6czPrFbx23uFK6RNxkWHBg6JOQ9gFNSS8uh9JGo=s180',
+}]
+
+export const indexs = [{
+  name: 'Buy Support',
+  url: 'https://coinmarketbook.cc',
+  logo: 'https://coinmarketbook.cc/logo-lg.jpg',
 },{
+  name: '总市值比例',
+  url: 'https://coinmarketcap.com/zh/charts/#dominance-percentage',
+  logo: 'https://miro.medium.com/max/3150/1*KLgE-Hc-dNuqgLYWMujhAQ@2x.png',
+},{
+  name: 'LongHash',
+  url: 'https://cn.longhash.com/',
+  logo: 'https://pbs.twimg.com/profile_images/991560474436096001/l7bGkMTv.jpg',
+},]
+
+export const klines = [{
   name: 'AICoin',
   url: 'https://www.aicoin.cn/',
   logo: 'https://assets-www.aicoin.net.cn/beta-v19/static/favicon.ico',
-},{
-  name: 'MyToken',
-  url: 'https://www.mytoken.io/',
-  logo: 'https://www.mytoken.io/favicon.ico',
-},{
-  name: 'Coin360',
-  url: 'https://coin360.com/',
-  logo: 'https://coin360.com/assets/favicon.ico',
-},{
-  name: '蜜蜂查',
-  url: 'https://block.cc/',
-  logo: 'https://block.cc/favicon.ico',
 }]
 
 export const infos = [{
   name: '巴比特',
   url: 'https://www.8btc.com/',
   logo: 'https://s1.bqiapp.com/images/site/8btc_com.png',
-},{
-  name: '白话区块链',
-  url: 'https://www.hellobtc.com',
-  logo: 'https://s1.bqiapp.com/image/20190506/7091557123747475.png',
 },{
   name: '星球日报',
   url: 'https://www.odaily.com/',
@@ -53,203 +45,43 @@ export const infos = [{
   url: 'https://www.chainnews.com',
   logo: 'https://s1.bqiapp.com/images/site/chinanews.png',
 },{
-  name: '链向财经',
-  url: 'https://www.chainfor.com/',
-  logo: 'https://s1.bqiapp.com/images/site/chainfor_com.png',
-},{
-  name: 'LongHash',
-  url: 'https://cn.longhash.com/',
-  logo: 'https://pbs.twimg.com/profile_images/991560474436096001/l7bGkMTv.jpg',
-},{
-  name: 'Messari.io',
-  url: 'https://messari.io/',
-  logo: 'https://messari.io/images/Messari_icon_36x36.svg',
-},{
-  name: 'CryptoSlate',
-  url: 'https://cryptoslate.com',
-  logo: 'https://cryptoslate.com/wp-content/themes/cryptoslate-2017/icons/xapple-icon-57x57.png.pagespeed.ic.E5dr6Oym2D.webp',
-},{
-  name: 'CCN',
-  url: 'https://www.ccn.com/',
-  logo: 'https://s1.bqiapp.com/images/site/ccn_com.png',
-},{
-  name: 'CoinDesk',
-  url: 'https://www.coindesk.com/',
-  logo: 'https://s1.bqiapp.com/images/site/coindesk_com.png',
-},{
-  name: 'CoinTelegraph',
-  url: 'https://cointelegraph.com/',
-  logo: 'https://s1.bqiapp.com/images/site/cointelegraph_com.png',
-}];
-
-export const forums = [{
   name: '币乎',
   url: 'https://bihu.com/',
   logo: 'https://appserversrc.8btc.com/qkl/5/20181210161511_51801.jpg',
-},{
-  name: 'Steemit',
-  url: 'https://steemit.com/',
-  logo: 'https://appserversrc.8btc.com/qkl/media/community/18.png',
-},{
-  name: '链节点',
-  url: 'https://www.chainnode.com/',
-  logo: 'https://appserversrc.8btc.com/qkl/5/20190516110457_46018.png',
-},{
-  name: '币问',
-  url: 'https://www.biask.com/',
-  logo: 'https://appserversrc.8btc.com/qkl/media/community/11.png',
-},{
-  name: 'BitcoinTalk',
-  url: 'https://bitcointalk.org/',
-  logo: 'https://appserversrc.8btc.com/qkl/5/20181129094921_28019.jpg',
-},{
-  name: 'IPFS中国社区',
-  url: 'http://www.ipfs.cn/',
-  logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ipfs-logo-1024-ice-text.png/220px-Ipfs-logo-1024-ice-text.png',
-},{
-  name: 'IOTA中国社区',
-  url: 'http://www.iotachina.com/',
-  logo: 'https://cdn.iconscout.com/icon/free/png-256/iota-2-645869.png',
 }];
 
-export const exchanges = [{
-  name: '币安',
-  url: 'https://binance.zendesk.com/hc/zh-cn/categories/115000056351-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
-  logo: 'https://s1.bqiapp.com/image/20181207/binance_mid.png',
-  reg: 'https://www.binance.com/?ref=10101853',
-},{ 
+export const exchanges = [{ 
   name: '火币', 
   url: 'https://huobiglobal.zendesk.com/hc/zh-cn/categories/360000031902-Huobi-Global-%E5%85%AC%E5%91%8A',
   logo: 'https://s1.bqiapp.com/images/site/huobi_pro.png',
   reg: 'https://www.huobi.co/zh-cn/topic/invited/?invite_code=3c883',
 },{
-  name: 'BitMEX',
-  url: 'https://www.bitmex.com/app/tradingOverview',
-  logo: 'https://s1.bqiapp.com/image/20181126/bitmex_mid_1543202270365.png',
+  name: '币安',
+  url: 'https://binance.zendesk.com/hc/zh-cn/categories/115000056351-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
+  logo: 'https://s1.bqiapp.com/image/20181207/binance_mid.png',
+  reg: 'https://www.binance.com/?ref=10101853',
 },{
-  name: 'Bitfinex',
-  url: 'https://www.bitfinex.com/',
-  logo: 'https://s1.bqiapp.com/image/20181126/bitfinex_mid.png',
-},{
-  name: 'HitBTC',
-  url: 'https://hitbtc.com',
-  logo: 'https://s1.bqiapp.com/image/20181126/hitbtc_mid.png',
-},{
-  name: 'Gate.io',
-  url: 'https://gateio.news/articlelist/ann',
-  logo: 'https://s1.bqiapp.com/image/20181204/gateio_mid.png',
-  reg: 'https://gateio.news/signup/417960',
-},{
-  name: '库币',
-  url: 'https://www.kcs.top/activity-center',
-  logo: 'https://s1.bqiapp.com/image/20181122/kucoin_mid.png',
-  reg: 'https://www.kcs.top/?rcode=E1hGTF',
-},{
-  name: 'Bit-Z',
-  url: 'https://www.bitz.top/activity',
-  logo: 'https://s1.bqiapp.com/image/20181119/bitz_mid.png',
-  reg: 'https://u.bitz.top/register?invite_code=2772116',
-},{
-  name: 'MXC',
-  url: 'https://mxc-exchange.zendesk.com/hc/zh-cn/categories/360000254192-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
-  logo: 'https://s1.bqiapp.com/image/20190308/mexc_mid.png?v=1560386822',
-  reg: 'https://www.mxc.com/auth/signup?inviteCode=12gTm',
-},{
-  name: 'BiKi',
-  url: 'https://www.biki.com/noticeInfo',
-  logo: 'https://s1.bqiapp.com/image/20190228/bikicoin_mid.png',
-  reg: 'https://www.biki.com/register?inviteCode=EEVEQWT',
-},{
-  name: 'Bibox',
-  url: 'https://bibox.zendesk.com/hc/zh-cn/categories/115000448994-%E6%B4%BB%E5%8A%A8',
-  logo: 'https://s1.bqiapp.com/image/20190408/bibox_mid_1554712762773.png',
-  reg: 'https://www.bibox.com/signPage?id=11291419&lang=zh',
-},{
-  name: 'BigONE',
-  url: 'https://bigone.zendesk.com/hc/zh-cn/categories/115000217873',
-  logo: 'https://s1.bqiapp.com/image/20181126/bigone_mid.png',
-  reg: 'https://b1.run/users/new?code=71KCQJJF',
-},{
-  name: '币客',
-  url: 'https://www.bitker.biz/#/notice',
-  logo: 'https://s1.bqiapp.com/image/20181126/bitker_mid.png',
-  reg: 'https://www.bitker.com/#/register?invite_code=x1YDM6Vn&lang=cn',
-},{
-  name: 'IDAX',
-  url: 'https://idax.zendesk.com/hc/zh-cn/categories/360000127131',
-  logo: 'https://s1.bqiapp.com/image/20181124/idax_mid.png',
-  reg: 'https://www.idax.pro/register?inviteCode=i44boh&o=10002',
-},{
-  name: 'Digi',
-  url: 'https://www.digifinex.com/zh-cn/notice',
-  logo: 'https://s1.bqiapp.com/image/20181119/shuzibi_mid.png',
-  reg: 'https://www.digifinex.com/zh-cn/from/QGHxHY/3485****2908',
-},{
-  name: '币虎',
-  url: 'https://support.cointiger.one/hc/zh-cn/categories/360000859434-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
-  logo: 'https://s1.bqiapp.com/image/20181119/cointiger_mid.png',
-},{
-  name: '币赢',
-  url: 'https://www.coinw.ai/service/ourService.html',
-  logo: 'https://s1.bqiapp.com/image/20181119/coinw_mid.png',
-  reg: 'https://www.coinw.ai/user/register.html?r=28351&language=zh_CN',
-},{
-  name: 'BKEX',
-  url: 'https://bkex.zendesk.com/hc/zh-cn/categories/360001640373-BKEX-Global-%E5%85%AC%E5%91%8A',
-  logo: 'https://s1.bqiapp.com/image/20190321/bkex_mid.png',
-},{
-  name: 'LBank',
-  url: 'https://lbankinfo.zendesk.com/hc/zh-cn/categories/115000249773-%E5%85%AC%E5%91%8A%E6%9D%BF',
-  logo: 'https://s1.bqiapp.com/image/20181126/lhang_mid.png',
-  reg: 'https://www.lbex.io/invite?icode=8BSM',
-}];
-
-export const dxchanges = [{
   name: '鲸交所',
-  url: 'https://whaleex.zendesk.com/hc/zh-cn/categories/360000918052-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
+  url: 'https://www.whaleex.com/poster/announcement.html',
   logo: 'https://s1.bqiapp.com/image/20181204/whaleex_mid.png',
-  reg: 'https://ym.whaleex.com.cn/WhaleEx/dash/login?inviteCode=CN-ddXpdK',
+  reg: 'https://ym.whaleex.com.cn/ym/dash/login?inviteCode=CN-ddXpdK',
 },{
   name: 'Newdex',
   url: 'https://newdex.zendesk.com/hc/zh-cn/categories/360000802432-%E5%85%AC%E5%91%8A%E4%B8%AD%E5%BF%83',
   logo: 'https://s1.bqiapp.com/image/20181203/newdex_mid.png',
 },{
-  name: 'DEXEOS',
-  url: 'https://dexeos.io/',
-  logo: 'https://cdn-images-1.medium.com/max/1024/1*y2Rhz1PU6VPvyeX8bdBIkw.png',
-},{
   name: 'BINANCE DEX',
   url: 'https://www.binance.org/cn/trade/ANKR-E97_BNB',
   logo: 'https://s1.bqiapp.com/image/20181207/binance_mid.png',
 },{
-  name: 'IDEX',
-  url: 'https://idex.market',
-  logo: 'https://s1.bqiapp.com/image/20181124/idex_mid.png',
-}];
-
-export const oxchanges = [{
-  name: '火币',
+  name: '火币OTC',
   url: 'https://otc.huobi.co/zh-cn/trade/buy-btc/',
   logo: 'https://s1.bqiapp.com/images/site/huobi_pro.png',
-  reg: 'https://www.huobi.co/zh-cn/topic/invited/?invite_code=3c883',
-},{
-  name: 'Gate',
-  url: 'https://www.gate.io/c2c/usdt_cny',
-  logo: 'https://s1.bqiapp.com/image/20181204/gateio_mid.png',
-  reg: 'https://gateio.news/signup/417960',
 }];
 
 export const tools = [{
-  name: '总市值比例',
-  url: 'https://coinmarketcap.com/zh/charts/#dominance-percentage',
-  logo: 'https://miro.medium.com/max/3150/1*KLgE-Hc-dNuqgLYWMujhAQ@2x.png',
-},{
   name: '历史市值排行',
   url: 'https://coinmarketcap.com/zh/historical/',
-  logo: 'https://miro.medium.com/max/3150/1*KLgE-Hc-dNuqgLYWMujhAQ@2x.png',
-},{
-  name: 'Token市值排行',
-  url: 'https://coinmarketcap.com/tokens/',
   logo: 'https://miro.medium.com/max/3150/1*KLgE-Hc-dNuqgLYWMujhAQ@2x.png',
 },{
   name: 'Github提交排行',
@@ -406,43 +238,13 @@ export const browsers = [{
 }]
 
 export const evaluations = [{
-  name: 'TokenGazer',
-  url: 'https://www.tokengazer.com',
-  logo: 'https://appserversrc.8btc.com/agency/icon/tokengazer.svg',
-},{
-  name: '链塔',
-  url: 'http://www.blockdata.club/site/link',
-  logo: 'https://appserversrc.8btc.com/agency/icon/blockdata.svg',
-},{
-  name: '大炮评级',
-  url: 'https://www.dprating.com',
-  logo: 'https://appserversrc.8btc.com/agency/icon/dprating.svg',
-},{
   name: '标准共识',
   url: 'https://www.sncrating.com/cn',
   logo: 'https://appserversrc.8btc.com/agency/icon/sncrating.svg',
 },{
-  name: '数链评级',
-  url: 'http://www.shulianratings.com/',
-  logo: 'https://appserversrc.8btc.com/agency/icon/shulianratings.svg',
-},{
   name: 'TokenInsight',
   url: 'https://tokeninsight.com/',
   logo: 'https://appserversrc.8btc.com/agency/icon/tokeninsight.svg',
-},{
-  name: 'RatingToken',
-  url: 'https://www.ratingtoken.net/?hl=zh-CN',
-  logo: 'https://www.ratingtoken.net/logo.png',
-},{
-  name: 'FCAS Scores',
-  url: 'https://app.flipsidecrypto.com/fcas-scores',
-  logo: 'https://app.flipsidecrypto.com/favicon.ico',
-}];
-
-export const capitals = [{
-  name: 'Electric Capital',
-  url: 'https://www.electriccapital.com',
-  logo: 'https://pbs.twimg.com/profile_images/995890561478545408/NmJ6Mbpw_400x400.jpg',
 }];
 
 export const icos = [{

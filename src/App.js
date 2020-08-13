@@ -16,7 +16,7 @@ import DeveloperPage from './pages/DeveloperPage';
 import BihuPage from './pages/BihuPage';
 import CandyPage from './pages/CandyPage';
 import HomePage from './pages/dashboard/HomePage';
-import MediaPage from './pages/dashboard/MediaPage';
+import TermPage from './pages/dashboard/TermPage';
 import IndicatorPage from './pages/analysis/IndicatorPage';
 import IndicatorAnalysisPage from './pages/analysis/IndicatorAnalysisPage';
 import FngPage from './pages/analysis/FngPage';
@@ -25,11 +25,11 @@ import FinancePage from './pages/analysis/FinancePage';
 import LongShortPage from './pages/analysis/LongShortPage';
 import OtcPage from './pages/analysis/OtcPage';
 import SixtyPage from './pages/analysis/SixtyPage';
-import BtcPage from './pages/token/BtcPage';
-import EthPage from './pages/token/EthPage';
-import EosPage from './pages/token/EosPage';
-import FocusPage from './pages/token/FocusPage';
-import GrabPage from './pages/token/GrabPage';
+import BtcPage from './pages/projects/BtcPage';
+import EthPage from './pages/projects/EthPage';
+import EosPage from './pages/projects/EosPage';
+import IpfsPage from './pages/projects/IpfsPage';
+import FocusPage from './pages/projects/FocusPage';
 import AddCandy from './pages/admin/AddCandy';
 import AddPost from './pages/admin/AddPost';
 import AddToken from './pages/admin/AddToken';
@@ -85,7 +85,7 @@ class App extends React.Component {
 
               <SubMenu key='sub1' title={this.subMenuTitle('pie-chart', '信息总览')}>
                 {this.menuItem('/', false, '信息导航')}
-                {this.menuItem('/media', false, '自媒体')}
+                {this.menuItem('/term', false, '行业术语')}
               </SubMenu>
 
               <SubMenu key='sub2' title={this.subMenuTitle('line-chart', '数据分析')}>
@@ -99,12 +99,12 @@ class App extends React.Component {
                 {this.menuItem('/analysis/finance', false, '财经指数')}
               </SubMenu>
 
-              <SubMenu key='sub3' title={this.subMenuTitle('dollar', '数字货币')}>
-                {this.menuItem('/token/btc', false, '比特币')}
-                {this.menuItem('/token/eth', false, '以太坊')}
-                {this.menuItem('/token/eos', false, 'EOS')}
-                {this.menuItem('/token/focus', false, '关注币种')}
-                {this.menuItem('/token/grab', false, 'EOS Airgrabs')}
+              <SubMenu key='sub3' title={this.subMenuTitle('dollar', '区块链项目')}>
+                {this.menuItem('/projects/btc', false, '比特币')}
+                {this.menuItem('/projects/eth', false, '以太坊')}
+                {this.menuItem('/projects/eos', false, 'EOS')}
+                {this.menuItem('/projects/focus', false, '关注币种')}
+                {this.menuItem('/projects/ipfs', false, 'IPFS')}
               </SubMenu>
 
               {this.menuItem('/developer', 'api', '开发者')}
@@ -134,7 +134,7 @@ class App extends React.Component {
 
             <Content style={{ margin: '0 16px' }}>
               <Route path='/' exact component={HomePage}></Route>
-              <Route path='/media' exact component={MediaPage}></Route>
+              <Route path='/term' exact component={TermPage}></Route>
               <Route path='/analysis/idx' exact component={IndicatorPage}></Route>
               <Route path='/analysis/idxa' exact component={IndicatorAnalysisPage}></Route>
               <Route path='/analysis/fng' exact component={FngPage}></Route>
@@ -143,11 +143,11 @@ class App extends React.Component {
               <Route path='/analysis/sixty' exact component={SixtyPage}></Route>
               <Route path='/analysis/longshort' exact component={LongShortPage}></Route>
               <Route path='/analysis/otc' exact component={OtcPage}></Route>
-              <Route path='/token/btc' exact component={BtcPage}></Route>
-              <Route path='/token/eth' exact component={EthPage}></Route>
-              <Route path='/token/eos' exact component={EosPage}></Route>
-              <Route path='/token/focus' exact component={FocusPage}></Route>
-              <Route path='/token/grab' exact component={GrabPage}></Route>
+              <Route path='/projects/btc' exact component={BtcPage}></Route>
+              <Route path='/projects/eth' exact component={EthPage}></Route>
+              <Route path='/projects/eos' exact component={EosPage}></Route>
+              <Route path='/projects/focus' exact component={FocusPage}></Route>
+              <Route path='/projects/ipfs' exact component={IpfsPage}></Route>
               <Route path='/dapp' exact component={DappPage}></Route>
               <Route path='/bihu' exact component={BihuPage}></Route>
               <Route path='/candy' exact component={CandyPage}></Route>
