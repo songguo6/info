@@ -24,10 +24,6 @@ const defaultSymbols = [
   {
     "description": "EOS",
     "proName": "BINANCE:EOSUSDT"
-  },
-  {
-    "description": "BNB",
-    "proName": "BINANCE:BNBUSDT"
   }
 ];
 

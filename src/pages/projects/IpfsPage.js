@@ -2,11 +2,7 @@ import React from 'react';
 import { Row, Col } from 'antd';
 import { createMainCard } from '../common';
 
-const infos = [{
-    name: 'IPFS中国社区',
-    url: 'http://www.ipfs.cn/',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ipfs-logo-1024-ice-text.png/220px-Ipfs-logo-1024-ice-text.png',
-}];
+const infos = [];
 
 const IpfsPage = () => (
   <Row gutter={24}>

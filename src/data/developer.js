@@ -1,16 +1,4 @@
-export const forums = [{
-  name: 'StackEx/BTC',
-  url: 'https://bitcoin.stackexchange.com/',
-  logo: 'https://appserversrc.8btc.com/qkl/5/20181129095117_59947.png',
-},{
-  name: 'StackEx/ETH',
-  url: 'https://ethereum.stackexchange.com/',
-  logo: 'https://cdn.sstatic.net/Sites/ethereum/img/apple-touch-icon.png?v=c93d3c53cfca',
-},{
-  name: 'StackEx/EOS',
-  url: 'https://eosio.stackexchange.com/',
-  logo: 'https://cdn.sstatic.net/Sites/eosio/img/apple-touch-icon.png?v=94a3f52cfed8'
-},{
+export const forums = [,{
   name: '慢雾区',
   url: 'https://slowmist.io/',
   logo: 'https://appserversrc.8btc.com/qkl/5/20181226153412_58677.png',

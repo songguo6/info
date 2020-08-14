@@ -25,11 +25,8 @@ import FinancePage from './pages/analysis/FinancePage';
 import LongShortPage from './pages/analysis/LongShortPage';
 import OtcPage from './pages/analysis/OtcPage';
 import SixtyPage from './pages/analysis/SixtyPage';
-import BtcPage from './pages/projects/BtcPage';
-import EthPage from './pages/projects/EthPage';
 import EosPage from './pages/projects/EosPage';
 import IpfsPage from './pages/projects/IpfsPage';
-import FocusPage from './pages/projects/FocusPage';
 import AddCandy from './pages/admin/AddCandy';
 import AddPost from './pages/admin/AddPost';
 import AddToken from './pages/admin/AddToken';
@@ -89,21 +86,18 @@ class App extends React.Component {
               </SubMenu>
 
               <SubMenu key='sub2' title={this.subMenuTitle('line-chart', '数据分析')}>
+                {this.menuItem('/analysis/fng', false, '恐惧贪婪指数')}
+                {this.menuItem('/analysis/longshort', false, '多空持仓量')}
+                {this.menuItem('/analysis/futures', false, 'BTC季度合约价格 *')}
+                {this.menuItem('/analysis/sixty', false, '60日累计涨幅 *')}
+                {this.menuItem('/analysis/otc', false, '场外交易数据 *')}
+                {this.menuItem('/analysis/finance', false, '财经指数')}
                 {this.menuItem('/analysis/idx', false, '关键指标')}
                 {this.menuItem('/analysis/idxa', false, '关键指标分析')}
-                {this.menuItem('/analysis/fng', false, '恐惧贪婪指数')}
-                {this.menuItem('/analysis/futures', false, 'BTC季度合约价格')}
-                {this.menuItem('/analysis/sixty', false, '60日累计涨幅')}
-                {this.menuItem('/analysis/longshort', false, '多空持仓量')}
-                {this.menuItem('/analysis/otc', false, '场外交易数据')}
-                {this.menuItem('/analysis/finance', false, '财经指数')}
               </SubMenu>
 
-              <SubMenu key='sub3' title={this.subMenuTitle('dollar', '区块链项目')}>
-                {this.menuItem('/projects/btc', false, '比特币')}
-                {this.menuItem('/projects/eth', false, '以太坊')}
+              <SubMenu key='sub3' title={this.subMenuTitle('block', '区块链项目')}>
                 {this.menuItem('/projects/eos', false, 'EOS')}
-                {this.menuItem('/projects/focus', false, '关注币种')}
                 {this.menuItem('/projects/ipfs', false, 'IPFS')}
               </SubMenu>
 
@@ -143,10 +137,7 @@ class App extends React.Component {
               <Route path='/analysis/sixty' exact component={SixtyPage}></Route>
               <Route path='/analysis/longshort' exact component={LongShortPage}></Route>
               <Route path='/analysis/otc' exact component={OtcPage}></Route>
-              <Route path='/projects/btc' exact component={BtcPage}></Route>
-              <Route path='/projects/eth' exact component={EthPage}></Route>
               <Route path='/projects/eos' exact component={EosPage}></Route>
-              <Route path='/projects/focus' exact component={FocusPage}></Route>
               <Route path='/projects/ipfs' exact component={IpfsPage}></Route>
               <Route path='/dapp' exact component={DappPage}></Route>
               <Route path='/bihu' exact component={BihuPage}></Route>
