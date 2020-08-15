@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, Table, Card } from 'antd';
 
-import { UP, DOWN, nvt } from '../../data/indicator';
+import { UP, DOWN, nvt } from '../../data/analysis/indicator';
 
 const NVTcolumns = [{ 
   title: 'NVT时间段', 

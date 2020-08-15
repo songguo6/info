@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { Row, Col } from 'antd';
 import { createMainCard } from '../common';
-import { indexs } from '../../data/finance';
+import { indexs } from '../../data/analysis/finance';
 import TradingViewWidget, { Themes } from 'react-tradingview-widget';
 
 const FinancePage = () => (

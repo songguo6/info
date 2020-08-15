@@ -31,7 +31,7 @@ export const indexs = [{
 },{
   name: '市场情绪指数',
   url: 'https://www.sncrating.com/cn/adr#adr',
-  logo: 'https://appserversrc.8btc.com/agency/icon/sncrating.svg',
+  logo: 'https://www.sncrating.com/favicon.ico',
 },{
   name: 'BTC泡沫指数',
   url: 'https://chainext.io/index/specialOverview/90002',
@@ -77,19 +77,7 @@ export const infos = [{
 },{
   name: '币乎',
   url: 'https://bihu.com/',
-  logo: 'https://appserversrc.8btc.com/qkl/5/20181210161511_51801.jpg',
-},{
-  name: '以太坊爱好者',
-  url: 'https://ethfans.org/',
-  logo: 'https://upyun-assets.ethfans.org/assets/ios-icon-acd63e1b249b5fcaaa2c280914cf946d4348c6eb0f884d804415f11bb01d10cc.png'
-},{
-  name: 'IPFS中国社区',
-  url: 'http://www.ipfs.cn/',
-  logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ipfs-logo-1024-ice-text.png/220px-Ipfs-logo-1024-ice-text.png',
-},{
-  name: '无退社区',
-  url: 'https://wutui.pro',
-  logo: 'https://wutui.pro/favicon.ico',
+  logo: 'https://bihu.com/favicon.ico',
 }]
 
 export const exchanges = [{ 
@@ -168,11 +156,11 @@ export const knowledge = [{
 export const evaluations = [{
   name: '标准共识',
   url: 'https://www.sncrating.com/cn',
-  logo: 'https://appserversrc.8btc.com/agency/icon/sncrating.svg',
+  logo: 'https://www.sncrating.com/favicon.ico',
 },{
   name: 'TokenInsight',
   url: 'https://tokeninsight.com/',
-  logo: 'https://appserversrc.8btc.com/agency/icon/tokeninsight.svg',
+  logo: 'https://pbs.twimg.com/profile_images/1132903324213075968/Horv1pPH.png',
 }]
 
 export const browsers = [{
@@ -225,4 +213,14 @@ export const wallets = [{
   name: 'MYKEY',
   url: 'https://mykey.org',
   logo: 'https://miro.medium.com/fit/c/160/160/1*qQTt4aXu9ty0pQXFd5IDCw.png',
+}]
+
+export const dapps = [{
+  name: 'DappReview',
+  url: 'https://www.dapp.review/',
+  logo: 'https://pbs.twimg.com/profile_images/1003807821115285504/68-tjxW0_400x400.jpg',
+},{
+  name: 'DappTotal',
+  url: 'https://dapptotal.com/',
+  logo: 'https://m.dapptotal.com/static/img/icon.png',
 }]

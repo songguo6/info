@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, Table } from 'antd';
 
-import { indicators } from '../../data/indicator';
+import { indicators } from '../../data/analysis/indicator';
 
 const columns = [{ 
   title: '名称', 

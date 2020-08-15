@@ -42,4 +42,88 @@ export const developers = [{
   name: 'StackEx/EOS',
   url: 'https://eosio.stackexchange.com/',
   logo: 'https://cdn.sstatic.net/Sites/eosio/img/apple-touch-icon.png?v=94a3f52cfed8'
+},{
+  name: 'EOS区块链开发',
+  url: 'http://blog.eosdata.io/',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
+},{
+  name: 'EOS开发系列目录',
+  url: 'https://shimo.im/docs/jt2MhxPYTKI6tWnp',
+  logo: 'https://cdn.bihu-static.com/bihu-pc/favicon.ico',
+},{
+  name: 'cmichel博客',
+  url: 'https://cmichel.io',
+  logo: 'https://miro.medium.com/fit/c/128/128/2*ST_CwmLVA4n_qzFEydEm2A.jpeg',
+}];
+
+export const eosdocs = [{
+  name: '官方开发文档',
+  url: 'https://developers.eos.io/',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030', 
+},{
+  name: 'EOSIO.cdt文档',
+  url: 'https://eosio.github.io/eosio.cdt',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
+},{
+  name: 'EOSJS文档',
+  url: 'https://eosio.github.io/eosjs/',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
+},{
+  name: 'RPC API文档',
+  url: 'https://developers.eos.io/eosio-nodeos/reference',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
+},{
+  name: 'DemuxJS文档',
+  url: 'https://eosio.github.io/demux-js/',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
+}];
+
+export const eostools = [{
+  name: 'Jungle测试网',
+  url: 'https://monitor.jungletestnet.io/',
+  logo: 'https://monitor.jungletestnet.io/imgs/favicon.png',
+},{
+  name: 'EosStudio',
+  url: 'https://app.eosstudio.io/',
+  logo: 'https://app.eosstudio.io/favicon.ico',
+}];
+
+export const githubs = [{
+  name: 'eos',
+  url: 'https://github.com/eosio/eos',
+  logo: 'https://github.githubassets.com/favicon.ico',
+},{
+  name: 'eosio.cdt',
+  url: 'https://github.com/eosio/eosio.cdt',
+  logo: 'https://github.githubassets.com/favicon.ico',
+},{
+  name: 'eosio.contracts',
+  url: 'https://github.com/EOSIO/eosio.contracts',
+  logo: 'https://github.githubassets.com/favicon.ico',
+},{
+  name: 'eosjs',
+  url: 'https://github.com/EOSIO/eosjs',
+  logo: 'https://github.githubassets.com/favicon.ico',
+},{
+  name: 'scatter-js',
+  url: 'https://github.com/GetScatter/scatter-js',
+  logo: 'https://github.githubassets.com/favicon.ico',
+},{
+  name: 'tp-eosjs',
+  url: 'https://github.com/TP-Lab/tp-eosjs',
+  logo: 'https://github.githubassets.com/favicon.ico',
+},{
+  name: 'mykey-js-sdk',
+  url: 'https://github.com/mykeylab/mykey-js-sdk',
+  logo: 'https://github.githubassets.com/favicon.ico',
+},{
+  name: '币圈信息站',
+  url: 'https://github.com/songguo6/info',
+  logo: 'https://github.githubassets.com/favicon.ico',
+}];
+
+export const dapps = [{
+  name: 'Voice',
+  url: 'https://voice.com/',
+  logo: 'https://voice.com/wp-content/uploads/2019/05/cropped-Favicon-1-2-192x192.png',
 }];

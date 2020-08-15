@@ -11,10 +11,7 @@ import TickerTapeWidget from './components/tradingview/TickerTapeWidget';
 import SupportPopver from './pages/common/SupportPopver';
 
 import CmdPage from './pages/CmdPage';
-import DappPage from './pages/DappPage';
 import DeveloperPage from './pages/DeveloperPage';
-import BihuPage from './pages/BihuPage';
-import CandyPage from './pages/CandyPage';
 import HomePage from './pages/dashboard/HomePage';
 import TermPage from './pages/dashboard/TermPage';
 import IndicatorPage from './pages/analysis/IndicatorPage';
@@ -27,6 +24,8 @@ import OtcPage from './pages/analysis/OtcPage';
 import SixtyPage from './pages/analysis/SixtyPage';
 import EosPage from './pages/projects/EosPage';
 import IpfsPage from './pages/projects/IpfsPage';
+import PolkadotPage from './pages/projects/PolkadotPage';
+import EthereumPage from './pages/projects/EthereumPage';
 import AddCandy from './pages/admin/AddCandy';
 import AddPost from './pages/admin/AddPost';
 import AddToken from './pages/admin/AddToken';
@@ -78,7 +77,7 @@ class App extends React.Component {
               theme="dark"
               mode="inline"
               defaultSelectedKeys={[this.props.location.pathname]} 
-              defaultOpenKeys={['sub1','sub2']}>
+              defaultOpenKeys={['sub1']}>
 
               <SubMenu key='sub1' title={this.subMenuTitle('pie-chart', '信息总览')}>
                 {this.menuItem('/', false, '信息导航')}
@@ -99,12 +98,11 @@ class App extends React.Component {
               <SubMenu key='sub3' title={this.subMenuTitle('block', '区块链项目')}>
                 {this.menuItem('/projects/eos', false, 'EOS')}
                 {this.menuItem('/projects/ipfs', false, 'IPFS')}
+                {this.menuItem('/projects/polkadot', false, '波卡')}
+                {this.menuItem('/projects/ethereum', false, '以太坊')}
               </SubMenu>
 
               {this.menuItem('/developer', 'api', '开发者')}
-              {this.menuItem('/dapp', 'appstore', 'DAPP')}
-              {this.menuItem('/bihu', 'bulb', '币乎好文')}
-              {this.menuItem('/candy', 'heart', '糖果福利')}
               
               {accountName === contract ? 
               <SubMenu key='sub5' title={this.subMenuTitle('user', '管理员')}>
@@ -139,9 +137,8 @@ class App extends React.Component {
               <Route path='/analysis/otc' exact component={OtcPage}></Route>
               <Route path='/projects/eos' exact component={EosPage}></Route>
               <Route path='/projects/ipfs' exact component={IpfsPage}></Route>
-              <Route path='/dapp' exact component={DappPage}></Route>
-              <Route path='/bihu' exact component={BihuPage}></Route>
-              <Route path='/candy' exact component={CandyPage}></Route>
+              <Route path='/projects/polkadot' exact component={PolkadotPage}></Route>
+              <Route path='/projects/ethereum' exact component={EthereumPage}></Route>
               <Route path='/developer' exact component={DeveloperPage}></Route>
               {accountName === contract ?
               <Route path='/admin/addcandy' exact component={AddCandy}></Route> : ''}
