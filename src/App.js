@@ -12,6 +12,9 @@ import SupportPopver from './pages/common/SupportPopver';
 
 import CmdPage from './pages/CmdPage';
 import DeveloperPage from './pages/DeveloperPage';
+import BSNPage from './pages/BSNPage';
+import SkillPage from './pages/SkillPage';
+import LearnPage from './pages/LearnPage';
 import HomePage from './pages/dashboard/HomePage';
 import TermPage from './pages/dashboard/TermPage';
 import IndicatorPage from './pages/analysis/IndicatorPage';
@@ -102,8 +105,11 @@ class App extends React.Component {
                 {this.menuItem('/projects/ethereum', false, '以太坊')}
               </SubMenu>
 
+              {this.menuItem('/bsn', 'global', '区块链服务网络')}
+              {this.menuItem('/skill', 'tool', '区块链行业技能')}
+              {this.menuItem('/learn', 'read', '区块链学习资源')}
               {this.menuItem('/developer', 'api', '开发者')}
-              
+
               {accountName === contract ? 
               <SubMenu key='sub5' title={this.subMenuTitle('user', '管理员')}>
                 {this.menuItem('/admin/addcandy', false, '添加糖果')}
@@ -140,6 +146,9 @@ class App extends React.Component {
               <Route path='/projects/polkadot' exact component={PolkadotPage}></Route>
               <Route path='/projects/ethereum' exact component={EthereumPage}></Route>
               <Route path='/developer' exact component={DeveloperPage}></Route>
+              <Route path='/bsn' exact component={BSNPage}></Route>
+              <Route path='/skill' exact component={SkillPage}></Route>
+              <Route path='/learn' exact component={LearnPage}></Route>
               {accountName === contract ?
               <Route path='/admin/addcandy' exact component={AddCandy}></Route> : ''}
               {accountName === contract ?

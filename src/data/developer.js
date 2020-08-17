@@ -66,6 +66,10 @@ export const sites = [{
   name: '孔壹学院',
   url: 'https://www.chaindesk.cn/',
   logo: 'https://www.chaindesk.cn/favicon.ico',
+},{
+  name: '学堂在线',
+  url: 'https://next.xuetangx.com',
+  logo: 'https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/e7/5a/8e/e75a8eea-4256-7ebe-895e-00a3f6930d6d/AppIcon-0-1x_U007emarketing-0-0-85-220-2.png/246x0w.png',
 }];
 
 export const resources = [{
@@ -128,7 +132,7 @@ export const tools = [{
   logo: 'https://gitee.com/uploads/enterprise_logo/77691956464.png',
 },{
   name: 'APK下载工具',
-  url: 'https://www.apkmonk.com/',
+  url: 'https://apps.evozi.com/apk-downloader',
   logo: 'https://camranger.com/wp-content/uploads/2018/08/Android_square.jpg',
 },{
   name: '网页历史快照',

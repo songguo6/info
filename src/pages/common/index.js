@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Avatar, Tag } from 'antd';
+import { Card, Avatar, Tag, Table } from 'antd';
 
 export const createItem = (item, index, width = '20%') => {
   return (
@@ -54,6 +54,19 @@ export const createSideCard = (title, data, width = '33.33%') => {
           createItem(item, index, width)
         ))
       }
+    </Card>
+  )
+}
+
+export const createTableCard = (title, columns, data) => {
+  return (
+    <Card
+      style={{ marginBottom: 24 }}
+      bodyStyle={{ padding: 20 }}
+      bordered={false}
+      title={<span style={{fontWeight: 'bold'}}>{title}</span>}
+    >
+      <Table columns={columns} dataSource={data} />
     </Card>
   )
 }
