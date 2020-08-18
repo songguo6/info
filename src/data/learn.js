@@ -6,6 +6,6 @@ export const posts = [{
 
 export const videos = [{
   id: '1',
-  content: '区块链和加密数字货币',
+  content: '《区块链和加密数字货币》',
   link: 'https://next.xuetangx.com/course/thu12021002731/3234158',
 }]

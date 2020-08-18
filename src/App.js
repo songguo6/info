@@ -29,6 +29,7 @@ import EosPage from './pages/projects/EosPage';
 import IpfsPage from './pages/projects/IpfsPage';
 import PolkadotPage from './pages/projects/PolkadotPage';
 import EthereumPage from './pages/projects/EthereumPage';
+import BtcPage from './pages/projects/BtcPage';
 import AddCandy from './pages/admin/AddCandy';
 import AddPost from './pages/admin/AddPost';
 import AddToken from './pages/admin/AddToken';
@@ -103,6 +104,7 @@ class App extends React.Component {
                 {this.menuItem('/projects/ipfs', false, 'IPFS')}
                 {this.menuItem('/projects/polkadot', false, '波卡')}
                 {this.menuItem('/projects/ethereum', false, '以太坊')}
+                {this.menuItem('/projects/btc', false, '比特币')}
               </SubMenu>
 
               {this.menuItem('/bsn', 'global', '区块链服务网络')}
@@ -145,6 +147,7 @@ class App extends React.Component {
               <Route path='/projects/ipfs' exact component={IpfsPage}></Route>
               <Route path='/projects/polkadot' exact component={PolkadotPage}></Route>
               <Route path='/projects/ethereum' exact component={EthereumPage}></Route>
+              <Route path='/projects/btc' exact component={BtcPage}></Route>
               <Route path='/developer' exact component={DeveloperPage}></Route>
               <Route path='/bsn' exact component={BSNPage}></Route>
               <Route path='/skill' exact component={SkillPage}></Route>
