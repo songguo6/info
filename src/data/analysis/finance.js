@@ -18,4 +18,12 @@ export const indexs = [{
   name: '美元/人民币',
   url: 'https://cn.tradingview.com/symbols/USDCNY/',
   logo: 'https://www.tradingview.com/static/images/logo-151x151.png',
+},{
+  name: '基金龙虎榜',
+  url: 'https://cn.morningstar.com/quickrank/default.aspx',
+  logo: 'https://cn.morningstar.com/favicon.ico',
+},{
+  name: '黄金期货',
+  url: 'https://cn.investing.com/commodities/gold',
+  logo: 'https://i-cncdn.investing.com/logos/favicon.ico',
 }];

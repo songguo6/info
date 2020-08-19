@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'antd';
 
-import { skills, applies } from '../data/skill';
-import { createTableCard } from './common';
+import { skills, applies } from '../../data/industries/skill';
+import { createTableCard } from '../common';
 
 const columns_skills = [
   { title: '类型', dataIndex: 'type', key: 'type' },

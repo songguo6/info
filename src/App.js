@@ -12,9 +12,9 @@ import SupportPopver from './pages/common/SupportPopver';
 
 import CmdPage from './pages/CmdPage';
 import DeveloperPage from './pages/DeveloperPage';
-import BSNPage from './pages/BSNPage';
-import SkillPage from './pages/SkillPage';
-import LearnPage from './pages/LearnPage';
+import BSNPage from './pages/industries/BSNPage';
+import SkillPage from './pages/industries/SkillPage';
+import LearnPage from './pages/industries/LearnPage';
 import HomePage from './pages/dashboard/HomePage';
 import TermPage from './pages/dashboard/TermPage';
 import IndicatorPage from './pages/analysis/IndicatorPage';
@@ -107,9 +107,11 @@ class App extends React.Component {
                 {this.menuItem('/projects/btc', false, '比特币')}
               </SubMenu>
 
-              {this.menuItem('/bsn', 'global', '区块链服务网络')}
-              {this.menuItem('/skill', 'tool', '区块链行业技能')}
-              {this.menuItem('/learn', 'read', '区块链学习资源')}
+              <SubMenu key='sub4' title={this.subMenuTitle('global', '区块链行业')}>
+                {this.menuItem('/industries/bsn', false, '区块链服务网络')}
+                {this.menuItem('/industries/skill', false, '区块链行业技能')}
+                {this.menuItem('/industries/learn', false, '区块链学习资源')}
+              </SubMenu>
               {this.menuItem('/developer', 'api', '开发者')}
 
               {accountName === contract ? 
@@ -149,9 +151,9 @@ class App extends React.Component {
               <Route path='/projects/ethereum' exact component={EthereumPage}></Route>
               <Route path='/projects/btc' exact component={BtcPage}></Route>
               <Route path='/developer' exact component={DeveloperPage}></Route>
-              <Route path='/bsn' exact component={BSNPage}></Route>
-              <Route path='/skill' exact component={SkillPage}></Route>
-              <Route path='/learn' exact component={LearnPage}></Route>
+              <Route path='/industries/bsn' exact component={BSNPage}></Route>
+              <Route path='/industries/skill' exact component={SkillPage}></Route>
+              <Route path='/industries/learn' exact component={LearnPage}></Route>
               {accountName === contract ?
               <Route path='/admin/addcandy' exact component={AddCandy}></Route> : ''}
               {accountName === contract ?

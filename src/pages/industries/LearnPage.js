@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'antd';
 
-import { posts, videos } from '../data/learn';
-import { createTableCard } from './common';
+import { posts, videos } from '../../data/industries/learn';
+import { createTableCard } from '../common';
 
 const datas = [
   { title: '序号', dataIndex: 'id', key: 'id' },
@@ -15,10 +15,10 @@ class LearnPage extends Component {
     return (
       <Row gutter={24}>
         <Col xl={12} lg={24} md={24} sm={24} xs={24}>
-          {createTableCard('文章', datas, posts)}
+          {createTableCard('视频', datas, videos)}
         </Col>
         <Col xl={12} lg={24} md={24} sm={24} xs={24}>
-          {createTableCard('视频', datas, videos)}
+          {createTableCard('文章', datas, posts)}
         </Col>
       </Row>
     )

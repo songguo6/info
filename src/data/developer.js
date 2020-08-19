@@ -179,6 +179,14 @@ export const tools = [{
   url: 'https://zhuanlan.zhihu.com/p/30613792',
   logo: 'https://picjumbo.com/wp-content/themes/picjumbofree/data/picjumbo-profile-pic.png',
 },{
+  name: '在线视频下载',
+  url: 'https://youtube.iiilab.com',
+  logo: 'https://iiilab.nos-eastchina1.126.net/video/favicon.ico',
+},{
+  name: '文件格式转换',
+  url: 'https://www.zamzar.com',
+  logo: 'https://www.zamzar.com/favicon.ico',
+},{
   name: 'Iconfont',
   url: 'https://www.iconfont.cn/',
   logo: 'https://gtms04.alicdn.com/tps/i4/TB1_oz6GVXXXXaFXpXXJDFnIXXX-64-64.ico',

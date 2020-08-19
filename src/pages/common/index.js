@@ -23,7 +23,7 @@ export const createItem = (item, index, width = '20%') => {
   )
 }
 
-export const createMainCard = (title, data, extra = '') => {
+export const createMainCard = (title, data, extra = '', width = '20%') => {
   return (
     <Card
       style={{ marginBottom: 24 }}
@@ -34,7 +34,7 @@ export const createMainCard = (title, data, extra = '') => {
     >
       {
         data.map((item, index) => (
-          createItem(item, index)
+          createItem(item, index, width)
         ))
       }
     </Card>

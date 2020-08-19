@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import { createMainCard, createSideCard } from './common';
-import { bsn, newbase } from '../data/bsn';
+import { createMainCard, createSideCard } from '../common';
+import { bsn, newbase } from '../../data/industries/bsn';
 
 const BSNPage = () => (
   <Row gutter={24}>

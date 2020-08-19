@@ -18,7 +18,7 @@ const FinancePage = () => (
       </Col>
     </Row>
     <br/>
-    {createMainCard('财经指数', indexs)}
+    {createMainCard('财经指数', indexs, '', '12.5%')}
   </Fragment>
 )
 
