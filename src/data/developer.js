@@ -135,6 +135,10 @@ export const tools = [{
   url: 'https://apps.evozi.com/apk-downloader',
   logo: 'https://camranger.com/wp-content/uploads/2018/08/Android_square.jpg',
 },{
+  name: '二维码生成器',
+  url: 'https://cli.im',
+  logo: 'https://static.clewm.net/static/images/favicon.ico',
+},{
   name: '网页历史快照',
   url: 'https://archive.org/',
   logo: 'https://archive.org/images/glogo.jpg',
@@ -198,4 +202,30 @@ export const tools = [{
   name: 'VSCode',
   url: 'https://code.visualstudio.com/',
   logo: 'https://code.visualstudio.com/favicon.ico',
-}];
+}]
+
+export const others = [{
+  name: '电子书下载',
+  url: 'https://tyi45di4ct.jiandaoyun.com/dash/5e7d915c6c56d8000674a8b8',
+  logo: 'https://assets.jiandaoyun.com/v2363/resources/images/jdy_icon.png',
+},{
+  name: '小霸王其乐无穷',
+  url: 'https://www.yikm.net',
+  logo: 'https://www.yikm.net/logo.png',
+},{
+  name: '日出日落时刻表',
+  url: 'https://richurimo.51240.com/chengdu__richurimo',
+  logo: 'https://f.51240.com/file/richurimo/i_c_o_57x57.png',
+},{
+  name: '易经六十四卦',
+  url: 'https://zh.wikipedia.org/wiki/%E5%85%AD%E5%8D%81%E5%9B%9B%E5%8D%A6',
+  logo: 'https://zh.wikipedia.org/static/favicon/wikipedia.ico',
+},{
+  name: '逗比拯救世界',
+  url: 'http://www.dbbqb.com',
+  logo: 'http://resource.dbbqb.com/logo_black64.png',
+},{
+  name: '滚蛋吧莆田系',
+  url: 'https://putianxi.github.io/index.html',
+  logo: 'https://putianxi.github.io/assets/images/common/favicon.ico',
+}]

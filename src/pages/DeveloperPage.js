@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import { createMainCard, createSideCard } from './common';
-import { infos, apis, sites, resources, tools } from '../data/developer';
+import { infos, apis, sites, resources, tools, others} from '../data/developer';
 
 const DeveloperPage = () => (
   <Row gutter={24}>
@@ -14,6 +14,7 @@ const DeveloperPage = () => (
 
     <Col xl={9} lg={24} md={24} sm={24} xs={24}>     
       {createSideCard('通用工具', tools)}
+      {createSideCard('其他网站', others)}
     </Col>
   </Row>
 )

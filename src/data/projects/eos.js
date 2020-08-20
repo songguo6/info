@@ -21,6 +21,10 @@ export const tools = [{
   url: 'http://rex.tokenpocket.pro/#/',
   logo: 'https://dapp.mytokenpocket.vip/favicon.ico',
 },{
+  name: 'REX统计图表',
+  url: 'https://bloks.io/rex?tab=pool',
+  logo: 'https://bloks.io/favicon.ico'
+},{
   name: '投票代理人',
   url: 'https://www.alohaeos.com/zh/vote/proxy',
   logo: 'https://www.alohaeos.com/images/favicon.ico',

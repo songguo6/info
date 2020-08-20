@@ -141,6 +141,22 @@ export const tools = [{
   name: 'EOS Tokens',
   url: 'https://marketcap.one',
   logo: 'https://pbs.twimg.com/profile_images/1168509239104376834/jS8rD8hz_400x400.png',
+},{
+  name: 'KEY发行量',
+  url: 'https://keygroup.me',
+  logo: 'https://cdn.keystore.vip/img/favicon.ico',
+},{
+  name: '币乎流量',
+  url: 'https://www.similarweb.com/zh/website/bihu.com',
+  logo: 'https://www.similarweb.com/favicon.ico',
+},{
+  name: '流量对比Voice',
+  url: 'https://www.similarweb.com/zh/website/bihu.com/?competitors=voice.com',
+  logo: 'https://www.similarweb.com/favicon.ico',
+},{
+  name: '流量对比Steemit',
+  url: 'https://www.similarweb.com/zh/website/bihu.com/?competitors=steemit.com',
+  logo: 'https://www.similarweb.com/favicon.ico',
 }]
 
 export const knowledge = [{
