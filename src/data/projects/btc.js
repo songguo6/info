@@ -5,7 +5,7 @@ export const docs = [{
 },{
   name: '精通比特币（第2版）',
   url: 'https://wizardforcel.gitbooks.io/masterbitcoin2cn/content/',
-  logo: 'http://v1.8btc.com/books/834/masterbitcoin2cn/_book/gitbook/images/favicon.ico',
+  logo: 'https://wizardforcel.gitbooks.io/masterbitcoin2cn/content/gitbook/images/favicon.ico',
 }]
 
 export const records = [{
@@ -15,6 +15,10 @@ export const records = [{
 },{
   name: '第一笔比特币转账',
   url: 'https://www.blockchain.com/btc/block/170',
+  logo: 'https://s1.bqiapp.com/images/site/blockchain_info.png',
+},{
+  name: '第三次区块奖励减半',
+  url: 'https://www.blockchain.com/btc/block/630000',
   logo: 'https://s1.bqiapp.com/images/site/blockchain_info.png',
 }];
 

@@ -18,4 +18,8 @@ export const datas = [{
   term: 'DeFi',
   english: 'Decentralized Finance',
   chinese: '去中心化金融',
+},{
+  term: 'ICO',
+  english: 'Initial Coin Offering',
+  chinese: '数字货币首次公开募资',  
 }]

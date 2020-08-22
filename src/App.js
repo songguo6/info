@@ -30,6 +30,8 @@ import IpfsPage from './pages/projects/IpfsPage';
 import PolkadotPage from './pages/projects/PolkadotPage';
 import EthereumPage from './pages/projects/EthereumPage';
 import BtcPage from './pages/projects/BtcPage';
+import PublicsPage from './pages/projects/PublicsPage';
+import AlliancesPage from './pages/projects/AlliancesPage';
 import AddCandy from './pages/admin/AddCandy';
 import AddPost from './pages/admin/AddPost';
 import AddToken from './pages/admin/AddToken';
@@ -105,6 +107,8 @@ class App extends React.Component {
                 {this.menuItem('/projects/polkadot', false, '波卡')}
                 {this.menuItem('/projects/ethereum', false, '以太坊')}
                 {this.menuItem('/projects/btc', false, '比特币')}
+                {this.menuItem('/projects/publics', false, '其他公链')}
+                {this.menuItem('/projects/alliances', false, '联盟链')}
               </SubMenu>
 
               <SubMenu key='sub4' title={this.subMenuTitle('global', '区块链行业')}>
@@ -150,6 +154,8 @@ class App extends React.Component {
               <Route path='/projects/polkadot' exact component={PolkadotPage}></Route>
               <Route path='/projects/ethereum' exact component={EthereumPage}></Route>
               <Route path='/projects/btc' exact component={BtcPage}></Route>
+              <Route path='/projects/publics' exact component={PublicsPage}></Route>
+              <Route path='/projects/alliances' exact component={AlliancesPage}></Route>
               <Route path='/developer' exact component={DeveloperPage}></Route>
               <Route path='/industries/bsn' exact component={BSNPage}></Route>
               <Route path='/industries/skill' exact component={SkillPage}></Route>
