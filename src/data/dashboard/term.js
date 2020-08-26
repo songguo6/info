@@ -19,6 +19,10 @@ export const datas = [{
   english: 'Decentralized Finance',
   chinese: '去中心化金融',
 },{
+  term: 'EVM',
+  english: 'Ethereum Virtual Machine',
+  chinese: '以太坊虚拟机',  
+},{
   term: 'ICO',
   english: 'Initial Coin Offering',
   chinese: '数字货币首次公开募资',  
