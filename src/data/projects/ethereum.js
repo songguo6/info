@@ -19,6 +19,10 @@ export const developer = [{
   url: 'https://solidity-cn.readthedocs.io/zh/develop/',
   logo: 'https://solidity-cn.readthedocs.io/zh/develop/_images/logo.svg',
 },{
+  name: '以太坊智能合约安全',
+  url: 'https://paper.seebug.org/601/',
+  logo: 'https://solidity-cn.readthedocs.io/zh/develop/_images/logo.svg',
+},{
   name: 'Remix',
   url: 'https://remix.ethereum.org/',
   logo: 'https://files.gitter.im/ethereum/remix/h3Hj/thumb/remix_logo_light.png',

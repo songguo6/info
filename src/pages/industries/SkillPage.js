@@ -14,7 +14,9 @@ const columns_applies = [
   { title: '案例', dataIndex: 'examples', key: 'examples', render: (text) => 
     <span>
       {text.length >= 1 ? <a href={text[0].link} target='_blank' rel="noopener noreferrer" style={{marginRight: 30}}>{text[0].example}</a> : ''}
-      {text.length === 2 ? <a href={text[1].link} target='_blank' rel="noopener noreferrer" style={{marginRight: 30}}>{text[1].example}</a> : ''}
+      {text.length >= 2 ? <a href={text[1].link} target='_blank' rel="noopener noreferrer" style={{marginRight: 30}}>{text[1].example}</a> : ''}
+      {text.length >= 3 ? <a href={text[2].link} target='_blank' rel="noopener noreferrer" style={{marginRight: 30}}>{text[2].example}</a> : ''}
+      {text.length >= 4 ? <a href={text[3].link} target='_blank' rel="noopener noreferrer" style={{marginRight: 30}}>{text[3].example}</a> : ''}
     </span>
   },    
 ]

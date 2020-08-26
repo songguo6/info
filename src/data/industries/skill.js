@@ -1,45 +1,60 @@
 export const skills = [{
-  type: '核心开发',
-  info: '计算机网络、分布式、点对点协议、功能模块设计', 
+  type: 'Linux操作系统',
+  info: '基本的Linux操作命令；shell脚本', 
 },{
-  type: '共识机制',
-  info: 'PoW、PoS、DPoS、BFT、PoX、Paxos、Raft',
+  type: '网络知识',
+  info: 'TCP/IP；公网、内网、本地地址的区别；端口配置；节点互联；常用网络命令',
 },{
-  type: '密码学',
-  info: '国密算法、同态加密、零知识证明、非对称加密、数字摘要、数字签名、数字证书',  
+  type: '软件环境',
+  info: 'MySQL/MariaDB数据库、Nginx服务、Tomcat服务等；基于云、docker或k8s等容器环境构建',  
 },{
-  type: '区块链框架',
-  info: 'Tendermint',
+  type: '编程语言',
+  info: 'Java、Python、Node.js、Golang',
 },{
-  type: '联盟链',
-  info: 'Hyperleder Fabric、FISCO BCOS、XuperChain、CITA、Corda、Quorum、PlatOne',  
+  type: 'Git/Github',
+  info: 'git版本管理工具的基本操作；github账号',
 },{
-  type: '公链',
-  info: 'Ethereum、EOS、Tezos、IRISNET、NEO、Nervos、Bitcoin',
+  type: 'HASH（哈希算法）、签名、证书',
+  info: 'SHA3/SHA256/RIPEMD160；区块链地址；基于公私钥的数字签名和验证方法；数字证书',
 },{
-  type: '智能合约虚拟机',
-  info: 'WASM、EVM',
+  type: '基础应用密码学',
+  info: 'AES对称加密；RSA、ECDSA椭圆曲线等非对称加密算法；签名验签、数据加密、通信协商；国密算法',
 },{
-  type: '智能合约编程语言',
-  info: 'C/C++、Golang、Java、Rust、Js、Python',
+  type: '分布式网络结构',
+  info: '区块链特有的节点类型、互连方式',  
 },{
-  type: '数据结构和算法',
-  info: '',  
+  type: '智能合约',
+  info: 'Solidity、C++',  
 },{
-  type: '数据库',
-  info: 'NoSQL、RocksDB、Redis、MongoDB',  
+  type: 'ABI接口原理',
+  info: 'JSON文本；调用区块链SDK的接口解析合约',  
 },{
-  type: '操作系统',
-  info: 'Linux',  
+  type: '区块数据结构',
+  info: '区块、区块头、区块体、交易、默克尔树',
 },{
-  type: '其他技术',
-  info: 'Node.js、Docker、k8s',
+  type: 'RPC接口',
+  info: 'JSON RPC；发送消息、事件监听',
 },{
-  type: '经济模型',
-  info: '',
+  type: '准入和权限模型',
+  info: '准入机制；角色和权限模型',
 },{
-  type: '语言能力',
-  info: '英文技术文档阅读',    
+  type: '数据存储模型',
+  info: '文件数据库（LevelDB或RocksDB）；关系型数据库（如MySQL）；链上数据库的数据存储范围',
+},{
+  type: '共识机制原理',
+  info: '联盟链：PBFT、RAFT；公链：PoW、PoS、DPoS...',
+},{
+  type: '区块链深入知识',
+  info: '分布式系统理论、博弈论、前沿密码学、经济学、社会学等',
+},{
+  type: 'BSN联盟链',
+  info: 'Hyperleder Fabric、FISCO BCOS、XuperChain、CITA',  
+},{
+  type: 'BSN公链',
+  info: 'Ethereum、EOS、Tezos、IRISNET、NEO、Nervos',
+},{
+  type: '学习能力',
+  info: '技术文档阅读、资料搜索、排查环境和依赖问题、调试、代码阅读、提问方法',    
 }]
 
 export const applies = [{
@@ -48,15 +63,53 @@ export const applies = [{
     { example: '农业产业全过程溯源云平台', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail1' },
   ],
 },{
-  type: '电子政务',
+  type: '文化版权',
+  examples: [
+    { example: '人民版权', link: 'https://www.peoplec.cn/' },
+    { example: '版权区块链联盟', link: 'https://cbca.net/' },
+  ],
+},{
+  type: '司法服务',
+  examples: [
+    { example: '司法区块链', link: 'http://www.yibee.com/views/chain.html' },
+  ],
+},{
+  type: '存证',
+  examples: [
+    { example: '执法区块链数据监控系统', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail4' },
+    { example: '链动时代区块链存证服务系统', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail13' },
+  ],
+},{
+  type: '存证',
+  examples: [
+    { example: '电子合同存证链', link: 'http://www.justkey.net/plus/list.php?tid=5' },
+    { example: '证聚网', link: 'https://www.eevid.cn/' },
+    { example: '八戒保全', link: 'https://baoquan.zbj.com/' },
+    { example: '深证通区块链存证服务', link: 'https://blockchain.sscc.com/#/witness' },
+  ],
+},{
+  type: '合同签章',
+  examples: [
+    { example: '汇元区块链小合约应用', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail9' },
+  ],
+},{
+  type: '政务服务',
   examples: [
     { example: '不动产‘一窗受理’综合服务平台', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail3' },
+    { example: '澳门智慧城市建设之“证书电子化”项目', link: 'https://fintech.webank.com/weidshowcase/'},
+  ],
+},{
+  type: '金融',
+  examples: [
+    { example: '微粒贷机构间对账平台', link: 'https://fisco-bcos-documentation.readthedocs.io/zh_CN/release-1.3/docs/applications/%E5%BE%AE%E7%B2%92%E8%B4%B7%E6%9C%BA%E6%9E%84%E9%97%B4%E5%AF%B9%E8%B4%A6%E5%B9%B3%E5%8F%B0/README.html' },
   ],
 },{
   type: '供应链金融',
   examples: [
     { example: '链平方供应链金融', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail10' },
-    { example: '万向区块链供应链金融平台', link: 'https://www.wxblockchain.com/#/supplychain' },
+    { example: '万向区块链供应链金融', link: 'https://www.wxblockchain.com/#/supplychain' },
+    { example: 'WeBank供应链金融', link: 'https://fintech.webank.com/scf/' },
+    { example: '四方精创供应链金融', link: 'http://www.formssi.com/cp_blockchain' },
   ],
 },{
   type: '供应链管理',
@@ -82,17 +135,6 @@ export const applies = [{
     { example: '火币“区块链+积分”应用', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail12' },    
   ],
 },{
-  type: '合同签章',
-  examples: [
-    { example: '汇元区块链小合约应用', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail9' },
-  ],
-},{
-  type: '存证',
-  examples: [
-    { example: '执法区块链数据监控系统', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail4' },
-    { example: '链动时代区块链存证服务系统', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail13' },
-  ],
-},{
   type: '物流',
   examples: [
     { example: '万向区块链运链盟', link: 'https://www.wxblockchain.com/#/logistics' },
@@ -103,20 +145,15 @@ export const applies = [{
     { example: '万向区块链保险创新咨询', link: 'https://www.wxblockchain.com/#/consulting' },
   ],   
 },{
-  type: '慈善公益',
-  examples: [],
+  type: '人才招聘',
+  examples: [
+    { example: '乐寻坊', link: 'https://www.seekfunbook.com/' },
+  ],
 },{
-  type: '版权保护',
-  examples: [],
-},{
-  type: '互联网',
-  examples: [],
-},{
-  type: '社交通讯',
-  examples: [],
-},{
-  type: '医疗健康',
-  examples: [],
+  type: '游戏娱乐',
+  examples: [
+    { example: '网易星球', link: 'https://star.8.163.com/' },
+  ],
 },{
   type: '其他',
   examples: [

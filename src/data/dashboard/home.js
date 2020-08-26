@@ -194,7 +194,7 @@ export const browsers = [{
 },{
   name: 'Etherscan',
   url: 'https://etherscan.io/',
-  logo: 'https://pbs.twimg.com/profile_images/635495766744674305/DrBKyYcl_400x400.png',
+  logo: 'https://etherscan.io/images/favicon3.ico',
 },{
   name: 'Ethplorer',
   url: 'https://ethplorer.io/',
