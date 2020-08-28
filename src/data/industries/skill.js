@@ -61,12 +61,16 @@ export const applies = [{
   type: '防伪溯源',
   examples: [
     { example: '农业产业全过程溯源云平台', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail1' },
+    { example: '数矩区块链溯源应用', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail25' },
   ],
 },{
   type: '文化版权',
   examples: [
     { example: '人民版权', link: 'https://www.peoplec.cn/' },
     { example: '版权区块链联盟', link: 'https://cbca.net/' },
+    { example: '版权家区块链应用', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail18' },
+    { example: 'IPTM时间标志应用', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail21' },
+    { example: '软件许可证登记管理平台', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail28' },
   ],
 },{
   type: '司法服务',
@@ -76,16 +80,14 @@ export const applies = [{
 },{
   type: '存证',
   examples: [
-    { example: '执法区块链数据监控系统', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail4' },
-    { example: '链动时代区块链存证服务系统', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail13' },
-  ],
-},{
-  type: '存证',
-  examples: [
+    { example: '保全网', link: 'https://www.baoquan.com/' },
     { example: '电子合同存证链', link: 'http://www.justkey.net/plus/list.php?tid=5' },
     { example: '证聚网', link: 'https://www.eevid.cn/' },
     { example: '八戒保全', link: 'https://baoquan.zbj.com/' },
     { example: '深证通区块链存证服务', link: 'https://blockchain.sscc.com/#/witness' },
+    { example: '执法区块链数据监控系统', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail4' },
+    { example: '链动时代区块链存证服务系统', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail13' },
+    { example: '区块链电子数据保全系统', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail17' },
   ],
 },{
   type: '合同签章',
@@ -107,6 +109,7 @@ export const applies = [{
   type: '供应链金融',
   examples: [
     { example: '链平方供应链金融', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail10' },
+    { example: '供应链金融平台', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail15' },
     { example: '万向区块链供应链金融', link: 'https://www.wxblockchain.com/#/supplychain' },
     { example: 'WeBank供应链金融', link: 'https://fintech.webank.com/scf/' },
     { example: '四方精创供应链金融', link: 'http://www.formssi.com/cp_blockchain' },
@@ -116,6 +119,7 @@ export const applies = [{
   examples: [
     { example: '域乎供应链溯源应用', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail5' },
     { example: '惠运链', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail14' },    
+    { example: '统一集采平台', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail19' },    
   ],
 },{
   type: '采购招投标',
@@ -125,8 +129,9 @@ export const applies = [{
 },{
   type: '资产数字化',
   examples: [
-    { example: '域乎资产数字化应用', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail7' },
     { example: '链平方区块链资产数字化平台', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail11' },    
+    { example: '区块链登记管理系统', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail23' },    
+    { example: '数矩资产数字化应用', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail26' },    
   ],
 },{
   type: '积分',
@@ -145,6 +150,16 @@ export const applies = [{
     { example: '万向区块链保险创新咨询', link: 'https://www.wxblockchain.com/#/consulting' },
   ],   
 },{
+  type: '慈善公益',
+  examples: [
+    { example: '善益鸥', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail16' },
+  ],
+},{
+  type: '社交通讯',
+  examples: [
+    { example: '个人数据管理平台', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail27' },
+  ],
+},{
   type: '人才招聘',
   examples: [
     { example: '乐寻坊', link: 'https://www.seekfunbook.com/' },
@@ -158,5 +173,7 @@ export const applies = [{
   type: '其他',
   examples: [
     { example: '伊OS透明建造区块链平台', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail2' },
+    { example: '高山可信数字证书系统', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail20' },
+    { example: '社区业主区块链投票系统', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail22' },
   ],  
 }]

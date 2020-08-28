@@ -1,3 +1,9 @@
+export const fabric = [{
+  name: 'Hyperledger Fabric',
+  url: 'https://www.hyperledger.org/use/fabric',
+  logo: 'https://www.hyperledger.org/wp-content/uploads/2017/07/favicon.png',
+}]
+
 export const fisco = [{
   name: 'FISCO官网',
   url: 'https://www.fisco.com.cn',
@@ -18,6 +24,24 @@ export const fisco = [{
   name: 'FISCO BCOS应用案例',
   url: 'https://mp.weixin.qq.com/s/cUjuWf1eGMbG3AFq60CBUA',
   logo: 'https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png',
+}]
+
+export const xuperchain = [{
+  name: 'XuperChain',
+  url: 'https://xuperchain.baidu.com/n/ps/opensource',
+  logo: 'https://xuperchain.baidu.com/n/static/platform-home/static/images/title/favicon_0b017ba.png',
+}]
+
+export const cita = [{
+  name: 'CITA',
+  url: 'https://www.citahub.com',
+  logo: 'https://www.citahub.com/favicon.ico',
+}]
+
+export const quorum = [{
+  name: 'Quorum',
+  url: 'https://consensys.net/quorum/',
+  logo: 'https://consensys.net/static/media/favicon.062cf3a9.png',
 }]
 
 export const zxin = [{

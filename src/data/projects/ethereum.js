@@ -9,6 +9,10 @@ export const docs = [{
 }]
 
 export const infos = [{
+  name: '以太坊官网',
+  url: 'https://ethereum.org/zh/',
+  logo: 'https://ethereum.org/favicon-32x32.png?v=3256fa998d0cafe085ad101c0652d871',
+},{
   name: '以太坊爱好者',
   url: 'https://ethfans.org/',
   logo: 'https://upyun-assets.ethfans.org/assets/ios-icon-acd63e1b249b5fcaaa2c280914cf946d4348c6eb0f884d804415f11bb01d10cc.png'

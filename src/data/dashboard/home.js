@@ -7,6 +7,10 @@ export const navigations = [{
   url: 'https://www.feixiaohao.com',
   logo: 'https://lh3.googleusercontent.com/WUBIvkE8Y3jvLlECsUJAanESwsTh6czPrFbx23uFK6RNxkWHBg6JOQ9gFNSS8uh9JGo=s180',
 },{
+  name: '板块行情',
+  url: 'https://www.feixiaohao.com/concept/',
+  logo: 'https://lh3.googleusercontent.com/WUBIvkE8Y3jvLlECsUJAanESwsTh6czPrFbx23uFK6RNxkWHBg6JOQ9gFNSS8uh9JGo=s180',
+},{
   name: 'AICoin',
   url: 'https://www.aicoin.cn/',
   logo: 'https://assets-www.aicoin.net.cn/beta-v19/static/favicon.ico',
@@ -43,7 +47,7 @@ export const indexs = [{
 },{
   name: 'Google趋势(BTC)',
   url: 'https://trends.google.com/trends/explore?q=Bitcoin&geo=US',
-  logo: 'https://ssl.gstatic.com/trends_nrtr/1845_RC03/favicon.ico',
+  logo: 'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3383688068,1443557118&fm=26&gp=0.jpg',
 },{
   name: '百度指数(比特币)',
   url: 'http://index.baidu.com/v2/main/index.html#/trend/%E6%AF%94%E7%89%B9%E5%B8%81?words=%E6%AF%94%E7%89%B9%E5%B8%81',
@@ -177,6 +181,10 @@ export const evaluations = [{
   name: 'TokenInsight',
   url: 'https://tokeninsight.com/',
   logo: 'https://pbs.twimg.com/profile_images/1132903324213075968/Horv1pPH.png',
+},{
+  name: 'Bvaluate',
+  url: 'https://bvaluate.com.cn/',
+  logo: 'https://bvaluate.com.cn/static/favicon.png',
 }]
 
 export const browsers = [{
