@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import { createSideCard, createMainCard } from '../common';
+import { createCard3, createCard } from '../common';
 import { 
   navigations, indexs, infos, evaluations, 
   exchanges, tools, dapps, knowledge, browsers, wallets
@@ -9,25 +9,25 @@ import {
 const HomePage = () => (
   <Row gutter={24}>
     <Col xl={15} lg={24} md={24} sm={24} xs={24}>
-      {createMainCard('综合导航', navigations)}
-      {createMainCard('综合指标', indexs)}
-      {createMainCard('资讯站 & 社区', infos)}
-      {createMainCard('项目测评', evaluations)}
+      {createCard('综合导航', navigations)}
+      {createCard('综合指标', indexs)}
+      {createCard('资讯站 & 社区', infos)}
+      {createCard('项目测评', evaluations)}
       {
-        createMainCard('交易所', exchanges, 
+        createCard('交易所', exchanges, '20%',
           <span>
             <a href="https://www.feixiaohao.com/exchange/notice" target="_blank" rel="noopener noreferrer">非小号&nbsp;|&nbsp;</a>
             <a href="https://block.cc/notice" target="_blank" rel="noopener noreferrer">蜜蜂查</a>
           </span>)
       }
-      {createMainCard('钱包', wallets)}
+      {createCard('钱包', wallets)}
     </Col>
 
     <Col xl={9} lg={24} md={24} sm={24} xs={24}>
-      {createSideCard('入门知识', knowledge)}
-      {createSideCard('工具', tools)}
-      {createSideCard('区块浏览器（BTC | ETH | EOS）', browsers)}
-      {createSideCard('DAPP', dapps)}
+      {createCard3('入门知识', knowledge)}
+      {createCard3('工具', tools)}
+      {createCard3('区块浏览器（BTC | ETH | EOS）', browsers)}
+      {createCard3('DAPP', dapps)}
     </Col>
   </Row>
 )

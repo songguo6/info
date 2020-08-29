@@ -102,11 +102,11 @@ class App extends React.Component {
               </SubMenu>
 
               <SubMenu key='sub3' title={this.subMenuTitle('block', '区块链项目')}>
-                {this.menuItem('/projects/eos', false, 'EOS')}
-                {this.menuItem('/projects/ipfs', false, 'IPFS')}
-                {this.menuItem('/projects/polkadot', false, '波卡')}
-                {this.menuItem('/projects/ethereum', false, '以太坊')}
                 {this.menuItem('/projects/btc', false, '比特币')}
+                {this.menuItem('/projects/ethereum', false, '以太坊')}
+                {this.menuItem('/projects/eos', false, 'EOS')}
+                {this.menuItem('/projects/polkadot', false, '波卡')}
+                {this.menuItem('/projects/ipfs', false, 'IPFS')}
                 {this.menuItem('/projects/publics', false, '其他公链')}
                 {this.menuItem('/projects/alliances', false, '联盟链')}
               </SubMenu>

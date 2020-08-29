@@ -103,6 +103,12 @@ export const newbase = [{
 },{
   name: '工业互联网（Industrial Internet）【数据搜集】',
   logo: 'https://cdn.iconscout.com/icon/premium/png-256-thumb/construct-22-123385.png',
+}]
+
+export const infos = [{
+  name: '皮书数据库',
+  url: 'https://www.pishu.com.cn/',
+  logo: 'https://www.pishu.cn/images/32.ico',
 },{
   name: '赛迪网',
   url: 'http://www.ccidnet.com/',

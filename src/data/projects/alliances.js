@@ -44,6 +44,12 @@ export const quorum = [{
   logo: 'https://consensys.net/static/media/favicon.062cf3a9.png',
 }]
 
+export const corda = [{
+  name: 'Corda',
+  url: 'https://www.corda.net/',
+  logo: 'https://www.corda.net/wp-content/themes/corda/assets/favicon/apple-touch-icon.png',
+}]
+
 export const zxin = [{
   name: '至信链官网',
   url: 'https://www.zxinchain.com/',

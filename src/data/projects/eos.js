@@ -40,6 +40,10 @@ export const tools = [{
   name: 'EOS公投提案',
   url: 'https://eosauthority.com/polls?lnc=en',
   logo: 'https://eosauthority.com/common-spa/images/favicon.ico'
+},{
+  name: 'EOSIO官网',
+  url: 'https://eos.io/',
+  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
 }];
 
 export const developers = [{

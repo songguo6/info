@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { Row, Col } from 'antd';
-import { createMainCard } from '../common';
+import { createCard } from '../common';
 import { indexs } from '../../data/analysis/finance';
 import TradingViewWidget, { Themes } from 'react-tradingview-widget';
 
@@ -18,7 +18,7 @@ const FinancePage = () => (
       </Col>
     </Row>
     <br/>
-    {createMainCard('财经指数', indexs, '', '12.5%')}
+    {createCard('财经指数', indexs, '12.5%')}
   </Fragment>
 )
 

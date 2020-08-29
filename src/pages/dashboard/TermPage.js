@@ -7,6 +7,7 @@ const columns = [{
   title: '术语', 
   dataIndex: 'term', 
   key: 'term', 
+  render: (text) => <span style={{fontWeight: 'bold'}}>{text}</span>
 },{ 
   title: '英文', 
   dataIndex: 'english', 

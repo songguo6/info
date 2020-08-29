@@ -61,7 +61,7 @@ export const sites = [{
 },{
   name: '汇智网',
   url: 'http://www.hubwiz.com/',
-  logo: 'https://imgcdn.sdk.cn/data/omYU4UkzH9gsV46TW-Bx.jpg?imageMogr2/thumbnail/180x',
+  logo: 'http://www.hubwiz.com/favicon.ico',
 },{
   name: '孔壹学院',
   url: 'https://www.chaindesk.cn/',
@@ -185,7 +185,7 @@ export const tools = [{
 },{
   name: '在线视频下载',
   url: 'https://youtube.iiilab.com',
-  logo: 'https://iiilab.nos-eastchina1.126.net/video/favicon.ico',
+  logo: 'https://iiilab.nos-eastchina1.126.net/video/logo.png',
 },{
   name: '文件格式转换',
   url: 'https://www.zamzar.com',

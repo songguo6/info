@@ -23,7 +23,7 @@ export const createItem = (item, index, width = '20%') => {
   )
 }
 
-export const createMainCard = (title, data, extra = '', width = '20%') => {
+export const createCard = (title, data, width = '20%', extra = '') => {
   return (
     <Card
       style={{ marginBottom: 24 }}
@@ -41,21 +41,8 @@ export const createMainCard = (title, data, extra = '', width = '20%') => {
   )
 }
 
-export const createSideCard = (title, data, width = '33.33%') => {
-  return (
-    <Card
-      style={{ marginBottom: 24 }}
-      title={<span style={{fontWeight: 'bold'}}>{title}</span>}
-      bordered={false}
-      bodyStyle={{ padding: 0 }}
-    >
-      {
-        data.map((item, index) => (
-          createItem(item, index, width)
-        ))
-      }
-    </Card>
-  )
+export const createCard3 = (title, data) => {
+  return createCard(title, data, '33.33%')
 }
 
 export const createTableCard = (title, columns, data) => {

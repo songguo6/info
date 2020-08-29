@@ -34,7 +34,7 @@ export default class TickerTapeWidget extends BaseWidget {
   configuration = () => ({
     locale: this.props.locale ? this.props.locale : 'zh_CN',
     symbols: this.props.symbols ? this.props.symbols : defaultSymbols,
-    displayMode: 'adaptive',
+    displayMode: 'regular',
   });
 
   style = () => ({ marginTop: 9 })
