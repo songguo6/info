@@ -103,6 +103,10 @@ export const datas = [{
   english: 'Fully Homomorphic Encryption',
   chinese: '全同态加密',  
 },{
+  term: 'HTLC',
+  english: 'Hash Time Locked Contract',
+  chinese: '哈希时间锁定合约',  
+},{
   term: 'ICO',
   english: 'Initial Coin Offering',
   chinese: '数字货币首次公开募资',  
@@ -138,6 +142,10 @@ export const datas = [{
   term: 'PoS',
   english: 'Proof of Stake',
   chinese: '权益证明',
+},{
+  term: 'PRF',
+  english: 'Pseudo Random Function',
+  chinese: '伪随机函数',
 },{
   term: 'SPV',
   english: 'Simplified Payment Verification',

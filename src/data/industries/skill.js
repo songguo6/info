@@ -71,11 +71,13 @@ export const applies = [{
     { example: '版权家区块链应用', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail18' },
     { example: 'IPTM时间标志应用', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail21' },
     { example: '软件许可证登记管理平台', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail28' },
+    { example: '百度图腾', link: 'https://c-chain.baidu.com/' },
   ],
 },{
   type: '司法服务',
   examples: [
     { example: '司法区块链', link: 'http://www.yibee.com/views/chain.html' },
+    { example: '北京互联网法院天平链', link: 'https://tpl.bjinternetcourt.gov.cn/tpl/' },
   ],
 },{
   type: '存证',

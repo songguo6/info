@@ -83,6 +83,10 @@ export const company = [{
   url: 'http://www.peersafe.cn/',
   logo: 'http://www.peersafe.cn/favicon.ico',
 },{
+  name: '纸贵科技',
+  url: 'https://ziggurat.cn/',
+  logo: 'https://ziggurat.cn/favicon.ico',
+},{
   name: '欧链科技',
   url: 'https://oulian.io/',
   logo: 'https://tvax3.sinaimg.cn/crop.0.0.100.100.180/006Vzew1ly8fv12v2dxelj302s02smwy.jpg?KID=imgbed,tva&Expires=1598629020&ssig=AQ0s9ooLja',
