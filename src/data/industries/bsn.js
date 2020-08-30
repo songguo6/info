@@ -39,6 +39,10 @@ export const company = [{
   url: 'https://blockchain.jd.com/',
   logo: 'https://blockchain.jd.com/favicon.png',
 },{
+  name: '华为云区块链',
+  url: 'https://www.huaweicloud.com/product/bcs.html',
+  logo: 'https://res-static3.huaweicloud.com/content/dam/cloudbu-site/archive/commons/web_resoure/framework/favicon/favicon.ico?sttl=202008280900',
+},{
   name: '浪潮云区块链',
   url: 'https://cloud.inspur.com/solution/Blockchain/',
   logo: 'https://xavatar.imedao.com/community/20183/1524446231560.png!180x180.png',
@@ -63,6 +67,10 @@ export const company = [{
   url: 'http://www.sinochain.com/',
   logo: 'http://static.websiteonline.cn/website/template/default/images/favicon.ico',
 },{
+  name: '远光区块链',
+  url: 'http://www.ygsoft.com/zt/blockchain/index.html',
+  logo: 'http://www.ygsoft.com/zt/blockchain/bitbug_favicon.ico',
+},{
   name: '云象区块链',
   url: 'https://www.yunphant.com/',
   logo: 'https://www.yunphant.com/favicon.ico',
@@ -70,6 +78,10 @@ export const company = [{
   name: '布比区块链',
   url: 'https://bubi.cn/',
   logo: 'https://bubi.cn/bubi.png',
+},{
+  name: '众享比特',
+  url: 'http://www.peersafe.cn/',
+  logo: 'http://www.peersafe.cn/favicon.ico',
 },{
   name: '欧链科技',
   url: 'https://oulian.io/',

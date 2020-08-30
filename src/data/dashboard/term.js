@@ -27,6 +27,10 @@ export const datas = [{
   english: 'Automated Market Maker',
   chinese: '自动化做市商',
 },{
+  term: 'API',
+  english: 'Application Programming Interface',
+  chinese: '应用程序接口',
+},{
   term: 'BFT',
   english: 'Byzantine Fault Tolerance',
   chinese: '拜占庭容错算法',
@@ -87,6 +91,10 @@ export const datas = [{
   english: 'Enterprise Ethereum Alliance',
   chinese: '企业以太坊联盟',  
 },{
+  term: 'ETF',
+  english: 'Exchange Traded Fund',
+  chinese: '交易所交易基金',  
+},{
   term: 'EVM',
   english: 'Ethereum Virtual Machine',
   chinese: '以太坊虚拟机',  
@@ -142,6 +150,10 @@ export const datas = [{
   term: 'SE',
   english: 'Secure Element',
   chinese: '安全元件', 
+},{
+  term: 'SPI',
+  english: 'Service Provider Interface',
+  chinese: '服务提供者接口', 
 },{
   term: 'TEE',
   english: 'Trusted Execution Environment ',

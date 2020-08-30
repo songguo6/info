@@ -134,6 +134,12 @@ export const applies = [{
     { example: '数矩资产数字化应用', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail26' },    
   ],
 },{
+  type: '数字身份与认证',
+  examples: [
+    { example: '美图区块链', link: 'https://chain.meitu.com/' },     
+    { exapmle: 'eID数字身份链', link: 'http://www.eidledger.com/' },
+  ],
+},{
   type: '积分',
   examples: [
     { example: '域乎积分管理应用', link: 'https://www.bsnbase.com/p/main/NetworkLeague/applicationDetail6' },
