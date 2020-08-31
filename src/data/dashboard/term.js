@@ -47,6 +47,10 @@ export const datas = [{
   english: 'Decentralized Application',
   chinese: '去中心化应用',
 },{
+  term: 'DAC',
+  english: 'Decentralized Autonomous Corporation',
+  chinese: '去中心化自治公司',
+},{
   term: 'DAO',
   english: 'Decentralized Autonomous Organization',
   chinese: '去中心化自治组织',
@@ -54,6 +58,10 @@ export const datas = [{
   term: 'DAG',
   english: 'Directed Acyclic Graph',
   chinese: '有向无环图',
+},{
+  term: 'DC/EP',
+  english: 'Digital Currency/Electronic Payment',
+  chinese: '数字货币/电子支付',
 },{
   term: 'DeFi',
   english: 'Decentralized Finance',
@@ -127,6 +135,10 @@ export const datas = [{
   english: 'Know Your Customer',
   chinese: '客户识别',
 },{
+  term: 'P2P',
+  english: 'Peer to Peer',
+  chinese: '点对点',
+},{
   term: 'PBFT',
   english: 'Practical Byzantine Fault Tolerance',
   chinese: '实用拜占庭容错算法',
@@ -146,6 +158,10 @@ export const datas = [{
   term: 'PRF',
   english: 'Pseudo Random Function',
   chinese: '伪随机函数',
+},{
+  term: 'RSA',
+  english: 'RSA Algorithm',
+  chinese: 'RSA加密算法', 
 },{
   term: 'SPV',
   english: 'Simplified Payment Verification',
