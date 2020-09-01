@@ -183,6 +183,10 @@ export const datas = [{
   english: 'Trusted Execution Environment ',
   chinese: '可信执行环境', 
 },{
+  term: 'TPS',
+  english: 'Transaction Per Second',
+  chinese: '每秒交易数',
+},{
   term: 'UTXO',
   english: 'Unspent Transaction Output',
   chinese: '未花费的交易输出',

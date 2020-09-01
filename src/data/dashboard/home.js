@@ -15,13 +15,17 @@ export const navigations = [{
   url: 'https://www.feixiaohao.com/concept/',
   logo: 'https://lh3.googleusercontent.com/WUBIvkE8Y3jvLlECsUJAanESwsTh6czPrFbx23uFK6RNxkWHBg6JOQ9gFNSS8uh9JGo=s180',
 },{
+  name: 'Block123',
+  url: 'https://www.block123.com/zh-hans/',
+  logo: 'https://static.block123.com/static/images/favicon.ico',
+},{
   name: 'DeFi板块',
   url: 'https://www.huobi.fm/zh-cn/topic/defi/',
   logo: 'https://s1.bqiapp.com/images/site/huobi_pro.png',
 },{
-  name: 'Block123',
-  url: 'https://www.block123.com/zh-hans/',
-  logo: 'https://static.block123.com/static/images/block123-57.png',
+  name: 'CMC DeFi',
+  url: 'https://coinmarketcap.com/defi/',
+  logo: 'https://miro.medium.com/max/3150/1*KLgE-Hc-dNuqgLYWMujhAQ@2x.png',
 }]
 
 export const indexs = [{
