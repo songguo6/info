@@ -185,7 +185,7 @@ export const tools = [{
 },{
   name: '在线视频下载',
   url: 'https://youtube.iiilab.com',
-  logo: 'https://iiilab.nos-eastchina1.126.net/video/logo.png',
+  logo: 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2991196816,3411021651&fm=11&gp=0.jpg',
 },{
   name: '文件格式转换',
   url: 'https://www.zamzar.com',
@@ -211,7 +211,7 @@ export const others = [{
 },{
   name: '小霸王其乐无穷',
   url: 'https://www.yikm.net',
-  logo: 'https://www.yikm.net/logo.png',
+  logo: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3407541993,3255950118&fm=26&gp=0.jpg',
 },{
   name: '日出日落时刻表',
   url: 'https://richurimo.51240.com/chengdu__richurimo',

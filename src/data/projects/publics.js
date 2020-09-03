@@ -59,3 +59,39 @@ export const conflux = [{
   url: 'https://moondex.io',
   logo: 'https://moondex.io/static/dex-pc/images/logo.png',
 }]
+
+export const ela = [{
+  name: 'Elastos官网',
+  url: 'https://www.elastos.org/zh/',
+  logo: 'https://img.chainnews.com/upload/avatar/9893a57f-4c00-5a74-aa3e-b24b9f1a64c3.jpg-avatar',
+}]
+
+export const nas = [{
+  name: '星云链官网',
+  url: 'https://nebulas.io/cn/index.html',
+  logo: 'https://nebulas.io/assets/images/logo.png',
+}]
+
+export const ont = [{
+  name: '本体官网',
+  url: 'https://ont.io/',
+  logo: 'https://s2.bqiapp.com/logo/1/ont_72.png?v=14',
+}]
+
+export const others = [{
+  name: '享云链（链克）',
+  url: 'https://lkchain.org/',
+  logo: 'https://www.lianxiangcloud.com/static/img/icon.ico',
+},{
+  name: '墨客',
+  url: 'https://www.moac.io/wap/index/index.html?lang=zh-cn',
+  logo: 'https://s2.bqiapp.com/logo/1/moac.png?x-oss-process=style/coin_72',
+},{
+  name: '初链',
+  url: 'https://www.truechain.pro/',
+  logo: 'https://s2.bqiapp.com/logo/1/truechain.png?x-oss-process=style/coin_72',
+},{
+  name: 'BUMO',
+  url: 'https://www.bumo.io/',
+  logo: 'https://s2.bqiapp.com/logo/1/butoken.png?x-oss-process=style/coin_72',
+}]

@@ -17,7 +17,11 @@ export const navigations = [{
 },{
   name: 'Block123',
   url: 'https://www.block123.com/zh-hans/',
-  logo: 'https://static.block123.com/static/images/favicon.ico',
+  logo: 'https://static.block123.com/static/images/app-icon.jpg',
+},{
+  name: 'CoinCodeCap',
+  url: 'https://coincodecap.com/coins',
+  logo: 'https://coincodecap.com/favicon.ico',
 },{
   name: 'DeFi板块',
   url: 'https://www.huobi.fm/zh-cn/topic/defi/',

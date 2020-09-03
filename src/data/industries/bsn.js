@@ -57,7 +57,7 @@ export const company = [{
 },{
   name: '360区块链安全',
   url: 'https://bcsec.360.cn/',
-  logo: 'https://bcsec.360.cn/assets/imgs/favicon.13901a67ddb198064ee3.ico',
+  logo: 'https://pic1.zhimg.com/v2-3bb84078747973ec9ae07a2ca8cbaf2b_xl.jpg',
 },{
   name: '33复杂美',
   url: 'https://www.33.cn/',

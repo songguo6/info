@@ -45,6 +45,10 @@ export const createCard3 = (title, data) => {
   return createCard(title, data, '33.33%')
 }
 
+export const createCard4 = (title, data) => {
+  return createCard(title, data, '25%')
+}
+
 export const createTableCard = (title, columns, data) => {
   return (
     <Card
