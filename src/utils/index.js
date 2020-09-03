@@ -14,7 +14,7 @@ export const showCorsHelper = () => {
     content: 
     <div style={{fontWeight: 'bold', lineHeight: '25px'}}>
       <div style={{margin: '25px 0 15px 0'}}>
-        （需翻墙，开发者页面有翻墙工具，使用Chrome浏览器）<br/><br/>
+        安装Chrome浏览器插件需翻墙，开发者页面有翻墙工具。<br/><br/>
         1.安装地址：<br/>      
         <a href='https://chrome.google.com/webstore/detail/moesif-orign-cors-changer/digfbfaphojjndkpccljibejjbppifbc' 
           target='_blank' rel='noopener noreferrer'
