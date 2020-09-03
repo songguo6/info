@@ -116,7 +116,7 @@ export const resources = [{
 
 export const tools = [{
   name: '翻墙工具',
-  url: 'https://www.faststunnel.net/',
+  url: 'https://www.faststunnel.in/aVBiC3kn',
   logo: 'https://pbs.twimg.com/profile_images/745130373374349312/VpsHzZ8H_400x400.jpg',
 },{
   name: '接收手机短信',
