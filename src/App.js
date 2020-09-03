@@ -93,9 +93,9 @@ class App extends React.Component {
               <SubMenu key='sub2' title={this.subMenuTitle('line-chart', '数据分析')}>
                 {this.menuItem('/analysis/fng', false, '恐惧贪婪指数')}
                 {this.menuItem('/analysis/longshort', false, '多空持仓量')}
-                {this.menuItem('/analysis/futures', false, 'BTC季度合约价格 *')}
-                {this.menuItem('/analysis/sixty', false, '60日累计涨幅 *')}
                 {this.menuItem('/analysis/otc', false, '场外交易数据 *')}
+                {this.menuItem('/analysis/sixty', false, '60日累计涨幅 *')}
+                {this.menuItem('/analysis/futures', false, 'BTC季度合约价格 *')}
                 {this.menuItem('/analysis/finance', false, '财经指数')}
                 {this.menuItem('/analysis/idx', false, '关键指标')}
                 {this.menuItem('/analysis/idxa', false, '关键指标分析')}
