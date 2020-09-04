@@ -59,6 +59,10 @@ export const datas = [{
   english: 'Directed Acyclic Graph',
   chinese: '有向无环图',
 },{
+  term: 'DBFT',
+  english: 'Delegated Byzantine Fault Tolerant',
+  chinese: '委托拜占庭容错算法',
+},{
   term: 'DC/EP',
   english: 'Digital Currency/Electronic Payment',
   chinese: '数字货币/电子支付',

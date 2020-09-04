@@ -253,6 +253,10 @@ export const wallets = [{
   name: 'MYKEY',
   url: 'https://mykey.org',
   logo: 'https://miro.medium.com/fit/c/160/160/1*qQTt4aXu9ty0pQXFd5IDCw.png',
+},{
+  name: '麦子钱包',
+  url: 'https://www.mathwallet.org/zh-cn/',
+  logo: 'https://staticcdn3.maiziqianbao.net/static/img/favicon.ico',
 }]
 
 export const dapps = [{

@@ -14,6 +14,22 @@ export const neo = [{
   name: 'NEO官网',
   url: 'https://neo.org/',
   logo: 'https://neo.org/apple-touch-icon.png',
+},{
+  name: 'NEO开发者门户',
+  url: 'https://neo.org/dev',
+  logo: 'https://neo.org/apple-touch-icon.png',
+},{
+  name: 'NEO技术文档',
+  url: 'https://docs.neo.org/docs/zh-cn/index.html',
+  logo: 'https://neo.org/apple-touch-icon.png',
+},{
+  name: 'NEO钱包',
+  url: 'https://neo.org/wallets',
+  logo: 'https://neo.org/apple-touch-icon.png',
+},{
+  name: 'NEO Dapps',
+  url: 'https://ndapp.org/',
+  logo: 'https://neo.org/apple-touch-icon.png',
 }]
 
 export const nervos = [{

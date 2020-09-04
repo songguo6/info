@@ -202,6 +202,10 @@ export const tools = [{
   name: 'VSCode',
   url: 'https://code.visualstudio.com/',
   logo: 'https://code.visualstudio.com/favicon.ico',
+},{
+  name: 'Gitee',
+  url: 'https://gitee.com/',
+  logo: 'https://assets.gitee.com/assets/favicon-9007bd527d8a7851c8330e783151df58.ico',
 }]
 
 export const others = [{
