@@ -30,6 +30,10 @@ export const neo = [{
   name: 'NEO Dapps',
   url: 'https://ndapp.org/',
   logo: 'https://neo.org/apple-touch-icon.png',
+},{
+  name: 'NEOSCAN',
+  url: 'https://neoscan.io/',
+  logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQWwZfBUOFXr8ORaaN_NvfVv5Y-2gl_ofGsMA&usqp=CAU',
 }]
 
 export const nervos = [{

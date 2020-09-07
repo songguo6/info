@@ -1,0 +1,36 @@
+export const datas = [{
+  symbol: 'EOS',
+  type: 'Layer1，公链',
+  total_supply: '10亿，每年增发1%',
+  price_0: '1',
+  price_1: '',
+  link: 'https://www.feixiaohao.com/currencies/eos/',
+},{
+  symbol: 'DOT',
+  type: 'Layer1，跨链',
+  total_supply: '10亿，每年增发约10%',
+  price_0: '0.35',
+  price_1: '',
+  link: 'https://www.feixiaohao.com/currencies/polkadot100/',
+},{
+  symbol: 'FIL',
+  type: 'Layer1，基础设施，存储',
+  total_supply: '20亿',
+  price_0: '2',
+  price_1: '',
+  link: 'https://www.feixiaohao.com/currencies/filecoin/',
+},{
+  symbol: 'HT',
+  type: '交易所',
+  total_supply: '5亿',
+  price_0: '1',
+  price_1: '20',
+  link: 'https://www.feixiaohao.com/currencies/ht/',
+},{
+  symbol: 'KEY',
+  type: '应用，内容平台',
+  total_supply: '1000亿',
+  price_0: '',
+  price_1: '',
+  link: 'https://www.feixiaohao.com/currencies/bihu/',
+}]

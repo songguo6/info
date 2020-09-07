@@ -27,3 +27,9 @@ export const developers = [{
   url: 'https://pinata.cloud/',
   logo: 'https://pinata.cloud/pinata.ico',
 }]
+
+export const storage = [{
+  name: 'Arweave',
+  url: 'https://www.arweave.org/',
+  logo: 'https://www.arweave.org/favicon-183x183.png',
+}]

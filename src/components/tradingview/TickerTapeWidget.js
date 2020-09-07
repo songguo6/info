@@ -1,29 +1,38 @@
 import BaseWidget from './BaseWidget';
 
-const defaultSymbols = [
-  {
+const defaultSymbols = [{
     "description": "BTC",
     "proName": "BINANCE:BTCUSDT"
-  },
-  {
+  },{
     "description": "ETH",
     "proName": "BINANCE:ETHUSDT"
-  },
-  {
+  },{
     "description": "XRP",
     "proName": "BINANCE:XRPUSDT"
-  },
-  {
+  },{
     "description": "BCH",
     "proName": "BINANCE:BCHUSDT"
-  },
-  {
+  },{
     "description": "LTC",
     "proName": "BINANCE:LTCUSDT"
-  },
-  {
+  },{
     "description": "EOS",
     "proName": "BINANCE:EOSUSDT"
+  },{
+    "description": "DOT",
+    "proName": "BINANCE:DOTUSDT"
+  },{
+    "description": "BNB",
+    "proName": "BINANCE:BNBUSDT"
+  },{
+    "description": "HT",
+    "proName": "HUOBI:HTUSDT"
+  },{
+    "description": "XTZ",
+    "proName": "BINANCE:XTZUSDT"
+  },{
+    "description": "NEO",
+    "proName": "BINANCE:NEOUSDT"
   }
 ];
 

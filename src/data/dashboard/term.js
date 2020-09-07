@@ -31,6 +31,10 @@ export const datas = [{
   english: 'Application Programming Interface',
   chinese: '应用程序接口',
 },{
+  term: 'ASCII',
+  english: 'American Standard Code for Information Interchange',
+  chinese: '美国信息交换标准代码',
+},{
   term: 'BFT',
   english: 'Byzantine Fault Tolerance',
   chinese: '拜占庭容错算法',
@@ -119,6 +123,10 @@ export const datas = [{
   english: 'Hash Time Locked Contract',
   chinese: '哈希时间锁定合约',  
 },{
+  term: 'IBC',
+  english: 'Inter Blockchain Communication',
+  chinese: '跨链通讯协议',  
+},{
   term: 'ICO',
   english: 'Initial Coin Offering',
   chinese: '数字货币首次公开募资',  
@@ -138,6 +146,14 @@ export const datas = [{
   term: 'KYC',
   english: 'Know Your Customer',
   chinese: '客户识别',
+},{
+  term: 'LPOS',
+  english: 'Liquid Proof of Stake',
+  chinese: '流动权益证明',
+},{
+  term: 'NPOS',
+  english: 'Nominated Proof of Stake',
+  chinese: '提名权益证明',
 },{
   term: 'P2P',
   english: 'Peer to Peer',

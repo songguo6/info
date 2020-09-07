@@ -3,7 +3,7 @@ import { Row, Col } from 'antd';
 import { createCard3, createCard } from '../common';
 import { 
   navigations, indexs, infos, evaluations, 
-  exchanges, tools, dapps, knowledge, browsers, wallets
+  exchanges, tools, dapps, knowledge, browsers, wallets, invest
 } from '../../data/dashboard/home';
 
 const HomePage = () => (
@@ -20,7 +20,7 @@ const HomePage = () => (
             <a href="https://block.cc/notice" target="_blank" rel="noopener noreferrer">蜜蜂查</a>
           </span>)
       }
-      {createCard('钱包', wallets)}
+      {createCard('投资机构', invest)}
     </Col>
 
     <Col xl={9} lg={24} md={24} sm={24} xs={24}>
@@ -28,6 +28,7 @@ const HomePage = () => (
       {createCard3('工具', tools)}
       {createCard3('区块浏览器（BTC | ETH | EOS）', browsers)}
       {createCard3('DAPP', dapps)}
+      {createCard3('钱包', wallets)}
     </Col>
   </Row>
 )

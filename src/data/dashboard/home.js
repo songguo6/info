@@ -268,3 +268,9 @@ export const dapps = [{
   url: 'https://dapptotal.com/',
   logo: 'https://m.dapptotal.com/static/img/icon.png',
 }]
+
+export const invest = [{
+  name: 'Multicoin Capital',
+  url: 'https://multicoin.capital/zh/',
+  logo: 'https://multicoin.capital/icons-5f74acc00f4d3bc8c46fd6590d8e088a/apple-touch-icon-180x180.png',
+}]
