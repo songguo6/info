@@ -1,19 +1,19 @@
 export const bsn = [{
   name: 'BSN',
   url: 'https://www.bsnbase.com',
-  logo: 'https://www.bsnbase.com/img/web_portal/web_portal_icon2.png',
+  logo: 'http://kb.bsnbase.com/favicon.ico',
 },{
   name: 'BSN Global',
   url: 'https://global.bsnbase.com/',
-  logo: 'https://www.bsnbase.com/img/web_portal/web_portal_icon2.png',
+  logo: 'http://kb.bsnbase.com/favicon.ico',
 },{
   name: 'BSN官方知识库',
   url: 'http://kb.bsnbase.com/home/Pubindex.html',
-  logo: 'https://www.bsnbase.com/img/web_portal/web_portal_icon2.png',
+  logo: 'http://kb.bsnbase.com/favicon.ico',
 },{
   name: 'BSN培训',
   url: 'https://www.bsnbase.com/p/main/BSNActivity?type=Cultivate',
-  logo: 'https://www.bsnbase.com/img/web_portal/web_portal_icon2.png',
+  logo: 'http://kb.bsnbase.com/favicon.ico',
 }]
 
 export const policy = [{

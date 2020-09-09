@@ -14,6 +14,10 @@ export const infos = [{
   name: 'BCSkill技术社区',
   url: 'https://www.bcskill.com/',
   logo: 'https://www.bcskill.com/usr/themes/material/img/favicon.ico',
+},{
+  name: 'Web3技术栈',
+  url: 'http://wiki.web3.foundation/en/latest/tech_stack/tech_stack_overview/',
+  logo: 'https://avatars3.githubusercontent.com/u/49520737?s=460&u=f6a90285961432ea5378237e119b647a00e46636&v=4',
 }]
 
 export const apis = [{

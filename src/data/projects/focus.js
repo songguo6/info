@@ -14,7 +14,7 @@ export const datas = [{
   link: 'https://www.feixiaohao.com/currencies/polkadot100/',
 },{
   symbol: 'FIL',
-  type: 'Layer1，基础设施，存储',
+  type: 'Layer2，存储激励',
   total_supply: '20亿',
   price_0: '2',
   price_1: '',

@@ -32,6 +32,7 @@ import EthereumPage from './pages/projects/EthereumPage';
 import BtcPage from './pages/projects/BtcPage';
 import PublicsPage from './pages/projects/PublicsPage';
 import AlliancesPage from './pages/projects/AlliancesPage';
+import Web3Page from './pages/projects/Web3Page';
 import FocusPage from './pages/projects/FocusPage';
 import AddCandy from './pages/admin/AddCandy';
 import AddPost from './pages/admin/AddPost';
@@ -110,6 +111,7 @@ class App extends React.Component {
                 {this.menuItem('/projects/ipfs', false, 'IPFS')}
                 {this.menuItem('/projects/publics', false, '其他公链')}
                 {this.menuItem('/projects/alliances', false, '联盟链')}
+                {this.menuItem('/projects/web3', false, 'Web3.0技术栈')}
                 {this.menuItem('/projects/focus', false, '关注币种')}
               </SubMenu>
 
@@ -158,6 +160,7 @@ class App extends React.Component {
               <Route path='/projects/btc' exact component={BtcPage}></Route>
               <Route path='/projects/publics' exact component={PublicsPage}></Route>
               <Route path='/projects/alliances' exact component={AlliancesPage}></Route>
+              <Route path='/projects/web3' exact component={Web3Page}></Route>
               <Route path='/projects/focus' exact component={FocusPage}></Route>
               <Route path='/developer' exact component={DeveloperPage}></Route>
               <Route path='/industries/bsn' exact component={BSNPage}></Route>

@@ -17,7 +17,7 @@ export const navigations = [{
 },{
   name: 'Block123',
   url: 'https://www.block123.com/zh-hans/',
-  logo: 'https://static.block123.com/static/images/app-icon.jpg',
+  logo: 'https://s2.coinmarketcap.com/static/img/coins/32x32/1.png',
 },{
   name: 'CoinCodeCap',
   url: 'https://coincodecap.com/coins',
@@ -94,6 +94,10 @@ export const infos = [{
   name: '链闻',
   url: 'https://www.chainnews.com',
   logo: 'https://s1.bqiapp.com/images/site/chinanews.png',
+},{
+  name: '区块律动',
+  url: 'https://www.theblockbeats.com/',
+  logo: 'https://image.theblockbeats.com/other/logo/favicon.ico',
 },{
   name: '币乎',
   url: 'https://bihu.com/',
@@ -273,4 +277,8 @@ export const invest = [{
   name: 'Multicoin Capital',
   url: 'https://multicoin.capital/zh/',
   logo: 'https://multicoin.capital/icons-5f74acc00f4d3bc8c46fd6590d8e088a/apple-touch-icon-180x180.png',
+},{
+  name: 'IOSG VC',
+  url: 'https://www.iosg.vc',
+  logo: 'https://www.iosg.vc/favicon.ico',
 }]

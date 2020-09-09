@@ -18,6 +18,14 @@ export const posts = [{
   id: '5',
   content: 'TokenGazer 深度研究 | Polkadot：异构多链架构欲解决行业痛点 对比同类项目市值或存高估',
   link: 'https://mp.weixin.qq.com/s/lkHc6UxF-HvimyrRsoPWrg',
+},{
+  id: '6',
+  content: '拥抱Web3.0：技术堆栈下的范式转变与投资展望（IOSG VC）',
+  link: 'https://mp.weixin.qq.com/s/qrX6H8j_MBQxAYmN_AMYJg',
+},{
+  id: '7',
+  content: 'Layer 2 方案概览：从状态通道到 Roll Up',
+  link: 'https://ethfans.org/posts/layer-2-from-state-channel-to-roll-up',
 }]
 
 export const videos = [{

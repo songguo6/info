@@ -31,6 +31,10 @@ export const datas = [{
   english: 'Application Programming Interface',
   chinese: '应用程序接口',
 },{
+  term: 'APY',
+  english: 'Annual Percentage Yield',
+  chinese: '年化收益百分比',
+},{
   term: 'ASCII',
   english: 'American Standard Code for Information Interchange',
   chinese: '美国信息交换标准代码',
@@ -38,6 +42,14 @@ export const datas = [{
   term: 'BFT',
   english: 'Byzantine Fault Tolerance',
   chinese: '拜占庭容错算法',
+},{
+  term: 'BDN',
+  english: 'Blockchain Distribution Network',
+  chinese: '区块链分发网络',
+},{
+  term: 'CDN',
+  english: 'Content Delivery Network',
+  chinese: '内容分发网络',
 },{
   term: 'CEX',
   english: 'Centralized Exchange',
@@ -139,6 +151,10 @@ export const datas = [{
   english: 'Institute of Electrical and Electronics Engineers',
   chinese: '电气电子工程师学会',  
 },{
+  term: 'ILP',
+  english: 'Interledger Protocol',
+  chinese: 'Interledger协议',
+},{
   term: 'ITU',
   english: 'International Telecommunication Union',
   chinese: '国际电信联盟',  
@@ -155,6 +171,10 @@ export const datas = [{
   english: 'Nominated Proof of Stake',
   chinese: '提名权益证明',
 },{
+  term: 'OCE',
+  english: 'Ontology Consensus Engine',
+  chinese: '本体共识引擎',
+},{
   term: 'P2P',
   english: 'Peer to Peer',
   chinese: '点对点',
@@ -167,13 +187,29 @@ export const datas = [{
   english: 'Public Key Infrastructure',
   chinese: '公钥基础设施',
 },{
-  term: 'PoW',
-  english: ' Proof of Work',
-  chinese: '工作量证明',
+  term: 'PoA',
+  english: 'Proof of Authority',
+  chinese: '权威证明',
+},{
+  term: 'PoC',
+  english: 'Proof of Capacity',
+  chinese: '容量证明',
+},{
+  term: 'PoH',
+  english: 'Proof of History',
+  chinese: '历史证明',
 },{
   term: 'PoS',
   english: 'Proof of Stake',
   chinese: '权益证明',
+},{
+  term: 'PoST',
+  english: 'Proof of Spacetime',
+  chinese: '时空证明',
+},{
+  term: 'PoW',
+  english: ' Proof of Work',
+  chinese: '工作量证明',
 },{
   term: 'PRF',
   english: 'Pseudo Random Function',
@@ -210,6 +246,10 @@ export const datas = [{
   term: 'UTXO',
   english: 'Unspent Transaction Output',
   chinese: '未花费的交易输出',
+},{
+  term: 'VBFT Byzantine Fault Tolerance',
+  english: 'Verifiable ',
+  chinese: '可验证拜占庭容错算法',
 },{
   term: 'VRF',
   english: 'Verifiable Random Function',

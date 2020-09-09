@@ -19,7 +19,7 @@ export const fisco = [{
 },{
   name: '智能合约开发教程',
   url: 'http://kb.bsnbase.com/webdoc/view/Pub4028813e711a7c39017197d32cb975f2.html',
-  logo: 'https://www.bsnbase.com/img/web_portal/web_portal_icon2.png',
+  logo: 'http://kb.bsnbase.com/favicon.ico',
 },{
   name: 'FISCO BCOS应用案例',
   url: 'https://mp.weixin.qq.com/s/cUjuWf1eGMbG3AFq60CBUA',
