@@ -131,7 +131,7 @@ export const layer1_cons_poa = [{
   url: 'https://www.vechain.com/cn/',
   logo: 'https://s2.bqiapp.com/logo/1/vechaincom.png?x-oss-process=style/coin_72',
 },{
-  name: 'POA',
+  name: 'POA Network',
   url: 'https://www.poa.network/v/zhong-wen/',
   logo: 'https://gblobscdn.gitbook.com/assets%2F-LqmYAYVROatob6wi5TL%2F-LrjQRXrZrFfri4VO4t9%2F-LrjQTzlLDSDyeFrr_L4%2Fpoa_2.png?alt=media&token=dd6093bb-d08f-41fc-a206-c2a805e4c2dd',
 }]
@@ -253,7 +253,7 @@ export const layer1_inter = [{
 },{
   name: 'POA Network',
   url: 'https://www.poa.network/',
-  logo: 'https://s2.bqiapp.com/logo/1/poanetwork.png?x-oss-process=style/coin_72',
+  logo: 'https://gblobscdn.gitbook.com/assets%2F-LqmYAYVROatob6wi5TL%2F-LrjQRXrZrFfri4VO4t9%2F-LrjQTzlLDSDyeFrr_L4%2Fpoa_2.png?alt=media&token=dd6093bb-d08f-41fc-a206-c2a805e4c2dd',
 },{
   name: 'Komodo',
   url: 'https://komodoplatform.com/',
