@@ -235,8 +235,12 @@ export const datas = [{
   english: 'Service Provider Interface',
   chinese: '服务提供者接口', 
 },{
+  term: 'STF',
+  english: 'State Transition Function',
+  chinese: '状态转换函数', 
+},{
   term: 'TEE',
-  english: 'Trusted Execution Environment ',
+  english: 'Trusted Execution Environment',
   chinese: '可信执行环境', 
 },{
   term: 'TPS',

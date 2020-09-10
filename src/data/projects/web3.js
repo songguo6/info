@@ -471,7 +471,11 @@ export const layer3_lang = [{
 },{
   name: 'Substrate',
   url: 'https://substrate.dev/zh-CN/',
-  logo: 'https://www.parity.io/favicon.png',
+  logo: 'https://substrate.dev/img/favicon.png',
+},{
+  name: 'Tendermint',
+  url: 'https://tendermint.com/',
+  logo: 'https://avatars0.githubusercontent.com/u/7572940?s=400&v=4',
 },{
   name: 'Cosmos SDK',
   url: 'https://cosmos.network/sdk',

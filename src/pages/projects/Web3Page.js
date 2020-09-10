@@ -101,7 +101,7 @@ const Web3Page = () => (
         {createCard('互操作性协议', layer1_inter, '11.11%')}
       </Col>
     </Row>
-    {divider('链下 -> 中间件 -> 链下服务 -> Layer2')}
+    {divider('链下 -> 扩展层 -> Layer2')}
     <Row gutter={24}>
       <Col xl={12} lg={24} md={24} sm={24} xs={24}>
         {createCard4('状态通道', layer2_channels)}
@@ -145,7 +145,7 @@ const Web3Page = () => (
         {createCard1('代理重加密', layer2_pr)}
       </Col>
     </Row>
-    {divider('链下 -> 中间件 -> Layer3')}
+    {divider('链下 -> 中间层 -> Layer3')}
     <Row gutter={24}>
       <Col xl={24} lg={24} md={24} sm={24} xs={24}>
         {createCard('协议可扩展性 -> 开发者API', layer3_api, '12.5%')}

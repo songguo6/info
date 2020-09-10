@@ -26,6 +26,10 @@ export const posts = [{
   id: '7',
   content: 'Layer 2 方案概览：从状态通道到 Roll Up',
   link: 'https://ethfans.org/posts/layer-2-from-state-channel-to-roll-up',
+},{
+  id: '8',
+  content: '老司机看substrate',
+  link: 'https://zhuanlan.zhihu.com/p/127275493',
 }]
 
 export const videos = [{
