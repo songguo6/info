@@ -19,6 +19,14 @@ export const datas = [{
   english: 'Anonymous Credential',
   chinese: '匿名凭证',
 },{
+  term: 'AI',
+  english: 'Artificial Intelligence',
+  chinese: '人工智能',
+},{
+  term: 'AIoT',
+  english: 'AI+IoT（Artificial Intelligence + Internet of Things）',
+  chinese: '人工智能+物联网',
+},{
   term: 'AML',
   english: 'Anti-Money Laundering',
   chinese: '反洗钱',
@@ -155,6 +163,10 @@ export const datas = [{
   english: 'Interledger Protocol',
   chinese: 'Interledger协议',
 },{
+  term: 'IoT',
+  english: 'Internet of Things',
+  chinese: '物联网',
+},{
   term: 'ITU',
   english: 'International Telecommunication Union',
   chinese: '国际电信联盟',  
@@ -166,6 +178,10 @@ export const datas = [{
   term: 'LPOS',
   english: 'Liquid Proof of Stake',
   chinese: '流动权益证明',
+},{
+  term: 'NAS',
+  english: 'Network Attached Storage',
+  chinese: '网络附加存储',
 },{
   term: 'NPOS',
   english: 'Nominated Proof of Stake',
@@ -219,6 +235,10 @@ export const datas = [{
   english: 'RSA Algorithm',
   chinese: 'RSA加密算法', 
 },{
+  term: 'SAN',
+  english: 'Storage Area Network',
+  chinese: '存储区域网络',
+},{
   term: 'SPV',
   english: 'Simplified Payment Verification',
   chinese: '简单支付验证', 
@@ -251,8 +271,8 @@ export const datas = [{
   english: 'Unspent Transaction Output',
   chinese: '未花费的交易输出',
 },{
-  term: 'VBFT Byzantine Fault Tolerance',
-  english: 'Verifiable ',
+  term: 'VBFT',
+  english: 'Verifiable Byzantine Fault Tolerance',
   chinese: '可验证拜占庭容错算法',
 },{
   term: 'VRF',

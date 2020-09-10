@@ -14,10 +14,6 @@ export const infos = [{
   name: 'BCSkill技术社区',
   url: 'https://www.bcskill.com/',
   logo: 'https://www.bcskill.com/usr/themes/material/img/favicon.ico',
-},{
-  name: 'Web3技术栈',
-  url: 'http://wiki.web3.foundation/en/latest/tech_stack/tech_stack_overview/',
-  logo: 'https://avatars3.githubusercontent.com/u/49520737?s=460&u=f6a90285961432ea5378237e119b647a00e46636&v=4',
 }]
 
 export const apis = [{
@@ -116,6 +112,14 @@ export const resources = [{
   name: 'PostgreSQL',
   url: 'https://www.yiibai.com/postgresql',
   logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/150px-Postgresql_elephant.svg.png',
+},{
+  name: 'Web3技术栈',
+  url: 'http://wiki.web3.foundation/en/latest/tech_stack/tech_stack_overview/',
+  logo: 'https://avatars3.githubusercontent.com/u/49520737?s=460&u=f6a90285961432ea5378237e119b647a00e46636&v=4',
+},{
+  name: 'Rust程序设计语言',
+  url: 'https://kaisery.github.io/trpl-zh-cn/',
+  logo: 'https://bkimg.cdn.bcebos.com/pic/d009b3de9c82d158673b9cfb8d0a19d8bc3e423b?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U4MA==,g_7,xp_5,yp_5',
 }];
 
 export const tools = [{
