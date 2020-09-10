@@ -130,6 +130,10 @@ export const layer1_cons_poa = [{
   name: 'Vechain',
   url: 'https://www.vechain.com/cn/',
   logo: 'https://s2.bqiapp.com/logo/1/vechaincom.png?x-oss-process=style/coin_72',
+},{
+  name: 'POA',
+  url: 'https://www.poa.network/v/zhong-wen/',
+  logo: 'https://gblobscdn.gitbook.com/assets%2F-LqmYAYVROatob6wi5TL%2F-LrjQRXrZrFfri4VO4t9%2F-LrjQTzlLDSDyeFrr_L4%2Fpoa_2.png?alt=media&token=dd6093bb-d08f-41fc-a206-c2a805e4c2dd',
 }]
 
 export const layer1_cons_vbft = [{
@@ -138,10 +142,28 @@ export const layer1_cons_vbft = [{
   logo: 'https://s2.bqiapp.com/logo/1/ont_72.png?v=14',
 }]
 
+export const layer1_cons_dbft = [{
+  name: 'NEO',
+  url: 'https://neo.org/',
+  logo: 'https://neo.org/apple-touch-icon.png',
+}]
+
+export const layer1_cons_pbft = [{
+  name: 'Zilliqa',
+  url: 'https://www.zilliqa.com/',
+  logo: 'https://s2.bqiapp.com/logo/1/zilliqa.png?x-oss-process=style/coin_72',
+}]
+
 export const layer1_cons_tangle = [{
   name: 'IOTA',
   url: 'https://www.iota.org/',
   logo: 'https://s2.bqiapp.com/logo/1/iota.png?x-oss-process=style/coin_72',
+}]
+
+export const layer1_cons_lattice = [{
+  name: 'Nano',
+  url: 'https://nano.org/zh',
+  logo: 'https://s2.bqiapp.com/logo/1/raiblocks.png?x-oss-process=style/coin_72',
 }]
 
 export const layer1_cons_ava = [{
@@ -575,7 +597,7 @@ export const layer4_user = [{
 },{
   name: 'MyCrypto',
   url: 'https://mycrypto.com/',
-  logo: 'https://mycrypto.com/common/assets/meta-37073e61393f8c8c71e5e49babc273ca/apple-touch-icon-57x57.png',
+  logo: 'https://avatars0.githubusercontent.com/u/32279762?s=280&v=4',
 },{
   name: 'MetaMask',
   url: 'https://metamask.io/',
@@ -737,7 +759,7 @@ export const layer4_ex = [{
 },{
   name: 'EtherDelta',
   url: 'https://etherdelta.com/',
-  logo: 'https://etherdelta.com/images/favicon.ico',
+  logo: 'https://pbs.twimg.com/profile_images/963322010171408384/WTv8Gcbj_400x400.jpg',
 }]
 
 export const layer4_custo = [{
@@ -763,7 +785,7 @@ export const layer4_custo = [{
 },{
   name: 'MyCrypto',
   url: 'https://mycrypto.com/',
-  logo: 'https://mycrypto.com/common/assets/meta-37073e61393f8c8c71e5e49babc273ca/apple-touch-icon-57x57.png',
+  logo: 'https://avatars0.githubusercontent.com/u/32279762?s=280&v=4',
 },]
 
 export const layer4_pred = [{

@@ -4,7 +4,8 @@ import { createCard1, createCard2, createCard3, createCard4, createCard, divider
 import { 
   layer0_cdn, layer0_p2pm, layer0_vm, layer0_vm_c, layer0_vm_d, layer0_vm_eos, layer0_vm_utxo,
   layer1_cons_pow, layer1_cons_pos, layer1_cons_dpos, layer1_cons_poc,
-  layer1_cons_poh, layer1_cons_poa, layer1_cons_vbft, layer1_cons_tangle, layer1_cons_ava,
+  layer1_cons_poh, layer1_cons_poa, layer1_cons_tangle, layer1_cons_ava,
+  layer1_cons_dbft, layer1_cons_pbft, layer1_cons_vbft, layer1_cons_lattice,
   layer1_data, layer1_data_pub, layer1_shard, layer1_inter,
   layer2_channels, layer2_plasma, layer2_storage_incent, layer2_side, layer2_rollup,
   layer2_cpu, layer2_oracle, layer2_geo, layer2_ilp, 
@@ -54,36 +55,49 @@ const Web3Page = () => (
       </Col>
     </Row>
     <Row gutter={24}>
-      <Col xl={8} lg={24} md={24} sm={24} xs={24}>
+      <Col xl={6} lg={24} md={24} sm={24} xs={24}>
         {createCard2('PoC/PoST', layer1_cons_poc)}
       </Col>
-      <Col xl={3} lg={24} md={24} sm={24} xs={24}>   
-        {createCard1('PoA', layer1_cons_poa)}
+      <Col xl={6} lg={24} md={24} sm={24} xs={24}>   
+        {createCard2('PoA', layer1_cons_poa)}
       </Col>
       <Col xl={3} lg={24} md={24} sm={24} xs={24}>
         {createCard1('PoH', layer1_cons_poh)}
       </Col>
       <Col xl={3} lg={24} md={24} sm={24} xs={24}>
-        {createCard1('VBFT', layer1_cons_vbft)}
+        {createCard1('PBFT', layer1_cons_pbft)}
       </Col>
       <Col xl={3} lg={24} md={24} sm={24} xs={24}>
-        {createCard1('Tangle', layer1_cons_tangle)}
+        {createCard1('DBFT', layer1_cons_dbft)}
       </Col>
-      <Col xl={4} lg={24} md={24} sm={24} xs={24}>
-        {createCard1('Avalanche', layer1_cons_ava)}
+      <Col xl={3} lg={24} md={24} sm={24} xs={24}>
+        {createCard1('VBFT', layer1_cons_vbft)}
       </Col>
     </Row>
     <Row gutter={24}>
       <Col xl={15} lg={24} md={24} sm={24} xs={24}>
         {createCard('数据分发协议', layer1_data)}
       </Col>
-      <Col xl={9} lg={24} md={24} sm={24} xs={24}>
-        {createCard3('瞬时数据发布/订阅消息协议', layer1_data_pub)}
+      <Col xl={3} lg={24} md={24} sm={24} xs={24}>
+        {createCard1('DAG -> Tangle', layer1_cons_tangle)}
+      </Col>
+      <Col xl={3} lg={24} md={24} sm={24} xs={24}>
+        {createCard1('DAG -> Lattice', layer1_cons_lattice)}
+      </Col>
+      <Col xl={3} lg={24} md={24} sm={24} xs={24}>
+        {createCard1('Avalanche', layer1_cons_ava)}
+      </Col>
+    </Row>
+    <Row gutter={24}>
+      <Col xl={6} lg={24} md={24} sm={24} xs={24}>
+        {createCard2('瞬时数据发布/订阅消息协议', layer1_data_pub)}
+      </Col>
+      <Col xl={18} lg={24} md={24} sm={24} xs={24}>
+        {createCard('分片协议', layer1_shard, '16.66%')}
       </Col>
     </Row>
     <Row gutter={24}>
       <Col xl={24} lg={24} md={24} sm={24} xs={24}>
-        {createCard('分片协议', layer1_shard, '12.5%')}
         {createCard('互操作性协议', layer1_inter, '11.11%')}
       </Col>
     </Row>
@@ -181,10 +195,12 @@ const Web3Page = () => (
       </Col>
     </Row>
     <Row gutter={24}>
-      <Col xl={24} lg={24} md={24} sm={24} xs={24}>
-        {createCard('交易所&流动性', layer4_ex, '12.5%')}
-        {createCard('托管服务', layer4_custo, '12.5%')}
-        {createCard('保险', layer4_insur, '16.66%')}
+      <Col xl={17} lg={24} md={24} sm={24} xs={24}>
+        {createCard('交易所&流动性', layer4_ex, '16.66%')}
+        {createCard('托管服务', layer4_custo, '16.66%')}
+      </Col>
+      <Col xl={7} lg={24} md={24} sm={24} xs={24}>
+        {createCard2('保险', layer4_insur)}
       </Col>
     </Row>
   </Col>
