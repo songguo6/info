@@ -9,7 +9,7 @@ export const skills = [{
   info: 'MySQL/MariaDB数据库、Nginx服务、Tomcat服务等；基于云、docker或k8s等容器环境构建',  
 },{
   type: '编程语言',
-  info: 'Java、Python、Node.js、Golang',
+  info: 'Java、Python、Node.js、Golang、Rust',
 },{
   type: 'Git/Github',
   info: 'git版本管理工具的基本操作；github账号',
