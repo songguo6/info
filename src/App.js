@@ -78,7 +78,7 @@ class App extends React.Component {
         <Layout style={{ minHeight: '100vh' }}>
           <Sider collapsible collapsed={this.state.collapsed} onCollapse={this.onCollapse}>
             <div className="logo" >
-              <img src={process.env.PUBLIC_URL + 'favicon.ico'} alt=''/>
+              <img src={process.env.PUBLIC_URL + '/favicon.ico'} alt=''/>
               {this.state.collapsed ? '' : <span>币圈信息站</span>}
             </div>
             <Menu 
