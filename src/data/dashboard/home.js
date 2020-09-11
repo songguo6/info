@@ -1,53 +1,53 @@
 export const navigations = [{
   name: 'QKL123',
   url: 'https://www.qkl123.com/',
-  logo: 'https://webcdn.qkl123.com/1.2.51/img/66389ce.svg',
+  logo: process.env.PUBLIC_URL + '/icon/qkl123.svg',
 },{
   name: '非小号',
   url: 'https://www.feixiaohao.com',
-  logo: 'https://lh3.googleusercontent.com/WUBIvkE8Y3jvLlECsUJAanESwsTh6czPrFbx23uFK6RNxkWHBg6JOQ9gFNSS8uh9JGo=s180',
+  logo: process.env.PUBLIC_URL + '/icon/feixiaohao.png',
 },{
   name: 'AICoin',
   url: 'https://www.aicoin.cn/',
-  logo: 'https://assets-www.aicoin.net.cn/beta-v19/static/favicon.ico',
+  logo: process.env.PUBLIC_URL + '/icon/aicoin.ico',
 },{
   name: '板块行情',
   url: 'https://www.feixiaohao.com/concept/',
-  logo: 'https://lh3.googleusercontent.com/WUBIvkE8Y3jvLlECsUJAanESwsTh6czPrFbx23uFK6RNxkWHBg6JOQ9gFNSS8uh9JGo=s180',
+  logo: process.env.PUBLIC_URL + '/icon/feixiaohao.png',
 },{
   name: 'Block123',
   url: 'https://www.block123.com/zh-hans/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/32x32/1.png',
+  logo: process.env.PUBLIC_URL + '/icon/block123.png',
 },{
   name: 'CoinCodeCap',
   url: 'https://coincodecap.com/coins',
-  logo: 'https://coincodecap.com/favicon.ico',
+  logo: process.env.PUBLIC_URL + '/icon/coincodecap.ico',
 },{
   name: 'DeFi板块',
   url: 'https://www.huobi.fm/zh-cn/topic/defi/',
-  logo: 'https://s1.bqiapp.com/images/site/huobi_pro.png',
+  logo: process.env.PUBLIC_URL + '/icon/huobi.png',
 },{
   name: 'CMC DeFi',
   url: 'https://coinmarketcap.com/defi/',
-  logo: 'https://miro.medium.com/max/3150/1*KLgE-Hc-dNuqgLYWMujhAQ@2x.png',
+  logo: process.env.PUBLIC_URL + '/icon/cmc.png',
 }]
 
 export const indexs = [{
   name: 'Buy Support',
   url: 'https://coinmarketbook.cc',
-  logo: 'https://coinmarketbook.cc/logo-lg.jpg',
+  logo: process.env.PUBLIC_URL + '/icon/buysupport.jpg',
 },{
   name: '总市值比例',
   url: 'https://coinmarketcap.com/zh/charts/#dominance-percentage',
-  logo: 'https://miro.medium.com/max/3150/1*KLgE-Hc-dNuqgLYWMujhAQ@2x.png',
+  logo: process.env.PUBLIC_URL + '/icon/cmc.png',
 },{
   name: 'LongHash',
   url: 'https://cn.longhash.com/',
-  logo: 'https://pbs.twimg.com/profile_images/991560474436096001/l7bGkMTv.jpg',
+  logo: process.env.PUBLIC_URL + '/icon/longhash.jpg',
 },{
   name: '恐惧贪婪指数',
   url: 'https://alternative.me/crypto/fear-and-greed-index/',
-  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/bitcoin_200_200.png?v=1561015933',
+  logo: process.env.PUBLIC_URL + '/favicon.ico',
 },{
   name: '市场情绪指数',
   url: 'https://www.sncrating.com/cn/adr#adr',
