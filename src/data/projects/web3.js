@@ -1,817 +1,817 @@
 export const layer0_cdn = [{
   name: 'BloxRoute',
   url: 'https://bloxroute.com/',
-  logo: 'https://bloxroute.com/wp-content/uploads/2018/11/favicon.ico',
+  logo: process.env.PUBLIC_URL + '/icon/bloxroute.jpg',
 },{
   name: 'Marlin',
   url: 'https://www.marlin.pro/zh/',
-  logo: 'https://www.marlin.pro/favicon/apple-icon-57x57.png',
+  logo: process.env.PUBLIC_URL + '/icon/marlin.png',
 }]
 
 export const layer0_p2pm = [{
   name: 'libp2p',
   url: 'https://libp2p.io/',
-  logo: 'https://libp2p.io/img/favicon.png',
+  logo: process.env.PUBLIC_URL + '/icon/libp2p.png',
 },{
   name: 'devp2p',
   url: 'https://github.com/ethereum/devp2p',
-  logo: 'https://github.com/ethereum/devp2p/raw/master/etherdog.png',
+  logo: process.env.PUBLIC_URL + '/icon/devp2p.png',
 }]
 
 export const layer0_vm = [{
   name: 'EVM（ETH1.0|Ethermint|Hashgraph|WANchain）',
   url: 'https://github.com/ethereum/go-ethereum/tree/master/core/vm',
-  logo: 'https://ethereum.org/favicon-32x32.png?v=3256fa998d0cafe085ad101c0652d871',
+  logo: process.env.PUBLIC_URL + '/icon/eth.jpg',
 },{
   name: 'WASM（Dfinity|EOS|Polkadot|ETH2.0）',
   url: 'https://github.com/WAVM/WAVM',
-  logo: 'https://webassembly.org/favicon.ico',
+  logo: process.env.PUBLIC_URL + '/icon/wasm.ico',
 }]
 
 export const layer0_vm_c = [{
   name: 'CODA',
   url: 'https://codaprotocol.com/',
-  logo: 'https://coinlist.co/assets/build/coda/icon-c6628acffdd4d93308f461751a9d212ca0da15d496cdecad81c4eade18537e3e.png',
+  logo: process.env.PUBLIC_URL + '/icon/coda.png',
 },{
   name: 'KADENA',
   url: 'https://www.kadena.io/',
-  logo: 'https://s2.bqiapp.com/logo/1/kadena.png?x-oss-process=style/coin_72&v=1590977571',
+  logo: process.env.PUBLIC_URL + '/icon/kadena.png',
 },{
   name: 'RChain',
   url: 'https://rchain.coop/',
-  logo: 'https://s2.bqiapp.com/logo/1/rchain.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/rchain.png',
 },{
   name: 'Tezos',
   url: 'https://tezos.com/',
-  logo: 'https://tezos.com/icons/icon-72x72.png?v=1177227697d3c0f85c6b63e4e489c518',
+  logo: process.env.PUBLIC_URL + '/icon/tezos.png',
 }]
 
 export const layer0_vm_d = [{
   name: 'Cardano',
   url: 'https://cardano.org/',
-  logo: 'https://s2.bqiapp.com/logo/1/cardano.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/ada.png',
 },{
   name: 'Solana',
   url: 'https://solana.com/zh/',
-  logo: 'https://s2.bqiapp.com/logo/1/solana.png?x-oss-process=style/coin_72&v=1586240198',
+  logo: process.env.PUBLIC_URL + '/icon/solana.png',
 }]
 
 export const layer0_vm_eos = [{
   name: 'EOS VM',
   url: 'https://eos.io/build-on-eosio/eos-vm/',
-  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
+  logo: process.env.PUBLIC_URL + '/icon/eos.png',
 }]
 
 export const layer0_vm_utxo = [{
   name: 'UTXO',
   url: 'https://developer.bitcoin.org/devguide/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/32x32/1.png',
+  logo: process.env.PUBLIC_URL + '/favicon.ico',
 }]
 
 export const layer1_cons_pow = [{
   name: 'Bitcoin',
   url: 'https://bitcoin.org/zh_CN/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/32x32/1.png',
+  logo: process.env.PUBLIC_URL + '/favicon.ico',
 },{
   name: 'Nervos',
   url: 'https://www.nervos.org/',
-  logo: 'https://www.nervos.org/wp-content/uploads/2019/06/cropped-1_kgf-gCn7BjzwgoMm8mQUdA-32x32.png',
+  logo: process.env.PUBLIC_URL + '/icon/ckb.png',
 },{
   name: 'Conflux',
   url: 'https://confluxnetwork.org',
-  logo: 'https://confluxnetwork.org/icons/icon-48x48.png?v=eb1fd3182d86f1e6c3fbaa8480951b4e',
+  logo: process.env.PUBLIC_URL + '/icon/conflux.png',
 }]
 
 export const layer1_cons_pos = [{
   name: 'Ethereum',
   url: 'https://ethereum.org/zh/',
-  logo: 'https://ethereum.org/favicon-32x32.png?v=3256fa998d0cafe085ad101c0652d871',
+  logo: process.env.PUBLIC_URL + '/icon/eth.jpg',
 },{
   name: 'Polkadot',
   url: 'https://polkadot.network/',
-  logo: 'https://s2.bqiapp.com/logo/1/polkadot100.png?x-oss-process=style/coin_72&v=1596098161',
+  logo: process.env.PUBLIC_URL + '/icon/polkadot.png',
 },{
   name: 'Algorand',
   url: 'https://www.algorand.com/zh/',
-  logo: 'https://www.algorand.com/icons/icon-48x48.png',
+  logo: process.env.PUBLIC_URL + '/icon/algo.png',
 },{
   name: 'Dfinity',
   url: 'https://dfinity.org/',
-  logo: 'https://s2.bqiapp.com/logo/1/dfinity.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/dfn.png',
 }]
 
 export const layer1_cons_dpos = [{
   name: 'EOS',
   url: 'https://eos.io/',
-  logo: 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030',
+  logo: process.env.PUBLIC_URL + '/icon/eos.png',
 },{
   name: 'BitShares',
   url: 'https://bitshares.org/',
-  logo: 'https://s2.bqiapp.com/logo/1/bitshares.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/bts.png',
 }]
 
 export const layer1_cons_poc = [{
   name: 'Spacemesh',
   url: 'https://spacemesh.io/',
-  logo: 'https://spacemesh.io/favicon.png',
+  logo: process.env.PUBLIC_URL + '/icon/spacemesh.png',
 },{
   name: 'Chia',
   url: 'https://www.chia.net/',
-  logo: 'https://chia.net/android-chrome-384x384.png',
+  logo: process.env.PUBLIC_URL + '/icon/chia.png',
 }]
 
 export const layer1_cons_poh = [{
   name: 'Solana',
   url: 'https://solana.com/zh/',
-  logo: 'https://s2.bqiapp.com/logo/1/solana.png?x-oss-process=style/coin_72&v=1586240198',
+  logo: process.env.PUBLIC_URL + '/icon/solana.png',
 }]
 
 export const layer1_cons_poa = [{
   name: 'Vechain',
   url: 'https://www.vechain.com/cn/',
-  logo: 'https://s2.bqiapp.com/logo/1/vechaincom.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/ve.png',
 },{
   name: 'POA Network',
   url: 'https://www.poa.network/v/zhong-wen/',
-  logo: 'https://gblobscdn.gitbook.com/assets%2F-LqmYAYVROatob6wi5TL%2F-LrjQRXrZrFfri4VO4t9%2F-LrjQTzlLDSDyeFrr_L4%2Fpoa_2.png?alt=media&token=dd6093bb-d08f-41fc-a206-c2a805e4c2dd',
+  logo: process.env.PUBLIC_URL + '/icon/poa.png',
 }]
 
 export const layer1_cons_vbft = [{
   name: 'Ontology',
   url: 'https://ont.io/',
-  logo: 'https://s2.bqiapp.com/logo/1/ont_72.png?v=14',
+  logo: process.env.PUBLIC_URL + '/icon/ont.png',
 }]
 
 export const layer1_cons_dbft = [{
   name: 'NEO',
   url: 'https://neo.org/',
-  logo: 'https://neo.org/apple-touch-icon.png',
+  logo: process.env.PUBLIC_URL + '/icon/neo.png',
 }]
 
 export const layer1_cons_pbft = [{
   name: 'Zilliqa',
   url: 'https://www.zilliqa.com/',
-  logo: 'https://s2.bqiapp.com/logo/1/zilliqa.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/zil.png',
 }]
 
 export const layer1_cons_tangle = [{
   name: 'IOTA',
   url: 'https://www.iota.org/',
-  logo: 'https://s2.bqiapp.com/logo/1/iota.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/iota.png',
 }]
 
 export const layer1_cons_lattice = [{
   name: 'Nano',
   url: 'https://nano.org/zh',
-  logo: 'https://s2.bqiapp.com/logo/1/raiblocks.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/nano.png',
 }]
 
 export const layer1_cons_ava = [{
   name: 'Ava Labs',
   url: 'https://zh.avalabs.org/',
-  logo: 'https://assets-global.website-files.com/5d80307810123f5ffbb34d6e/5ec4236c0bde333d540d3762_red-round-white-256.png',
+  logo: process.env.PUBLIC_URL + '/icon/ava.png',
 }]
 
 export const layer1_data = [{
   name: 'IPFS',
   url: 'https://ipfs.io/',
-  logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ipfs-logo-1024-ice-text.png/220px-Ipfs-logo-1024-ice-text.png',
+  logo: process.env.PUBLIC_URL + '/icon/ipfscn.png',
 },{
   name: 'BigchainDB',
   url: 'https://www.bigchaindb.com/',
-  logo: 'https://www.bigchaindb.com/assets/img/favicon-192x192-9b0a35ed84.png',
+  logo: process.env.PUBLIC_URL + '/icon/bigchain.png',
 },{
   name: 'Bluzelle',
   url: 'https://bluzelle.com/',
-  logo: 'https://s2.bqiapp.com/logo/1/bluzelle.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/bluzelle.png',
 },{
   name: 'Fluence',
   url: 'https://fluence.network/',
-  logo: 'https://fluence.network/img/favicon/favicon.png',
+  logo: process.env.PUBLIC_URL + '/icon/fluence.png',
 },{
   name: 'Swarm',
   url: 'https://swarm-guide.readthedocs.io/en/latest/introduction.html',
-  logo: 'https://swarm-guide.readthedocs.io/en/latest/_images/swarm.png',
+  logo: process.env.PUBLIC_URL + '/icon/swarm.ico',
 }]
 
 export const layer1_data_pub = [{
   name: 'Matrix',
   url: 'https://matrix.org/',
-  logo: 'https://matrix.org/favicon-32x32.png?v=9c73e3e9f08bfca2a260df81aabb2fd4',
+  logo: process.env.PUBLIC_URL + '/icon/matrix.png',
 },{
   name: 'Whisper',
   url: 'https://eth.wiki/concepts/whisper/whisper',
-  logo: 'https://ethereum.karalabe.com/talks/2016-hinta-en/whisper.jpg',
+  logo: process.env.PUBLIC_URL + '/icon/whisper.jpg',
 }]
 
 export const layer1_shard = [{
   name: 'Zilliqa',
   url: 'https://www.zilliqa.com/',
-  logo: 'https://s2.bqiapp.com/logo/1/zilliqa.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/zil.png',
 },{
   name: 'NEAR',
   url: 'https://near.org/',
-  logo: 'https://s2.bqiapp.com/logo/1/nearprotocol.png?x-oss-process=style/coin_72&v=1597997032',
+  logo: process.env.PUBLIC_URL + '/icon/near.png',
 },{
   name: 'Ethereum 2.0',
   url: 'https://ethereum.org/en/eth2/',
-  logo: 'https://ethereum.org/favicon-32x32.png?v=3256fa998d0cafe085ad101c0652d871',
+  logo: process.env.PUBLIC_URL + '/icon/eth.jpg',
 },{
   name: 'Elrond',
   url: 'https://elrond.com/',
-  logo: 'https://s2.bqiapp.com/logo/1/elrond.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/elrond.png',
 },{
   name: 'QuarkChain',
   url: 'https://quarkchain.io/cn/',
-  logo: 'https://s2.bqiapp.com/logo/1/quarkchain.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/quark.png',
 },{
   name: 'Harmony',
   url: 'https://www.harmony.one/cn',
-  logo: 'https://s2.bqiapp.com/logo/1/harmonyone.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/harmony.png',
 }]
 
 export const layer1_inter = [{
   name: 'Polkadot',
   url: 'https://polkadot.network/',
-  logo: 'https://s2.bqiapp.com/logo/1/polkadot100.png?x-oss-process=style/coin_72&v=1596098161',
+  logo: process.env.PUBLIC_URL + '/icon/polkadot.png',
 },{
   name: 'Cosmos',
   url: 'https://cosmos.network/',
-  logo: 'https://s2.bqiapp.com/logo/1/cosmos.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/cosmos.png',
 },{
   name: 'ChainX',
   url: 'https://chainx.org/',
-  logo: 'https://s2.bqiapp.com/logo/1/chainx.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/chainx.png',
 },{
   name: 'Edgeware',
   url: 'https://edgewa.re/',
-  logo: 'https://s2.bqiapp.com/logo/1/edgeware.png?x-oss-process=style/coin_72&v=1598489078',
+  logo: process.env.PUBLIC_URL + '/icon/edgeware.png',
 },{
   name: 'Wanchain',
   url: 'https://www.wanchain.org/zh/homepage/',
-  logo: 'https://s2.bqiapp.com/logo/1/wanchain.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/wan.png',
 },{
   name: 'POA Network',
   url: 'https://www.poa.network/',
-  logo: 'https://gblobscdn.gitbook.com/assets%2F-LqmYAYVROatob6wi5TL%2F-LrjQRXrZrFfri4VO4t9%2F-LrjQTzlLDSDyeFrr_L4%2Fpoa_2.png?alt=media&token=dd6093bb-d08f-41fc-a206-c2a805e4c2dd',
+  logo: process.env.PUBLIC_URL + '/icon/poa.png',
 },{
   name: 'Komodo',
   url: 'https://komodoplatform.com/',
-  logo: 'https://s2.bqiapp.com/logo/1/komodo.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/komodo.png',
 },{
   name: 'ICON',
   url: 'https://icon.foundation/?lang=en',
-  logo: 'https://s2.bqiapp.com/logo/1/icon.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/icon.png',
 },{
   name: 'AION',
   url: 'https://theoan.com/',
-  logo: 'https://s2.bqiapp.com/logo/1/aion_72.png?v=55',
+  logo: process.env.PUBLIC_URL + '/icon/aion.png',
 }]
 
 export const layer2_channels = [{
   name: '闪电网络',
   url: 'https://lightning.network/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/32x32/1.png',
+  logo: process.env.PUBLIC_URL + '/favicon.ico',
 },{
   name: 'Raiden',
   url: 'https://raiden.network/',
-  logo: 'https://s2.bqiapp.com/logo/1/raiden-network-token.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/raiden.png',
 },{
   name: 'Celer',
   url: 'https://www.celer.network/',
-  logo: 'https://s2.bqiapp.com/logo/1/celernetwork.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/celer.png',
 },{
   name: 'Connext',
   url: 'https://connext.network/',
-  logo: 'https://connext.network/images/favicon.png',
+  logo: process.env.PUBLIC_URL + '/icon/connext.png',
 }]
 
 export const layer2_storage_incent = [{
   name: 'Filecoin',
   url: 'https://filecoin.io/zh-cn/',
-  logo: 'https://s2.bqiapp.com/logo/1/filecoin.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/fil.png',
 },{
   name: 'Arweave',
   url: 'https://www.arweave.org/',
-  logo: 'https://s2.bqiapp.com/logo/1/arweave.png?x-oss-process=style/coin_72&v=1590547923',
+  logo: process.env.PUBLIC_URL + '/icon/ar.png',
 },{
   name: 'Storj',
   url: 'https://storj.io/',
-  logo: 'https://s2.bqiapp.com/logo/1/storj.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/storj.png',
 },{
   name: 'Sia',
   url: 'https://sia.tech/',
-  logo: 'https://s2.bqiapp.com/logo/1/siacoin.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/sia.png',
 }]
 
 export const layer2_plasma = [{
   name: 'Loom',
   url: 'https://loomx.io/',
-  logo: 'https://s2.bqiapp.com/logo/1/loom-network.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/loom.png',
 },{
   name: 'OmiseGO',
   url: 'https://omg.network/',
-  logo: 'https://s2.bqiapp.com/logo/1/omisego.png?x-oss-process=style/coin_72&v=1592269967',
+  logo: process.env.PUBLIC_URL + '/icon/omg.png',
 },{
   name: 'Matic',
   url: 'https://matic.network/',
-  logo: 'https://s2.bqiapp.com/logo/1/matictoken.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/matic.png',
 },{
   name: 'Kyokan',
   url: 'https://www.kyokan.io/',
-  logo: 'https://d33wubrfki0l68.cloudfront.net/a8cf25ca5ed44f15bb8b0c9b9ee6066056164071/bd256/assets/images/big-k.svg',
+  logo: process.env.PUBLIC_URL + '/icon/kyo.svg',
 }]
 
 export const layer2_rollup = [{
   name: 'Skale',
   url: 'https://skale.network/cn/',
-  logo: 'https://skale.network/icons/icon-48x48.png?v=96945299a654565044ef337bb884dc48',
+  logo: process.env.PUBLIC_URL + '/icon/skale.png',
 },{
   name: 'Matter Labs',
   url: 'https://matter-labs.io/',
-  logo: 'https://matter-labs.io/apple-touch-icon-57x57.png',
+  logo: process.env.PUBLIC_URL + '/icon/matter.png',
 },{
   name: 'Offchain Labs',
   url: 'https://offchainlabs.com/',
-  logo: 'https://offchainlabs.com/favicon-32x32.png',
+  logo: process.env.PUBLIC_URL + '/icon/offchain.png',
 }]
 
 export const layer2_side = [{
   name: 'Liquid',
   url: 'https://blockstream.com/liquid/',
-  logo: 'https://blockstream.com/img/nav_icons/nav_liquid.svg',
+  logo: process.env.PUBLIC_URL + '/icon/liquid.svg',
 },{
   name: 'TARI',
   url: 'https://www.tari.com/',
-  logo: 'https://www.tari.com/assets/favicon/apple-icon-57x57.png',
+  logo: process.env.PUBLIC_URL + '/icon/tari.png',
 },{
   name: 'Horizen',
   url: 'https://www.horizen.io/zh/',
-  logo: 'https://www.horizen.io/assets/fav/fav_32x32.png',
+  logo: process.env.PUBLIC_URL + '/icon/horizen.png',
 },{
   name: 'Lisk',
   url: 'https://lisk.io/',
-  logo: 'https://s2.bqiapp.com/logo/1/lisk.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/lisk.png',
 }]
 
 export const layer2_cpu = [{
   name: 'TrueBit',
   url: 'https://truebit.io/',
-  logo: 'https://truebit.io/images/truebit-protocol-favicon.ico?crc=3857094931',
+  logo: process.env.PUBLIC_URL + '/icon/truebit.ico',
 },{
   name: 'Golem',
   url: 'https://golem.network/',
-  logo: 'https://s2.bqiapp.com/logo/1/golem-network-tokens.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/golem.png',
 },{
   name: 'Cartesi',
   url: 'https://cartesi.io/zh/',
-  logo: 'https://s2.coinmarketcap.com/static/img/coins/200x200/5444.png',
+  logo: process.env.PUBLIC_URL + '/icon/cartesi.png',
 }]
 
 export const layer2_oracle = [{
   name: 'ChainLink',
   url: 'https://chain.link/',
-  logo: 'https://s2.bqiapp.com/logo/1/chainlink.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/link.png',
 },{
   name: 'Band Protocol',
   url: 'https://bandprotocol.com/',
-  logo: 'https://s2.bqiapp.com/logo/1/bandprotocol.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/band.png',
 },{
   name: 'Provable',
   url: 'https://provable.xyz/',
-  logo: 'https://provable.xyz/images/favicon.png',
+  logo: process.env.PUBLIC_URL + '/icon/provable.png',
 }]
 
 export const layer2_geo = [{
   name: 'FOAM',
   url: 'https://www.foam.space/',
-  logo: 'https://s2.bqiapp.com/logo/1/foam.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/foam.png',
 },{
   name: 'Helium',
   url: 'https://www.helium.com/',
-  logo: 'https://s2.bqiapp.com/logo/1/1587608098_72.png',
+  logo: process.env.PUBLIC_URL + '/icon/helium.png',
 }]
 
 export const layer2_ilp = [{
   name: 'Ripple',
   url: 'https://ripple.com/',
-  logo: 'https://s2.bqiapp.com/logo/1/ripple.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/ripple.png',
 },{
   name: 'Kava',
   url: 'https://www.kava.io/',
-  logo: 'https://s2.bqiapp.com/logo/1/kava_72.png?v=03',
+  logo: process.env.PUBLIC_URL + '/icon/kava.png',
 },{
   name: 'OneLedger',
   url: 'https://www.oneledger.io/',
-  logo: 'https://s2.bqiapp.com/logo/1/oneledger.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/oneledger.png',
 }]
 
 export const layer2_pcc = [{
   name: 'Oasis Labs',
   url: 'https://www.oasislabs.com/',
-  logo: 'https://images.squarespace-cdn.com/content/v1/5b368c164eddec44efc17fbb/1552424302578-UUP0MDKEY1TLM2WG8FDR/ke17ZwdGBToddI8pDm48kL0SQucLn7sNGTGcsOH5NXlZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7TX3l87vovfifnxOzT0YldGBfzIdVwCG7FxOEHk2JotLCmAjYyLdb7teeRCjhK0rOw/favicon.ico?format=100w',
+  logo: process.env.PUBLIC_URL + '/icon/oasis.png',
 }]
 
 export const layer2_ovc = [{
   name: 'StarkWare',
   url: 'https://starkware.co/',
-  logo: 'https://starkware.co/wp-content/uploads/2019/05/cropped-SW_Favicon-32x32.png',
+  logo: process.env.PUBLIC_URL + '/icon/starkware.png',
 }]
 
 export const layer2_es = [{
   name: 'Enigma',
   url: 'https://www.enigma.co/',
-  logo: 'https://s2.bqiapp.com/logo/1/enigma-project.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/eng.png',
 }]
 
 export const layer2_pr = [{
   name: 'NuCypher',
   url: 'https://www.nucypher.com/',
-  logo: 'https://s2.bqiapp.com/logo/1/nucypher.png?x-oss-process=style/coin_72&v=1592986050',
+  logo: process.env.PUBLIC_URL + '/icon/nucypher.png',
 }]
 
 export const layer3_api = [{
   name: 'Infura',
   url: 'https://infura.io/',
-  logo: 'https://infura.io/favicon/favicon-32x32.png',
+  logo: process.env.PUBLIC_URL + '/icon/infura.png',
 },{
   name: 'Alchemy',
   url: 'https://alchemyapi.io/',
-  logo: 'https://alchemyapi.io/icons/icon-48x48.png?v=98dbbf0619b46b3e95143925dd2dded4',
+  logo: process.env.PUBLIC_URL + '/icon/alchemy.png',
 },{
   name: 'DappNode',
   url: 'https://dappnode.io/',
-  logo: 'https://dappnode.io/icons/icon-48x48.png',
+  logo: process.env.PUBLIC_URL + '/icon/dappnode.png',
 },{
   name: 'QuikNode',
   url: 'https://www.quiknode.io/',
-  logo: 'https://www.quiknode.io/assets/favicon-0713ffeaf9dfb9643de638c4f2f599f0a71683bbca3ff36bf2943083f8bee268.png',
+  logo: process.env.PUBLIC_URL + '/icon/quik.png',
 },{
   name: 'dfuse',
   url: 'https://www.dfuse.io/zh/%E4%B8%BB%E9%A1%B5',
-  logo: 'https://www.dfuse.io/hubfs/fav-01-1.png',
+  logo: process.env.PUBLIC_URL + '/icon/dfuse.webp',
 }]
 
 export const layer3_lang = [{
   name: 'web3.js',
   url: 'https://github.com/ethereum/web3.js/',
-  logo: 'https://github.com/ethereum/web3.js/raw/1.x/assets/logo/web3js.jpg',
+  logo: process.env.PUBLIC_URL + '/icon/web3js.jpg',
 },{
   name: 'web3.eth',
   url: 'https://web3js.readthedocs.io/en/v1.2.0/web3-eth.html',
-  logo: 'https://jirasupport.files.wordpress.com/2018/04/web3.png?w=400',
+  logo: process.env.PUBLIC_URL + '/icon/web3eth.png',
 },{
   name: 'Solidity',
   url: 'https://solidity-cn.readthedocs.io/zh/develop/',
-  logo: 'https://solidity-cn.readthedocs.io/zh/develop/_images/logo.svg',
+  logo: process.env.PUBLIC_URL + '/icon/solidity.svg',
 },{
   name: 'Parity',
   url: 'https://www.parity.io/',
-  logo: 'https://www.parity.io/favicon.png',
+  logo: process.env.PUBLIC_URL + '/icon/parity.png',
 },{
   name: 'Substrate',
   url: 'https://substrate.dev/zh-CN/',
-  logo: 'https://substrate.dev/img/favicon.png',
+  logo: process.env.PUBLIC_URL + '/icon/substrate.png',
 },{
   name: 'Tendermint',
   url: 'https://tendermint.com/',
-  logo: 'https://avatars0.githubusercontent.com/u/7572940?s=400&v=4',
+  logo: process.env.PUBLIC_URL + '/icon/tendermint.png',
 },{
   name: 'Cosmos SDK',
   url: 'https://cosmos.network/sdk',
-  logo: 'https://cosmos.network/apple-touch-icon.png',
+  logo: process.env.PUBLIC_URL + '/icon/cosmossdk.png',
 }]
 
 export const layer4_content = [{
   name: 'Steem',
   url: 'https://steem.com/',
-  logo: 'https://s2.bqiapp.com/logo/1/steem.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/steem.png',
 },{
   name: 'Livepeer',
   url: 'https://livepeer.org/',
-  logo: 'https://s2.bqiapp.com/logo/1/livepeer.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/livepeer.png',
 },{
   name: 'Flixxo',
   url: 'https://flixxo.com/',
-  logo: 'https://s2.bqiapp.com/logo/1/flixxo.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/flixxo.png',
 },{
   name: 'ALIS',
   url: 'https://alismedia.jp/',
-  logo: 'https://s2.bqiapp.com/logo/1/alis.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/alis.png',
 },{
   name: 'TRON',
   url: 'https://tron.network/index?lng=zh',
-  logo: 'https://s2.bqiapp.com/logo/1/tron.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/trx.png',
 },{
   name: 'Contentos',
   url: 'https://www.contentos.io/zhs/',
-  logo: 'https://s2.bqiapp.com/logo/1/contentos.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/contentos.png',
 },{
   name: 'Coil',
   url: 'https://coil.com/',
-  logo: 'https://coil.com/images/favicon.png',
+  logo: process.env.PUBLIC_URL + '/icon/coil.png',
 }]
 
 export const layer4_game = [{
   name: 'DMarket',
   url: 'https://dmarket.com/',
-  logo: 'https://s2.bqiapp.com/logo/1/dmarket.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/dmarket.png',
 },{
   name: 'Gods Unchained',
   url: 'https://godsunchained.com/',
-  logo: 'https://godsunchained.com/favicon.ico',
+  logo: process.env.PUBLIC_URL + '/icon/gods.ico',
 },{
   name: 'CryptoKitties',
   url: 'http://www.cryptokitties.co/',
-  logo: 'http://www.cryptokitties.co/icons/favicon.ico',
+  logo: process.env.PUBLIC_URL + '/icon/kitties.ico',
 },{
   name: 'ChainzArena',
   url: 'https://www.chainzarena.com/',
-  logo: 'https://www.chainzarena.com/favicon.ico',
+  logo: process.env.PUBLIC_URL + '/icon/cz.ico',
 }]
 
 export const layer4_dao = [{
   name: 'Aragon',
   url: 'https://aragon.org/',
-  logo: 'https://s2.bqiapp.com/logo/1/aragon.png?x-oss-process=style/coin_72&v=1595380103',
+  logo: process.env.PUBLIC_URL + '/icon/aragon.png',
 },{
   name: 'DAOstack',
   url: 'https://daostack.io/',
-  logo: 'https://s2.bqiapp.com/logo/1/daostack.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/daostack.png',
 },{
   name: 'MakerDAO',
   url: 'https://makerdao.com/zh-CN/',
-  logo: 'https://s2.bqiapp.com/logo/1/maker.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/maker.png',
 },{
   name: '0x protocol',
   url: 'https://0x.org/',
-  logo: 'https://s2.bqiapp.com/logo/1/0x.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/0x.png',
 }]
 
 export const layer4_ad = [{
   name: 'BAT',
   url: 'https://basicattentiontoken.org/zh/',
-  logo: 'https://s2.bqiapp.com/logo/1/basic-attention-token.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/bat.png',
 },{
   name: 'AdChain',
   url: 'https://github.com/AdChain',
-  logo: 'https://avatars2.githubusercontent.com/u/22400847?s=200&v=4',
+  logo: process.env.PUBLIC_URL + '/icon/adchain.png',
 }]
 
 export const layer4_msg = [{
   name: 'Telegram',
   url: 'https://telegram.org/',
-  logo: 'https://s2.bqiapp.com/logo/1/1571128856577_72.png?v=56',
+  logo: process.env.PUBLIC_URL + '/icon/tele.png',
 },{
   name: 'DUST',
   url: 'https://play.google.com/store/apps/details?id=com.radicalapps.cyberdust',
-  logo: 'https://lh3.googleusercontent.com/XFbRZ8j0iTu0C-FMtM3w14UrdD4DxSWyYoaMir-dQ8hhwdCYmLJ5BrEMgMCw6dlg1kk=s180-rw',
+  logo: process.env.PUBLIC_URL + '/icon/dust.webp',
 }]
 
 export const layer4_mkt = [{
   name: 'CanYa',
   url: 'https://canya.io/',
-  logo: 'https://s2.bqiapp.com/logo/1/canyacoin.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/canya.png',
 },{
   name: 'bitJob',
   url: 'https://bitjob.io/',
-  logo: 'https://s2.bqiapp.com/logo/1/student-coin.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/bitjob.png',
 },{
   name: 'PublicMarket',
   url: 'https://publicmarket.io/',
-  logo: 'https://publicmarket.io/assets/img/favicon/favicon.ico',
+  logo: process.env.PUBLIC_URL + '/icon/publicmarket.ico',
 },{
   name: 'OpenBazaar',
   url: 'https://openbazaar.org/',
-  logo: 'https://openbazaar.org/favicon.png',
+  logo: process.env.PUBLIC_URL + '/icon/openbaz.png',
 }]
 
 export const layer4_user = [{
   name: 'Blockstack',
   url: 'https://www.blockstack.org/',
-  logo: 'https://s2.bqiapp.com/logo/1/blockstack.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/blockstack.png',
 },{
   name: 'Coinbase Wallet',
   url: 'https://wallet.coinbase.com/',
-  logo: 'https://wallet.coinbase.com/assets/images/favicon-32x32.png',
+  logo: process.env.PUBLIC_URL + '/icon/coinbase.png',
 },{
   name: 'Mist',
   url: 'https://github.com/ethereum/mist',
-  logo: 'https://ethereum.org/favicon-32x32.png?v=3256fa998d0cafe085ad101c0652d871',
+  logo: process.env.PUBLIC_URL + '/icon/eth.jpg',
 },{
   name: 'MyCrypto',
   url: 'https://mycrypto.com/',
-  logo: 'https://avatars0.githubusercontent.com/u/32279762?s=280&v=4',
+  logo: process.env.PUBLIC_URL + '/icon/mycrypto.png',
 },{
   name: 'MetaMask',
   url: 'https://metamask.io/',
-  logo: 'https://metamask.io/images/favicon.png',
+  logo: process.env.PUBLIC_URL + '/icon/metamask.png',
 },{
   name: 'WeTrust',
   url: 'https://www.wetrust.io/',
-  logo: 'https://s2.bqiapp.com/logo/1/trust.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/wetrust.png',
 },{
   name: 'Lisk',
   url: 'https://lisk.io/',
-  logo: 'https://s2.bqiapp.com/logo/1/lisk.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/lisk.png',
 },{
   name: 'Cipher',
   url: 'https://ciphercryptotech.org/',
-  logo: 'https://s2.bqiapp.com/logo/1/cipher.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/cipher.png',
 },{
   name: 'imToken',
   url: 'https://token.im/',
-  logo: 'https://token.im/img/favicon-16x16.png',
+  logo: process.env.PUBLIC_URL + '/icon/imtoken.png',
 },{
   name: 'Trust Wallet',
   url: 'https://trustwallet.com/zh_CN/',
-  logo: 'https://trustwallet.com/assets/images/favicon.ico',
+  logo: process.env.PUBLIC_URL + '/icon/trustwallet.ico',
 },{
   name: 'Token Pocket',
   url: 'https://www.tokenpocket.pro',
-  logo: 'https://www.tokenpocket.pro/favicon.ico',
+  logo: process.env.PUBLIC_URL + '/icon/tp.ico',
 },{
   name: 'MYKEY',
   url: 'https://mykey.org',
-  logo: 'https://miro.medium.com/fit/c/160/160/1*qQTt4aXu9ty0pQXFd5IDCw.png',
+  logo: process.env.PUBLIC_URL + '/icon/mykey.png',
 },{
   name: '麦子钱包',
   url: 'https://www.mathwallet.org/zh-cn/',
-  logo: 'https://staticcdn3.maiziqianbao.net/static/img/favicon.ico',
+  logo: process.env.PUBLIC_URL + '/icon/maizi.ico',
 }]
 
 export const layer4_pay = [{
   name: 'Dai Card',
   url: 'https://daicard.io/',
-  logo: 'https://daicard.io/favicon.ico',
+  logo: process.env.PUBLIC_URL + '/icon/daic.ico',
 },{
   name: 'Request',
   url: 'https://request.network/en/',
-  logo: 'https://s2.bqiapp.com/logo/1/request-network.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/request.png',
 },{
   name: 'Groundhog',
   url: 'https://groundhog.network/',
-  logo: 'https://groundhog.network/wp-content/uploads/2018/02/cropped-groundhog-square-32x32.png',
+  logo: process.env.PUBLIC_URL + '/icon/groundhog.png',
 }]
 
 export const layer4_lend = [{
   name: 'Compound',
   url: 'https://compound.finance/',
-  logo: 'https://s2.bqiapp.com/logo/1/compound.png?x-oss-process=style/coin_72&v=1592273694',
+  logo: process.env.PUBLIC_URL + '/icon/compound.png',
 },{
   name: 'Celsius',
   url: 'https://celsius.network/',
-  logo: 'https://s2.bqiapp.com/logo/1/celsius.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/celsius.png',
 },{
   name: 'Maker',
   url: 'https://makerdao.com/zh-CN/',
-  logo: 'https://s2.bqiapp.com/logo/1/maker.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/maker.png',
 },{
   name: 'Nuo Network',
   url: 'https://nuo.network/',
-  logo: 'https://s2.feixiaoquan.com/logo/2/nuonetwork.png?v=1597912753',
+  logo: process.env.PUBLIC_URL + '/icon/nuo.png',
 },{
   name: 'Dharma',
   url: 'https://www.dharma.io/',
-  logo: 'https://www.dharma.io/favicon.ico',
+  logo: process.env.PUBLIC_URL + '/icon/dhar.ico',
 }]
 
 export const layer4_der = [{
   name: 'dydx',
   url: 'https://dydx.exchange/',
-  logo: 'https://dydx.exchange/icons/icon-48x48.png?v=92dd748a077e16bd25b6c9d66e43b631',
+  logo: process.env.PUBLIC_URL + '/icon/dydx.png',
 },{
   name: 'UMA',
   url: 'https://umaproject.org/',
-  logo: 'https://s2.bqiapp.com/logo/1/uma.png?x-oss-process=style/coin_72&v=1588557021',
+  logo: process.env.PUBLIC_URL + '/icon/uma.png',
 },{
   name: 'Synthetix',
   url: 'https://synthetix.exchange',
-  logo: 'https://s2.feixiaoquan.com/logo/2/synthetix.png?v=1597117538',
+  logo: process.env.PUBLIC_URL + '/icon/syn.png',
 }]
 
 export const layer4_stable = [{
   name: 'Dai',
   url: 'https://makerdao.com/',
-  logo: 'https://s2.bqiapp.com/logo/1/dai.png?x-oss-process=style/coin_72&v=1591258541',
+  logo: process.env.PUBLIC_URL + '/icon/dai.png',
 },{
   name: 'Tether',
   url: 'https://tether.to/',
-  logo: 'https://s2.bqiapp.com/logo/1/tether.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/usdt.png',
 },{
   name: 'TrueUSD',
   url: 'https://www.trusttoken.com/',
-  logo: 'https://s2.bqiapp.com/logo/1/trueusd_72.png?v=58',
+  logo: process.env.PUBLIC_URL + '/icon/tusd.png',
 },{
   name: 'USD Coin',
   url: 'https://www.centre.io/',
-  logo: 'https://s2.bqiapp.com/logo/1/usdc.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/usdc.png',
 }]
 
 export const layer4_syn = [{
   name: 'UMA',
   url: 'https://umaproject.org/',
-  logo: 'https://s2.bqiapp.com/logo/1/uma.png?x-oss-process=style/coin_72&v=1588557021',
+  logo: process.env.PUBLIC_URL + '/icon/uma.png',
 },{
   name: 'Synthetix',
   url: 'https://synthetix.exchange',
-  logo: 'https://s2.feixiaoquan.com/logo/2/synthetix.png?v=1597117538',
+  logo: process.env.PUBLIC_URL + '/icon/syn.png',
 },{
   name: 'Maker',
   url: 'https://makerdao.com/zh-CN/',
-  logo: 'https://s2.bqiapp.com/logo/1/maker.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/maker.png',
 }]
 
 export const layer4_insur = [{
   name: 'Etherisc',
   url: 'https://etherisc.com/',
-  logo: 'https://s2.bqiapp.com/logo/1/dip.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/etherisc.png',
 },{
   name: 'VouchForMe',
   url: 'https://vouchforme.co/',
-  logo: 'https://s2.bqiapp.com/logo/1/insurepal.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/vouch.png',
 },{
   name: 'Nexus Mutual',
   url: 'https://nexusmutual.io/',
-  logo: 'https://s2.bqiapp.com/logo/1/nexusmutual.png?x-oss-process=style/coin_72&v=1594611301',
+  logo: process.env.PUBLIC_URL + '/icon/nexus.png',
 },{
   name: 'Convexity Protocol',
   url: 'https://github.com/opynfinance/Convexity-Protocol',
-  logo: 'https://github.githubassets.com/favicon.ico',
+  logo: process.env.PUBLIC_URL + '/icon/github.ico',
 }]
 
 export const layer4_ex = [{
   name: 'Kyber',
   url: 'https://kyber.network/',
-  logo: 'https://s2.bqiapp.com/logo/1/kyber-network.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/kyber.png',
 },{
   name: 'Uniswap',
   url: 'https://app.uniswap.org/',
-  logo: 'https://s2.feixiaoquan.com/logo/2/uniswap.png?v=1597213869',
+  logo: process.env.PUBLIC_URL + '/icon/uniswap.png',
 },{
   name: 'AirSwap',
   url: 'https://www.airswap.io/',
-  logo: 'https://s2.bqiapp.com/logo/1/airswap.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/airswap.png',
 },{
   name: 'Bancor',
   url: 'https://www.bancor.network/',
-  logo: 'https://s2.bqiapp.com/logo/1/bancor.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/bnt.png',
 },{
   name: 'IDEX',
   url: 'https://idex.market/',
-  logo: 'https://s2.bqiapp.com/logo/1/idex.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/idex.png',
 },{
   name: 'EtherDelta',
   url: 'https://etherdelta.com/',
-  logo: 'https://pbs.twimg.com/profile_images/963322010171408384/WTv8Gcbj_400x400.jpg',
+  logo: process.env.PUBLIC_URL + '/icon/etherdelta.jpg',
 }]
 
 export const layer4_custo = [{
   name: 'Zerion',
   url: 'https://zerion.io/',
-  logo: 'https://zerion.io/img/favicon.png',
+  logo: process.env.PUBLIC_URL + '/icon/zerion.png',
 },{
   name: 'Argent',
   url: 'https://www.argent.xyz/',
-  logo: 'https://www.argent.xyz/favicon-32x32.png?v=492fdf43c2194271dfad036e41a24c51',
+  logo: process.env.PUBLIC_URL + '/icon/argent.png',
 },{
   name: 'imToken',
   url: 'https://token.im/',
-  logo: 'https://token.im/img/favicon-16x16.png',
+  logo: process.env.PUBLIC_URL + '/icon/imtoken.png',
 },{
   name: 'Trust Wallet',
   url: 'https://trustwallet.com/zh_CN/',
-  logo: 'https://trustwallet.com/assets/images/favicon.ico',
+  logo: process.env.PUBLIC_URL + '/icon/trustwallet.ico',
 },{
   name: 'MetaMask',
   url: 'https://metamask.io/',
-  logo: 'https://metamask.io/images/favicon.png',
+  logo: process.env.PUBLIC_URL + '/icon/metamask.png',
 },{
   name: 'MyCrypto',
   url: 'https://mycrypto.com/',
-  logo: 'https://avatars0.githubusercontent.com/u/32279762?s=280&v=4',
+  logo: process.env.PUBLIC_URL + '/icon/mycrypto.png',
 },]
 
 export const layer4_pred = [{
   name: 'Guesser',
   url: 'https://guesser.com/',
-  logo: 'https://guesser.com/favicon.ico',
+  logo: process.env.PUBLIC_URL + '/icon/guesser.ico',
 },{
   name: 'Augur',
   url: 'https://www.augur.net/',
-  logo: 'https://s2.bqiapp.com/logo/1/augur.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/augur.png',
 },{
   name: 'Gnosis',
   url: 'https://gnosis.io/',
-  logo: 'https://s2.bqiapp.com/logo/1/gnosis-gno.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/gnosis.png',
 },{
   name: 'Veil',
   url: 'https://defipulse.com/veil',
-  logo: 'https://pbs.twimg.com/profile_images/1090392960808538112/rd29XLNX_400x400.jpg',
+  logo: process.env.PUBLIC_URL + '/icon/veil.jpg',
 },{
   name: 'Stox',
   url: 'https://www.stox.com/',
-  logo: 'https://s2.bqiapp.com/logo/1/stox.png?x-oss-process=style/coin_72',
+  logo: process.env.PUBLIC_URL + '/icon/stox.png',
 }]
 
 

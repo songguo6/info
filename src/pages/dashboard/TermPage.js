@@ -33,7 +33,7 @@ class TermPage extends Component {
           <Table columns={columns} dataSource={this.state.data} />
         </Col>
         <Col xl={5} lg={24} md={24} sm={24} xs={24}>
-          <img width='100%' src='https://i.loli.net/2019/07/07/5d21fbf162be851763.jpg' alt='' />
+          <img width='100%' src={process.env.PUBLIC_URL + '/icon/invite.jpg'} alt='' />
         </Col>
       </Row>
     )

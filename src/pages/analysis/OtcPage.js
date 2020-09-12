@@ -40,13 +40,13 @@ class OtcPage extends Component {
 
   getAvatar = (coinId) => {
     if(coinId === BTC){
-      return 'https://s1.bqiapp.com/coin/20181030_72_png/bitcoin_200_200.png?v=1561015933';
+      return process.env.PUBLIC_URL + '/favicon.ico';
     }else if(coinId === ETH){
-      return 'https://s1.bqiapp.com/coin/20181030_72_png/ethereum_200_200.png?v=1561100400';
+      return process.env.PUBLIC_URL + '/icon/eth.jpg';
     }else if(coinId === EOS){
-      return 'https://s1.bqiapp.com/coin/20181030_72_png/eos_200_200.png?v=1561110030';
+      return process.env.PUBLIC_URL + '/icon/eos.png';
     }else if(coinId === USDT){
-      return 'https://s1.bqiapp.com/coin/20181030_72_png/tether_200_200.png?v=1562634583';
+      return process.env.PUBLIC_URL + '/icon/usdt.png';
     }
     return '';
   }

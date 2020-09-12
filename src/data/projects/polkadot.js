@@ -1,37 +1,37 @@
 export const docs = [{
   name: '波卡区块链开发',
   url: 'http://boka.network',
-  logo: 'https://s1.bqiapp.com/image/20190505/polkadot_mid.png',
+  logo: process.env.PUBLIC_URL + '/icon/polkadot.png',
 }]
 
 export const tools = [{
   name: 'Subscan区块浏览器',
   url: 'https://www.subscan.io/',
-  logo: 'https://subscan.l2me.com/favicon.png',
+  logo: process.env.PUBLIC_URL + '/icon/subscan.png',
 }]
 
 export const envs = [{
   name: 'Kusama',
   url: 'https://kusama.network/',
-  logo: 'https://s2.bqiapp.com/logo/1/kusama_72.png?v=63',
+  logo: process.env.PUBLIC_URL + '/icon/kusama.png',
 },{
   name: 'Edgeware',
   url: 'https://edgewa.re/',
-  logo: 'https://s2.bqiapp.com/logo/1/edgeware.png?x-oss-process=style/coin_72&v=1598489078',
+  logo: process.env.PUBLIC_URL + '/icon/edgeware.png',
 },{
   name: 'Darwinia Crab',
   url: 'https://darwinia.network/',
-  logo: 'https://darwinia.network/favicon.png',
+  logo: process.env.PUBLIC_URL + '/icon/darwinia.png',
 },{
   name: 'Centrifuge',
   url: 'https://centrifuge.io/',
-  logo: 'https://centrifuge.io/favicon-32x32.png?v=5c0c5b556ebaed5eef7888cc63e060d4',
+  logo: process.env.PUBLIC_URL + '/icon/centrifuge.png',
 },{
   name: 'Plasm',
   url: 'https://www.plasmnet.io/',
-  logo: 'https://s2.bqiapp.com/logo/1/plasm.png?x-oss-process=style/coin_72&v=1598926649',
+  logo: process.env.PUBLIC_URL + '/icon/plasm.png',
 },{
   name: 'Kulupu',
   url: 'https://kusama.network/',
-  logo: 'https://s2.bqiapp.com/logo/1/kulupu.png?x-oss-process=style/coin_72&v=1598342316',
+  logo: process.env.PUBLIC_URL + '/icon/kulupu.png',
 }]
