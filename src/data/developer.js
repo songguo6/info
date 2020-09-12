@@ -179,6 +179,10 @@ export const tools = [{
   url: 'https://www.uupoop.com/ps/',
   logo: process.env.PUBLIC_URL + '/icon/ps.ico',
 },{
+  name: '文件格式转换',
+  url: 'https://www.zamzar.com',
+  logo: process.env.PUBLIC_URL + '/icon/filetrans.ico',
+},{
   name: '新浪图床',
   url: 'https://share1223.com/free.html',
   logo: process.env.PUBLIC_URL + '/icon/sina.ico',
@@ -199,9 +203,9 @@ export const tools = [{
   url: 'http://v.ranks.xin/',
   logo: process.env.PUBLIC_URL + '/icon/vrank.ico',
 },{
-  name: '文件格式转换',
-  url: 'https://www.zamzar.com',
-  logo: process.env.PUBLIC_URL + '/icon/filetrans.ico',
+  name: '微信视频下载',
+  url: 'http://www.15um.com/tools/weixin_v.php',
+  logo: process.env.PUBLIC_URL + '/icon/wxvideo.ico'
 },{
   name: 'Iconfont',
   url: 'https://www.iconfont.cn/',
