@@ -4,6 +4,20 @@ export const docs = [{
   logo: process.env.PUBLIC_URL + '/icon/polkadot.png',
 }]
 
+export const substrate = [{
+  name: 'Substrate官方文档',
+  url: 'https://substrate.dev/docs/zh-CN/',
+  logo: process.env.PUBLIC_URL + '/icon/substrate.png',
+},{
+  name: 'Substrate学习',
+  url: 'https://github.com/paritytech/substrate',
+  logo: process.env.PUBLIC_URL + '/icon/substrate.png',
+},{
+  name: 'Substrate Github',
+  url: 'https://github.com/paritytech/substrate',
+  logo: process.env.PUBLIC_URL + '/icon/github.ico',
+}]
+
 export const tools = [{
   name: 'Subscan区块浏览器',
   url: 'https://www.subscan.io/',
