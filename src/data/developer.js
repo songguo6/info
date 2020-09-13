@@ -120,6 +120,10 @@ export const resources = [{
   name: 'Rust程序设计语言',
   url: 'https://kaisery.github.io/trpl-zh-cn/',
   logo: process.env.PUBLIC_URL + '/icon/rust.png',
+},{
+  name: '通过例子学Rust',
+  url: 'https://rustwiki.org/zh-CN/rust-by-example/',
+  logo: process.env.PUBLIC_URL + '/icon/rust.png',
 }];
 
 export const tools = [{

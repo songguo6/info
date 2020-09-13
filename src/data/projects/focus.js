@@ -33,4 +33,11 @@ export const datas = [{
   price_0: '',
   price_1: '',
   link: 'https://www.feixiaohao.com/currencies/bihu/',
+},{
+  symbol: 'CKB',
+  type: 'Layer1，公链',
+  total_supply: '336亿，每年增发13.44亿',
+  price_0: '0.01',
+  price_1: '',
+  link: 'https://www.feixiaohao.com/currencies/nervosckb/',
 }]

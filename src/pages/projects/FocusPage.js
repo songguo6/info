@@ -17,7 +17,7 @@ const columns = [{
   dataIndex: 'total_supply', 
   key: 'total_supply', 
 },{
-  title: '众筹价（$）',
+  title: '公募价（$）',
   dataIndex: 'price_0',
   key: 'price_0',
 },{ 
