@@ -1,5 +1,9 @@
-export const docs = [{
-  name: '波卡区块链开发',
+export const info = [{
+  name: 'Polka World',
+  url: 'https://www.polkaworld.org/',
+  logo: process.env.PUBLIC_URL + '/icon/pw.png',
+},{
+  name: '波卡区块链开发指南',
   url: 'http://boka.network',
   logo: process.env.PUBLIC_URL + '/icon/polkadot.png',
 }]
