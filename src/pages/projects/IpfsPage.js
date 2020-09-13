@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import { createCard, createCard3 } from '../common';
+import { createCard, createCard2 } from '../common';
 import { infos, docs, developers, storage } from '../../data/projects/ipfs'
 
 const IpfsPage = () => (
@@ -12,7 +12,7 @@ const IpfsPage = () => (
     </Col>
 
     <Col xl={7} lg={24} md={24} sm={24} xs={24}>
-      {createCard3('去中心化存储', storage)}
+      {createCard2('去中心化存储', storage)}
     </Col>
   </Row>
 )

@@ -29,6 +29,10 @@ export const developers = [{
 }]
 
 export const storage = [{
+  name: 'Filecoin',
+  url: 'https://filecoin.io/zh-cn/',
+  logo: process.env.PUBLIC_URL + '/icon/fil.png',
+},{
   name: 'Arweave',
   url: 'https://www.arweave.org/',
   logo: process.env.PUBLIC_URL + '/icon/ar.png',

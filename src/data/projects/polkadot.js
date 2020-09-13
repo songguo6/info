@@ -2,10 +2,6 @@ export const info = [{
   name: 'Polka World',
   url: 'https://www.polkaworld.org/',
   logo: process.env.PUBLIC_URL + '/icon/pw.png',
-},{
-  name: '波卡区块链开发指南',
-  url: 'http://boka.network',
-  logo: process.env.PUBLIC_URL + '/icon/polkadot.png',
 }]
 
 export const substrate = [{
@@ -17,9 +13,31 @@ export const substrate = [{
   url: 'https://subdev.cn/',
   logo: process.env.PUBLIC_URL + '/icon/substrate.png',
 },{
+  name: 'Awesome Substrate',
+  url: 'https://substrate.dev/awesome-substrate/README_CN.html',
+  logo: process.env.PUBLIC_URL + '/icon/substrate.png',
+},{
   name: 'Substrate Github',
   url: 'https://github.com/paritytech/substrate',
   logo: process.env.PUBLIC_URL + '/icon/github.ico',
+},{
+  name: '加密猫交互式教程',
+  url: 'https://www.shawntabrizi.com/substrate-collectables-workshop/#/',
+  logo: process.env.PUBLIC_URL + '/icon/kitties.png',
+}]
+
+export const docs = [{
+  name: 'Polkadot Wiki',
+  url: 'https://wiki.polkadot.network/docs/zh-CN/getting-started',
+  logo: process.env.PUBLIC_URL + '/icon/boka.ico',
+},{
+  name: 'polkadot-js',
+  url: 'https://polkadot.js.org/',
+  logo: process.env.PUBLIC_URL + '/icon/boka.ico',
+},{
+  name: '波卡区块链开发指南',
+  url: 'http://boka.network',
+  logo: process.env.PUBLIC_URL + '/icon/boka.ico',
 }]
 
 export const tools = [{
