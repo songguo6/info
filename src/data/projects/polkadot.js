@@ -13,8 +13,8 @@ export const substrate = [{
   url: 'https://substrate.dev/docs/zh-CN/',
   logo: process.env.PUBLIC_URL + '/icon/substrate.png',
 },{
-  name: 'Substrate学习',
-  url: 'https://github.com/paritytech/substrate',
+  name: 'Substrate学习导航',
+  url: 'https://subdev.cn/',
   logo: process.env.PUBLIC_URL + '/icon/substrate.png',
 },{
   name: 'Substrate Github',
@@ -29,6 +29,10 @@ export const tools = [{
 }]
 
 export const envs = [{
+  name: 'Polkadot',
+  url: 'https://polkadot.network/',
+  logo: process.env.PUBLIC_URL + '/icon/polkadot.png',
+},{
   name: 'Kusama',
   url: 'https://kusama.network/',
   logo: process.env.PUBLIC_URL + '/icon/kusama.png',
