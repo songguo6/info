@@ -27,6 +27,10 @@ export const developer = [{
   url: 'https://paper.seebug.org/601/',
   logo: process.env.PUBLIC_URL + '/icon/solidity.svg',
 },{
+  name: 'CryptoZombies',
+  url: 'https://cryptozombies.io/zh/',
+  logo: process.env.PUBLIC_URL + '/icon/loom.png',
+},{
   name: '优雅编写智能合约',
   url: 'https://mp.weixin.qq.com/s?__biz=MzA3MTI5Njg4Mw==&mid=2247485277&idx=1&sn=c3703ab72802dc3de893eddb1e7c2c36&chksm=9f2ef541a8597c570865119298693bf2fbe18d57c03293ce721bf625271e7f75deaece6f8c0c&token=942411972&lang=zh_CN#rd',
   logo: process.env.PUBLIC_URL + '/icon/weixin.png',

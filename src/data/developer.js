@@ -81,6 +81,10 @@ export const resources = [{
   url: 'http://billie66.github.io/TLCL/index.html',
   logo: process.env.PUBLIC_URL + '/icon/linux.png',
 },{
+  name: 'Shell教程',
+  url: 'https://www.runoob.com/linux/linux-shell.html',
+  logo: process.env.PUBLIC_URL + '/icon/runoob.ico',
+},{
   name: 'Ubuntu基础',
   url: 'https://www.cnblogs.com/resn/p/5800922.html',
   logo: process.env.PUBLIC_URL + '/icon/ubuntu.jpg',

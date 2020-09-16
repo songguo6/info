@@ -17,14 +17,18 @@ export const substrate = [{
   url: 'https://substrate.dev/awesome-substrate/README_CN.html',
   logo: process.env.PUBLIC_URL + '/icon/substrate.png',
 },{
-  name: 'Substrate Github',
-  url: 'https://github.com/paritytech/substrate',
-  logo: process.env.PUBLIC_URL + '/icon/github.ico',
+  name: 'ParityTech视频',
+  url: 'https://space.bilibili.com/67358318',
+  logo: process.env.PUBLIC_URL + '/icon/bili.jpg',
 },{
   name: '加密猫交互式教程',
   url: 'https://www.shawntabrizi.com/substrate-collectables-workshop/#/',
   logo: process.env.PUBLIC_URL + '/icon/kitties.png',
-}]
+},{
+  name: 'Substrate Github',
+  url: 'https://github.com/paritytech/substrate',
+  logo: process.env.PUBLIC_URL + '/icon/github.ico',
+},]
 
 export const docs = [{
   name: 'Polkadot Wiki',
