@@ -227,6 +227,10 @@ export const datas = [{
   english: ' Proof of Work',
   chinese: '工作量证明',
 },{
+  term: 'RPC',
+  english: 'Remote Procedure Call',
+  chinese: '远程过程调用',
+},{
   term: 'PRF',
   english: 'Pseudo Random Function',
   chinese: '伪随机函数',
