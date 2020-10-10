@@ -87,6 +87,10 @@ export const tools = [{
   url: 'https://www.subscan.io/',
   logo: process.env.PUBLIC_URL + '/icon/subscan.png',
 },{
+  name: 'Polkadot Apps',
+  url: 'https://polkadot.js.org/apps/',
+  logo: process.env.PUBLIC_URL + '/icon/polkadot.png',
+},{
   name: 'Substrate playground',
   url: 'https://playground.substrate.dev/',
   logo: process.env.PUBLIC_URL + '/icon/substrate.png',
