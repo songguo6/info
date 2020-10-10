@@ -87,6 +87,10 @@ export const eosdocs = [{
 }];
 
 export const eostools = [{
+  name: 'EOSIO Testnet',
+  url: 'https://testnet.eos.io/',
+  logo: process.env.PUBLIC_URL + '/icon/eos.png',
+},{
   name: 'Jungle测试网',
   url: 'https://monitor.jungletestnet.io/',
   logo: process.env.PUBLIC_URL + '/icon/jungle.png',

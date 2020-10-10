@@ -13,6 +13,13 @@ export const datas = [{
   price_1: '',
   link: 'https://www.feixiaohao.com/currencies/polkadot100/',
 },{
+  symbol: 'ICP',
+  type: 'Layer1，协议层',
+  total_supply: '4.69亿',
+  price_0: '',
+  price_1: '',
+  link: 'https://www.feixiaohao.com/currencies/dfinity/',
+},{
   symbol: 'FIL',
   type: 'Layer2，存储激励',
   total_supply: '20亿',

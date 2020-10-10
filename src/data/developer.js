@@ -120,13 +120,35 @@ export const resources = [{
   name: 'Web3技术栈',
   url: 'http://wiki.web3.foundation/en/latest/tech_stack/tech_stack_overview/',
   logo: process.env.PUBLIC_URL + '/icon/w3f.jpg',
-},{
+}];
+
+export const rust = [{
   name: 'Rust程序设计语言',
   url: 'https://kaisery.github.io/trpl-zh-cn/',
-  logo: process.env.PUBLIC_URL + '/icon/rust.png',
+  logo: process.env.PUBLIC_URL + '/icon/md.svg',
 },{
   name: '通过例子学Rust',
   url: 'https://rustwiki.org/zh-CN/rust-by-example/',
+  logo: process.env.PUBLIC_URL + '/icon/md.svg',
+},{
+  name: 'RustPrimer',
+  url: 'https://rustcc.gitbooks.io/rustprimer/content/',
+  logo: process.env.PUBLIC_URL + '/icon/gitbook2.ico',
+},{
+  name: 'Rust官方文档',
+  url: 'https://doc.rust-lang.org/std/index.html',
+  logo: process.env.PUBLIC_URL + '/icon/rust.png',
+},{
+  name: 'Rust Playground',
+  url: 'https://play.rust-lang.org/',
+  logo: process.env.PUBLIC_URL + '/icon/rust.png',
+},{
+  name: 'Rust中文索引站',
+  url: 'https://rustcc.com/',
+  logo: process.env.PUBLIC_URL + '/icon/rust.png',
+},{
+  name: 'Rust中文社区',
+  url: 'https://rustcc.cn/',
   logo: process.env.PUBLIC_URL + '/icon/rust.png',
 }];
 
@@ -203,6 +225,10 @@ export const tools = [{
   url: 'https://zhuanlan.zhihu.com/p/30613792',
   logo: process.env.PUBLIC_URL + '/icon/pic.png',
 },{
+  name: '稿定设计',
+  url: 'https://www.gaoding.com',
+  logo: process.env.PUBLIC_URL + '/icon/gaoding.ico',
+},{
   name: '在线视频下载',
   url: 'https://youtube.iiilab.com',
   logo: process.env.PUBLIC_URL + '/icon/youtube.jpg',
@@ -213,7 +239,15 @@ export const tools = [{
 },{
   name: '微信视频下载',
   url: 'http://www.15um.com/tools/weixin_v.php',
-  logo: process.env.PUBLIC_URL + '/icon/wxvideo.ico'
+  logo: process.env.PUBLIC_URL + '/icon/wxvideo.ico',
+},{
+  name: '磁链->种子',
+  url: 'http://magnet2torrent.com/',
+  logo: process.env.PUBLIC_URL + '/icon/reverse.png',
+},{
+  name: '种子->磁链',
+  url: 'http://torrent2magnet.com/',
+  logo: process.env.PUBLIC_URL + '/icon/reverse.png',
 },{
   name: 'Iconfont',
   url: 'https://www.iconfont.cn/',
@@ -260,4 +294,8 @@ export const others = [{
   name: '企查查',
   url: 'https://www.qcc.com/',
   logo: process.env.PUBLIC_URL + '/icon/qcc.ico',
+},{
+  name: 'Zygote Body 3D',
+  url: 'https://www.zygotebody.com/',
+  logo: process.env.PUBLIC_URL + '/icon/zygote.png',
 }]

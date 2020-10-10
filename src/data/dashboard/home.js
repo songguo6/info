@@ -232,10 +232,6 @@ export const browsers = [{
   url: 'https://bloks.io/',
   logo: process.env.PUBLIC_URL + '/icon/bloks.ico',
 },{
-  name: 'EosPark',
-  url: 'https://eospark.com/',
-  logo: process.env.PUBLIC_URL + '/icon/eospark.ico',
-},{
   name: 'eosflare.io',
   url: 'https://eosflare.io/',
   logo: process.env.PUBLIC_URL + '/icon/eosflare.png',

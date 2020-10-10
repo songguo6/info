@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import { createCard, createCard3 } from './common';
-import { infos, apis, sites, resources, tools, others} from '../data/developer';
+import { createCard, createCard2, createCard3 } from './common';
+import { infos, apis, sites, resources, rust, tools, others} from '../data/developer';
 
 const DeveloperPage = () => (
   <Row gutter={24}>
@@ -10,6 +10,7 @@ const DeveloperPage = () => (
       {createCard('API & 插件', apis)}
       {createCard('编程学习网站', sites)}
       {createCard('编程学习资源', resources)}
+      {createCard('Rust编程语言', rust)}
     </Col>
 
     <Col xl={9} lg={24} md={24} sm={24} xs={24}>     
