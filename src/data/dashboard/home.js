@@ -274,6 +274,10 @@ export const dapps = [{
 }]
 
 export const invest = [{
+  name: 'a16z crypto',
+  url: 'https://a16z.com/crypto/',
+  logo: process.env.PUBLIC_URL + '/icon/a16z.jpg',
+},{
   name: 'Multicoin Capital',
   url: 'https://multicoin.capital/zh/',
   logo: process.env.PUBLIC_URL + '/icon/multicoin.png',

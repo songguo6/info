@@ -256,4 +256,8 @@ export const others = [{
   name: '滚蛋吧莆田系',
   url: 'https://putianxi.github.io/index.html',
   logo: process.env.PUBLIC_URL + '/icon/putian.ico',
+},{
+  name: '企查查',
+  url: 'https://www.qcc.com/',
+  logo: process.env.PUBLIC_URL + '/icon/qcc.ico',
 }]
