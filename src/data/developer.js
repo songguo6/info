@@ -150,6 +150,10 @@ export const rust = [{
   name: 'Rust中文社区',
   url: 'https://rustcc.cn/',
   logo: process.env.PUBLIC_URL + '/icon/rust.png',
+},{
+  name: 'crates.io',
+  url: 'https://crates.io/',
+  logo: process.env.PUBLIC_URL + '/icon/crate.png',
 }];
 
 export const tools = [{
