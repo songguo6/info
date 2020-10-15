@@ -37,3 +37,17 @@ export const storage = [{
   url: 'https://www.arweave.org/',
   logo: process.env.PUBLIC_URL + '/icon/ar.png',
 }]
+
+export const filtools = [{
+  name: '飞狐浏览器',
+  url: 'https://filfox.info/zh',
+  logo: process.env.PUBLIC_URL + '/icon/filfox.png',
+},{
+  name: 'Filscout',
+  url: 'https://filscout.io/zh/',
+  logo: process.env.PUBLIC_URL + '/icon/fil.png',
+},{
+  name: 'Filscan',
+  url: 'https://filscan.io/',
+  logo: process.env.PUBLIC_URL + '/icon/fil.png',
+}]

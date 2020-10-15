@@ -83,9 +83,17 @@ export const docs = [{
 },]
 
 export const tools = [{
-  name: 'Subscan区块浏览器',
+  name: 'Subscan',
   url: 'https://www.subscan.io/',
   logo: process.env.PUBLIC_URL + '/icon/subscan.png',
+},{
+  name: 'PolkaStats',
+  url: 'https://polkadot.polkastats.io/',
+  logo: process.env.PUBLIC_URL + '/icon/boka.ico',
+},{
+  name: 'Polkascan',
+  url: 'https://polkascan.io/',
+  logo: process.env.PUBLIC_URL + '/icon/polkascan.png'
 },{
   name: 'Polkadot Apps',
   url: 'https://polkadot.js.org/apps/',
