@@ -158,4 +158,8 @@ export const wallets = [{
   name: 'Parity Signer',
   url: 'https://www.parity.io/signer/',
   logo: process.env.PUBLIC_URL + '/icon/parity.png',
+},{
+  name: 'Polkawallet',
+  url: 'https://polkawallet.io/',
+  logo: process.env.PUBLIC_URL + '/icon/polkawallet.png',
 }]

@@ -282,4 +282,8 @@ export const datas = [{
   term: 'VRF',
   english: 'Verifiable Random Function',
   chinese: '可验证随机函数',
+},{
+  term: 'XCMP',
+  english: 'Cross-Chain Messaging Protocol',
+  chinese: '跨链消息传递协议',
 }]
