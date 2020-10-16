@@ -29,7 +29,7 @@ const defaultSymbols = [{
     "proName": "HUOBI:HTUSDT"
   },{
     "description": "FIL",
-    "proName": "HUOBI:FILUSDT"
+    "proName": "BINANCE:FILUSDT"
   },{
     "description": "XTZ",
     "proName": "BINANCE:XTZUSDT"
