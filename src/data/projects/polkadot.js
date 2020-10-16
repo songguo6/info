@@ -38,7 +38,7 @@ export const substrate = [{
   logo: process.env.PUBLIC_URL + '/icon/md.svg',
 },{
   name: 'Rust文档',
-  url: 'https://substrate.dev/rustdocs/v2.0.0/',
+  url: 'https://crates.parity.io',
   logo: process.env.PUBLIC_URL + '/icon/rust.png',
 },{
   name: 'Substrate Github',

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import { createCard, createCard2 } from '../common';
-import { infos, docs, developers, storage } from '../../data/projects/ipfs'
+import { infos, docs, developers, filtools, storage } from '../../data/projects/ipfs'
 
 const IpfsPage = () => (
   <Row gutter={24}>
@@ -9,6 +9,7 @@ const IpfsPage = () => (
       {createCard('IPFS资讯 & 社区', infos)}
       {createCard('IPFS开发文档', docs)}
       {createCard('IPFS开发工具', developers)} 
+      {createCard('Filecoin工具', filtools)}
     </Col>
 
     <Col xl={7} lg={24} md={24} sm={24} xs={24}>
