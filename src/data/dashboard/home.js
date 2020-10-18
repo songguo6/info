@@ -254,6 +254,10 @@ export const wallets = [{
   url: 'https://mykey.org',
   logo: process.env.PUBLIC_URL + '/icon/mykey.png',
 },{
+  name: 'imToken',
+  url: 'https://token.im/?locale=zh',
+  logo: process.env.PUBLIC_URL + '/icon/imtoken.png',
+},{
   name: '麦子钱包',
   url: 'https://www.mathwallet.org/zh-cn/',
   logo: process.env.PUBLIC_URL + '/icon/maizi.ico',
