@@ -37,7 +37,7 @@ const tag = (record) => {
   }else if(now >= record.end_time){
     return <Tag color='red'>已结束</Tag>
   }
-  return '';
+  return ''
 }
 
 const status = (record) => {
