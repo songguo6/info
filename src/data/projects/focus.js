@@ -41,6 +41,13 @@ export const datas = [{
   price_1: '',
   link: 'https://www.feixiaohao.com/currencies/bihu/',
 },{
+  symbol: 'XTZ',
+  type: 'Layer0，Layer1，公链',
+  total_supply: '7.63亿，每年最多增发5.5％',
+  price_0: '0.47',
+  price_1: '',
+  link: 'https://www.feixiaohao.com/currencies/tezos/',
+},{
   symbol: 'CKB',
   type: 'Layer1，公链',
   total_supply: '336亿，每年增发13.44亿',

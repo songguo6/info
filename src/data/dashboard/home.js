@@ -258,6 +258,10 @@ export const wallets = [{
   url: 'https://token.im/?locale=zh',
   logo: process.env.PUBLIC_URL + '/icon/imtoken.png',
 },{
+  name: '火币钱包',
+  url: 'https://www.huobiwallet.com/zh/',
+  logo: process.env.PUBLIC_URL + '/icon/huobi.png',
+},{
   name: '麦子钱包',
   url: 'https://www.mathwallet.org/zh-cn/',
   logo: process.env.PUBLIC_URL + '/icon/maizi.ico',

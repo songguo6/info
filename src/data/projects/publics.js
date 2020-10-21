@@ -2,6 +2,42 @@ export const tezos = [{
   name: 'Tezos官网',
   url: 'https://tezos.com/',
   logo: process.env.PUBLIC_URL + '/icon/tezos.png',
+},{
+  name: 'Tezos基础知识',
+  url: 'https://tezos.com/get-started/',
+  logo: process.env.PUBLIC_URL + '/icon/tezos.png',
+},{
+  name: 'Tezos开发文档',
+  url: 'https://developers.tezos.com/',
+  logo: process.env.PUBLIC_URL + '/icon/tezos.png',
+},{
+  name: 'Tezos Nodes',
+  url: 'https://www.tezos-nodes.com/',
+  logo: process.env.PUBLIC_URL + '/icon/tezosnodes.ico',
+},{
+  name: 'Tezos.ID',
+  url: 'http://tezos.id/',
+  logo: process.env.PUBLIC_URL + '/icon/tezosid.ico',
+},{
+  name: 'TzStats',
+  url: 'https://tzstats.com/',
+  logo: process.env.PUBLIC_URL + '/icon/tzstats.png',
+},{
+  name: 'TzKT',
+  url: 'https://tzkt.io/',
+  logo: process.env.PUBLIC_URL + '/icon/tzkt.ico',
+},{
+  name: 'MyTezosBaker',
+  url: 'https://mytezosbaker.com/',
+  logo: process.env.PUBLIC_URL + '/icon/tezosbaker.png',
+},{
+  name: 'Tezos项目介绍',
+  url: 'https://realsatoshi.net/17881/',
+  logo: process.env.PUBLIC_URL + '/icon/cong.ico',   
+},{
+  name: 'XTZ委托教程',
+  url: 'https://support.huobiwallet.com/hc/zh-cn/articles/900001043606-XTZ%E7%9A%84%E5%A7%94%E6%89%98%E6%95%99%E7%A8%8B',
+  logo: process.env.PUBLIC_URL + '/icon/huobi.png', 
 }]
 
 export const iris = [{
@@ -39,6 +75,18 @@ export const neo = [{
 export const nervos = [{
   name: 'Nervos官网',
   url: 'https://www.nervos.org/',
+  logo: process.env.PUBLIC_URL + '/icon/ckb.png',
+},{
+  name: 'Nervos文档',
+  url: 'https://docs.ckb.dev/docs/qa/welcome',
+  logo: process.env.PUBLIC_URL + '/icon/ckbdoc.ico',
+},{
+  name: 'Nervos Talk',
+  url: 'https://talk.nervos.org/',
+  logo: process.env.PUBLIC_URL + '/icon/ckbtalk.png',
+},{
+  name: 'CKB浏览器',
+  url: 'https://explorer.nervos.org/',
   logo: process.env.PUBLIC_URL + '/icon/ckb.png',
 }]
 
