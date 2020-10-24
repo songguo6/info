@@ -10,7 +10,7 @@ class FngPage extends Component {
   state = {data: [], loading: true}
 
   componentDidMount(){
-    axios.get('https://api.alternative.me/fng/?limit=666').then(res => {
+    axios.get('https://api.alternative.me/fng/?limit=1500').then(res => {
       let chartData = [];
       const rawData = [...res.data.data];
       rawData.forEach(item => {
