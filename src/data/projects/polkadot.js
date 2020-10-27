@@ -37,8 +37,16 @@ export const substrate = [{
   url: 'https://substrate.dev/recipes/',
   logo: process.env.PUBLIC_URL + '/icon/md.svg',
 },{
+  name: 'Parachain Host',
+  url: 'https://w3f.github.io/parachain-implementers-guide/',
+  logo: process.env.PUBLIC_URL + '/icon/md.svg',
+},{
+  name: 'Cumulus Workshop',
+  url: 'https://substrate.dev/cumulus-workshop/#/',
+  logo: process.env.PUBLIC_URL + '/icon/md.svg',
+},{
   name: 'Rust文档',
-  url: 'https://crates.parity.io',
+  url: 'https://substrate.dev/rustdocs/v2.0.0/sc_service/index.html',
   logo: process.env.PUBLIC_URL + '/icon/rust.png',
 },{
   name: 'Substrate Github',

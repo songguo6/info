@@ -287,6 +287,10 @@ export const others = [{
   url: 'https://zh.wikipedia.org/wiki/%E5%85%AD%E5%8D%81%E5%9B%9B%E5%8D%A6',
   logo: process.env.PUBLIC_URL + '/icon/wiki.ico',
 },{
+  name: '48星区',
+  url: 'https://www.smxs.com/xingqu48',
+  logo: process.env.PUBLIC_URL + '/icon/smxs.ico',
+},{
   name: '逗比拯救世界',
   url: 'http://www.dbbqb.com',
   logo: process.env.PUBLIC_URL + '/icon/doubi.png',

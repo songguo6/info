@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import { createCard } from '../common';
-import { creators, tools, developers, eosdocs, eostools, githubs, dapps } from '../../data/projects/eos';
+import { createCard, createCard2 } from '../common';
+import { creators, tools, developers, eosdocs, eostools, githubs, dapps, blogs } from '../../data/projects/eos';
 
 const EosPage = () => (
   <Row gutter={24}>
@@ -14,8 +14,9 @@ const EosPage = () => (
     </Col>
 
     <Col xl={7} lg={24} md={24} sm={24} xs={24}>
-      {createCard('Github', githubs, '50%')}
-      {createCard('EOS DAPP', dapps, '50%')}
+      {createCard2('Github', githubs)}
+      {createCard2('EOS DAPP', dapps)}
+      {createCard2('EOS博客', blogs)}
     </Col>
   </Row>
 )

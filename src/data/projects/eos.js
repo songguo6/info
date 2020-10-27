@@ -139,3 +139,13 @@ export const dapps = [{
   url: 'https://voice.com/',
   logo: process.env.PUBLIC_URL + '/icon/voice.png',
 }];
+
+export const blogs = [{
+  name: 'More Equal Animals',
+  url: 'https://moreequalanimals.com/',
+  logo: process.env.PUBLIC_URL + '/icon/bm.jpg',
+},{
+  name: 'dan@voice',
+  url: 'https://app.voice.com/profile/dan',
+  logo: process.env.PUBLIC_URL + '/icon/voice.png',
+}]
