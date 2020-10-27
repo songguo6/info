@@ -145,7 +145,7 @@ export const blogs = [{
   url: 'https://moreequalanimals.com/',
   logo: process.env.PUBLIC_URL + '/icon/bm.jpg',
 },{
-  name: 'dan@voice',
+  name: 'dan@voice.com',
   url: 'https://app.voice.com/profile/dan',
   logo: process.env.PUBLIC_URL + '/icon/voice.png',
 }]
