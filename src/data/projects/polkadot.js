@@ -67,10 +67,6 @@ export const blogs = [{
   url: 'https://substrater.org/',
   logo: process.env.PUBLIC_URL + '/icon/substrater.png',
 },{
-  name: '加密猫交互式教程',
-  url: 'https://www.shawntabrizi.com/substrate-collectables-workshop/#/',
-  logo: process.env.PUBLIC_URL + '/icon/kitties.png',
-},{
   name: 'Substrate区块链开发',
   url: 'https://zhuanlan.zhihu.com/substrate',
   logo: process.env.PUBLIC_URL + '/icon/zhihu.png',
