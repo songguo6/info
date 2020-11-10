@@ -84,6 +84,10 @@ export const eosdocs = [{
   name: 'DemuxJS文档',
   url: 'https://eosio.github.io/demux-js/',
   logo: process.env.PUBLIC_URL + '/icon/eos.png',
+},{
+  name: 'EOSIO Webinars',
+  url: 'https://eos.io/webinars/',
+  logo: process.env.PUBLIC_URL + '/icon/eos.png',
 }];
 
 export const eostools = [{
