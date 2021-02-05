@@ -241,9 +241,13 @@ export const tools = [{
   url: 'http://v.ranks.xin/',
   logo: process.env.PUBLIC_URL + '/icon/vrank.ico',
 },{
-  name: '微信视频下载',
+  name: '公众号视频下载',
   url: 'http://www.15um.com/tools/weixin_v.php',
   logo: process.env.PUBLIC_URL + '/icon/wxvideo.ico',
+},{
+  name: '公众号音频下载',
+  url: 'https://tool.wpjam.com/mp_audio/',
+  logo: process.env.PUBLIC_URL + '/icon/yp.ico',
 },{
   name: '磁链->种子',
   url: 'http://magnet2torrent.com/',
@@ -252,6 +256,10 @@ export const tools = [{
   name: '种子->磁链',
   url: 'http://torrent2magnet.com/',
   logo: process.env.PUBLIC_URL + '/icon/reverse.png',
+},{
+  name: '涨幅计算器',
+  url: 'https://www.sunzhongwei.com/go/percentage-increase-calculator',
+  logo: process.env.PUBLIC_URL + '/icon/zhangfu.ico',
 },{
   name: 'Iconfont',
   url: 'https://www.iconfont.cn/',
